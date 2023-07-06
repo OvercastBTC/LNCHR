@@ -1,0 +1,7566 @@
+<messages created-by="Winspector">
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0612</time>
+		<parameters>
+			<parameter>Position: 1109, 541</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0612</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0613</time>
+		<parameters>
+			<parameter>Position: 1109, 541</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0613</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:19.0614</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:19.0614</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:19.0615</time>
+		<parameters>
+			<parameter>POINT: 865, 9</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0616</time>
+		<parameters>
+			<parameter>Position: 1109, 541</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0616</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0619</time>
+		<parameters>
+			<parameter>Position: 1093, 550</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0619</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0622</time>
+		<parameters>
+			<parameter>Position: 1093, 550</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0622</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:19.0622</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:19.0622</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:19.0623</time>
+		<parameters>
+			<parameter>POINT: 849, 18</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0624</time>
+		<parameters>
+			<parameter>Position: 1093, 550</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:19.0624</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSELEAVE</name>
+		<posted />
+		<time>20:34:19.0632</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0448</time>
+		<parameters>
+			<parameter>Position: 361, 552</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0449</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0450</time>
+		<parameters>
+			<parameter>Position: 361, 552</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0450</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0450</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0450</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0450</time>
+		<parameters>
+			<parameter>POINT: 117, 20</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0451</time>
+		<parameters>
+			<parameter>Position: 361, 552</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0451</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0452</time>
+		<parameters>
+			<parameter>Position: 357, 547</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0452</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0454</time>
+		<parameters>
+			<parameter>Position: 357, 547</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0454</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0455</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0455</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0455</time>
+		<parameters>
+			<parameter>POINT: 113, 15</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0456</time>
+		<parameters>
+			<parameter>Position: 357, 547</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0456</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:34:20.0456</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0456</time>
+		<parameters>
+			<parameter>HDC: 0x7a012727</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0456</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0460</time>
+		<parameters>
+			<parameter>Position: 356, 546</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0461</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0462</time>
+		<parameters>
+			<parameter>Position: 356, 546</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0462</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0463</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0463</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0463</time>
+		<parameters>
+			<parameter>POINT: 112, 14</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0464</time>
+		<parameters>
+			<parameter>Position: 356, 546</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0465</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0467</time>
+		<parameters>
+			<parameter>Position: 353, 543</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0467</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0468</time>
+		<parameters>
+			<parameter>Position: 353, 543</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0468</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0468</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0468</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0468</time>
+		<parameters>
+			<parameter>POINT: 109, 11</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0469</time>
+		<parameters>
+			<parameter>Position: 353, 543</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0469</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0475</time>
+		<parameters>
+			<parameter>Position: 351, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0475</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0475</time>
+		<parameters>
+			<parameter>Position: 351, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0475</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0475</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0476</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0476</time>
+		<parameters>
+			<parameter>POINT: 107, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0476</time>
+		<parameters>
+			<parameter>Position: 351, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0476</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0476</time>
+		<parameters>
+			<parameter>Position: 351, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0476</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0477</time>
+		<parameters>
+			<parameter>Position: 351, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0477</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0477</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0477</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0477</time>
+		<parameters>
+			<parameter>POINT: 107, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0478</time>
+		<parameters>
+			<parameter>Position: 351, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0478</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0482</time>
+		<parameters>
+			<parameter>Position: 350, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0482</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0482</time>
+		<parameters>
+			<parameter>Position: 350, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0482</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0482</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0482</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0483</time>
+		<parameters>
+			<parameter>POINT: 106, 6</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0483</time>
+		<parameters>
+			<parameter>Position: 350, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0483</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0490</time>
+		<parameters>
+			<parameter>Position: 349, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0490</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0490</time>
+		<parameters>
+			<parameter>Position: 349, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0490</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0490</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0491</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0491</time>
+		<parameters>
+			<parameter>POINT: 105, 4</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0491</time>
+		<parameters>
+			<parameter>Position: 349, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0492</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0497</time>
+		<parameters>
+			<parameter>Position: 345, 533</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0497</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0498</time>
+		<parameters>
+			<parameter>Position: 345, 533</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0498</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0498</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0498</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0498</time>
+		<parameters>
+			<parameter>POINT: 101, 1</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0499</time>
+		<parameters>
+			<parameter>Position: 345, 533</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0499</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSELEAVE</name>
+		<posted />
+		<time>20:34:20.0505</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:34:20.0505</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0505</time>
+		<parameters>
+			<parameter>HDC: 0x7a012727</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0505</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Position: 308, 532</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Position: 308, 532</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>POINT: 64, 0</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Position: 308, 532</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>HDC: 0x7a012727</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0805</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0812</time>
+		<parameters>
+			<parameter>Position: 308, 533</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0812</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0814</time>
+		<parameters>
+			<parameter>Position: 308, 533</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0814</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0814</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0814</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0814</time>
+		<parameters>
+			<parameter>POINT: 64, 1</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0815</time>
+		<parameters>
+			<parameter>Position: 308, 533</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0815</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0827</time>
+		<parameters>
+			<parameter>Position: 306, 535</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0827</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0828</time>
+		<parameters>
+			<parameter>Position: 306, 535</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0828</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0828</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0828</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0829</time>
+		<parameters>
+			<parameter>POINT: 62, 3</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0829</time>
+		<parameters>
+			<parameter>Position: 306, 535</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0829</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0835</time>
+		<parameters>
+			<parameter>Position: 306, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0835</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0835</time>
+		<parameters>
+			<parameter>Position: 306, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0835</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0835</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0835</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0835</time>
+		<parameters>
+			<parameter>POINT: 62, 4</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0836</time>
+		<parameters>
+			<parameter>Position: 306, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0836</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0842</time>
+		<parameters>
+			<parameter>Position: 305, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0842</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0843</time>
+		<parameters>
+			<parameter>Position: 305, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0843</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0843</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0843</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0843</time>
+		<parameters>
+			<parameter>POINT: 61, 4</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0843</time>
+		<parameters>
+			<parameter>Position: 305, 536</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0843</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0857</time>
+		<parameters>
+			<parameter>Position: 304, 537</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0857</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0858</time>
+		<parameters>
+			<parameter>Position: 304, 537</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0859</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0859</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0859</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0860</time>
+		<parameters>
+			<parameter>POINT: 60, 5</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0860</time>
+		<parameters>
+			<parameter>Position: 304, 537</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0861</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0864</time>
+		<parameters>
+			<parameter>Position: 303, 537</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0864</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0865</time>
+		<parameters>
+			<parameter>Position: 303, 537</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0865</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0865</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0866</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0866</time>
+		<parameters>
+			<parameter>POINT: 59, 5</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0866</time>
+		<parameters>
+			<parameter>Position: 303, 537</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0866</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0871</time>
+		<parameters>
+			<parameter>Position: 303, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0871</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0871</time>
+		<parameters>
+			<parameter>Position: 303, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0871</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0872</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0872</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0872</time>
+		<parameters>
+			<parameter>POINT: 59, 6</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0872</time>
+		<parameters>
+			<parameter>Position: 303, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0872</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0879</time>
+		<parameters>
+			<parameter>Position: 302, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0879</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0879</time>
+		<parameters>
+			<parameter>Position: 302, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0879</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0879</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0880</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0880</time>
+		<parameters>
+			<parameter>POINT: 58, 6</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0880</time>
+		<parameters>
+			<parameter>Position: 302, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0880</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0895</time>
+		<parameters>
+			<parameter>Position: 300, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0895</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0896</time>
+		<parameters>
+			<parameter>Position: 300, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0896</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0896</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0896</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0896</time>
+		<parameters>
+			<parameter>POINT: 56, 6</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0896</time>
+		<parameters>
+			<parameter>Position: 300, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0896</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0910</time>
+		<parameters>
+			<parameter>Position: 300, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0911</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0912</time>
+		<parameters>
+			<parameter>Position: 300, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0912</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0912</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0914</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0914</time>
+		<parameters>
+			<parameter>POINT: 56, 7</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0915</time>
+		<parameters>
+			<parameter>Position: 300, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0916</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0917</time>
+		<parameters>
+			<parameter>Position: 299, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0918</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0918</time>
+		<parameters>
+			<parameter>Position: 299, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0918</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0918</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0919</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0919</time>
+		<parameters>
+			<parameter>POINT: 55, 7</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0921</time>
+		<parameters>
+			<parameter>Position: 299, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0921</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0931</time>
+		<parameters>
+			<parameter>Position: 298, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0931</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0932</time>
+		<parameters>
+			<parameter>Position: 298, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0932</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0932</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0932</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0932</time>
+		<parameters>
+			<parameter>POINT: 54, 7</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0933</time>
+		<parameters>
+			<parameter>Position: 298, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0933</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0939</time>
+		<parameters>
+			<parameter>Position: 297, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0939</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0940</time>
+		<parameters>
+			<parameter>Position: 297, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0940</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0940</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0941</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0941</time>
+		<parameters>
+			<parameter>POINT: 53, 7</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0941</time>
+		<parameters>
+			<parameter>Position: 297, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0941</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:34:20.0942</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0942</time>
+		<parameters>
+			<parameter>HDC: 0x7a012727</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0942</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0947</time>
+		<parameters>
+			<parameter>Position: 296, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0947</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0948</time>
+		<parameters>
+			<parameter>Position: 296, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0948</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0948</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0948</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0948</time>
+		<parameters>
+			<parameter>POINT: 52, 7</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0949</time>
+		<parameters>
+			<parameter>Position: 296, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0949</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0954</time>
+		<parameters>
+			<parameter>Position: 295, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0954</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0955</time>
+		<parameters>
+			<parameter>Position: 295, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0955</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0955</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0955</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0956</time>
+		<parameters>
+			<parameter>POINT: 51, 7</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0956</time>
+		<parameters>
+			<parameter>Position: 295, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0956</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0962</time>
+		<parameters>
+			<parameter>Position: 294, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0962</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0963</time>
+		<parameters>
+			<parameter>Position: 294, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0963</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0963</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0963</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0963</time>
+		<parameters>
+			<parameter>POINT: 50, 7</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0963</time>
+		<parameters>
+			<parameter>Position: 294, 539</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0963</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0970</time>
+		<parameters>
+			<parameter>Position: 292, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0970</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0970</time>
+		<parameters>
+			<parameter>Position: 292, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0970</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0971</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0971</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0971</time>
+		<parameters>
+			<parameter>POINT: 48, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0972</time>
+		<parameters>
+			<parameter>Position: 292, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0972</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0978</time>
+		<parameters>
+			<parameter>Position: 289, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0978</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0979</time>
+		<parameters>
+			<parameter>Position: 289, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0980</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0980</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0980</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0980</time>
+		<parameters>
+			<parameter>POINT: 45, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0981</time>
+		<parameters>
+			<parameter>Position: 289, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0981</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:34:20.0981</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0981</time>
+		<parameters>
+			<parameter>HDC: 0x7a012727</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:20.0982</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0984</time>
+		<parameters>
+			<parameter>Position: 287, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0984</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0985</time>
+		<parameters>
+			<parameter>Position: 287, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0985</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0985</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:20.0986</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:20.0986</time>
+		<parameters>
+			<parameter>POINT: 43, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0986</time>
+		<parameters>
+			<parameter>Position: 287, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0986</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0999</time>
+		<parameters>
+			<parameter>Position: 286, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:20.0999</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0000</time>
+		<parameters>
+			<parameter>Position: 286, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0000</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0000</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0000</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0000</time>
+		<parameters>
+			<parameter>POINT: 42, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0000</time>
+		<parameters>
+			<parameter>Position: 286, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0000</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0015</time>
+		<parameters>
+			<parameter>Position: 285, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0015</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0016</time>
+		<parameters>
+			<parameter>Position: 285, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0016</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0016</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0016</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0016</time>
+		<parameters>
+			<parameter>POINT: 41, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0017</time>
+		<parameters>
+			<parameter>Position: 285, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0017</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0063</time>
+		<parameters>
+			<parameter>Position: 285, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0063</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0066</time>
+		<parameters>
+			<parameter>Position: 285, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0066</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0066</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0066</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0067</time>
+		<parameters>
+			<parameter>POINT: 41, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0067</time>
+		<parameters>
+			<parameter>Position: 285, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0067</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0083</time>
+		<parameters>
+			<parameter>Position: 284, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0084</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0085</time>
+		<parameters>
+			<parameter>Position: 284, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0085</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0086</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0086</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0086</time>
+		<parameters>
+			<parameter>POINT: 40, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0087</time>
+		<parameters>
+			<parameter>Position: 284, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0087</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0091</time>
+		<parameters>
+			<parameter>Position: 282, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0091</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0092</time>
+		<parameters>
+			<parameter>Position: 282, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0092</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0093</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0094</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0095</time>
+		<parameters>
+			<parameter>POINT: 38, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0098</time>
+		<parameters>
+			<parameter>Position: 282, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0098</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0100</time>
+		<parameters>
+			<parameter>Position: 281, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0100</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0101</time>
+		<parameters>
+			<parameter>Position: 281, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0101</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0102</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0103</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0103</time>
+		<parameters>
+			<parameter>POINT: 37, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0104</time>
+		<parameters>
+			<parameter>Position: 281, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0105</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0106</time>
+		<parameters>
+			<parameter>Position: 279, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0106</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0108</time>
+		<parameters>
+			<parameter>Position: 279, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0108</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0108</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0109</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0109</time>
+		<parameters>
+			<parameter>POINT: 35, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0115</time>
+		<parameters>
+			<parameter>Position: 279, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0116</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0130</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0130</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0132</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0132</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0133</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0134</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0134</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0136</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0136</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0163</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0163</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0165</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0165</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0165</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:21.0165</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:21.0165</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0167</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:21.0167</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0240</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0240</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0240</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0241</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:22.0241</time>
+		<parameters>
+			<parameter>Top level parent hwnd: 0004101a</parameter>
+			<parameter>Hittest code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:22.0241</time>
+		<parameters>
+			<parameter>Activate code: MA_ACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0247</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0250</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONDOWN</name>
+		<posted />
+		<time>20:34:22.0251</time>
+		<parameters>
+			<parameter>Buttons pressed: MK_LBUTTON</parameter>
+			<parameter>Mouse coordinates: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:22.0253</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:22.0253</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:22.0254</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:22.0257</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0265</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0265</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:22.0265</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+			<parameter>MK_LBUTTON</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0265</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0265</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0329</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0329</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONUP</name>
+		<posted />
+		<time>20:34:22.0330</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00080022</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:22.0330</time>
+		<parameters>
+			<parameter>hwnd: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:22.0330</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:22.0333</time>
+		<parameters>
+			<parameter>wParam: 0x00000064</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:22.0333</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:22.0333</time>
+		<parameters>
+			<parameter>wParam: 0x00000065</parameter>
+			<parameter>lParam: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:22.0334</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:22.0334</time>
+		<parameters>
+			<parameter>wParam: 0x00000066</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:22.0334</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:22.0334</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:22.0335</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:22.0335</time>
+		<parameters>
+			<parameter>HDC: 0x02012810</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:22.0335</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:22.0335</time>
+		<parameters>
+			<parameter>Device handle: 0x3c012815</parameter>
+			<parameter>Drawing options: PRF_CHECKVISIBLE | PRF_CHILDREN | PRF_CLIENT</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:22.0336</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:22.0336</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:22.0352</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0361</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0361</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0361</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0361</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0362</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0362</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:22.0362</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0363</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0363</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0481</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0482</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0482</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0482</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0482</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0483</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0483</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0483</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0484</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_SHOW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0486</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0489</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0490</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0490</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0491</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0621</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0621</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0622</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:22.0622</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0622</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0622</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0623</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0623</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0623</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0623</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:22.0623</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0623</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0623</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0625</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0625</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0625</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0625</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0630</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0630</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0631</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0631</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0631</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:22.0632</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:22.0632</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0632</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0632</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0706</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0706</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0707</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0707</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0820</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0821</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0822</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0822</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0921</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0921</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0921</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:22.0921</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0028</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0028</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0028</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0029</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0149</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0149</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0151</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0151</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0259</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0259</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0259</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0259</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0364</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0364</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0364</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0364</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0477</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0478</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0480</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0480</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0575</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0575</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0576</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0576</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0699</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0699</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0700</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0700</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0808</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0809</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0810</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0810</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0910</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0911</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0913</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:23.0913</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0015</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0015</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0015</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0016</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0140</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0141</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0141</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0141</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0242</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0242</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0243</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0243</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0348</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0348</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0348</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0348</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0456</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0456</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0457</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0457</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0563</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0563</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0564</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0564</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0678</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0678</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0679</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0679</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0792</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0793</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0794</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0794</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0895</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0896</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0896</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:24.0896</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0004</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0005</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0007</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0007</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0110</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0110</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0112</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0112</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0232</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0232</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0232</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0233</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0336</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0336</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0337</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0337</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0418</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0418</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0419</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0419</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:25.0419</time>
+		<parameters>
+			<parameter>Top level parent hwnd: 0004101a</parameter>
+			<parameter>Hittest code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:25.0419</time>
+		<parameters>
+			<parameter>Activate code: MA_ACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:25.0419</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:25.0419</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONDOWN</name>
+		<posted />
+		<time>20:34:25.0419</time>
+		<parameters>
+			<parameter>Buttons pressed: MK_LBUTTON</parameter>
+			<parameter>Mouse coordinates: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:25.0420</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_POP</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:25.0420</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:25.0425</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:25.0425</time>
+		<parameters>
+			<parameter>HDC: 0x020127fb</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:25.0426</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:25.0426</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0438</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0438</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:25.0438</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+			<parameter>MK_LBUTTON</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0439</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0439</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0513</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0513</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONUP</name>
+		<posted />
+		<time>20:34:25.0514</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00080022</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:25.0514</time>
+		<parameters>
+			<parameter>hwnd: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:25.0514</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:25.0518</time>
+		<parameters>
+			<parameter>wParam: 0x00000064</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:25.0518</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:25.0518</time>
+		<parameters>
+			<parameter>wParam: 0x00000065</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:25.0519</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:25.0519</time>
+		<parameters>
+			<parameter>wParam: 0x00000066</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:25.0519</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:25.0519</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:25.0519</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:25.0519</time>
+		<parameters>
+			<parameter>HDC: 0x20011e6b</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:25.0520</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:25.0522</time>
+		<parameters>
+			<parameter>Device handle: 0x020127fb</parameter>
+			<parameter>Drawing options: PRF_CHECKVISIBLE | PRF_CHILDREN | PRF_ERASEBKGND | PRF_NONCLIENT | PRF_OWNED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:25.0522</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:25.0522</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:25.0535</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0535</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0535</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0536</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0536</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:25.0536</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:25.0536</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:25.0536</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0537</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0537</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0643</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0643</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:25.0643</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:25.0644</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0644</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:25.0645</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0219</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0219</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0220</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0220</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:32.0221</time>
+		<parameters>
+			<parameter>Top level parent hwnd: 0004101a</parameter>
+			<parameter>Hittest code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:32.0221</time>
+		<parameters>
+			<parameter>Activate code: MA_ACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:32.0222</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:32.0223</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONDOWN</name>
+		<posted />
+		<time>20:34:32.0223</time>
+		<parameters>
+			<parameter>Buttons pressed: MK_LBUTTON</parameter>
+			<parameter>Mouse coordinates: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:32.0225</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:32.0225</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:32.0225</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:32.0226</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0266</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0266</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONUP</name>
+		<posted />
+		<time>20:34:32.0266</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00080022</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:32.0266</time>
+		<parameters>
+			<parameter>hwnd: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:32.0266</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:32.0268</time>
+		<parameters>
+			<parameter>wParam: 0x00000064</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:32.0269</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:32.0269</time>
+		<parameters>
+			<parameter>wParam: 0x00000065</parameter>
+			<parameter>lParam: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:32.0269</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:32.0269</time>
+		<parameters>
+			<parameter>wParam: 0x00000066</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:32.0269</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:32.0269</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:32.0269</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:32.0270</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:32.0270</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:32.0270</time>
+		<parameters>
+			<parameter>Device handle: 0x5b012848</parameter>
+			<parameter>Drawing options: PRF_ERASEBKGND</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:32.0270</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:32.0270</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:32.0275</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0286</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0286</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0287</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0287</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:32.0287</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:32.0287</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:32.0287</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0288</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0288</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0386</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0386</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:32.0386</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:32.0386</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0387</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:32.0387</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0452</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0452</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0453</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0453</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:36.0453</time>
+		<parameters>
+			<parameter>Top level parent hwnd: 0004101a</parameter>
+			<parameter>Hittest code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:36.0453</time>
+		<parameters>
+			<parameter>Activate code: MA_ACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:36.0453</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:36.0453</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONDOWN</name>
+		<posted />
+		<time>20:34:36.0453</time>
+		<parameters>
+			<parameter>Buttons pressed: MK_LBUTTON</parameter>
+			<parameter>Mouse coordinates: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:36.0454</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:36.0454</time>
+		<parameters>
+			<parameter>HDC: 0x020127fb</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:36.0454</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:36.0455</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0536</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0536</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONUP</name>
+		<posted />
+		<time>20:34:36.0537</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00080022</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:36.0537</time>
+		<parameters>
+			<parameter>hwnd: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:36.0537</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:36.0541</time>
+		<parameters>
+			<parameter>wParam: 0x00000064</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:36.0541</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:36.0541</time>
+		<parameters>
+			<parameter>wParam: 0x00000065</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:36.0541</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:36.0541</time>
+		<parameters>
+			<parameter>wParam: 0x00000066</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:36.0541</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:36.0542</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:36.0542</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:36.0542</time>
+		<parameters>
+			<parameter>HDC: 0x020127fb</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:36.0542</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:36.0542</time>
+		<parameters>
+			<parameter>Device handle: 0x02012801</parameter>
+			<parameter>Drawing options: PRF_CHECKVISIBLE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:36.0543</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:36.0543</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:36.0549</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0550</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0550</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0550</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0550</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:36.0550</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:36.0550</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:36.0550</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0551</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0551</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0671</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0671</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:36.0671</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:36.0671</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0671</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:36.0671</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0312</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0312</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0312</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0313</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:50.0315</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:50.0315</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:50.0316</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0318</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0318</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0422</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0423</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:50.0423</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:50.0423</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0423</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:50.0423</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0025</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Top level parent hwnd: 0004101a</parameter>
+			<parameter>Hittest code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Activate code: MA_ACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONDOWN</name>
+		<posted />
+		<time>20:34:52.0026</time>
+		<parameters>
+			<parameter>Buttons pressed: MK_LBUTTON</parameter>
+			<parameter>Mouse coordinates: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:52.0027</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:52.0027</time>
+		<parameters>
+			<parameter>HDC: 0x0201280c</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:52.0027</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:52.0028</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0074</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0074</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONUP</name>
+		<posted />
+		<time>20:34:52.0074</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00080022</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:52.0075</time>
+		<parameters>
+			<parameter>hwnd: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:34:52.0075</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:52.0077</time>
+		<parameters>
+			<parameter>wParam: 0x00000064</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:52.0077</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:52.0077</time>
+		<parameters>
+			<parameter>wParam: 0x00000065</parameter>
+			<parameter>lParam: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:52.0077</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:34:52.0077</time>
+		<parameters>
+			<parameter>wParam: 0x00000066</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:34:52.0077</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:52.0077</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:34:52.0078</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:52.0078</time>
+		<parameters>
+			<parameter>HDC: 0x0201280c</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:52.0078</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:52.0079</time>
+		<parameters>
+			<parameter>Device handle: 0x020127fb</parameter>
+			<parameter>Drawing options: PRF_CHECKVISIBLE | PRF_CHILDREN | PRF_ERASEBKGND | PRF_NONCLIENT | PRF_OWNED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:34:52.0079</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:52.0079</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:52.0091</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0098</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0098</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0099</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0099</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:52.0099</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:52.0099</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:52.0100</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0102</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0102</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0203</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0203</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:52.0203</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:52.0203</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0204</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0204</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0551</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0551</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0554</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0554</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:52.0555</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:52.0557</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:34:52.0557</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0558</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0559</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0668</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0668</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:52.0668</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:34:52.0668</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0668</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:52.0669</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:53.0395</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:53.0395</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:53.0395</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:34:53.0395</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:53.0396</time>
+		<parameters>
+			<parameter>Top level parent hwnd: 0004101a</parameter>
+			<parameter>Hittest code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEACTIVATE</name>
+		<sent />
+		<time>20:34:53.0396</time>
+		<parameters>
+			<parameter>Activate code: MA_ACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:53.0396</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 513</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:34:53.0396</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONDOWN</name>
+		<posted />
+		<time>20:34:53.0396</time>
+		<parameters>
+			<parameter>Buttons pressed: MK_LBUTTON</parameter>
+			<parameter>Mouse coordinates: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:53.0396</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:53.0396</time>
+		<parameters>
+			<parameter>HDC: 0x0201283c</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:34:53.0397</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:34:53.0397</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0028</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0028</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONUP</name>
+		<posted />
+		<time>20:35:03.0029</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00080022</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:35:03.0029</time>
+		<parameters>
+			<parameter>hwnd: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>20:35:03.0029</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:35:03.0032</time>
+		<parameters>
+			<parameter>wParam: 0x00000064</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:35:03.0032</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:35:03.0032</time>
+		<parameters>
+			<parameter>wParam: 0x00000065</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:35:03.0032</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 3 (0x00000403)</name>
+		<sent />
+		<time>20:35:03.0032</time>
+		<parameters>
+			<parameter>wParam: 0x00000066</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 3</name>
+		<sent />
+		<time>20:35:03.0032</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:35:03.0033</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>20:35:03.0033</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0033</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0033</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:35:03.0034</time>
+		<parameters>
+			<parameter>Device handle: 0x02012801</parameter>
+			<parameter>Drawing options: PRF_CHECKVISIBLE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PRINTCLIENT</name>
+		<sent />
+		<time>20:35:03.0034</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:35:03.0034</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>20:35:03.0041</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0042</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0042</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0042</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0042</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0042</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0043</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0043</time>
+		<parameters>
+			<parameter>POINT: 34, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0043</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0043</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0157</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0157</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:35:03.0158</time>
+		<parameters>
+			<parameter>Control ID: 101</parameter>
+			<parameter>From Hwnd: 0x001013f2</parameter>
+			<parameter>From ID: 0x00000065</parameter>
+			<parameter>Code: TTN_GETDISPINFOA</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>20:35:03.0159</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0162</time>
+		<parameters>
+			<parameter>Position: 278, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0162</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0385</time>
+		<parameters>
+			<parameter>Position: 282, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0385</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0387</time>
+		<parameters>
+			<parameter>Position: 282, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0387</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0387</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0387</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0387</time>
+		<parameters>
+			<parameter>POINT: 38, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0388</time>
+		<parameters>
+			<parameter>Position: 282, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0388</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0391</time>
+		<parameters>
+			<parameter>Position: 291, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0391</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0392</time>
+		<parameters>
+			<parameter>Position: 291, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0393</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0393</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0393</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0393</time>
+		<parameters>
+			<parameter>POINT: 47, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0394</time>
+		<parameters>
+			<parameter>Position: 291, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0394</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:35:03.0394</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0394</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0395</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0399</time>
+		<parameters>
+			<parameter>Position: 339, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0399</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0399</time>
+		<parameters>
+			<parameter>Position: 339, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0400</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0400</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0400</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0400</time>
+		<parameters>
+			<parameter>POINT: 95, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0400</time>
+		<parameters>
+			<parameter>Position: 339, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0401</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:35:03.0402</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0403</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0403</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0408</time>
+		<parameters>
+			<parameter>Position: 372, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0408</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0411</time>
+		<parameters>
+			<parameter>Position: 372, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0411</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0411</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0411</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0412</time>
+		<parameters>
+			<parameter>POINT: 128, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0412</time>
+		<parameters>
+			<parameter>Position: 372, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0413</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:35:03.0413</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0413</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0414</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0417</time>
+		<parameters>
+			<parameter>Position: 391, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0417</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0419</time>
+		<parameters>
+			<parameter>Position: 391, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0419</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0419</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0419</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0419</time>
+		<parameters>
+			<parameter>POINT: 147, 8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0419</time>
+		<parameters>
+			<parameter>Position: 391, 540</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0419</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:35:03.0420</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0420</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0420</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0422</time>
+		<parameters>
+			<parameter>Position: 470, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0422</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0423</time>
+		<parameters>
+			<parameter>Position: 470, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0423</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0423</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0423</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0423</time>
+		<parameters>
+			<parameter>POINT: 226, 6</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0423</time>
+		<parameters>
+			<parameter>Position: 470, 538</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0424</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:35:03.0424</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0424</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0424</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0429</time>
+		<parameters>
+			<parameter>Position: 501, 535</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0429</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0429</time>
+		<parameters>
+			<parameter>Position: 501, 535</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0429</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0429</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>20:35:03.0429</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<posted />
+		<time>20:35:03.0430</time>
+		<parameters>
+			<parameter>POINT: 257, 3</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0430</time>
+		<parameters>
+			<parameter>Position: 501, 535</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0430</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:35:03.0430</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0431</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0431</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSELEAVE</name>
+		<posted />
+		<time>20:35:03.0438</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>20:35:03.0438</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0438</time>
+		<parameters>
+			<parameter>HDC: 0x0201283e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>20:35:03.0438</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0919</time>
+		<parameters>
+			<parameter>Position: 501, 535</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCHITTEST</name>
+		<sent />
+		<time>20:35:03.0919</time>
+		<parameters>
+			<parameter>Hit: HTCLIENT</parameter>
+		</parameters>
+	</message>
+</messages>

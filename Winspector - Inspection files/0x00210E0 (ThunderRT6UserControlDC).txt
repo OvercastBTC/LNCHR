@@ -1,0 +1,1882 @@
+Window messages created by Winspector
+	WM_IME_SETCONTEXT
+		wParam: 0x00000001
+		lParam: 0xc000000f
+		Message Sent
+		Time: 17:45:59.0870
+
+	WM_IME_NOTIFY
+		wParam: 0x00000002
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:45:59.0870
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0871
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0871
+
+	WM_GETOBJECT
+		wParam: 0xffffffff
+		lParam: 0xfffffffc
+		Message Sent
+		Time: 17:45:59.0871
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0871
+
+	WM_GETOBJECT
+		wParam: 0x00000000
+		lParam: 0xfffffff4
+		Message Sent
+		Time: 17:45:59.0871
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0871
+
+	WM_SETFOCUS
+		HWND losing focus: 0x00000000
+		Message Sent
+		Time: 17:45:59.0875
+
+	WM_KILLFOCUS
+		HWND receiving focus: 0x000210dc
+		Message Sent
+		Time: 17:45:59.0875
+
+	WM_KILLFOCUS	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0875
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000000
+		lParam: 0xc000000f
+		Message Sent
+		Time: 17:45:59.0876
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0876
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000704
+		Message Sent
+		Time: 17:45:59.0895
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0895
+
+	WM_COMMAND
+		Code: 1796
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:45:59.0895
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:45:59.0911
+
+	WM_SETFOCUS	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:45:59.0912
+
+	WM_USER + 3086 (0x0000100e)
+		wParam: 0x00000023
+		lParam: 0x00000000
+		Message Posted
+		Time: 17:46:01.0201
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000705
+		Message Sent
+		Time: 17:46:01.0314
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:01.0314
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:01.0314
+
+	WM_COMMAND	Return value
+		Return: 0x0019eb48
+		Message Sent
+		Time: 17:46:01.0314
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Posted
+		Time: 17:46:01.0348
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Posted
+		Time: 17:46:01.0394
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:01.0394
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:01.0394
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:01.0394
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:01.0394
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:01.0436
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:01.0436
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:01.0436
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:01.0436
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:01.0454
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:01.0454
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:01.0454
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:01.0454
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 262
+		Size: 553, 85
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:01.0463
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:01.0463
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 9, 262, 562, 347
+		Previous area: 9, 262, 562, 374
+		Client area: 11, 264, 560, 372
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 262
+		Size: 553, 85
+		SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:01.0470
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:01.0470
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:01.0471
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:01.0471
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:01.0471
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:01.0471
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 262
+		Size: 553, 85
+		SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:01.0479
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 549
+		Height: 81
+		Message Sent
+		Time: 17:46:01.0479
+
+	WM_SIZE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:01.0479
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:01.0479
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 201
+		Size: 553, 86
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 9, 201, 562, 287
+		Previous area: 9, 262, 562, 347
+		Client area: 11, 264, 560, 345
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 201
+		Size: 553, 86
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 201
+		Size: 553, 86
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_MOVE
+		xPos: 11
+		yPos: 203
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_MOVE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 549
+		Height: 82
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_SIZE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:01.0496
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:46:01.0565
+
+	WM_PAINT	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:46:01.0565
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000001
+		lParam: 0xc000000f
+		Message Sent
+		Time: 17:46:08.0690
+
+	WM_IME_NOTIFY
+		wParam: 0x00000002
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:46:08.0690
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_GETOBJECT
+		wParam: 0xffffffff
+		lParam: 0xfffffffc
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_GETOBJECT
+		wParam: 0x00000000
+		lParam: 0xfffffff4
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_SETFOCUS
+		HWND losing focus: 0x00110dc8
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_KILLFOCUS
+		HWND receiving focus: 0x000210dc
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_KILLFOCUS	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000000
+		lParam: 0xc000000f
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0698
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000704
+		Message Sent
+		Time: 17:46:08.0714
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0714
+
+	WM_COMMAND
+		Code: 1796
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:08.0714
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:08.0714
+
+	WM_SETFOCUS	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:46:08.0714
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:46:08.0806
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:08.0806
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:08.0806
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:08.0806
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:08.0806
+
+	WM_PAINT	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:46:08.0806
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:46:09.0269
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:09.0269
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:09.0269
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:09.0269
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:09.0269
+
+	WM_PAINT	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:46:09.0269
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:09.0306
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:09.0306
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:09.0306
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:09.0306
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:09.0344
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:09.0345
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:09.0345
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:09.0345
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 201
+		Size: 553, 135
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:09.0408
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:09.0408
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 9, 201, 562, 336
+		Previous area: 9, 201, 562, 287
+		Client area: 11, 203, 560, 285
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 201
+		Size: 553, 135
+		SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:09.0408
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:09.0408
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:09.0416
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:09.0416
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:09.0432
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:09.0432
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 201
+		Size: 553, 135
+		SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:09.0454
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 549
+		Height: 131
+		Message Sent
+		Time: 17:46:09.0455
+
+	WM_SIZE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:09.0455
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:09.0455
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 319
+		Size: 553, 135
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:09.0578
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:09.0580
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:09.0580
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:09.0582
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:09.0582
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:09.0582
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 319
+		Size: 553, 135
+		SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:09.0589
+
+	WM_MOVE
+		xPos: 11
+		yPos: 321
+		Message Sent
+		Time: 17:46:09.0589
+
+	WM_MOVE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:09.0589
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:09.0590
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:46:09.0806
+
+	WM_PAINT	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:46:09.0806
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000705
+		Message Sent
+		Time: 17:46:12.0425
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0434
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:12.0434
+
+	WM_COMMAND	Return value
+		Return: 0x0019d450
+		Message Sent
+		Time: 17:46:12.0434
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000001
+		lParam: 0xc000000f
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_IME_NOTIFY
+		wParam: 0x00000002
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_GETOBJECT
+		wParam: 0xffffffff
+		lParam: 0xfffffffc
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_GETOBJECT
+		wParam: 0x00000000
+		lParam: 0xfffffff4
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_SETFOCUS
+		HWND losing focus: 0x00110dc8
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_KILLFOCUS
+		HWND receiving focus: 0x000210dc
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_KILLFOCUS	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0540
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000000
+		lParam: 0xc000000f
+		Message Sent
+		Time: 17:46:12.0548
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0548
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000704
+		Message Sent
+		Time: 17:46:12.0548
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0548
+
+	WM_COMMAND
+		Code: 1796
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:12.0548
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0548
+
+	WM_SETFOCUS	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:46:12.0548
+
+	WM_USER + 3086 (0x0000100e)
+		wParam: 0x00000024
+		lParam: 0x00000000
+		Message Posted
+		Time: 17:46:12.0631
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Posted
+		Time: 17:46:12.0671
+
+	WM_USER + 3086 (0x0000100e)
+		wParam: 0x00000023
+		lParam: 0x00000000
+		Message Posted
+		Time: 17:46:12.0707
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Posted
+		Time: 17:46:12.0745
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:12.0745
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:12.0745
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:12.0745
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:12.0745
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:12.0810
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:12.0810
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:12.0810
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:12.0810
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:12.0849
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:12.0849
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:12.0856
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:12.0856
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 319
+		Size: 553, 124
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:12.0874
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:12.0874
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 9, 319, 562, 443
+		Previous area: 9, 319, 562, 454
+		Client area: 11, 321, 560, 452
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 319
+		Size: 553, 124
+		SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:12.0874
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:12.0876
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:12.0877
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:12.0877
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:12.0877
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:12.0877
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 319
+		Size: 553, 124
+		SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:12.0907
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 549
+		Height: 120
+		Message Sent
+		Time: 17:46:12.0908
+
+	WM_SIZE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:12.0908
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:12.0908
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:12.0926
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:12.0926
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 292
+		Size: 553, 124
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:13.0044
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:13.0045
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 17:46:13.0045
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 17:46:13.0048
+
+	WM_ERASEBKGND
+		HDC: 0x90012213
+		Message Sent
+		Time: 17:46:13.0048
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 17:46:13.0048
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x000210e0
+		hwndInsertAfter: HWND_TOP
+		Position: 9, 292
+		Size: 553, 124
+		SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 17:46:13.0084
+
+	WM_MOVE
+		xPos: 11
+		yPos: 294
+		Message Sent
+		Time: 17:46:13.0084
+
+	WM_MOVE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:13.0084
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:13.0084
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 17:46:13.0159
+
+	WM_PAINT	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 17:46:13.0159
+
+	WM_NCHITTEST
+		Position: 862, 437
+		Message Sent
+		Time: 17:46:20.0318
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0318
+
+	WM_NCHITTEST
+		Position: 862, 437
+		Message Sent
+		Time: 17:46:20.0318
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0322
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:20.0322
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:20.0322
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01b5035e
+		Message Posted
+		Time: 17:46:20.0322
+
+	WM_NCHITTEST
+		Position: 863, 437
+		Message Sent
+		Time: 17:46:20.0322
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0322
+
+	WM_NCHITTEST
+		Position: 863, 437
+		Message Sent
+		Time: 17:46:20.0325
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0325
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:20.0325
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:20.0329
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01b5035f
+		Message Posted
+		Time: 17:46:20.0329
+
+	WM_NCHITTEST
+		Position: 863, 436
+		Message Sent
+		Time: 17:46:20.0331
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0331
+
+	WM_NCHITTEST
+		Position: 863, 436
+		Message Sent
+		Time: 17:46:20.0333
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0333
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:20.0333
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:20.0333
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01b4035f
+		Message Posted
+		Time: 17:46:20.0336
+
+	WM_NCHITTEST
+		Position: 863, 435
+		Message Sent
+		Time: 17:46:20.0347
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0347
+
+	WM_NCHITTEST
+		Position: 863, 435
+		Message Sent
+		Time: 17:46:20.0347
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0347
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:20.0347
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:20.0366
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01b3035f
+		Message Posted
+		Time: 17:46:20.0366
+
+	WM_NCHITTEST
+		Position: 863, 434
+		Message Sent
+		Time: 17:46:20.0378
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0380
+
+	WM_NCHITTEST
+		Position: 863, 434
+		Message Sent
+		Time: 17:46:20.0380
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:20.0380
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:20.0380
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:20.0395
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01b2035f
+		Message Posted
+		Time: 17:46:20.0395
+
+	WM_NCHITTEST
+		Position: 899, 428
+		Message Sent
+		Time: 17:46:24.0247
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:24.0247
+
+	WM_NCHITTEST
+		Position: 899, 428
+		Message Sent
+		Time: 17:46:24.0254
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:24.0254
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0262
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0281
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01ac0383
+		Message Posted
+		Time: 17:46:24.0281
+
+	WM_NCHITTEST
+		Position: 899, 428
+		Message Sent
+		Time: 17:46:24.0293
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:24.0310
+
+	WM_NCHITTEST
+		Position: 899, 428
+		Message Sent
+		Time: 17:46:24.0310
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:24.0310
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0310
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0324
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01ac0383
+		Message Posted
+		Time: 17:46:24.0324
+
+	WM_NCHITTEST
+		Position: 899, 429
+		Message Sent
+		Time: 17:46:24.0370
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:24.0373
+
+	WM_NCHITTEST
+		Position: 899, 429
+		Message Sent
+		Time: 17:46:24.0389
+
+	WM_NCHITTEST	Return value
+		Hit: HTBORDER
+		Message Sent
+		Time: 17:46:24.0392
+
+	WM_SETCURSOR
+		Hit test code: HTBORDER
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0393
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0393
+
+	WM_NCMOUSEMOVE
+		wParam: 0x00000012
+		lParam: 0x01ad0383
+		Message Posted
+		Time: 17:46:24.0398
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0406
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0406
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0423
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0436
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0483
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0483
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0500
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0500
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0514
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0514
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0530
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0533
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0542
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0555
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0572
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0572
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0603
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0607
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0619
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0635
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:24.0679
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:24.0683
+
+	WM_PARENTNOTIFY
+		Message: WM_LBUTTONDOWN
+		Mouse coordinates: 35, 7
+		Message Sent
+		Time: 17:46:26.0770
+
+	WM_PARENTNOTIFY	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:26.0770
+
+	WM_MOUSEACTIVATE
+		Top level parent hwnd: 00150d10
+		Hittest code: HTCLIENT
+		Mouse message ID: 513
+		Message Sent
+		Time: 17:46:26.0770
+
+	WM_MOUSEACTIVATE	Return value
+		Activate code: MA_ACTIVATE
+		Message Sent
+		Time: 17:46:26.0770
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 513
+		Message Sent
+		Time: 17:46:26.0774
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:26.0774
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x0000070c
+		Message Sent
+		Time: 17:46:26.0875
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:26.0876
+
+	WM_COMMAND
+		Code: 1804
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:26.0876
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:26.0876
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000707
+		Message Sent
+		Time: 17:46:26.0888
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:26.0888
+
+	WM_COMMAND
+		Code: 1799
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:26.0888
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:26.0900
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:26.0947
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:26.0947
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:27.0200
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:27.0200
+
+	WM_PARENTNOTIFY
+		Message: WM_LBUTTONDOWN
+		Mouse coordinates: 35, 7
+		Message Sent
+		Time: 17:46:31.0793
+
+	WM_PARENTNOTIFY	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:31.0793
+
+	WM_MOUSEACTIVATE
+		Top level parent hwnd: 00150d10
+		Hittest code: HTCLIENT
+		Mouse message ID: 513
+		Message Sent
+		Time: 17:46:31.0811
+
+	WM_MOUSEACTIVATE	Return value
+		Activate code: MA_ACTIVATE
+		Message Sent
+		Time: 17:46:31.0815
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 513
+		Message Sent
+		Time: 17:46:31.0817
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:31.0817
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x0000070c
+		Message Sent
+		Time: 17:46:31.0917
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:31.0917
+
+	WM_COMMAND
+		Code: 1804
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:31.0917
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:31.0917
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000707
+		Message Sent
+		Time: 17:46:31.0922
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:31.0922
+
+	WM_COMMAND
+		Code: 1799
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:46:31.0922
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:46:31.0922
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:46:31.0946
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:46:31.0946
+
+	WM_PARENTNOTIFY
+		Message: WM_LBUTTONDOWN
+		Mouse coordinates: 35, 7
+		Message Sent
+		Time: 17:47:02.0221
+
+	WM_PARENTNOTIFY	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:47:02.0221
+
+	WM_MOUSEACTIVATE
+		Top level parent hwnd: 00150d10
+		Hittest code: HTCLIENT
+		Mouse message ID: 513
+		Message Sent
+		Time: 17:47:02.0221
+
+	WM_MOUSEACTIVATE	Return value
+		Activate code: MA_ACTIVATE
+		Message Sent
+		Time: 17:47:02.0221
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 513
+		Message Sent
+		Time: 17:47:02.0221
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:47:02.0221
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x0000070c
+		Message Sent
+		Time: 17:47:02.0349
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:47:02.0349
+
+	WM_COMMAND
+		Code: 1804
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:47:02.0349
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:47:02.0349
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000707
+		Message Sent
+		Time: 17:47:02.0356
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:47:02.0356
+
+	WM_COMMAND
+		Code: 1799
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:47:02.0356
+
+	WM_COMMAND	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:47:02.0356
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:47:02.0424
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:47:02.0424
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:47:06.0645
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:47:06.0645
+
+	WM_SETCURSOR
+		Hit test code: HTCLIENT
+		Mouse message ID: 512
+		Message Sent
+		Time: 17:47:06.0669
+
+	WM_SETCURSOR	Return value
+		Continue processing: False
+		Message Sent
+		Time: 17:47:06.0680
+
+	WM_NOTIFY
+		Control ID: 0
+		From Hwnd: 0x000210dc
+		From ID: 0x00000000
+		Code: 0x00000705
+		Message Sent
+		Time: 17:47:09.0280
+
+	WM_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 17:47:09.0283
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Sent
+		Time: 17:47:09.0283
+
+	WM_COMMAND	Return value
+		Return: 0x0019f4c0
+		Message Sent
+		Time: 17:47:09.0283
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Posted
+		Time: 17:47:09.0283
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Posted
+		Time: 17:47:09.0283
+
+	WM_COMMAND
+		Code: 1797
+		Control ID: 0
+		Control HWND: 0x000210dc
+		Message Posted
+		Time: 17:47:09.0283
+

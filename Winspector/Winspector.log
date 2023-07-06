@@ -1,0 +1,59 @@
+23-06-2023	17:11:57	12672	Starting Winspector
+23-06-2023	17:11:57	12672	Checking for other instance
+23-06-2023	17:11:57	12672	Finished checking for other instance
+23-06-2023	17:11:57	12672	Loading settings
+23-06-2023	17:11:57	12672	Finished loading settings
+23-06-2023	17:11:57	12672	LoadStdProfileSettings
+23-06-2023	17:11:57	12672	Creating doc/view templates
+23-06-2023	17:11:57	12672	Creating mainframe
+23-06-2023	17:11:58	12672	Showing the main window
+23-06-2023	17:11:58	12672	Tracking the current instance
+23-06-2023	17:11:58	12672	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:58	12672	Loading external messages file C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\xml-files\qhtm.messages
+23-06-2023	17:11:58	12672	Attached to process C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\WinspectorU.exe
+23-06-2023	17:11:58	12672	New watcher window 00410dd8
+23-06-2023	17:11:58	12672	Sending message to corece windows alive
+23-06-2023	17:11:58	6876	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:59	6876	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+23-06-2023	17:11:59	21856	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:59	21856	Attached to process C:\Program Files\AutoHotkey\AutoHotkeyU32.exe
+23-06-2023	17:11:59	1220	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:59	1220	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+23-06-2023	17:11:59	17820	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:59	17820	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+23-06-2023	17:11:59	15400	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:59	15400	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+23-06-2023	17:11:59	17824	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:59	17824	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
+23-06-2023	17:11:59	17580	CMessageDecoder::LoadCustomMessages
+23-06-2023	17:11:59	17580	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+23-06-2023	17:11:59	12672	Started main hooks
+23-06-2023	17:11:59	12672	Running watcher thread message loop
+23-06-2023	17:12:32	1220	Adding watch for window 00120b80
+23-06-2023	17:12:36	1220	Adding watch for window 001a0b1e
+23-06-2023	17:12:39	1220	Adding watch for window 00050aec
+23-06-2023	17:14:33	1220	Removing watch for window 00120b80
+23-06-2023	17:14:34	1220	Removing watch for window 00050aec
+23-06-2023	17:14:36	1220	Removing watch for window 001a0b1e
+23-06-2023	17:15:08	1220	Adding watch for window 00120b80
+23-06-2023	17:16:19	1220	Removing watch for window 00120b80
+23-06-2023	17:16:19	12672	Stopping Winspector...bye
+23-06-2023	17:16:19	12672	Finished watcher thread message loop
+23-06-2023	17:16:19	12672	Sending message for stopping hooks
+23-06-2023	17:16:19	12672	Detaching from process C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\WinspectorU.exe
+23-06-2023	17:16:19	12672	Detached from process C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\WinspectorU.exe
+23-06-2023	17:16:19	15400	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+23-06-2023	17:16:19	15400	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+23-06-2023	17:16:19	21856	Detaching from process C:\Program Files\AutoHotkey\AutoHotkeyU32.exe
+23-06-2023	17:16:19	21856	Detached from process C:\Program Files\AutoHotkey\AutoHotkeyU32.exe
+23-06-2023	17:16:19	17820	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+23-06-2023	17:16:19	17820	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+23-06-2023	17:16:19	1220	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+23-06-2023	17:16:19	1220	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+23-06-2023	17:16:19	6876	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+23-06-2023	17:16:19	6876	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+23-06-2023	17:16:19	17824	Detaching from process C:\Program Files\McAfee\Agent\x86\McTray.exe
+23-06-2023	17:16:19	17824	Detached from process C:\Program Files\McAfee\Agent\x86\McTray.exe
+23-06-2023	17:16:19	17580	Detaching from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+23-06-2023	17:16:19	17580	Detached from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+23-06-2023	17:16:19	12672	Stopped main hooks

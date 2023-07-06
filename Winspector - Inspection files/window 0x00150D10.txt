@@ -1,0 +1,74 @@
+<body bgcolor=white>
+<font face="tahoma">
+<table width="100%">
+	<tr>
+		<td>
+			<h3>Properties for window 0x00150D10</h3>
+		</td>
+	</tr>
+</table>
+<b>
+			<table cellspacing=2 bgcolor=white border=0 width=100% cellspacing=0>
+				<tr>
+					<td align=center bgcolorleft=#8cb0f8 bgcolorright=#eef4fe>Item</td>
+					<td align=center bgcolorleft=#eef4fe bgcolorright=#8cb0f8>Value</td>
+				</tr>
+
+				<tr>
+					<td nowrap>Class Name</td>
+					<td align=right>ThunderRT6FormDC <a href="copy-classname" title="Copy the class name to the clipboard"><img src="RES:1010"></a></td>
+				</tr>
+				<tr bgcolor=#eef4fe>
+					<td nowrap>Text</td>
+					<td align=right>frmPaneMgmtPolicies <a href="copy-windowtext" title="Copy the window text to the clipboard"><img src="RES:1010"></a></td>
+				</tr>
+
+				<tr>
+					<td nowrap>Rectangle</td>
+					<td align=right>851, 114, 1427, 795 <a href="copy-window-rect" title="Copy the window rectangle to the clipboard"><img src="RES:1010"></a></td>
+				</tr>
+				<tr bgcolor=#eef4fe>
+					<td nowrap>Size</td>
+					<td align=right>576, 681 <a href="copy-window-size" title="Copy the window size to the clipboard"><img src="RES:1010"></a></td>
+				</tr>
+
+				<tr>
+					<td nowrap>Client Rectangle</td>
+					<td align=right>0, 0, 576, 681 <a href="copy-client-rect" title="Copy the client rectangle to the clipboard"><img src="RES:1010"></a></td>
+				</tr>
+				<tr bgcolor=#eef4fe>
+					<td nowrap>Client Size</td>
+					<td align=right>576, 681 <a href="copy-client-size" title="Copy the client size to the clipboard"><img src="RES:1010"></a></td>
+				</tr>
+
+				<tr>
+					<td nowrap>Styles</td>
+					<td align=right><table width=100%><tr><td align=right>WS_OVERLAPPED<br>WS_VISIBLE<br>WS_CLIPSIBLINGS<br>WS_CLIPCHILDREN</td><td width=1><a href="copy-window-style" title="Copy the window styles to the clipboard"><img src="RES:1010"></a></td></tr></table></td>
+				</tr>
+				<tr bgcolor=#eef4fe>
+					<td nowrap>StylesEx</td>
+					<td align=right><table width=100%><tr><td align=right>WS_EX_LEFT<br>WS_EX_LTRREADING<br>WS_EX_RIGHTSCROLLBAR</td><td width=1><a href="copy-window-style-ex" title="Copy the extended window styles to the clipboard"><img src="RES:1010"></a></td></tr></table></td>
+				</tr>
+
+				<tr>
+					<td nowrap>ID</td>
+					<td align=right><table width=100%><tr><td align=right>0</td><td width=1><a href="copy-window-id" title="Copy the window ID to the clipboard"><img src="RES:1010"></a></td></tr></table></td>
+				</tr>
+				<tr bgcolor=#eef4fe>
+					<td nowrap>Properties</td>
+					<td align=right><table width=100%><tr><td nowrap align=right>SysSetRedraw  0x00000000  (0)</td><td width=1><a href="copy-window-properties" title="Copy the window properties to the clipboard"><img src="RES:1010"></a></td></tr></table></td>
+				</tr>
+
+				<tr>
+					<td nowrap>Class specific</td>
+					<td align=right><table width=100%><tr><td nowrap align=right>Window is Ansi<br></td><td width=1><a href="copy-window-class-specific" title="Copy the window class specific information to the clipboard"><img src="RES:1010"></a></td></tr></table></td>
+				</tr>
+				<tr bgcolor=#eef4fe>
+					<td nowrap>Owner EXE</td>
+					<td align=right><table width=100%><tr><td align=right>C:\Program Files\FMGlobal\Horizon\hznHorizon.exe</td><td width=1><a href="copy-window-owner-module" title="Copy the extended path of the owning EXE to the clipboard"><img src="RES:1010"></a></td></tr></table></td>
+				</tr>
+				
+			</table>
+</b>
+</font>
+</body>

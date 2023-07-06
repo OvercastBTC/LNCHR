@@ -1,0 +1,408 @@
+<messages created-by="Winspector">
+	<message>
+		<name>WM_IME_SETCONTEXT</name>
+		<sent />
+		<time>23:55:49.0638</time>
+		<parameters>
+			<parameter>wParam: 0x00000001</parameter>
+			<parameter>lParam: 0xc000000f</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_IME_SETCONTEXT</name>
+		<sent />
+		<time>23:55:49.0638</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_GETOBJECT</name>
+		<sent />
+		<time>23:55:49.0639</time>
+		<parameters>
+			<parameter>wParam: 0xffffffff</parameter>
+			<parameter>lParam: 0xfffffffc</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_GETOBJECT</name>
+		<sent />
+		<time>23:55:49.0639</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_GETOBJECT</name>
+		<sent />
+		<time>23:55:49.0639</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0xfffffff4</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_GETOBJECT</name>
+		<sent />
+		<time>23:55:49.0639</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETFOCUS</name>
+		<sent />
+		<time>23:55:49.0640</time>
+		<parameters>
+			<parameter>HWND losing focus: 0x000612b2</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0642</time>
+		<parameters>
+			<parameter>wParam: 0x0000000b</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0642</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>MSIMEQueryPosition (Registered messages)</name>
+		<sent />
+		<time>23:55:49.0643</time>
+		<parameters>
+			<parameter>wParam: 0x00000001</parameter>
+			<parameter>lParam: 0x0019e9ac</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>MSIMEQueryPosition (Registered messages)</name>
+		<sent />
+		<time>23:55:49.0643</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0644</time>
+		<parameters>
+			<parameter>wParam: 0x00000009</parameter>
+			<parameter>lParam: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0644</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7246 (0x0000204e)</name>
+		<sent />
+		<time>23:55:49.0645</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x0019ee40</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7246</name>
+		<sent />
+		<time>23:55:49.0645</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7441 (0x00002111)</name>
+		<sent />
+		<time>23:55:49.0645</time>
+		<parameters>
+			<parameter>wParam: 0x07040000</parameter>
+			<parameter>lParam: 0x00061306</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7441</name>
+		<sent />
+		<time>23:55:49.0645</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETFOCUS</name>
+		<sent />
+		<time>23:55:49.0646</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0771</time>
+		<parameters>
+			<parameter>wParam: 0x0000000b</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>MSIMEQueryPosition (Registered messages)</name>
+		<sent />
+		<time>23:55:49.0772</time>
+		<parameters>
+			<parameter>wParam: 0x00000001</parameter>
+			<parameter>lParam: 0x0019d4e8</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7246 (0x0000204e)</name>
+		<sent />
+		<time>23:55:49.0772</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x0019ce60</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7246</name>
+		<sent />
+		<time>23:55:49.0772</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7441 (0x00002111)</name>
+		<sent />
+		<time>23:55:49.0772</time>
+		<parameters>
+			<parameter>wParam: 0x070c0000</parameter>
+			<parameter>lParam: 0x00061306</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7441</name>
+		<sent />
+		<time>23:55:49.0773</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7246 (0x0000204e)</name>
+		<sent />
+		<time>23:55:49.0773</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x0019ce60</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7246</name>
+		<sent />
+		<time>23:55:49.0773</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7441 (0x00002111)</name>
+		<sent />
+		<time>23:55:49.0774</time>
+		<parameters>
+			<parameter>wParam: 0x07310000</parameter>
+			<parameter>lParam: 0x00061306</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7441</name>
+		<sent />
+		<time>23:55:49.0774</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>MSIMEQueryPosition (Registered messages)</name>
+		<sent />
+		<time>23:55:49.0774</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0775</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>MSIMEQueryPosition (Registered messages)</name>
+		<sent />
+		<time>23:55:49.0776</time>
+		<parameters>
+			<parameter>wParam: 0x00000001</parameter>
+			<parameter>lParam: 0x0019e70c</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>MSIMEQueryPosition (Registered messages)</name>
+		<sent />
+		<time>23:55:49.0776</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0776</time>
+		<parameters>
+			<parameter>wParam: 0x00000009</parameter>
+			<parameter>lParam: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:49.0776</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7246 (0x0000204e)</name>
+		<sent />
+		<time>23:55:49.0776</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x0019eb88</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7246</name>
+		<sent />
+		<time>23:55:49.0777</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7441 (0x00002111)</name>
+		<sent />
+		<time>23:55:49.0777</time>
+		<parameters>
+			<parameter>wParam: 0x07070000</parameter>
+			<parameter>lParam: 0x00061306</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7441</name>
+		<sent />
+		<time>23:55:49.0777</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_KILLFOCUS</name>
+		<sent />
+		<time>23:55:53.0889</time>
+		<parameters>
+			<parameter>HWND receiving focus: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7246 (0x0000204e)</name>
+		<sent />
+		<time>23:55:53.0889</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x0019f720</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7246</name>
+		<sent />
+		<time>23:55:53.0889</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_KILLFOCUS</name>
+		<sent />
+		<time>23:55:53.0889</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_IME_SETCONTEXT</name>
+		<sent />
+		<time>23:55:53.0889</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0xc000000f</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:53.0889</time>
+		<parameters>
+			<parameter>wParam: 0x00000001</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_IME_NOTIFY</name>
+		<sent />
+		<time>23:55:53.0889</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_IME_SETCONTEXT</name>
+		<sent />
+		<time>23:55:53.0890</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_USER + 7441 (0x00002111)</name>
+		<sent />
+		<time>23:55:53.0890</time>
+		<parameters>
+			<parameter>wParam: 0x07050000</parameter>
+			<parameter>lParam: 0x00061306</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_USER + 7441</name>
+		<sent />
+		<time>23:55:53.0890</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+</messages>

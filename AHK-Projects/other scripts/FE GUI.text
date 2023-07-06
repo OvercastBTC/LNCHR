@@ -1,0 +1,106 @@
+;Blank Template written by GroggyOtter
+
+;============================== Start Auto-Execution Section ==============================
+; Always run as admin
+/*
+	if not A_IsAdmin
+	{
+	   ;Run *RunAs "%A_ScriptFullPath%"  ; Requires v1.0.92.01+
+	   
+	   ExitApp
+	}
+*/
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#Persistent ; Keeps script permanently running
+SetBatchLines, -1 ; Determines how fast a script will run (affects CPU utilization). ; The value -1 means the script will run at it's max speed possible.
+SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of "exact"
+GroupAdd, saveReload, %A_ScriptName%
+;============================== Includes Section ==============================
+;============================ End Includes Section ==============================
+
+return
+
+;--------------------------------------------------------------------------
+;          Shift+Ctrl+WIN+O to Open OS
+;--------------------------------------------------------------------------
+^+#o::
+
+;EnvGet, vUserProfile, USERPROFILE
+;EnvGet, vHomeDrive, HOMEDRIVE
+EnvGet, vHomePath, HOMEPATH
+m_dir=\FM Global\Operating Standards - Documents\
+os_dir=opstds\
+ds_dir=ds\
+o_d_path = C:%vHomePath%%m_dir%
+outputos = fm
+outputds = FMDS
+
+ftype_pdf = .pdf
+;InputBox, input,Jump to document,Enter Desired OS or DS (e.g.`, 5-19),,300,125
+;InputBox, input2,Jump to Operating Standard,Enter Desired OS (i.e.`, 8-9),,300,125
+	;Run, C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe %outputos1%%inputos%%outputos2% ; use ctrl+Shift+WIN+o
+;Run, AcroRd32.exe %outputos1%%input%%outputos2% ; use ctrl+Shift+WIN+o
+Gui, OS_DS:New,, DS or OS
+Gui, Add, Text,w200,Enter OS/DS #
+;Gui, Add, Edit, R1 vInput W50 xm+15, 5-19
+Gui, Add, Edit, R1 vInput xm+15, 5-19
+Gui, Add, Text,xm,Keyword Search (optional):
+;Gui, Add, Edit, vSearch W100 xm y+m, Operations and Maintenance
+Gui, Add, Edit, vSearch xm y+m, Operations and Maintenance
+Gui, Add, Text,C,OS or DS?
+Gui, Add, Button, Default gOS xm, &OS
+Gui, Add, Button, gDS x+10, &DS
+Gui, Add, Button, section gCancel x+10, Cancel
+Gui, Show, AutoSize, OS or DS
+
+GuiControlGet, input,, Input, Edit
+GuiControlGet, search,, Search, Edit
+
+;MsgBox, % search
+
+while (OS or DS !=1)
+	Gui, Submit,Nohide
+Clipboard = %search%
+;---------------------Default Button--------------------
+;------------------Operating Standards------------------
+
+OS:
+OSout = %o_d_path%%os_dir%%input%%outputos%%ftype_pdf%
+MsgBox, %OSout%
+;GuiControlGet, OSout, Run AcroRD32.exe %OSout%
+Run, AcroRD32.exe %OSout%
+;Gui, Submit,Nohide
+WinWait, 1
+Send, ^f
+Send, ^v{Enter}
+return	
+
+;------------------Data Sheets------------------
+DS:
+i:= StrSplit(input, "-")
+if i[1] < 10
+	input = 0%input%
+StringReplace, input, input, -, , All  
+DSout = %o_d_path%%ds_dir%%outputds%%input%%ftype_pdf%
+MsgBox, %DSout%
+Run, %DSout%
+WinWait, 1
+Send, ^f
+Clipboard = %search%
+Send, ^v{Enter}
+return
+
+GuiClose:
+GuiCancel:
+GuiEscape:
+ExitApp
+
+;Gui, Submit
+
+Gui, OS_DS:Destroy
+Reload
+
+return

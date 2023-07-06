@@ -1,0 +1,20 @@
+IncrementVersionNumber(whatversionstring, incwhatpart){
+	stringsplit, vers, whatversionstring, .  ;<---- there is a period there
+	if(vers0 < incwhatpart){
+		vers0 := incwhatpart
+	}
+	
+	vers%incwhatpart%++
+	newversionstring =
+	loop, %vers0%{
+		thisversion := vers%a_index%
+		if(thisversion = ""){
+			thisversion := "0"
+		}
+		newversionstring := newversionstring . thisversion
+		if(a_index < vers0){
+			newversionstring := newversionstring . "."
+		}
+	}
+	return newversionstring
+}

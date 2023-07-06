@@ -1,0 +1,23 @@
+; little screen
+XY pos relative to screen upper-left corner: 
+Control XY Pos: 419,563
+Control Client Area XY pos: 419,563
+A_CaretX \ A_CaretY: ,
+
+Caret String Pos: 1 \ Caret Line: 1
+Selected String (Start\End): 1998022464\1
+Caret XY pos from control Client Area: ,
+
+WinId: 0x21584 \ ControlId: 0x1009da
+
+; full screen
+XY pos relative to screen upper-left corner: 
+Control XY Pos: 244,532
+Control Client Area XY pos: 244,532
+A_CaretX \ A_CaretY: ,
+
+Caret String Pos: 1 \ Caret Line: 1
+Selected String (Start\End): 1998022464\1
+Caret XY pos from control Client Area: ,
+
+WinId: 0x21584 \ ControlId: 0x1009da

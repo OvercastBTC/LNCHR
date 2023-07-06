@@ -1,0 +1,263 @@
+Window messages created by Winspector
+	WM_IME_SETCONTEXT
+		wParam: 0x00000001
+		lParam: 0xc000000f
+		Message Sent
+		Time: 00:03:44.0223
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0223
+
+	WM_GETOBJECT
+		wParam: 0xffffffff
+		lParam: 0xfffffffc
+		Message Sent
+		Time: 00:03:44.0224
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0224
+
+	WM_GETOBJECT
+		wParam: 0x00000000
+		lParam: 0xfffffff4
+		Message Sent
+		Time: 00:03:44.0224
+
+	WM_GETOBJECT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0224
+
+	WM_SETFOCUS
+		HWND losing focus: 0x000612b2
+		Message Sent
+		Time: 00:03:44.0224
+
+	WM_IME_NOTIFY
+		wParam: 0x0000000b
+		lParam: 0x00000000
+		Message Sent
+		Time: 00:03:44.0224
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0224
+
+	MSIMEQueryPosition (Registered messages)
+		wParam: 0x00000001
+		lParam: 0x0019e9ac
+		Message Sent
+		Time: 00:03:44.0225
+
+	MSIMEQueryPosition (Registered messages)	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_IME_NOTIFY
+		wParam: 0x00000009
+		lParam: 0x00000001
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_USER + 7246 (0x0000204e)
+		wParam: 0x00000000
+		lParam: 0x0019ee40
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_USER + 7246	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_USER + 7441 (0x00002111)
+		wParam: 0x07040000
+		lParam: 0x00061306
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_USER + 7441	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_SETFOCUS	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0225
+
+	WM_IME_NOTIFY
+		wParam: 0x0000000b
+		lParam: 0x00000000
+		Message Sent
+		Time: 00:03:44.0323
+
+	MSIMEQueryPosition (Registered messages)
+		wParam: 0x00000001
+		lParam: 0x0019d4e8
+		Message Sent
+		Time: 00:03:44.0323
+
+	WM_USER + 7246 (0x0000204e)
+		wParam: 0x00000000
+		lParam: 0x0019ce60
+		Message Sent
+		Time: 00:03:44.0323
+
+	WM_USER + 7246	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0323
+
+	WM_USER + 7441 (0x00002111)
+		wParam: 0x070c0000
+		lParam: 0x00061306
+		Message Sent
+		Time: 00:03:44.0324
+
+	WM_USER + 7441	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0324
+
+	WM_USER + 7246 (0x0000204e)
+		wParam: 0x00000000
+		lParam: 0x0019ce60
+		Message Sent
+		Time: 00:03:44.0324
+
+	WM_USER + 7246	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0324
+
+	WM_USER + 7441 (0x00002111)
+		wParam: 0x07310000
+		lParam: 0x00061306
+		Message Sent
+		Time: 00:03:44.0324
+
+	WM_USER + 7441	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0324
+
+	MSIMEQueryPosition (Registered messages)	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0325
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0325
+
+	MSIMEQueryPosition (Registered messages)
+		wParam: 0x00000001
+		lParam: 0x0019e70c
+		Message Sent
+		Time: 00:03:44.0326
+
+	MSIMEQueryPosition (Registered messages)	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0326
+
+	WM_IME_NOTIFY
+		wParam: 0x00000009
+		lParam: 0x00000001
+		Message Sent
+		Time: 00:03:44.0326
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0326
+
+	WM_USER + 7246 (0x0000204e)
+		wParam: 0x00000000
+		lParam: 0x0019eb88
+		Message Sent
+		Time: 00:03:44.0328
+
+	WM_USER + 7246	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0328
+
+	WM_USER + 7441 (0x00002111)
+		wParam: 0x07070000
+		lParam: 0x00061306
+		Message Sent
+		Time: 00:03:44.0328
+
+	WM_USER + 7441	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:44.0329
+
+	WM_KILLFOCUS
+		HWND receiving focus: 0x00000000
+		Message Sent
+		Time: 00:03:48.0369
+
+	WM_USER + 7246 (0x0000204e)
+		wParam: 0x00000000
+		lParam: 0x0019f720
+		Message Sent
+		Time: 00:03:48.0370
+
+	WM_USER + 7246	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:48.0370
+
+	WM_KILLFOCUS	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:48.0370
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000000
+		lParam: 0xc000000f
+		Message Sent
+		Time: 00:03:48.0370
+
+	WM_IME_NOTIFY
+		wParam: 0x00000001
+		lParam: 0x00000000
+		Message Sent
+		Time: 00:03:48.0370
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:48.0371
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:48.0371
+
+	WM_USER + 7441 (0x00002111)
+		wParam: 0x07050000
+		lParam: 0x00061306
+		Message Sent
+		Time: 00:03:48.0371
+
+	WM_USER + 7441	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 00:03:48.0371
+

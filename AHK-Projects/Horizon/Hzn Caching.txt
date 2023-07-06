@@ -1,0 +1,255 @@
+Type: 50032 (Window) Name: "Trinity Health Corporation - 07660213 04 - 0000823061-67   2444933  Fresno, CA US  - [Vital Equipment for Site]" LocalizedControlType: "window" ClassName: "ThunderRT6MDIForm"
+1 Type: 50033 (Pane) Name: "Workspace" LocalizedControlType: "pane" AutomationId: "3244" ClassName: "MDIClient"
+1.1 Type: 50032 (Window) Name: "Vital Equipment for Site" LocalizedControlType: "window" AutomationId: "32769" ClassName: "ThunderRT6FormDC"
+1.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "268096356" ClassName: "ATL:0FF50020"
+1.1.1.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.1.1.1.1 Type: 50004 (Edit) Value: "0" LocalizedControlType: "edit" ClassName: "DT5ComboBox_PVCombo"
+1.1.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.3 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.3.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "268100580" ClassName: "ATL:0FF50020"
+1.1.3.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.4 Type: 50026 (Group) Name: "Electrical" LocalizedControlType: "group" AutomationId: "1" ClassName: "ThunderRT6Frame"
+1.1.5 Type: 50026 (Group) Name: "Semiconductor" LocalizedControlType: "group" AutomationId: "7" ClassName: "ThunderRT6Frame"
+1.1.5.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "289492548" ClassName: "ATL:0FF50020"
+1.1.5.1.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.5.1.1.1.1 Type: 50004 (Edit) LocalizedControlType: "edit" ClassName: "DT5ComboBox_PVCombo"
+1.1.5.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.3 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.4 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.4.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "268072612" ClassName: "ATL:0FF50020"
+1.1.5.4.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.5.5 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.6 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.6.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "268073468" ClassName: "ATL:0FF50020"
+1.1.5.6.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.5.7 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.8 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.5.8.1 Type: 50003 (ComboBox) LocalizedControlType: "combo box" AutomationId: "1" ClassName: "ThunderRT6ComboBox"
+1.1.5.8.1.1 Type: 50020 (Text) LocalizedControlType: "text"
+1.1.5.8.1.2 Type: 50000 (Button) Name: "Open" LocalizedControlType: "button" AutomationId: "DropDown"
+1.1.6 Type: 50026 (Group) Name: "Functional Overspeed Test" LocalizedControlType: "group" AutomationId: "8" ClassName: "ThunderRT6Frame"
+1.1.6.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.6.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.6.2.1 Type: 50033 (Pane) Name: "24-Apr-2023" LocalizedControlType: "pane" ClassName: "PVMaskEdit"
+1.1.6.2.2 Type: 50033 (Pane) Name: "24-Apr-2023" LocalizedControlType: "pane" ClassName: "DTPicker20WndClass"
+1.1.6.3 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.6.3.1 Type: 50003 (ComboBox) Value: "Yes" LocalizedControlType: "combo box" AutomationId: "1" ClassName: "ThunderRT6ComboBox"
+1.1.6.3.1.1 Type: 50020 (Text) Value: "Yes" LocalizedControlType: "text"
+1.1.6.3.1.2 Type: 50000 (Button) Name: "Open" LocalizedControlType: "button" AutomationId: "DropDown"
+1.1.6.4 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.7 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.7.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "289482764" ClassName: "ATL:0FF50020"
+1.1.7.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.8 Type: 50026 (Group) LocalizedControlType: "group" AutomationId: "9" ClassName: "ThunderRT6Frame"
+1.1.8.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.8.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.8.2.1 Type: 50004 (Edit) Value: "0.00" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.8.2.2 Type: 50004 (Edit) Value: "0.00" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.8.3 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.8.3.1 Type: 50004 (Edit) Value: "0" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.8.3.2 Type: 50004 (Edit) Value: "0" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.8.4 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.8.5 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.8.5.1 Type: 50004 (Edit) Value: "2.46" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.8.5.2 Type: 50004 (Edit) Value: "2.46" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.9 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.9.1 Type: 50002 (CheckBox) Name: "Jurisdictional" LocalizedControlType: "check box" AutomationId: "1" ClassName: "ThunderRT6CheckBox"
+1.1.10 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.10.1 Type: 50002 (CheckBox) Name: "Estimated" LocalizedControlType: "check box" AutomationId: "1" ClassName: "ThunderRT6CheckBox"
+1.1.11 Type: 50026 (Group) Name: "Replacement Values - USD(M)" LocalizedControlType: "group" AutomationId: "11" ClassName: "ThunderRT6Frame"
+1.1.11.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.11.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.11.3 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.11.4 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.11.4.1 Type: 50004 (Edit) Value: "2.46" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.11.4.2 Type: 50004 (Edit) Value: "2.46" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.11.5 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.11.5.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "268101436" ClassName: "ATL:0FF50020"
+1.1.11.5.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.11.5.1.1.1 Type: 50004 (Edit) Value: "183" LocalizedControlType: "edit" ClassName: "DT5ComboBox_PVCombo"
+1.1.11.6 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.11.7 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.12 Type: 50026 (Group) Name: "Characteristics" LocalizedControlType: "group" AutomationId: "12" ClassName: "ThunderRT6Frame"
+1.1.12.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.12.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.12.2.1 Type: 50004 (Edit) Value: "3.52" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.12.2.2 Type: 50004 (Edit) Value: "3.52" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.12.3 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.12.4 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.12.5 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.12.6 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.12.6.1 Type: 50004 (Edit) Value: "4,718.50" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.12.6.2 Type: 50004 (Edit) Value: "4,718.50" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.12.7 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.13 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.13.1 Type: 50004 (Edit) LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.14 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "SSActiveTabsWndClass"
+1.1.14.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "SSTabPanelWndClass"
+1.1.14.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.14.1.1.1 Type: 50004 (Edit) Value: "[- Description -]
+Model: Centar 40
+Compressor: 11-stage compressor with variable inlet guide vanes and a 1-stage power turbine. 
+Fuel: NG
+Environmentals: SoLoNOx burners
+Bypass: Yes (HRSG U/S bypass diverter)
+Normal Lineup: 1 of 2
+Alt Lineup: 2 of 2
+- Peak summer
+- Loss of utility (PG&E)
+LTSA: Yes.
+
+[- C&SD -]
+[Overspeed]
+Primary:
+- SP: 108%
+- Type: Electronic
+- Notes: Pickup in G/B
+Secondary/Backup:
+- SP: 110%
+- Type: Electronic
+- Notes: RPM @ 16449
+Testing: A, and every 4,000 EFH
+Testing Method: Simulated via the DCS by injecting the O/S signal and tripping the unit.
+Upgraded: 2015
+- Scope: A fuel system upgrade was completed in 2015 to remove the mechanical overspeed, and  install 'back-up" electronic overspeed protection set to 110% of rpm. The "primary" overspeed protection is an electronic pick-up on the gearbox, set to 108%. Backup overspeed RPM setting is 16449.  Overspeed testing, both primary and secondary is completed every 4000 EFH, and at least annually. 
+
+[Lube Oil]
+ELOP: DC lube oil pump
+- Testing: W
+Batteries: By Solar
+- Testing:
+- Replacement: 3 yr
+Batt Charger: W, M
+
+Lube oil pressure is monitored by the DCS. 
+
+MAINTENANCE:
+Both units are covered under a service agreement with Solar Turbines. Solar manages the scope and timing of the maintenance completed during the annual visits to the facility. They also monitor the units via the DSC and can trip units remotley if needed. Time between overhauls (TBO) is 30,000 engine fire hours (EFH).
+
+5.3.2017: Unk Starts; 9,000 hours since major overhaul (SMOH)
+9.12.2018: 237 Starts; 17,485 hours SMOH
+12.10.2019: 274 Starts; 25,733 EFH
+4.28.2021: 52 Starts; 8,091 EFH
+
+
+From 12/10/2019 visit:
+Annual inspection completed on 6-5-19. Annual inspection includes 'back-up' overspeed testing borescope inspection, vibration analysis, calibration and testing of pressure switches and transmitters, DC string charger testing, control logic, PLC and communication inspection, and package inspections and maintenance. Load bank testing was also completed on the dc batteries. Moderate signs of thermal erosion were observed on the 1st stage turbine blades, minor signs of thermal erosion were observed on the injectors and combustor interior. No major findings form the annual inspection. There are plans to replace the rotor and gearbox 2-2020.  Reported replacement cost is 704K.
+
+From 6/30/2021 visit:
+Annual inspection completed on 4-28-21. Annual inspection includes 'back-up' overspeed testing borescope inspection, vibration analysis, calibration and testing of pressure switches and transmitters, DC string charger testing, control logic, PLC and communication inspection, and package inspections and maintenance. Load bank testing was also completed on the dc batteries( "battery run down test"). Moderate signs of thermal erosion were observed on the 1st and 3rd stage turbine blades, minor signs of thermal erosion were observed on the injectors and combustor interior. Compressor Ingestive cleaning was completed on 3/2/21;borosocpe showed no fouling so no additional cleaning was completed during this outage.  No major findings form the annual inspection.  The rotor and gearbox are reported to have replaced in 2020. 
+
+TE approximation based on need for turbine exhaust heat to HRSG for absorption chillers.
+
+Peak load 4.6MW
+3.2 from PGE- will be 7MW
+" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.14.1.1.1.1 Type: 50014 (ScrollBar) Name: "Vertical" LocalizedControlType: "scroll bar" AutomationId: "NonClientVerticalScrollBar"
+1.1.14.1.1.1.1.1 Type: 50000 (Button) Name: "Line up" LocalizedControlType: "button" AutomationId: "UpButton"
+1.1.14.1.1.1.1.2 Type: 50000 (Button) Name: "Page up" LocalizedControlType: "button" AutomationId: "UpPageButton"
+1.1.14.1.1.1.1.3 Type: 50027 (Thumb) Name: "Position" LocalizedControlType: "thumb" AutomationId: "ScrollbarThumb"
+1.1.14.1.1.1.1.4 Type: 50000 (Button) Name: "Page down" LocalizedControlType: "button" AutomationId: "DownPageButton"
+1.1.14.1.1.1.1.5 Type: 50000 (Button) Name: "Line down" LocalizedControlType: "button" AutomationId: "DownButton"
+1.1.14.1.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.15 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.15.1 Type: 50033 (Pane) Name: "Combustion Turbine" LocalizedControlType: "pane" ClassName: "TX11"
+1.1.16 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.16.1 Type: 50000 (Button) Name: "Equipment Type" LocalizedControlType: "button" AutomationId: "1" ClassName: "ThunderRT6CommandButton"
+1.1.17 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.17.1 Type: 50033 (Pane) Name: "Mechanical / Turbine" LocalizedControlType: "pane" ClassName: "TX11"
+1.1.18 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.18.1 Type: 50004 (Edit) Value: "Turbine 1" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.19 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.19.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "289638860" ClassName: "ATL:0FF50020"
+1.1.19.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "101" ClassName: "DT5_PVCombo"
+1.1.20 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.20.1 Type: 50004 (Edit) Value: "2001" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.20.2 Type: 50004 (Edit) Value: "2001" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.21 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.21.1 Type: 50004 (Edit) Value: "4701S" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.22 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.23 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.24 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.25 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.26 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.26.1 Type: 50004 (Edit) LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.27 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.28 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.28.1 Type: 50004 (Edit) LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.29 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.30 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.31 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.31.1 Type: 50002 (CheckBox) Name: "Bottleneck" LocalizedControlType: "check box" AutomationId: "1" ClassName: "ThunderRT6CheckBox"
+1.1.32 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.32.1 Type: 50004 (Edit) Value: "0" LocalizedControlType: "edit" AutomationId: "1" ClassName: "ThunderRT6TextBox"
+1.1.32.2 Type: 50004 (Edit) Value: "0" LocalizedControlType: "edit" ClassName: "MSMaskWndClass"
+1.1.33 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.34 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.35 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.1.36 Type: 50037 (TitleBar) Value: "Vital Equipment for Site" LocalizedControlType: "title bar" AutomationId: "TitleBar"
+1.1.36.1 Type: 50010 (MenuBar) Name: "System" LocalizedControlType: "menu bar" AutomationId: "MenuBar"
+1.1.36.1.1 Type: 50011 (MenuItem) Name: "Document Window" LocalizedControlType: "menu item"
+1.1.36.2 Type: 50000 (Button) Name: "Minimize" LocalizedControlType: "button"
+1.1.36.3 Type: 50000 (Button) Name: "Restore" LocalizedControlType: "button"
+1.1.36.4 Type: 50000 (Button) Name: "Close" LocalizedControlType: "button"
+1.2 Type: 50032 (Window) Name: "Main" LocalizedControlType: "window" AutomationId: "32768" ClassName: "ThunderRT6FormDC"
+1.2.1 Type: 50033 (Pane) Name: "FE Data" LocalizedControlType: "pane" ClassName: "AfxOleControl42"
+1.2.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "150" ClassName: "AfxWnd42"
+1.2.1.2 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "107" ClassName: "AfxFrameOrView42"
+1.2.1.2.1 Type: 50023 (Tree) LocalizedControlType: "tree" AutomationId: "1" ClassName: "SysTreeView32"
+1.2.1.2.1.1 Type: 50024 (TreeItem) Name: "Admin Detail" LocalizedControlType: "tree item"
+1.2.1.2.1.2 Type: 50024 (TreeItem) Name: "Construction" LocalizedControlType: "tree item"
+1.2.1.2.1.3 Type: 50024 (TreeItem) Name: "Occupancy" LocalizedControlType: "tree item"
+1.2.1.2.1.4 Type: 50024 (TreeItem) Name: "Fire Protection" LocalizedControlType: "tree item"
+1.2.1.2.1.4.1 Type: 50024 (TreeItem) Name: "Fire Pumps" LocalizedControlType: "tree item"
+1.2.1.2.1.4.2 Type: 50024 (TreeItem) Name: "Water Supplies" LocalizedControlType: "tree item"
+1.2.1.2.1.5 Type: 50024 (TreeItem) Name: "Values" LocalizedControlType: "tree item"
+1.2.1.2.1.6 Type: 50024 (TreeItem) Name: "Specialized Processes" LocalizedControlType: "tree item"
+1.2.1.2.1.7 Type: 50024 (TreeItem) Name: "Equipment" LocalizedControlType: "tree item"
+1.2.1.2.1.8 Type: 50024 (TreeItem) Name: "Exposure Summary" LocalizedControlType: "tree item"
+1.2.1.2.1.8.1 Type: 50024 (TreeItem) Name: "Other Clients in Site MFL" LocalizedControlType: "tree item"
+1.2.1.2.1.9 Type: 50024 (TreeItem) Name: "Recommendations" LocalizedControlType: "tree item"
+1.2.1.2.1.10 Type: 50024 (TreeItem) Name: "Human Element Policies" LocalizedControlType: "tree item"
+1.2.1.2.1.11 Type: 50024 (TreeItem) Name: "Uninvestigated Losses" LocalizedControlType: "tree item"
+1.2.1.2.1.12 Type: 50024 (TreeItem) Name: "Risk Conclusions" LocalizedControlType: "tree item"
+1.2.1.2.1.12.1 Type: 50024 (TreeItem) Name: "Underwriting Factors" LocalizedControlType: "tree item"
+1.2.1.2.1.12.2 Type: 50024 (TreeItem) Name: "Change Reason" LocalizedControlType: "tree item"
+1.2.1.2.2 Type: 50018 (Tab) LocalizedControlType: "tab" AutomationId: "288" ClassName: "SysTabControl32"
+1.2.1.2.2.1 Type: 50019 (TabItem) Name: "Site" LocalizedControlType: "tab item"
+1.2.1.2.2.2 Type: 50019 (TabItem) Name: "Building" LocalizedControlType: "tab item"
+1.2.1.3 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "108" ClassName: "AfxFrameOrView42"
+1.2.1.4 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "100" ClassName: "PVSPLITTERWNDCLASS"
+1.2.1.5 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "100" ClassName: "PVSPLITTERWNDCLASS"
+1.2.1.6 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "2" ClassName: "AfxFrameOrView42"
+1.2.1.6.1 Type: 50033 (Pane) Name: "Form1" LocalizedControlType: "pane" ClassName: "ThunderRT6FormDC"
+1.2.1.6.1.1 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.2.1.6.1.1.1 Type: 50000 (Button) Name: "Duplicate" LocalizedControlType: "button" AutomationId: "1" ClassName: "ThunderRT6CommandButton"
+1.2.1.6.1.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "SSUltraGridWndClass"
+1.2.1.6.1.3 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.2.1.6.1.3.1 Type: 50000 (Button) Name: "New" LocalizedControlType: "button" AutomationId: "1" ClassName: "ThunderRT6CommandButton"
+1.2.1.6.1.4 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.2.1.6.1.5 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.2.1.6.1.5.1 Type: 50000 (Button) Name: "Delete" LocalizedControlType: "button" AutomationId: "1" ClassName: "ThunderRT6CommandButton"
+1.2.1.6.1.6 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.2.1.6.1.6.1 Type: 50000 (Button) LocalizedControlType: "button" AutomationId: "1" ClassName: "ThunderRT6CommandButton"
+1.2.2 Type: 50033 (Pane) LocalizedControlType: "pane" ClassName: "ThunderRT6UserControlDC"
+1.2.2.1 Type: 50033 (Pane) LocalizedControlType: "pane" AutomationId: "1" ClassName: "ThunderRT6PictureBoxDC"
+1.2.2.1.1 Type: 50000 (Button) Name: "1. Order" LocalizedControlType: "button" AutomationId: "2" ClassName: "ThunderRT6CommandButton"
+1.2.2.1.2 Type: 50000 (Button) Name: "2. Tracking" LocalizedControlType: "button" AutomationId: "3" ClassName: "ThunderRT6CommandButton"
+1.2.2.1.3 Type: 50000 (Button) Name: "3. FE Data" LocalizedControlType: "button" AutomationId: "4" ClassName: "ThunderRT6CommandButton"
+1.2.2.1.4 Type: 50000 (Button) Name: "4. Location CSP" LocalizedControlType: "button" AutomationId: "5" ClassName: "ThunderRT6CommandButton"
+1.2.2.1.5 Type: 50000 (Button) Name: "5. Reporting" LocalizedControlType: "button" AutomationId: "6" ClassName: "ThunderRT6CommandButton"
+1.2.2.1.6 Type: 50000 (Button) Name: "6. Closing" LocalizedControlType: "button" AutomationId: "7" ClassName: "ThunderRT6CommandButton"
+1.2.3 Type: 50037 (TitleBar) Value: "Main" LocalizedControlType: "title bar" AutomationId: "TitleBar"
+1.2.3.1 Type: 50010 (MenuBar) Name: "System" LocalizedControlType: "menu bar" AutomationId: "MenuBar"
+1.2.3.1.1 Type: 50011 (MenuItem) Name: "Document Window" LocalizedControlType: "menu item"
+1.2.3.2 Type: 50000 (Button) Name: "Minimize" LocalizedControlType: "button"
+1.2.3.3 Type: 50000 (Button) Name: "Maximize" LocalizedControlType: "button"
+1.2.3.4 Type: 50000 (Button) Name: "Close" LocalizedControlType: "button"
+2 Type: 50037 (TitleBar) Value: "Trinity Health Corporation - 07660213 04 - 0000823061-67   2444933  Fresno, CA US  - [Vital Equipment for Site]" LocalizedControlType: "title bar" AutomationId: "TitleBar"
+2.1 Type: 50010 (MenuBar) Name: "System" LocalizedControlType: "menu bar" AutomationId: "MenuBar"
+2.1.1 Type: 50011 (MenuItem) Name: "System" LocalizedControlType: "menu item"
+2.2 Type: 50000 (Button) Name: "Minimize" LocalizedControlType: "button"
+2.3 Type: 50000 (Button) Name: "Restore" LocalizedControlType: "button"
+2.4 Type: 50000 (Button) Name: "Close" LocalizedControlType: "button"

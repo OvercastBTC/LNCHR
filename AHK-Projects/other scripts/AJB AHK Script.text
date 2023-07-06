@@ -1,0 +1,335 @@
+﻿;---------------------------------------------------------------------------
+;               AutoHotkey Basic Starter Script Stuff
+;---------------------------------------------------------------------------
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+;SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#SingleInstance force ; Ensures only one copy of the script is loaded. Stops nuisance window on reload.
+
+;---------------------------------------------------------------------------
+;                Win+NumLock Temporarily Suspend AutoHotkey 
+;---------------------------------------------------------------------------
+
+;#NumLock::Suspend ; Win + NumLock
+;return
+
+;---------------------------------------------------------------------------
+;                Ctrl+Shift+Alt+r Reload AutoHotKey Script (to load changes)
+;---------------------------------------------------------------------------
+
+^+!r::
+SplashTextOn, 100, 25 , Reloading, In Progress
+;Run, IncrementVersionNumber
+Sleep,  1500
+Reload
+SplashTextOff
+return
+
+;Sleep 1000 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
+MsgBox, 260,, The script could not be reloaded. Would you like to open it for editing?
+;MsgBox, Yes, Run Edit
+;return
+
+;---------------------------------------------------------------------------
+;                  Personal Abbreviations 
+;---------------------------------------------------------------------------
+
+:*:eml::adam.bacon@fmglobal.com										; Email
+
+:*:peml::adam.bacon80@icloud.com										; Personal Email
+
+:*:emp#::52906														; Employee Number
+
+:*:officeaddress::FM Global: 601 108th Ave NE, Suite 1400, Bellevue, WA 98004 	; Office Address
+
+:*:paddrf::1378 Fenmore Ave, Sanger, CA 93657							; My Address
+
+:*:usrf::bacona													; workstation username
+:*:fmpwf::80ab**HD{!}9KB{!}2{Enter}									; fm password
+:*:epwf::HDBacon{!}9801988{Enter}										; other password
+
+;:*:planeml::Edward Evatt, FM Global, edward.evatt@fmglobal.com{Enter}Terry Keatts, FM Global, terry.keatts@fmglobal.com ;Plan Review email additions
+;:*:plansig::Terry Keatts, P.E.{Enter}Sr. Engineering Specialist{Enter}FM Global – Seattle Office{Enter}ENGSanFranciscoPlanReviewSM@fmglobal.com{Enter}(925) 287-4336
+
+;--------------------------------------------------------------------------
+;     DSP Email Subject Endings for Quick Entry
+;--------------------------------------------------------------------------
+
+:*:cwpsub::/ Clearwater Paper / Lewiston, ID / 079125.31-11
+:*:pcasub::/ PCA / Wallula, WA / 078401.60-03
+:*:wrtsub::/ WestRock / Tacoma, WA / 078866.24-06
+
+
+;---------------------------------------------------------------------------
+;                       Time Stamp Code
+;---------------------------------------------------------------------------
+
+::ts::
+FormatTime Date, %A_Now%, MM/yyyy ; format month and year
+Send (AJB - %Date%)
+return
+
+;--------------------------------------------------------------------------
+;                    Quick Launch Websites (and Log In)
+;--------------------------------------------------------------------------
+
+^+g::Run "https://www.google.com/?safe=active&ssui=on" ; use ctrl+Shift+g
+return
+
+^+e::Run "https://engnet/Engnet/engnet/engnet.asp" ; use ctrl+Shift+e
+return
+
+^+r::Run "http://riskview/RiskView_1_0/Home/MainPage" ; use ctrl+Shift+r
+return
+
+;--------------------------------------------------------------------------
+;          Shift+Ctrl+C to Google Search for Highlighted Text
+;--------------------------------------------------------------------------
+
+^+c::
+{
+ Send, ^c
+ Sleep 50
+ Run, http://www.google.com/search?q=%clipboard%
+ Return
+}
+
+;--------------------------------------------------------------------------
+;          Permanently Set Caplocks Off, NumLock On and Scroll Lock Off
+;--------------------------------------------------------------------------
+
+;SetNumlockState, AlwaysOn
+;SetCapsLockState, AlwaysOff
+;SetScrollLockState, AlwaysOff
+;return
+
+;--------------------------------------------------------------------------
+;                Win+Delete to Empty Recycle Bin
+;--------------------------------------------------------------------------
+
+#Del::FileRecycleEmpty ; win + del
+return
+
+;---------------------------------------------------------------------------
+;                      Helpful Stuff
+;---------------------------------------------------------------------------
+GetMouse:
+CoordMode,Mouse,Screen
+MouseGetPos,mx,my
+CoordMode,Mouse,Relative
+Return
+
+PutMouse:
+CoordMode,Mouse,Screen
+MouseMove,%mx%,%my%,0
+CoordMode,Mouse,Relative
+Return
+
+:*:attext::	; Timestamp
+FormatTime Date, %A_Now%, MM/dd/yyyy	; format month, day and year
+InputBox, npht, Air Tank, Nameplate Head Thickness (after 0.),,300,125
+InputBox, npst, Air Tank, Nameplate Shell Thickness (after 0.),,300,125
+InputBox, aht, Air Tank, Actual Head Thickness (after 0.),,300,125
+InputBox, ast, Air Tank, Actual Shell Thickness (after 0.),,300,125
+Send Nameplate HD: 0.%npht% / SH: 0.%npst% // %Date% TJK HD: 0.%aht% / SH: 0.%ast%
+Return
+
+;---------------------------------------------------------------------------
+;                          General Abbreviations
+;---------------------------------------------------------------------------
+
+::ag::Approval Guide
+::FMDSf::FM Global Property Loss Prevention Data Sheet
+::sgsv::seismic gas shutoff valve
+::erpf::emergency response plan
+::ferpf::flood emergency response plan
+::wst::water supply tool
+::efc::eFC
+::wdt::water delivery time
+::wpivf::wall post-indicator valve
+::pivf::post-indicator valve
+::ulf::Underwriters Laboratories
+::uupf::uncartoned unexpanded plastic
+::uepf::uncartoned expanded plastic
+::cupf::cartoned unexpanded plastic
+::cepf::cartoned expanded plastic
+::sopf::standard operating procedure
+::eopf::emergency operating procedure
+::ooo::out of office
+::OSY::OS&Y
+::sq.ft.::sq. ft.
+::oemf::original equipment manufacturer
+::ndef::nondestructive examination (NDE)
+::ndtf::nondestructive testing (NDT)
+::ndetf::nondestructive examination/testing (NDE/NDT)
+::mehpf::minimum end head pressure
+::mawpf::maximum allowable working pressure
+::mipf::metal insulating panels
+:*:lwco::LWCO
+::LWCOf::low water cutout (LWCO)
+::lfpil::low flash point ignitable liquid
+::hfpil::high flash point ignitable liquid
+:*:lmgtfy::https://letmegooglethat.com/?q=
+::ITMf::inspection, testing, and maintenance (ITM)
+::itm::ITM
+::iras::in-rack automatic sprinklers
+::il::ignitable liquid
+::hrl::higher RelativeLikelihood
+::htf::heat transfer fluid
+::gp::generally protected
+:*:FMRTPS::FM Global Red Tag Permit System
+:*:FMHWPS::FM Global Hot Work Permit System
+::FMDSl::FM Global Data Sheet
+:*:FMA::FM Approved
+::FRPf::fiber-reinforced plastic panels
+::epof::emergency power off
+::blrbf::black liquor recovery boiler
+::efile::eFile
+::icsf::industrial control system
+::otf::operational technology network
+::itf::information technology network
+::mfaf::multi-factor authentication
+
+;---------------------------------------------------------------------------
+;---------------------------------------------------------------------------
+;           Common Risk Report Recommendations and Quick Parts
+;---------------------------------------------------------------------------
+;---------------------------------------------------------------------------
+
+;---------------- Weekly Valve Inspection ----------------------------------
+
+:*:wvit::Conduct weekly, documented, fire protection valve inspections.
+
+:*:wvirfm::Weekly visual inspections of all fire protection control valves will help ensure that the sprinkler system will be operational in the event of a fire. To assist you with the implementation of weekly valve inspections, FM Global offers the free, online, training course Inspecting Fire Protection Valves at https://fmglobaltraining.skillport.com. Records of these inspections should be maintained on file.
+
+:*:wvirafm::Weekly visual inspections of all fire protection control valves will help ensure that the sprinkler system will be operational in the event of a fire. To assist you with the implementation of weekly valve inspections, AFM offers the free, online, training course Inspecting Fire Protection Valves at https://affiliatedfmtraining.skillport.com. Records of these inspections should be maintained on file.
+
+
+;----------------- Weekly Fire Pump Inspection ----------------------------------
+
+:*:weeklypumpt::Conduct weekly documented fire protection pump tests via pressure drop.
+
+:*:weeklypumpr::Automatic starting should be tested by simulating a drop in system pressure at the fire pump control panel. This is done by releasing pressure in the line leading to the controller's pressure sensor.{Enter}At each test, checks should be made of the operation of the priming devices, the temperature and tightness of the glands, the readings of the suction and discharge gauges, and the condition of the suction supply. Check actual start and stop pressures against pressure switch settings every time the fire pump unit is started.'
+
+
+;---------------------- UTR Text -------------------------------------------
+
+;:*:uthi::Additional recommendations to reduce the exposures at this facility are contained within this report. These recommendations were not discussed in detail because of the focused nature of this visit. However, by implementing these recommendations the building will be less likely to incur a devastating loss that requires months to repair before normal operations can resume.
+:*:utrf::
+L1:="From the Boiler and Machinery (B&M) perspective, the primary hazard is failure of the electrical infrastructure. A robust asset integrity program coupled with thorough maintenance, and effective management of change, are essential to ensuring resilience, and reliable production.`n`n"
+L2:="Asset integrity can best be ensured through consistent, periodic inspection and testing. A robust asset integrity strategy coupled with thorough documentation, is necessary for trending, predicting, outage planning, and/or supporting an effective inspection, testing, and maintenance program.`n`n"
+L3:="Local site management and maintenance personnel have been working diligently to improve the maintenance programs and practices. Any gaps in maintenance routines are identified and reviewed for implementation. Site management and maintenance personnel should be commended for their ongoing efforts in this area.`n`n"
+L4:="In addition to the formal B&M recommendations made, additional comments have been provided that also represent good loss prevention advice and should be completed."
+Clipboard:= % L1 L2 L3 L4
+Send, ^v
+;---------------------- End of UTR Text -------------------------------------------
+
+;-------------------------- Red Tag Recommendation ----------------------------------
+
+:*:rtpst::Use of the FM Global Red Tag Permit System.
+
+:*:rtpsrfm::A formal, written policy on using of the FM Global Red Tag Permit System to monitor all fire protection system valve closures should be developed. Sprinkler impairments should be submitted to FM Global’s San Francisco office via phone (888 247 9062), fax (800 736 5564) or online at https://redetag.fmglobal.com. To assist you with the implementation of the FM Global Red Tag Permit System, FM Global offers free, online, training at https://fmglobaltraining.skillport.com.
+
+:*:rtpsrafm::A formal, written policy on using the FM Global Red Tag Permit System to monitor all fire protection system valve closures should be developed. Sprinkler impairments should be submitted to FM Global’s San Francisco office via phone (888 247 9062), fax (800 736 5564) or online at https://redetag.fmglobal.com. To assist you with the implementation of the FM Global Red Tag Permit System, AFM offers free, online, training at https://affiliatedfmtraining.skillport.com.
+
+
+;----------------------- Quarterly Waterflow Alarm Title ----------------------------
+
+:*:qwft::Conduct quarterly, documented, waterflow alarm testing.
+
+:*:qwfr::Waterflow alarms should be tested by opening the inspector’s test valves to flow water through the sprinkler system. For wet-pipe systems, use the inspector’s test connection at the extreme end of the system. For dry-pipe systems, use the hydraulic test connections at the dry-pipe valve. The waterflow alarm should activate within 90 seconds of the initial waterflow. Testing should be done only by well-trained personnel or by an inspection service to avoid unnecessary local disturbances and response by the public fire department. Following the test, the alarm monitoring company should be contacted to confirm that all test signals are received. Records of all testing should be retained for review.
+
+
+;------------------ Monthly Physical Valve Inspection ---------------------------------
+
+:*:mvit::Conduct monthly, documented, physical inspections of post-indicator valves.
+
+:*:mvir::Monthly physical testing of post-indicator valves and wall post-indicator valves verifies that valves are open and that indicating mechanisms are properly aligned with the unit’s window. Records of these inspections should be maintained on file.{Enter}Physically inspecting a valve includes:{Enter}Unlocking the valve.{Enter}Turning the hand-wheel or wrench in the fully open position direction.{Enter}Turning in the closed direction two or three turns to ensure operable condition.{Enter}Returning the valve to the full open position (feeling the spring in the shaft).{Enter}Backing off approximately one-quarter turn to relieve the strain.{Enter}Relocking the valve.
+
+;-------------------------- Low Voltage Recs -------------------------------------
+
+:*:rlvf::Improve inspection, testing and maintenance practices for circuit breakers.
+
+:*:cbr::Manually exercise, inspect, service, lubricate, and test all critical/main low-voltage circuit breakers every three to five years in accordance with the manufactures guidelines' and/or industry standards as applicable. If there are no manufacturer guidelines or industry standards, use Tables 1a and 1b of FM Global Property Loss Prevention Data Sheet 5-19, Switchgear and Circuit Breaker Testing, Section 2.1.4 Switchgear and Circuit Breakers Testing and Maintenance.{Enter}Testing should focus on:{Enter}First circuit breaker downstream of the utility transformer;{Enter}Circuit breakers rated >1000-A;{Enter}Circuit breakers considered critical to production.
+	
+	
+	;'----------------------------- Management of Change ---------------------------------------
+	
+:*:mchanget::Utilize FM Global Plan Review services.
+	
+:*:mchanger::Get FM Global engineering involved during the initial planning stages (the earlier the better) for any new process or process changes, construction, roofing or roof repairs, changes in fire protection, installation of gas-fired equipment or occupancy changes.  Ideally, design documents should be reviewed early in project planning and no later than the ‘Schematics’ design phase, before the project scope and budget are developed. Early involvement by FM Global will allow alternative solutions or recommendations to be considered before budget, scope or schedule changes are required.
+	
+	;---------------------------- Lock Sprinkler Valves ----------------------------------------
+	
+:*:lvt::Lock all fire sprinkler control valves in the wide-open position.
+	
+:*:lvr::All sprinkler control valves larger than 1.5 in. should be locked in the fully open position with unbreakable locks and chains. Keys for the locks should be distributed to the personnel directly responsible for fire protection. During the risk evaluation the following valves were found unlocked.
+	
+	;-------------------------- Install AS Sprinkler Protection --------------------------------
+	
+:*:installast::Install automatic sprinkler protection in
+	
+:*:installasr::Sprinkler protection should be installed in accordance with FM Global Property Loss Prevention Data Sheet 2-0, Installation Guidelines for Automatic Sprinklers and FM Global Property Loss Prevention Data Sheet 2-8, Earthquake Protection for Water-Based Fire Protection Systems.{Enter}Before completing any such upgrade, FM Global should be contacted to review details of the proposed plans and coordinate the design with the contractor.
+	
+	;------------------------------ Annual Infrared Inspection -----------------------------------
+	
+:*:irt::Perform infrared thermographic surveys on all electrical equipment annually.
+	
+:*:irr::Infrared surveys of electrical equipment should be done only by a qualified contractor or employee. If surveys are to be completed in-house a detailed list of all equipment to be surveyed should be created so that the scope of the survey is well defined. Problems found during the survey and corrective action taken should be well documented for historic and trending purposes.
+	
+	; ----------------------------------- Hot Work ----------------------------------------------
+	
+:*:hwpst::Implement the use of the FM Global Hot Work Permit System.
+	
+:*:hwpsrfm::The FM Global Hot Work Permit System should be used to monitor any cutting, welding, or other hot-work activity conducted outside areas specifically designated for hot-work operations. A formal, written policy statement should specify who has the authority to issue permits and should apply to hot work conducted by facilities personnel as well as outside contractors. Designated hot-work areas should also incorporate all appropriate precautions outlined in the Hot Work Permit System. To assist you with the implementation of the FM Global Hot Work Permit System, FM Global offers the free, online, training courses Managing Hot Work Using FM Global's Hot Work Permit System and Advancing Your Hot Work Skills at https://fmglobaltraining.skillport.com.
+	
+:*:hwpsrfm::The FM Global Hot Work Permit System should be used to monitor any cutting, welding, or other hot-work activity conducted outside areas specifically designated for hot-work operations. A formal, written policy statement should specify who has the authority to issue permits and should apply to hot work conducted by facilities personnel as well as outside contractors. Designated hot-work areas should also incorporate all appropriate precautions outlined in the Hot Work Permit System. To assist you with the implementation of the FM Global Hot Work Permit System, AFM offers the free, online, training courses Managing Hot Work Using FM Global's Hot Work Permit System and Advancing Your Hot Work Skills at https://affiliatedfmtraining.skillport.com.
+	
+	;---------------------- Emergency Response Plan ------------------------------------------
+	
+:*:erpt::Improve the existing emergency response plan (ERP)
+	
+:*:erpr::The ERP should include the following positions:{Enter}Person-in-Charge - This person directs actions of personnel, is responsible for keeping the ERP roster current and ensuring personnel are trained.{Enter}Notifier - The notifier is designated to call the fire department.{Enter}Sprinkler Valve Operator - In the event of a fire, this person goes to the valve controlling the fire area and ensures it is open.{Enter}Utilities Operator - This person assists the fire department as needed to shut down utilities and hazardous processes.{Enter}Fire Pump Operator - The fire pump operator is designated to respond to the fire pump and ensure it is operating.{Enter}{Enter}Members of the emergency response team should be provided with quarterly refresher training.
+
+Return
+
+;---------------------------------------------------------------------------
+;      Alt+Left Mouse Button to Click on Window Anywhere to Drag
+;---------------------------------------------------------------------------
+; This script modified from the original: http://www.autohotkey.com/docs/scripts/EasyWindowDrag.htm
+
+Alt & LButton::
+CoordMode, Mouse  ; Switch to screen/absolute coordinates.
+MouseGetPos, EWD_MouseStartX, EWD_MouseStartY, EWD_MouseWin
+WinGetPos, EWD_OriginalPosX, EWD_OriginalPosY,,, ahk_id %EWD_MouseWin%
+WinGet, EWD_WinState, MinMax, ahk_id %EWD_MouseWin% 
+if EWD_WinState = 0  ; Only if the window isn't maximized 
+	SetTimer, EWD_WatchMouse, 10 ; Track the mouse as the user drags it.
+return
+
+EWD_WatchMouse:
+GetKeyState, EWD_LButtonState, LButton, P
+if EWD_LButtonState = U  ; Button has been released, so drag is complete.
+{
+	SetTimer, EWD_WatchMouse, off
+	return
+}
+GetKeyState, EWD_EscapeState, Escape, P
+if EWD_EscapeState = D  ; Escape has been pressed, so drag is cancelled.
+{
+	SetTimer, EWD_WatchMouse, off
+	WinMove, ahk_id %EWD_MouseWin%,, %EWD_OriginalPosX%, %EWD_OriginalPosY%
+	return
+}
+; Otherwise, reposition the window to match the change in mouse coordinates
+; caused by the user having dragged the mouse:
+CoordMode, Mouse
+MouseGetPos, EWD_MouseX, EWD_MouseY
+WinGetPos, EWD_WinX, EWD_WinY,,, ahk_id %EWD_MouseWin%
+SetWinDelay, -1   ; Makes the below move faster/smoother.
+WinMove, ahk_id %EWD_MouseWin%,, EWD_WinX + EWD_MouseX - EWD_MouseStartX, EWD_WinY + EWD_MouseY - EWD_MouseStartY
+EWD_MouseStartX := EWD_MouseX  ; Update for the next timer-call to this subroutine.
+EWD_MouseStartY := EWD_MouseY
+return

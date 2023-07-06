@@ -1,0 +1,36 @@
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+;---------------------------------------------------------------------------
+;                  Personal Abbreviations 
+;---------------------------------------------------------------------------
+
+:*:eml::adam.bacon@fmglobal.com																		; Email
+
+:*:peml::adam.bacon80@icloud.com																	; Personal Email
+
+:*:emp#::59546																										; Employee Number
+
+:*:officeaddress::FM Global: 601 108th Ave NE, Suite 1400, Bellevue, WA 98004 		; Office Address
+
+:*:paddrf::1378 Fenmore Ave, Sanger, CA 93657													; My Address
+
+:*:fmusrf::bacona																									; workstation username
+:*:fmpwf::80ab**HD{!}9KB{!}2{Enter}																		; fm password
+:*:epwf::HDBacon{!}9801988{Enter}																		; other password
+:*:atrusr::overcast																								; automator username
+:*:atrpw::																												; automator pw
+	Send,  OvercastBTC{!}90{!}98820{!}9																	
+	Send,  {Enter}
+; automator login
+:*:atrl:																												
+	Send,  overcast
+	Send,  {Tab}
+	Send,  OvercastBTC{!}90{!}98820{!}9
+	Send,  {Enter}
+; automator login test
+:*:atrt:overcast {Tab} OvercastBTC{!}90{!}98820{!}9 ; {Enter}
+;:*:planeml::Edward Evatt, FM Global, edward.evatt@fmglobal.com{Enter}Terry Keatts, FM Global, terry.keatts@fmglobal.com ;Plan Review email additions
+;:*:plansig::Terry Keatts, P.E.{Enter}Sr. Engineering Specialist{Enter}FM Global – Seattle Office{Enter}ENGSanFranciscoPlanReviewSM@fmglobal.com{Enter}(925) 287-4336

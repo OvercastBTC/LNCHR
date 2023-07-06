@@ -1,0 +1,211 @@
+Window messages created by Winspector
+	WM_NCCREATE
+		lpCreateParams: 0x00000000
+		hInstance: 0x099a0000
+		hMenu: 0x00000009
+		hwndParent: 0x000c0868
+		x: 189
+		y: 161
+		cx: 87
+		cy: 23
+		style: WS_CHILD | WS_TABSTOP | BS_PUSHBUTTON | BS_TEXT
+		lpszName: &Dictionaries...
+		lpszClass: Button (ATOM)
+		dwExStyle: WS_EX_NOPARENTNOTIFY | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		Message Sent
+		Time: 22:37:44.0781
+
+	WM_NCCREATE	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 22:37:44.0781
+
+	WM_NCCALCSIZE
+		Indicate client area: False
+		Proposed area: 617, 657, 704, 680
+		Message Sent
+		Time: 22:37:44.0781
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 22:37:44.0781
+
+	WM_GETTEXTLENGTH
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETTEXTLENGTH	Return value
+		Text length: 16
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETTEXT
+		Text buffer pointer: 0x0019bcfc
+		Text buffer length: 17
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETTEXT	Return value
+		Text: &Dictionaries...
+		Text length: 16
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_CREATE
+		lpCreateParams: 0x00000000
+		hInstance: 0x099a0000
+		hMenu: 0x00000009
+		hwndParent: 0x000c0868
+		x: 189
+		y: 161
+		cx: 87
+		cy: 23
+		style: WS_CHILD | WS_TABSTOP | BS_PUSHBUTTON | BS_TEXT
+		lpszName: &Dictionaries...
+		lpszClass: Button (ATOM)
+		dwExStyle: WS_EX_NOPARENTNOTIFY | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_CREATE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 87
+		Height: 23
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_SIZE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_MOVE
+		xPos: 189
+		yPos: 161
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_MOVE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_SHOWWINDOW
+		Showing: true
+		Reason: ShowWindow called
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETTEXTLENGTH
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETTEXTLENGTH	Return value
+		Text length: 16
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETTEXT
+		Text buffer pointer: 0x0019bf4c
+		Text buffer length: 17
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETTEXT	Return value
+		Text: &Dictionaries...
+		Text length: 16
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_SHOWWINDOW	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_SETFONT
+		lfHeight: -11
+		lfWidth: 0
+		lfEscapement: 0
+		lfOrientation: 0
+		lfWeight: 400
+		lfItalic: 0
+		lfUnderline: 0
+		lfStrikeOut: 0
+		lfCharSet: 0
+		lfOutPrecision: 0
+		lfClipPrecision: 0
+		lfQuality: 0
+		lfPitchAndFamily: 0
+		lfFaceName: MS Sans Serif
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_SETFONT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:44.0798
+
+	WM_GETDLGCODE
+		message: null
+		Message Sent
+		Time: 22:37:44.0805
+
+	WM_GETDLGCODE	Return value
+		Return: DLGC_BUTTON | DLGC_UNDEFPUSHBUTTON
+		Message Sent
+		Time: 22:37:44.0805
+
+	WM_INITIALUPDATE
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 22:37:44.0860
+
+	WM_INITIALUPDATE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:44.0860
+
+	WM_UPDATEUISTATE
+		wParam: 0x00030001
+		lParam: 0x00000000
+		Message Sent
+		Time: 22:37:45.0067
+
+	WM_UPDATEUISTATE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:45.0067
+
+	WM_DESTROY
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 22:37:45.0145
+
+	WM_DESTROY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:45.0145
+
+	WM_NCDESTROY
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 22:37:45.0193
+
+	WM_NCDESTROY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 22:37:45.0193
+

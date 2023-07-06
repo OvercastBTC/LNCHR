@@ -1,0 +1,26 @@
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+^!i::Gosub, Horizon
+
+Horizon:
+WinGet,  a_process,  ProcessName,  A
+h_process:="hznhorizon.exe"
+SplashTextOn, 300, 300, Process,  %a_process%
+sleep,  1000
+WinMove,  Process, , 0,0 
+
+if (a_process=h_process){
+	WinActivate, ahk_exe hznHorizon.exe
+	SplashTextOn, 300, 300, Process,  %a_process%
+	sleep,  1000
+	WinMove,  Process, , 0,0 
+	MsgBox, Press OK to Exit
+	SplashTextOff
+} else{
+	SplashTextOff
+	MsgBox, 0, Not Horizon, %a_process% != %h_process%,  5000
+}
+return

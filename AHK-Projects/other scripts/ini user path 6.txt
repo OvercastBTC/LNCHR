@@ -1,0 +1,30 @@
+f1::
+info:=
+inifilepath =%A_MyDocuments%\initest\savedinfo.ini
+
+startover:
+IniRead, iniinfo, %inifilepath%, myinfo, info
+
+if FileExist(inifilepath)
+	{
+	run, %iniinfo%
+	Return
+	}
+else
+	{
+	msgbox, Please nav to hello world
+	FileSelectFile, SelectedFile, 3, , Open a file
+	;InputBox, SelectedFile, File path, Please nav to hello world.txt,
+		if (SelectedFile = "")
+			{
+			MsgBox, You got to pick something.
+			goto startover
+			}
+		else
+			{
+			IniWrite, %SelectedFile%,%inifilepath%, myinfo, info
+			msgbox, ready to run
+			}
+	}
+	
+	

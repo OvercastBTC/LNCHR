@@ -1,0 +1,308 @@
+<messages created-by="Winspector">
+	<message>
+		<name>WM_NCCREATE</name>
+		<sent />
+		<time>22:37:44.0781</time>
+		<parameters>
+			<parameter>lpCreateParams: 0x00000000</parameter>
+			<parameter>hInstance: 0x099a0000</parameter>
+			<parameter>hMenu: 0x00000009</parameter>
+			<parameter>hwndParent: 0x000c0868</parameter>
+			<parameter>x: 189</parameter>
+			<parameter>y: 161</parameter>
+			<parameter>cx: 87</parameter>
+			<parameter>cy: 23</parameter>
+			<parameter>style: WS_CHILD | WS_TABSTOP | BS_PUSHBUTTON | BS_TEXT</parameter>
+			<parameter>lpszName: &Dictionaries...</parameter>
+			<parameter>lpszClass: Button (ATOM)</parameter>
+			<parameter>dwExStyle: WS_EX_NOPARENTNOTIFY | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCREATE</name>
+		<sent />
+		<time>22:37:44.0781</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>22:37:44.0781</time>
+		<parameters>
+			<parameter>Indicate client area: False</parameter>
+			<parameter>Proposed area: 617, 657, 704, 680</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>22:37:44.0781</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_GETTEXTLENGTH</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_GETTEXTLENGTH</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Text length: 16</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_GETTEXT</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Text buffer pointer: 0x0019bcfc</parameter>
+			<parameter>Text buffer length: 17</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_GETTEXT</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Text: &Dictionaries...</parameter>
+			<parameter>Text length: 16</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CREATE</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>lpCreateParams: 0x00000000</parameter>
+			<parameter>hInstance: 0x099a0000</parameter>
+			<parameter>hMenu: 0x00000009</parameter>
+			<parameter>hwndParent: 0x000c0868</parameter>
+			<parameter>x: 189</parameter>
+			<parameter>y: 161</parameter>
+			<parameter>cx: 87</parameter>
+			<parameter>cy: 23</parameter>
+			<parameter>style: WS_CHILD | WS_TABSTOP | BS_PUSHBUTTON | BS_TEXT</parameter>
+			<parameter>lpszName: &Dictionaries...</parameter>
+			<parameter>lpszClass: Button (ATOM)</parameter>
+			<parameter>dwExStyle: WS_EX_NOPARENTNOTIFY | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CREATE</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SIZE</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Style: SIZE_RESTORED</parameter>
+			<parameter>Width: 87</parameter>
+			<parameter>Height: 23</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SIZE</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOVE</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>xPos: 189</parameter>
+			<parameter>yPos: 161</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOVE</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SHOWWINDOW</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Showing: true</parameter>
+			<parameter>Reason: ShowWindow called</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_GETTEXTLENGTH</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_GETTEXTLENGTH</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Text length: 16</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_GETTEXT</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Text buffer pointer: 0x0019bf4c</parameter>
+			<parameter>Text buffer length: 17</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_GETTEXT</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Text: &Dictionaries...</parameter>
+			<parameter>Text length: 16</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SHOWWINDOW</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETFONT</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>lfHeight: -11</parameter>
+			<parameter>lfWidth: 0</parameter>
+			<parameter>lfEscapement: 0</parameter>
+			<parameter>lfOrientation: 0</parameter>
+			<parameter>lfWeight: 400</parameter>
+			<parameter>lfItalic: 0</parameter>
+			<parameter>lfUnderline: 0</parameter>
+			<parameter>lfStrikeOut: 0</parameter>
+			<parameter>lfCharSet: 0</parameter>
+			<parameter>lfOutPrecision: 0</parameter>
+			<parameter>lfClipPrecision: 0</parameter>
+			<parameter>lfQuality: 0</parameter>
+			<parameter>lfPitchAndFamily: 0</parameter>
+			<parameter>lfFaceName: MS Sans Serif</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETFONT</name>
+		<sent />
+		<time>22:37:44.0798</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_GETDLGCODE</name>
+		<sent />
+		<time>22:37:44.0805</time>
+		<parameters>
+			<parameter>message: null</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_GETDLGCODE</name>
+		<sent />
+		<time>22:37:44.0805</time>
+		<parameters>
+			<parameter>Return: DLGC_BUTTON | DLGC_UNDEFPUSHBUTTON</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_INITIALUPDATE</name>
+		<sent />
+		<time>22:37:44.0860</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_INITIALUPDATE</name>
+		<sent />
+		<time>22:37:44.0860</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_UPDATEUISTATE</name>
+		<sent />
+		<time>22:37:45.0067</time>
+		<parameters>
+			<parameter>wParam: 0x00030001</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_UPDATEUISTATE</name>
+		<sent />
+		<time>22:37:45.0067</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_DESTROY</name>
+		<sent />
+		<time>22:37:45.0145</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_DESTROY</name>
+		<sent />
+		<time>22:37:45.0145</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCDESTROY</name>
+		<sent />
+		<time>22:37:45.0193</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCDESTROY</name>
+		<sent />
+		<time>22:37:45.0193</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+</messages>
