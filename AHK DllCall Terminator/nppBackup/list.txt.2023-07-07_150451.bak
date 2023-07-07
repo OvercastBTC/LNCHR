@@ -137,8 +137,8 @@ typedef unsigned char UINT8;
 typedef unsigned short UINT16;
 typedef unsigned int UINT32;
 ; -----------------------------------------------
-; 下面这行在微软官网写的是 (The following line is written on Microsoft's official website:) typedef usigned __int 64 UINT64;
-; 经过翻看(Looked through) BaseTsd.h 文件内容，确定这是笔误，因此直接进行了修正。(The content of the file, it was determined that this was a clerical error, so it was directly corrected.)
+; 下面这行在微软官网写的是 typedef usigned __int 64 UINT64;
+; 经过翻看 BaseTsd.h 文件内容，确定这是笔误，因此直接进行了修正。
 typedef unsigned __int64 UINT64;
 ; -----------------------------------------------
 typedef unsigned long ULONG;
