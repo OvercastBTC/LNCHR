@@ -84,7 +84,7 @@ c:= "C:\"
 ;arlbibek := documents . "arlbibek\"
 arlbibek := documents . "bacona\"
 screenshot:= userdir . "Pictures\Screenshots\"
-defaultfolder:="C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects"
+defaultfolder:="C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\"
 
 ; script name and startup path
 splitPath, A_ScriptFullPath, , , script_ext, script_name
@@ -255,6 +255,7 @@ sheetWr(text){
     }
 }
 */
+
 runAtStartup() {
     if (FileExist(startup_shortcut)) {
         FileDelete, % startup_shortcut
@@ -319,7 +320,7 @@ runScriptlet(){
 }
 runAHKScript(){
 	; run the main AHK Script.ahk
-	Run, AHK Script.ahk, % defaultfolder
+	Run, AHK Script.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects
 }
 runWinspector(){
 	; run WinSpectorU.exe
