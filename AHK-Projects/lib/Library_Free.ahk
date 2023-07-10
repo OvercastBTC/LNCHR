@@ -1,17 +1,17 @@
-;=======================================================================================================================
+; ===============================================================================================================
 ; .............: Begin Section
 ; Section .....: Auto-Execution
-;=======================================================================================================================
+; ===============================================================================================================
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 ; SetWinDelay 0 ; (AJB - 06/2023) - comment out for testing
 ; SetControlDelay 0 ; (AJB - 06/2023) - comment out for testing
 ; SetBatchLines, -1 ; Determines how fast a script will run (affects CPU utilization). ; The value -1 = max speed possible. ; (AJB - 05/2023)comment out for testing
 ; SetWinDelay, -1 ; (AJB - 05/2023) - comment out for testing 
 ; SetControlDelay, -1 ; (AJB - 05/2023) - comment out for testing 
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
+#NoEnv  ; Recommended for performance and compatibility
 #Persistent ; Keeps script permanently running
-#SingleInstance,Force
-#MaxMem 4095 ; Allows the maximum amount of MB per variable.
+#SingleInstance, Force
+;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
 ;#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -20,12 +20,12 @@ DetectHiddenText,On
 DetectHiddenWindows, On
 #Requires AutoHotkey 1.1+
 ;#NoTrayIcon
-; ********************************************** ... First Return ... **************************************************
+; ******************************************* ... First Return ... ***********************************************
 return
-; ----------------------------------------------------------------------------------------------------------------------
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; ----------------------------------------------------------------------------------------------------------------
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ; 									... End of Auto-Execution ...
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Library_Load(filename)
 {
