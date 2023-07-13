@@ -1,16 +1,16 @@
-﻿;=======================================================================================================================
+﻿; =================================================================================================
 ; .............: Begin Section
 ; Section .....: Auto-Execution
-;=======================================================================================================================
-; #Warn  ; Enable warnings to assist with detecting common errors.
+; =================================================================================================
+#Warn All, OutputDebug
 ; SetWinDelay 0 ; (06/2023) - comment out for testing
 ; SetControlDelay 0 ; (06/2023) - comment out for testing
 ; SetBatchLines, -1 ; scrip run speed, The value -1 = max speed possible. ; (05/2023)comment out for testing
 ; https://www.autohotkey.com/docs/v1/lib/SetBatchLines.htm
 ; SetWinDelay, -1 ; (05/2023) - comment out for testing
 ; SetControlDelay, -1 ; (05/2023) - comment out for testing
-;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
-;#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
+; #MaxMem 4095 ; Allows the maximum amount of MB per variable.
+; #MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Persistent ; Keeps script permanently running
 #SingleInstance,Force
@@ -20,13 +20,16 @@ SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of
 DetectHiddenText, On
 DetectHiddenWindows, On
 #Requires AutoHotkey 1.1+
-
-; ----------------------------------------------------------------------------------------------------------------------
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+#Include, gdip.ahk
+Library_Load(winuser.dll)
+Library_Load(processthreadsapi.dllh)
+Library_Load(memoryapi.dll)
+; --------------------------------------------------------------------------------------------------
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ; 									... End of Auto-Execution ...
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-; ----------------------------------------------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------------------------
 ; Name .........: Horizon Button == A Horizon function library
 ; Description ..: This library is a collection of functions and buttons that deal with missing interfaces with Horizon.
 ; AHK Version ..: AHK 1.1+ x32/64 Unicode
@@ -46,506 +49,69 @@ DetectHiddenWindows, On
 ; . Continued ..: after running the HznButton() function.
 ; ..............: 06/05/2023 - v1.0 - removed CloseHandle and GlobalFree => made it worse.
 ; . Continued ..: Simplified the button clicking process using the ?: ternary opeartor
-; ----------------------------------------------------------------------------------------------------------------------
+; ..............: Various Dates - v2.0 - Embedded the ICON, cleaned up some code, made the b()
+; --------------------------------------------------------------------------------------------------
 
-
-; ----------------------------------------------------------------------------------------------------------------------
+;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
+; --------------------------------------------------------------------------------------------------
 ; Sub-Section .....: Script Name, Startup Path, and icon
-; ----------------------------------------------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------------------------
 
-;#NoTrayIcon                                                ;    Hide the default Tray icon
 
-/*
-IconDataHex =
-( Join
-[color=#808080]000001000100101010000100040028010000160000002800000010000000200000000100040000000000C00000
-0000000000000000000000000000000000C6080800CE101000CE181800D6212100D6292900E13F3F00E7525200
-EF5A5A00EF636300F76B6B00F7737300FF7B7B00FFC6C600FFCEC600FFDEDE00FFFFFF00CCCCCCCCCCCCCCCCC0
-0000000000000CC11111111111111CC22222CFFE22222CC33333CFFE33333CC44444CFFE44444CC55555CFFE55
-555CC55555CFFE55555CC55555CFFE55555CC66666CFFE66666CC77777777777777CC88888CFFC88888CC99999
-CFFC99999CCAAAAAAAAAAAAAACCBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCC00000000000000000000000000000000
-000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-000000[/color]
-)
-*/
-IconDataHex := "
-( LTrim Join
-41 41 41 42 41 41 45 41  49 43 41 41 41 41 45 41
-49 41 43 6f 45 41 41 41  46 67 41 41 41 43 67 41
-41 41 41 67 41 41 41 41  51 41 41 41 41 41 45 41
-49 41 41 41 41 41 41 41  67 42 41 41 41 47 41 62
-41 41 42 67 47 77 41 41  41 41 41 41 41 41 41 41
-41 41 44 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 66 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 33  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 66 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 39 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 66 2f 2f 2f 2f 33  2f 2f 2f 2f 39 2f 2f 2f
-2f 2f 66 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 30 52 45
-52 50 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  52 45 52 45 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 2f 2f 2f 2f 2f 2f  2f 2f 2f 2f 2f 2f 2f 2f
-2f 2f 39 45 52 45 54 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  2b 31 78 43 2f 2f 74 63
-51 76 2f 37 58 45 4c 2f  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 41 41 41 41 41  41 41 41 41 41 41 41 41
-41 41 41 3d
-)"
+; --------------------------------------------------------------------------------------------------
+; Sub-Section .....: Create Icon File
+; Reference .......: https://www.autohotkey.com/boards/viewtopic.php?f=76&t=101960&p=527471#p527471
+; Credit ..........: Hellbent
+; --------------------------------------------------------------------------------------------------
 
-/*
-IconDataHex := "
-( LTrim Join
-AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAGAbAABgGwAAAAAAAAAAAAD7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv//
-//////////////////////////////////////////////f/////RERE//tcQv/7XEL/////////////////////////////////
-///////////////3/////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////////
-//////f/////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC////////////////////////////////90RERP/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC////
-/////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////
-RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC////////////////////////////////////////////////////////////////////////////////
-////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////
-//////////////////////////////////f////3////9/////f///////////////////////////////9ERET/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv//////////
-//////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv//////////////
-//9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////////////////////RERE//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//////////////////////////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC////////////////////////////////////////////RERE//tcQv/7XEL/+1xC//tcQv//////////////
-//////////////////////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAA=
-)"
-*/
+;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
+; Step ............: Load the GDI+ lib
+Gdip_Startup()
+;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
 
-VarSetCapacity( IconData,( nSize:=StrLen(IconDataHex)//2) )
-Loop %nSize% ; MCode by Laszlo Hars: http://www.autohotkey.com/forum/viewtopic.php?t=21172
-  NumPut( "0x" . SubStr(IconDataHex,2*A_Index-1,2), IconData, A_Index-1, "Char" )
-IconDataHex := ""                                          ; Hex contents needed no more
+;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
+; Step ............: The Base 64 string for the icon image
+MyIcon_B64 := "AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAGAbAABgGwAAAAAAAAAAAAD7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////////////////////////////////////f/////RERE//tcQv/7XEL////////////////////////////////////////////////3/////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL///////////////////////////f/////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC////////////////////////////////90RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC////////////////////////////////////////////////////////////////////////////////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL///////////////////////////////////////////f////3////9/////f///////////////////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//////////////////////////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC////////////////////////////////////////////RERE//tcQv/7XEL/+1xC//tcQv////////////////////////////////////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
+; Step ............: create a pBitmap from the Base 64 string.
+MyIcon_pBitmap := B64ToPBitmap( MyIcon_B64 )
+; Step ............: create a hBitmap from the icon pBitmap
+MyIcon_hIcon := Gdip_CreateHICONFromBitmap( MyIcon_pBitmap )
+; Step ............: Dispose of the icon pBitmap to free memory.
+Gdip_DisposeImage( MyIcon_pBitmap )
+; Step ............: Set the icon
+Menu, Tray, Icon, HICON:%MyIcon_hIcon%
+;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
 
-hICon := DllCall( "CreateIconFromResourceEx", UInt,&IconData+22, UInt,NumGet(IconData,14)
-       , Int,1, UInt,0x30000, Int,16, Int,16, UInt,0 )
-
-; Thanks Chris : http://www.autohotkey.com/forum/viewtopic.php?p=69461#69461
-Gui +LastFound               ; Set our GUI as LastFound window ( affects next two lines )
-SendMessage, ( WM_SETICON:=0x80 ), 0, hIcon                ; Set the Titlebar Icon
-SendMessage, ( WM_SETICON:=0x80 ), 1, hIcon                ; Set the Alt-Tab icon
-
-; Creating NOTIFYICONDATA : www.msdn.microsoft.com/en-us/library/aa930660.aspx
-; Thanks Lexikos : www.autohotkey.com/forum/viewtopic.php?p=162175#162175
-PID := DllCall("GetCurrentProcessId"), VarSetCapacity( NID,444,0 ), NumPut( 444,NID )
-DetectHiddenWindows, On
-NumPut( WinExist( A_ScriptFullPath " ahk_class AutoHotkey ahk_pid " PID),NID,4 )
-DetectHiddenWindows, Off
-NumPut( 1028,NID,8 ), NumPut( 2,NID,12 ), NumPut( hIcon,NID,20 )
-
-Menu, Tray, Icon                                           ; Show the default Tray icon ..
-DllCall( "shell32\Shell_NotifyIcon", UInt,0x1, UInt,&NID ) ; .. and immediately modify it
-
-; Gui, Show, w640 h480
-Return
-
-GuiClose:
- ExitApp
 ;ICON := "HznHorizon.ico"
 splitPath, A_ScriptFullPath, , , A_Script_Ext, A_Script_Name
 A_Script_Full_Name := A_Script_Name "." A_Script_Ext
 Startup_Shortcut := A_Startup "\" A_Script_Name ".lnk"
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
 ; Sub-Section .....: Create Tray Menu
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
 
-Menu, Tray, Icon, % ICON ; this changes the icon into a little Horizon thing.
-Menu, Tray, NoStandard
-addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
-addTrayMenuOption()
-addTrayMenuOption("Run at startup", "runAtStartup")
-Menu, Tray, % fileExist(Startup_Shortcut) ? "check" : "unCheck", Run at startup ; update the tray menu status on startup
-addTrayMenuOption()
-Menu, Tray, Standard
+CreateTrayMenu()
 
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
 ; Sub-Section .....: Create Tray Menu Functions
 ; Description .....: addTrayMenuOption() ; madeBy() ; runAtStartup() ; trayNotify()
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
+CreateTrayMenu()
+{
+    ;Menu, Tray, Icon, % hICON ; this changes the icon into a little Horizon thing.
+    Menu, Tray, NoStandard
+    addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
+    addTrayMenuOption()
+    addTrayMenuOption("Run at startup", "runAtStartup")
+    Menu, Tray, % fileExist(Startup_Shortcut) ? "check"
+                : "unCheck", Run at startup ; update the tray menu status on startup
+    addTrayMenuOption()
+    Menu, Tray, Standard
+}
 
-addTrayMenuOption(label = "", command = "") {
+addTrayMenuOption(label := "", command := "")
+{
 	if (label = "" && command = "") {
 		Menu, Tray, Add
 	} else {
@@ -553,13 +119,15 @@ addTrayMenuOption(label = "", command = "") {
 	}
 }
 
-madeBy(){
+madeBy()
+{
 	; visit authors website
 	;Run, https://bibeka.com.np/
 	MsgBox This was made by nerds, for nerds. Regular people are ok too, lol.`nModified by Adam Bacon`nCredit:Made with ❤️ by Bibek Aryal
 }
 
-runAtStartup() {
+runAtStartup()
+{
 	if (FileExist(startup_shortcut)) {
 		FileDelete, % startup_shortcut
 		Menu, Tray, % "unCheck", Run at startup ; update the tray menu status on change
@@ -572,26 +140,25 @@ runAtStartup() {
 
 }
 
-trayNotify(title, message, seconds = "", options = 0) {
+trayNotify(title, message, seconds = "", options = 0)
+{
 	TrayTip, %title%, %message%, %seconds%, %options%
 }
 
-; ********************************************** ... First Return ... **************************************************
+; ************************************ ... First Return ... ****************************************
 return
-; ********************************************** ... First Return ... **************************************************
-
 ; ...............: End Sub-Section
-;=======================================================================================================================
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; ==================================================================================================
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 #IfWinActive ahk_exe hznhorizon.exe
 
-; ----------------------------------------------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------------------------
 ; Function .....: Horizon {Enter} ==> Select Option
 ; Description ..: Hotkeys (shortcuts) sending {Enter} in leu of "Double Click"
 ; Author .......: Overcast (Adam Bacon)
 ; TODO .........: Still doesn't work. Might have to not use the WinActive() function
-; ----------------------------------------------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------------------------
 #If WinActive("ahk_exe hznhorizonmgr.exe") or WinActive("ahk_exe hznhorizon.exe")
 {
 	ControlGetFocus, fCtl, A
@@ -601,91 +168,82 @@ return
 return
 #If
 
-; ----------------------------------------------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------------------------
 ; Function .....: Horizon Buttons/Hotkeys
-; Description ..: Hotkeys (shortcuts) for normal Windows hotkeys: CTRL+I (italics) ; CTRL+B (bold) ; CTRL+A (select all)
+; Description ..: Hotkeys (shortcuts) for normal Windows hotkeys: 
+; . Continued ..: CTRL+I (italics)
+; . Continued ..: CTRL+B (bold)
 ; . Continued ..: CTRL+U (underline) - Where Applicable - else same as CTRL+B (I dunno why).
+; . Continued ..: CTRL+A (select all)
 ; . Continued ..: In ideal land, this will be a single function call. Right now this works.
 ; Author .......: Overcast (Adam Bacon)
 ; TODO .........: Reduce to a single HznButton function call
 ; ChangeLog ....: see above
 ; Special Notes : The below indexes, or n from the HznButton(hWndToolbar, n) function, depend on what screen you are on
 ; . Continued ..: 1=Bold, 2=Italics, (everything after this changes depending on what screen you are on)
-; . Continued ..: =====> where underline is an option is index 9 or 10, else it reverts to CTRL+B or CTRL+I
-; ......................................................................................................................
+; . Continued ..: where underline is an option is index 9 or 10, else it reverts to CTRL+B or CTRL+I
+; ..................................................................................................
 ; . Continued ..: >>>>>>>>> THIS NEEDS TO BE FULLY VALIDATED FOR EACH SCREEN <<<<<<<<<<
-; . Continued ..: (AJB - 06/2023) as of this timestamp, none of this below is fully validated and changes
+; Notes: (AJB - 06/2023) as of this timestamp, none of this below is fully validated and changes
 ; . Continued ..: 10=Cut, 11=Copy, 12=Paste, 14=Undo, 15=Redo, 17=Bulleted List, 18=Spell Check
 ; . Continued ..: ===== Human Element Section =====
 ; . Continued ..: 20=Super/Sub Script, 21=Find/Replace
 ; . Continued ..: Mystery or Spacers: 3-9, 13, 16, 19=?Bold?
 ; . Continued ..: ===== Equipment Section =====
 ; . Continued ..: Nothing?=1,2; Same: 21,20,18,17,
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
 
-; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Horizon Button Function <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-; ----------------------------------------------------------------------------------------------------------------------
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Horizon Button Function <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; -------------------------------------------------------------------------------------------------
 ; Function .....: Horizon Hotkeys - Italic, Bold, and Underline (***where applicable***)
 ; ChangeLog ....: 06/05/2023 - CTRL+I and CTRL+B validated for all screens
-; . Continued ..: CTRL+U only valid for screens which have it listed as a button, else it reverts to CTRL+B or CTRL+I
-; ----------------------------------------------------------------------------------------------------------------------
+; . Continued ..: CTRL+U only valid for screens which have it listed as a button
+; . Continued ..: else it reverts to CTRL+B or CTRL+I
+; -------------------------------------------------------------------------------------------------
 #If WinActive("ahk_exe hznhorizon.exe")
 
-^i::
-^b::
-^u::
-SendLevel 1
-ControlGetFocus, fCtl, A
-bID := SubStr(fCtl, 0, 1)
-ControlGet, hToolbar, hWnd,,% "msvb_lib_toolbar" bID, A
-hIDx := A_ThisHotkey = "^i" ? 2 ; ..............: italic = 2
-      : A_ThisHotkey = "^b" ? 1 ; ..............: bold = 1
-      ;: A_ThisHotkey = "^u" ? 9 : 10 ; .........: underline = 9 and 10 (if available, else italic or bold)
-      : A_ThisHotkey = "^u" ? 9 ; .........: underline = 9 and 10 (if available, else italic or bold)
-      : A_ThisHotkey = "^z" ? 17 ; ........: undo = 17 and 18
-	  : A_ThisHotkey = "^y" ? 20 : 20 ; ...: redo
-HznButton(hToolbar,hIDx)
-return
+^i::button()
+^b::button()
+^u::button()
 
-
-; ----------------------------------------------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------------------------
 ; Function .....: Horizon Hotkeys - Cut, Copy, Paste, Undo, Redo
 ; ChangeLog ....: 06/05/2023 - Validated for the Human Element Screen only. Commented out due to irratic behavior.
-; ----------------------------------------------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------------------------
+
 /*
-^x::
-^c::
-^v::
-^z::
-^y::
+^x::b()
+^c::b()
+^v::b()
+^z::b()
+^y::b()
 ControlGetFocus, focus, A
 bID:= SubStr(focus, 0, 1)
-hIDx:= A_ThisHotkey = "^x" ? 11 ; ........: cut = 11 and 12
-	: A_ThisHotkey = "^c" ? 13 ; ........: copy
-	: A_ThisHotkey = "^v" ? 16 ; ........: paste
-	: A_ThisHotkey = "^z" ? 17 ; ........: undo = 17 and 18
-	: A_ThisHotkey = "^y" ? 20 : 20 ; ...: redo
-
+hIDx := A_ThisHotkey = "^x" ? 11 ; ........: cut = 11 and 12
+     :  A_ThisHotkey = "^c" ? 13 ; ........: copy
+     :  A_ThisHotkey = "^v" ? 16 ; ........: paste
+     :  A_ThisHotkey = "^z" ? 17 ; ........: undo = 17 and 18
+     :  A_ThisHotkey = "^y" ? 20 : 20 ; ...: redo
 ControlGet, hToolbar, hWnd,,% "msvb_lib_toolbar" bID, A
 HznButton(hToolbar,hIDx)
 return
 */
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
 ; Function .....: Horizon Hotkey - Select-All (Ctrl-A)
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
 
 ^a::HznSelectAll()
 
 HznSelectAll()
 {
-	Static Msg := EM_SETSEL := 177, wParam := 0, lParam := -1
+    Static Msg := EM_SETSEL := 177, wParam := 0, lParam := -1
 	ControlGetFocus, fCtl, A
-  ControlGet, hCtl, hWnd,,% fCtl, A
-  DllCall("SendMessage", "Ptr", hCtl, "UInt", Msg, "UInt", wParam, "UIntP", lParam)
+    ControlGet, hCtl, hWnd,,% fCtl, A
+    DllCall("SendMessage", "Ptr", hCtl, "UInt", Msg, "UInt", wParam, "UIntP", lParam)
 }
 Return
 
-; ......................................................................................................................
+; .................................................................................................
 ;if (ErrorLevel != 1) {
 ;ToolTip % "SendMessge Error: " ErrorLevel "`n" hCtl "`n" Ctl
 ;}
@@ -709,18 +267,43 @@ Return
 ;DllCall("SendMessage","Ptr",Ctl,"UInt",0xB1, "Ptr", 0, "Ptr", -1)
 
 return
-
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
+; Function .....: button()
+; Description ..: Call the Horizon msvb_lib_toolbar buttons
+; Definition ...: A_ThisHotkey => AHK's built in variable
+; Author .......: Overcast (Adam Bacon)
+; -------------------------------------------------------------------------------------------------
+button()
+{
+    SendLevel 1
+    ControlGetFocus, fCtl, A
+    bID := SubStr(fCtl, 0, 1)
+    ControlGet, hToolbar, hWnd,,% "msvb_lib_toolbar" bID, A
+    hIDx:= A_ThisHotkey = "^i" ? 2 ; .........: italic = 2
+        :  A_ThisHotkey = "^b" ? 1 ; .........: bold = 1
+        :  A_ThisHotkey = "^u" ? 9 ; .........: underline = 9 and 10 (if exist, else italic or bold)
+        :  A_ThisHotkey = "^x" ? 11 ; ........: cut = 11 and 12
+        :  A_ThisHotkey = "^c" ? 13 ; ........: copy
+        :  A_ThisHotkey = "^v" ? 16 ; ........: paste
+        :  A_ThisHotkey = "^z" ? 17 ; ........: undo = 17 and 18
+        :  A_ThisHotkey = "^y" ? 20 : 20 ; ...: redo
+    HznButton(hToolbar,hIDx)
+}    
+return
+; -------------------------------------------------------------------------------------------------
 ; Function .....: HznButton()
 ; Description ..: Find and Control-Click the Horizon msvb_lib_toolbar buttons
 ; Definition ...: hWndToolbar = the toolbar window's handle
 ; Definition ...: n = the index for the specified button
 ; Author .......: Descolada, Overcast (Adam Bacon)
-; ----------------------------------------------------------------------------------------------------------------------
+; -------------------------------------------------------------------------------------------------
 
 HznButton(hToolbar, n)
 {
 	static TB_BUTTONCOUNT := 0x418, TB_GETBUTTON := 0x417, TB_GETITEMRECT := 0x41D ; set the static variables
+    ;Library_Load(winuser.h)
+    ;Library_Load(processthreadsapi.h)
+    ;Library_Load(memoryapi.h)
 	SendMessage, TB_BUTTONCOUNT, 0, 0,,% "ahk_id " hToolbar ; count and load all the msvb_lib_toolbar buttons into memory
 	;DllCall("SendMessage", "Ptr", hToolbar, "Ptr", TB_BUTTONCOUNT, "Ptr", 0, "Ptr", 0)
 	buttonCount := ErrorLevel
@@ -735,8 +318,8 @@ HznButton(hToolbar, n)
 		VarSetCapacity(RECT, 16, 0)
 		DllCall("ReadProcessMemory", "Ptr", hProcess, "Ptr", remoteMemory, "Ptr", &RECT, "UPtr", 16, "UIntP", bytesRead, "Int")
 		DllCall("VirtualFreeEx", "Ptr", hProcess, "Ptr", remoteMemory, "UPtr", 0, "UInt", 0x8000)
-    ;result := DllCall( "VirtualFreeEx" 
-    DllCall( "VirtualFreeEx" 
+        ;result := DllCall( "VirtualFreeEx" 
+        DllCall( "VirtualFreeEx" 
             ;, "UInt", hpRemote 
             , "UInt", hProcess 
             ;, "UInt", remote_buffer 
@@ -776,12 +359,11 @@ If(vCtl = "TX11"){
 */
 return
 
-; ----------------------------------------------------------------------------------------------------------------------
+; ------------------------------------------------------------------------------------------------
 ; Function .....: Horizon Button - Italics (Ctrl-I)
-; ----------------------------------------------------------------------------------------------------------------------
-
-
+; ------------------------------------------------------------------------------------------------
 ; ..........: Leave until conversion to AHK v2 ==> backup for conflict with SetBatchLines, SetWinDelay, SetControlDelay
+/*
 ci:
 cb:
 cu:
@@ -793,7 +375,8 @@ hIDx:= A_ThisLabel = "ci" ? 2 ; ..............: italic = 2
 	   : A_ThisLabel = "cu" ? 9 : 10 ; .........: underline = 9 and 10 (if available, else italic or bold)
 HznButton(hToolbar,hIDx)
 return
-; ......................................................................................................................
+*/
+; ................................................................................................
 
 
 #6::
@@ -2615,105 +2198,22 @@ Specify_Area:
 run FindText_get_coordinates.ahk
 return
 */
-Base64_Decode(ByRef data, ByRef out, mode:="A")
-{
-	if !InStr("AW", mode := Format("{:U}", mode), true)
-		mode := "A"
 
-	; CRYPT_STRING_BASE64 := 0x00000001
-	if DllCall("Crypt32\CryptStringToBinary" . mode, "Ptr", &data, "UInt", 0
-	    , "UInt", 0x00000001, "Ptr", 0, "UIntP", size, "Ptr", 0, "Ptr", 0)
-	{
-		VarSetCapacity(out, size, 0)
-		if DllCall("Crypt32\CryptStringToBinary" . mode, "Ptr", &data, "UInt", 0
-		    , "UInt", 0x00000001, "Ptr", &out, "UIntP", size, "Ptr", 0, "Ptr", 0)
-			return size
-	}
+;Convert a Base 64 string into a pBitmap
+B64ToPBitmap( Input ){
+	local ptr , uptr , pBitmap , pStream , hData , pData , Dec , DecLen , B64
+	VarSetCapacity( B64 , strlen( Input ) << !!A_IsUnicode )
+	B64 := Input
+	If !DllCall("Crypt32.dll\CryptStringToBinary" ( ( A_IsUnicode ) ? ( "W" ) : ( "A" ) ), Ptr := A_PtrSize ? "Ptr" : "UInt" , &B64, "UInt", 0, "UInt", 0x01, Ptr, 0, "UIntP", DecLen, Ptr, 0, Ptr, 0)
+		Return False
+	VarSetCapacity( Dec , DecLen , 0 )
+	If !DllCall("Crypt32.dll\CryptStringToBinary" (A_IsUnicode ? "W" : "A"), Ptr, &B64, "UInt", 0, "UInt", 0x01, Ptr, &Dec, "UIntP", DecLen, Ptr, 0, Ptr, 0)
+		Return False
+	DllCall("Kernel32.dll\RtlMoveMemory", Ptr, pData := DllCall("Kernel32.dll\GlobalLock", Ptr, hData := DllCall( "Kernel32.dll\GlobalAlloc", "UInt", 2,  UPtr := A_PtrSize ? "UPtr" : "UInt" , DecLen, UPtr), UPtr) , Ptr, &Dec, UPtr, DecLen)
+	DllCall("Kernel32.dll\GlobalUnlock", Ptr, hData)
+	DllCall("Ole32.dll\CreateStreamOnHGlobal", Ptr, hData, "Int", True, Ptr "P", pStream)
+	DllCall("Gdiplus.dll\GdipCreateBitmapFromStream",  Ptr, pStream, Ptr "P", pBitmap)
+	return pBitmap
 }
 
-; ----------------------------------------------------------------------------------------------------------------------
-; Sub-Section .....: Create Icon File
-; ----------------------------------------------------------------------------------------------------------------------
-/*
-Base64ImageData := "
-( LTrim Join
-AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAGAbAABgGwAAAAAAAAAAAAD7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv//
-//////////////////////////////////////////////f/////RERE//tcQv/7XEL/////////////////////////////////
-///////////////3/////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////////
-//////f/////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC////////////////////////////////90RERP/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC////
-/////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////
-RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////RERE
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC////////////////////////////////////////////////////////////////////////////////
-////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////
-//////////////////////////////////f////3////9/////f///////////////////////////////9ERET/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv////////////////9ERET/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/////////////////RERE//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv//////////
-//////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv//////////////
-//9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC/////////////////0RERP/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/////////////////////////////////RERE//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//////////////////////////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC////////////////////////////////////////////RERE//tcQv/7XEL/+1xC//tcQv//////////////
-//////////////////////////////////9ERET/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tc
-Qv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7
-XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/
-+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC
-//tcQv/7XEL/+1xC//tcQv/7XEL/+1xC//tcQv/7XEL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAA=
-)"
-
-nBytes := Base64Dec( Base64ImageData, Bin )
-
-;File := FileOpen("HznHorizon.ico", "w")
-File.RawWrite(Bin, nBytes)
-File.Close()
-
-;Gui, Add, Picture, w256 h256, ahkiconnew.png
-;Gui, Show
-;Return ;    // end of auto-execcute section //
-
-Base64Dec( ByRef B64, ByRef Bin ) {  ; By SKAN / 18-Aug-2017
-Local Rqd := 0, BLen := StrLen(B64)                 ; CRYPT_STRING_BASE64 := 0x1
-  DllCall( "Crypt32.dll\CryptStringToBinary", "Str",B64, "UInt",BLen, "UInt",0x1
-         , "UInt",0, "UIntP",Rqd, "Int",0, "Int",0 )
-  VarSetCapacity( Bin, 128 ), VarSetCapacity( Bin, 0 ),  VarSetCapacity( Bin, Rqd, 0 )
-  DllCall( "Crypt32.dll\CryptStringToBinary", "Str",B64, "UInt",BLen, "UInt",0x1
-         , "Ptr",&Bin, "UIntP",Rqd, "Int",0, "Int",0 )
-Return Rqd
-}
-*/
+#Include, Library.ahk

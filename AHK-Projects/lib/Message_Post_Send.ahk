@@ -2,7 +2,7 @@
 ; .............: Begin Section
 ; Section .....: Auto-Execution
 ;=======================================================================================================================
-; #Warn  ; Enable warnings to assist with detecting common errors.
+#Warn All, OutputDebug
 ;SetControlDelay, -1 ; (AJB - 05/2023) - comment out for testing 
 ;SetBatchLines, -1 ; Determines how fast a script will run (affects CPU utilization). ; The value -1 means the script will run at it's max speed possible. ; (AJB - 05/2023)comment out for testing
 ;SetWinDelay, -1 ; (AJB - 05/2023) - comment out for testing 
@@ -713,13 +713,15 @@ return
 ;global Ctl
 
 WatchCursor8:
-MouseGetPos,,,win, hCtl
-ControlGet, Ctl, hWnd,, %hCtl%, A
+MouseGetPos,,,win, fCtl
+ControlGet, hCtl, hWnd,, %fCtl%, A
 ;WfPhWnd := DllCall("WindowFromPoint", "int64", CursorX | (CursorY << 32), "Ptr")
 ;cfPhWnd := DllCall("RealChildWindowFromPoint", "int64", CursorX | (CursorY << 32), "Ptr")
 
-ToolTip % "Control: " hCtl " ahk_id " ctl
-
+ToolTip % "Control: " fCtl " ahk_id " hCtl
+return
+#!8::
+A_Clipboard := % "Control: " fCtl " ahk_id " hCtl
 Return
 
 ; Function: ClickToolbarItem
@@ -733,8 +735,10 @@ Return
 
 ; ========================================= ClickToolbarItem() Call Function ==========================================
 #6::
-global ghWndToolbar:= % Ctl
-global gToolbarWind:= % hCtl
+; Control: ThunderRT6FormDC1 ahk_id 0x90b68
+MouseGetPos,,,win, fCtl
+ControlGet, hCtl, hWnd,, %fCtl%, A
+hToolbar := % hCtl
 ControlGet, hToolbar, hWnd,,%gToolbarWind%, A
 SendMessage, % TB_BUTTONCOUNT := 0x418, 0, 0, , ahk_id %hToolbar%
 MsgBox % hToolbar ? "Toolbar handle: " hToolbar "`nButton count: " ErrorLevel : "Didn't find toolbar!"

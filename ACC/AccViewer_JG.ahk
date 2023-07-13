@@ -15,7 +15,7 @@
 	Hotkey, ~LButton Up, Off
 }
 {
-	Gui Main: New, HWNDhwnd LabelGui AlwaysOnTop, Accessible Info Viewer
+	Gui Main: New, HWNDhwnd LabelGui AlwaysOnTop +Resize, Accessible Info Viewer
 	Gui Main: Default
 	Win.Main := hwnd
 	Gui, Add, Button, x160 y8 w105 h20 vShowStructure gShowStructure, Show Acc Structure

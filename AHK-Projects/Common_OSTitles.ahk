@@ -9,7 +9,7 @@
 ;SetWinDelay, -1 ; ... (AJB - 06/2023) re-enabled 06.15.23 
 ;SetControlDelay, -1 ; (AJB - 06/2023) re-enabled 06.15.23 
 ;SetBatchLines, -1 ; . (AJB - 06/2023) re-enabled 06.15.23
-;#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
 ;#Persistent ; Keeps script permanently running
 ;#SingleInstance,Force
 ;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
@@ -103,13 +103,14 @@
 ; ----------------------------------------------------------------------------------------------------------------------
 :*:1-0f::
 SendLevel 1
-Send % "1-0," A_Space "^{i}Safeguards During Construction, Alteration and Demolition^{i}" A_Space
+SetKeyDelay, 100, 0
+Send % "1-0," A_Space . "^{i}" . "Safeguards During Construction, Alteration and Demolition" . "^{i}" . A_Space
 return
 :*:1-1f::
 SendLevel 1
 Send % "1-1," A_Space "^{i}Firesafe Building Construction and Materials^{i}" A_Space
 return
-:*:1-2::
+:*:1-2f::
 SendLevel 1
 Send % "1-2," A_Space "^{i}Earthquakes^{i}" A_Space
 return
@@ -159,15 +160,15 @@ Send % "1-17," A_Space "^{i}Reflective Ceiling Insulation^{i}" A_Space
 return
 :*:1-20f::
 SendLevel 1
-Send % "1-20," A_Space "^{i}Protection Against Exterior Fire Exposure^{i}" A_Space
+Send % "1-20," . A_Space . "^{i}" . "Protection Against Exterior Fire Exposure" . "^{i}" A_Space
 return
 :*:1-21f::
 SendLevel 1
-Send % "1-21," A_Space "^{i}Fire Resistance of Building Assemblies^{i}" A_Space
+Send % "1-21," . A_Space "^{i}" . "Fire Resistance of Building Assemblies" . "^{i}" . A_Space
 return
 :*:1-22f::
 SendLevel 1
-Send % "1-22," A_Space "^{i}Maximum Foreseeable Loss^{i}" A_Space
+Send % "1-22, " . "^{i}" . "Maximum Foreseeable Loss" . "^{i}" . A_Space
 return
 :*:1-24f::
 SendLevel 1
@@ -211,7 +212,7 @@ Send % "1-34," A_Space "^{i}Hail Damage^{i}" A_Space
 return
 :*:1-35f::
 SendLevel 1
-Send % "1-35," A_Space "^{i}Vegetative Roof Systems Vegetative Roof Systems, Occupied Roof Areas & Decks ^{i}" A_Space
+Send % "1-35, " . "^{i}" . "Vegetative Roof Systems Vegetative Roof Systems, Occupied Roof Areas & Decks" . "^{i} "
 return
 :*:1-36f::
 SendLevel 1
@@ -447,7 +448,7 @@ Send % "5-18," A_Space "^{i}Protection of Electrical Equipment^{i}" A_Space
 return
 :*:5-19f::
 SendLevel 1
-Send % "5-19," A_Space "^{i}Switchgear and Circuit Breakers^{i}" A_Space
+Send % "5-19," . "^{i}" . "Switchgear and Circuit Breakers" . "^{i}" . A_Space
 return
 :*:5-20f::
 SendLevel 1

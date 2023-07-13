@@ -2,17 +2,17 @@
 ; .............: Begin Section
 ; Section .....: Auto-Execution
 ;=======================================================================================================================
-; #Warn  ; Enable warnings to assist with detecting common errors.
+#Warn All, OutputDebug
 ;SetWinDelay 0 ; ..... (AJB - 06/2023) - comment out for testing
 ;SetControlDelay 0 ; . (AJB - 06/2023) - comment out for testing
 ;SetBatchLines, 0 ; .. (AJB - 06/2023)  - comment out for testing
 ;SetWinDelay, -1 ; ... (AJB - 06/2023) re-enabled 06.15.23 
 ;SetControlDelay, -1 ; (AJB - 06/2023) re-enabled 06.15.23 
 ;SetBatchLines, -1 ; . (AJB - 06/2023) re-enabled 06.15.23
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
+#NoEnv  ; Recommended for performance and compatibility
 #Persistent ; Keeps script permanently running
 #SingleInstance,Force
-#MaxMem 4095 ; Allows the maximum amount of MB per variable.
+;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
 ;#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -67,7 +67,8 @@ Menu, Tray, Standard
 #Include Common_HumanElement.ahk
 #Include Common_OSTitles.ahk
 #Include Common_Personal.ahk
-#Include Common_Rec_Texts.ahk
+;#Include Common_Rec_Texts.ahk
+run Common_Rec_Texts.ahk
 ;#Include autoahkHotstrings.ahk
 #Include windows-ahk-master\WINDOWS.ahk
 ;return
@@ -107,6 +108,7 @@ Return
 ;SetTitleMatchMode RegEx
 ;#If WinActive("i)autohotkey*[A-Za-z]{0,1}[0-9]{0,2}\.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
 ;#If A_Process = Autohotkey ; WinActive("ahk_exe autohotkey.exe") or WinActive("ahk_exe AutoHotkeyU32.exe") or WinActive("ahk_exe AutoHotkeyU64.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
+#If A_Process == Code.exe
 ~^s::
 ToolTip Saved
 ;Sleep 1000
@@ -121,7 +123,7 @@ Reload
 ;ToolTip
 return
 */
-;#If ; WinActive
+#If ;WinActive
 ; ----------------------------------------------------------------------------------------------------------------------
 ; .............: End Section
 ; ----------------------------------------------------------------------------------------------------------------------
@@ -212,6 +214,7 @@ return
 ;                Ctrl+Shift+Alt+r Reload AutoHotKey Script (to load changes)
 ;---------------------------------------------------------------------------
 ^+!r::
+
 Base_ReloadAllAhkScripts()
 ;Reload
 return
@@ -290,7 +293,7 @@ return
 ;---------------------------------------------------------------------------
 ; This script is from the Automator
 
-^#m::
+!LButton::
 CoordMode, Mouse, Screen
 MouseGetPos, x, y
 WinMove A,, %x%,%y%
@@ -456,7 +459,7 @@ return
 :?*X:1/4::Send % chr(188)
 :?*X:+-::Send % chr(177)
 :?*X:regtmf::Send % chr(174) ;®
-:?*:tmf::™
+:?*:trademarkf::™
 :?*:circlec::©
 :?*:copywritef::©
 :?*:>=::
@@ -469,7 +472,7 @@ return
 :?*X:prisec::Send % "1" chr(176) "/2 " chr(176) A_Space "Inj testing"
 :*:hrsgf::heat recovery steam generator (HRSG)
 :*:mocf::management of change (MOC)
-::ag::Approval Guide
+::agf::Approval Guide
 :*:FMDSf::FM Global Property Loss Prevention Data Sheet
 ::sgsv::seismic gas shutoff valve
 ::erpf::emergency response plan
@@ -528,35 +531,35 @@ return
 ;---------------------------------------------------------------------------
 ; This script modified from the original: http://www.autohotkey.com/docs/scripts/EasyWindowDrag.htm
 
-;Alt & ~LButton::
-;CoordMode, Mouse  ; Switch to screen/absolute coordinates.
-;MouseGetPos, EWD_MouseStartX, EWD_MouseStartY, EWD_MouseWin
-;WinGetPos, EWD_OriginalPosX, EWD_OriginalPosY,,, ahk_id %EWD_MouseWin%
-;WinGet, EWD_WinState, MinMax, ahk_id %EWD_MouseWin% 
-;if EWD_WinState = 0  ; Only if the window isn't maximized 
-;SetTimer, EWD_WatchMouse, 10 ; Track the mouse as the user drags it.
-;return
+Alt & ~LButton::
+CoordMode, Mouse  ; Switch to screen/absolute coordinates.
+MouseGetPos, EWD_MouseStartX, EWD_MouseStartY, EWD_MouseWin
+WinGetPos, EWD_OriginalPosX, EWD_OriginalPosY,,, ahk_id %EWD_MouseWin%
+WinGet, EWD_WinState, MinMax, ahk_id %EWD_MouseWin% 
+if EWD_WinState = 0  ; Only if the window isn't maximized 
+	SetTimer, EWD_WatchMouse, 10 ; Track the mouse as the user drags it.
+return
 
-;EWD_WatchMouse:
-;GetKeyState, EWD_LButtonState, LButton, P
-;if EWD_LButtonState = U  ; Button has been released, so drag is complete.
-;{
-	;SetTimer, EWD_WatchMouse, off
-	;return
-;}
-;GetKeyState, EWD_EscapeState, Escape, P
-;if EWD_EscapeState = D  ; Escape has been pressed, so drag is cancelled.
-;{
-	;SetTimer, EWD_WatchMouse, off
-	;WinMove, ahk_id %EWD_MouseWin%,, %EWD_OriginalPosX%, %EWD_OriginalPosY%
-	;return
-;}
+EWD_WatchMouse:
+GetKeyState, EWD_LButtonState, LButton, P
+if EWD_LButtonState = U  ; Button has been released, so drag is complete.
+{
+	SetTimer, EWD_WatchMouse, off
+	return
+}
+GetKeyState, EWD_EscapeState, Escape, P
+if EWD_EscapeState = D  ; Escape has been pressed, so drag is cancelled.
+{
+	SetTimer, EWD_WatchMouse, off
+	WinMove, ahk_id %EWD_MouseWin%,, %EWD_OriginalPosX%, %EWD_OriginalPosY%
+	return
+}
 ;Otherwise, reposition the window to match the change in mouse coordinates caused by the user having dragged the mouse:
-;CoordMode, Mouse
-;MouseGetPos, EWD_MouseX, EWD_MouseY
-;WinGetPos, EWD_WinX, EWD_WinY,,, ahk_id %EWD_MouseWin%
+CoordMode, Mouse
+MouseGetPos, EWD_MouseX, EWD_MouseY
+WinGetPos, EWD_WinX, EWD_WinY,,, ahk_id %EWD_MouseWin%
 ;SetWinDelay, -1   ; Makes the below move faster/smoother.
-;WinMove, ahk_id %EWD_MouseWin%,, EWD_WinX + EWD_MouseX - EWD_MouseStartX, EWD_WinY + EWD_MouseY - EWD_MouseStartY
-;EWD_MouseStartX := EWD_MouseX  ; Update for the next timer-call to this subroutine.
-;EWD_MouseStartY := EWD_MouseY
-;return
+WinMove, ahk_id %EWD_MouseWin%,, EWD_WinX + EWD_MouseX - EWD_MouseStartX, EWD_WinY + EWD_MouseY - EWD_MouseStartY
+EWD_MouseStartX := EWD_MouseX  ; Update for the next timer-call to this subroutine.
+EWD_MouseStartY := EWD_MouseY
+return

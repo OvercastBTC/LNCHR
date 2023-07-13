@@ -1,4 +1,5 @@
-﻿#NoEnv
+﻿#Warn All, OutputDebug
+#NoEnv
 #SingleInstance,Force
 ;#NoTrayIcon
 ;---------------------------------------------------------------------------
@@ -45,7 +46,26 @@ ClipWait 1
 Send, ^v
 return
 ;---------------------- End of UTR Text -------------------------------------------
+;---------------------- ICS Comment -------------------------------------------
 
+;:*:uthi::Additional recommendations to reduce the exposures at this facility are contained within this report. These recommendations were not discussed in detail because of the focused nature of this visit. However, by implementing these recommendations the building will be less likely to incur a devastating loss that requires months to repair before normal operations can resume.
+:*:icscomf::
+SendLevel ("1")
+Send % "^b" . "Industrial Control Systems (ICS) Evaluation:" . "^b" . "`n" . "An evaluation of ICS is now included in boiler and machinery evaluations and was performed for the first time at this facility during this visit."
+return
+;---------------------- End ICS Comment -------------------------------------------
+
+:?*:closeconff::
+SendLevel ("1")
+A_Clipboard := "The closing conference date shown on this report is different than the last day the engineer was onsite. This was due to a request by the client to delay to obtain and provide records. The last day onsite was "
+Send ^v
+SetKeyDelay, 10,10
+Send /week . ", "
+Send /month . ", "
+Send /day . ", "
+Send /year . "."
+
+return
 ;-------------------------- Red Tag Recommendation ----------------------------------
 
 :*:rtpst::Use of the FM Global Red Tag Permit System.
@@ -233,18 +253,18 @@ Send ^v
 Sleep 100
 return
 
-:*:lvitmf::
+:*:lowvi::
 clipboard:=""
-txt:= "Improve inspection, testing, and maintenance (ITM) of the medium voltage switchgear per `"
+txt:= "Improve inspection, testing, and maintenance (ITM) of the low voltage switchgear per `"
 Clipboard:= % txt
 ClipWait 1
 Send ^v
 Sleep 100
 SendLevel, 1
-SetKeyDelay,100,10
+;SetKeyDelay,100,10
 Send fmdsf
 Send {Space}
-SetKeyDelay,100,10
+;SetKeyDelay,100,10
 Send 5-20f
 return
 

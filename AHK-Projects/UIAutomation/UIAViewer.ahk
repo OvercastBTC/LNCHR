@@ -19,7 +19,7 @@ _yoffset := 20
 _ysoffset := 3
 _minSplitterPosX := 100, _maxSplitterPosX := 500, _minSplitterPosY := 100, _maxSplitterPosY := 500, SplitterW = 10
 
-Gui Main: New, AlwaysOnTop Resize hwndMainGuiHwnd, UIAViewer
+Gui Main: New, AlwaysOnTop +Resize hwndMainGuiHwnd, UIAViewer
 Gui Main: Default
 
 Gui, Add, Text, x310 y0 w%SplitterW% h500 vSplitter1 gMoveSplitter1

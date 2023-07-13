@@ -61,6 +61,10 @@
 	:*:usr::OvercastBTC
 	:*:pw::HDBacon{!}980{!}988
 #If
+#If WinActive("AutoHotKey")
+	:*:usr::OvercastBTC
+	:*:pw::HDBacon{!}980{!}988
+#If
 ;============================== Other ==================================================================
 ;SendEvent ; Use SendEvent so that the script's own hotkeys can be triggered.
 :?*:epw::HDBacon{!}9801988									; other password
