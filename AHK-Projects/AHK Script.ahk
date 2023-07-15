@@ -20,6 +20,7 @@ SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of
 DetectHiddenText,On
 DetectHiddenWindows, On
 #Requires AutoHotkey 1.1+
+;ListHotkeys
 ; ----------------------------------------------------------------------------------------------------------------------
 ; Section .........: Auto-Execution
 ; Sub-Section .....: Make Window Groups
@@ -446,7 +447,7 @@ A_Clipboard := "≠"
 Send ^v
 return
 #If WinActive("ahk_exe Hznhorizon.exe")
-	:?*:!=::
+	:?*:>=::
 	A_Clipboard := "≥"
 	Send ^v
 	Return

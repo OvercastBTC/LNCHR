@@ -1,6 +1,7 @@
 ﻿#Warn All, OutputDebug
 #NoEnv
 #SingleInstance,Force
+;ListHotkeys
 ;#NoTrayIcon
 ;---------------------------------------------------------------------------
 ;---------------------------------------------------------------------------
@@ -159,7 +160,6 @@ return
 
 ; ==========================================================================================================================
 :*:reccom::
-#1::
 ControlGetFocus, hCtl, A
 ControlGet, Ctl, hWnd,,% hCtl, A
 hWndChild := DllCall("RealChildWindowFromPoint", Ptr,Ctl, UInt,, Ptr)

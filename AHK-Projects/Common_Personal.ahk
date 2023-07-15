@@ -20,30 +20,30 @@
 ;DetectHiddenWindows, On
 ;#Requires AutoHotkey 1.1+
 ;#NoTrayIcon
-; ********************************************** ... First Return ... **************************************************
+; ************************************ ... First Return ... ************************************
 ;return
-;----------------------------------------------------------------------------------------------------------------------
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;-----------------------------------------------------------------------------------------------
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ; 									... End of Auto-Execution ...
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 ;---------------------------------------------------------------------------
 ;                  Personal Abbreviations 
 ;---------------------------------------------------------------------------
 
-:*:peml::adam.bacon80@icloud.com										; Personal Email
-:*:eml::adam.bacon@fmglobal.com										; Email
-:*:emp#::52906														; Employee Number
+:*:peml::adam.bacon80@icloud.com												; Personal Email
+:*:eml::adam.bacon@fmglobal.com													; Email
+:*:emp#::52906																	; Employee Number
 :*:officeaddress::FM Global: 601 108th Ave NE, Suite 1400, Bellevue, WA 98004 	; Office Address
-:*:paddrf::1378 Fenmore Ave, Sanger, CA 93657							; My Address
+:*:paddrf::1378 Fenmore Ave, Sanger, CA 93657									; My Address
 :*:pwnotes::
-; =============================== + FM Stuff + =========================================================
-:*:fmusr::bacona			; workstation username
-:*:fmpw::80ab**HD{!}9KB{!}9		; fm 
+; =============================== + FM Stuff + =============================
+:*:fmusr::bacona				; workstation username
+:*:fmpw::{!}980ab**HD{!}9KB		; fm 
 #If WinActive("EngNET")
 	:*:usr::bacona
-	:*:pw::80ab**HD{!}9KB{!}9
+	:*:pw::{!}980ab**HD{!}9KB
 #If
 #If WinActive("Xfinity")
 	:*:usr::harmony_bacon@comcast.net
@@ -65,7 +65,7 @@
 	:*:usr::OvercastBTC
 	:*:pw::HDBacon{!}980{!}988
 #If
-;============================== Other ==================================================================
+;============================== Other =============================================
 ;SendEvent ; Use SendEvent so that the script's own hotkeys can be triggered.
 :?*:epw::HDBacon{!}9801988									; other password
 :?*:gpwf::80**19HDabKB									; g password

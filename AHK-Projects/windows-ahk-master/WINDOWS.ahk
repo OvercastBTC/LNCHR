@@ -1,19 +1,20 @@
-﻿;================================================================================================================
+﻿; ===================================================================================================
 ; .............: Begin Section
 ; Section .....: Auto-Execution
-;=======================================================================================================================
-#Warn All, OutputDebug
+; ===================================================================================================
 ;SetWinDelay 0 ; ..... (AJB - 06/2023) - comment out for testing
 ;SetControlDelay 0 ; . (AJB - 06/2023) - comment out for testing
 ;SetBatchLines, 0 ; .. (AJB - 06/2023)  - comment out for testing
 ;SetWinDelay, -1 ; ... (AJB - 06/2023) re-enabled 06.15.23 
 ;SetControlDelay, -1 ; (AJB - 06/2023) re-enabled 06.15.23 
 ;SetBatchLines, -1 ; . (AJB - 06/2023) re-enabled 06.15.23
+;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
+;#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
+;ListHotkeys
+#Warn All, OutputDebug
 #NoEnv  ; Recommended for performance and compatibility
 #Persistent ; Keeps script permanently running
 #SingleInstance,Force
-;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
-;#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of "exact"
@@ -93,7 +94,7 @@ splitPath, A_ScriptFullPath, , , script_ext, script_name
 global script_full_name := script_name "." script_ext
 global startup_shortcut := A_Startup "\" script_full_name ".lnk"
 ; FUNCTIONS
-
+Run, % defaultfolder "lib\hznbutton.ahk"
 trayNotify(title, message, seconds = "", options = 0) {
     TrayTip, %title%, %message%, %seconds%, %options%
 }
