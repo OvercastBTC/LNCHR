@@ -314,9 +314,6 @@ return
 HznButton(hToolbar, n)
 {
 	static TB_BUTTONCOUNT := 0x418, TB_GETBUTTON := 0x417, TB_GETITEMRECT := 0x41D ; set the static variables
-    ;Library_Load(winuser.h)
-    ;Library_Load(processthreadsapi.h)
-    ;Library_Load(memoryapi.h)
 	SendMessage, TB_BUTTONCOUNT, 0, 0,,% "ahk_id " hToolbar ; count and load all the msvb_lib_toolbar buttons into memory
 	;DllCall("SendMessage", "Ptr", hToolbar, "Ptr", TB_BUTTONCOUNT, "Ptr", 0, "Ptr", 0)
 	buttonCount := ErrorLevel
@@ -372,9 +369,9 @@ If(vCtl = "TX11"){
 */
 return
 
-; ------------------------------------------------------------------------------------------------
+; ------------------------------------------
 ; Function .....: Horizon Button - Italics (Ctrl-I)
-; ------------------------------------------------------------------------------------------------
+; ------------------------------------------
 ; ..........: Leave until conversion to AHK v2 ==> backup for conflict with SetBatchLines, SetWinDelay, SetControlDelay
 /*
 ci:
