@@ -140,7 +140,7 @@ runAtStartup()
 
 }
 
-trayNotify(title, message, *, options = 0)
+trayNotify(title, message, options = 0,)
 {
 	title := % A_ScriptName
     TrayTip, % title, % message
