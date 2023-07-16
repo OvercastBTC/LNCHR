@@ -1,4 +1,4 @@
-﻿; =================================================================================================
+; =================================================================================================
 ; .............: Begin Section
 ; Section .....: Auto-Execution
 ; =================================================================================================
@@ -351,8 +351,8 @@ HznButton(hToolbar, n)
 	}
 	DllCall("FreeLibrary", "Ptr", hProcess) ; added 06.23.2023
 }
-;reload ; make sure you reload or it... does weird stuff ; commented out 06.23.2023 with the "FreeLibrary" DllCall() 
-return
+; reload ; make sure you reload or it... does weird stuff ; commented out 06.23.2023 with the "FreeLibrary" DllCall() 
+; return
 
 ;#IfWinActive
 ; DllCall("CloseHandle", "Ptr", hProcess) ; this and the below "GlobalFree" may have fixed the need for a reload.
@@ -372,7 +372,7 @@ If(vCtl = "TX11"){
 }
 ;reload
 */
-return
+; return
 
 ; ------------------------------------------
 ; Function .....: Horizon Button - Italics (Ctrl-I)
@@ -401,6 +401,7 @@ ControlGetFocus, fCtl, A
 bID:= SubStr(fCtl, 0, 1)
 ControlGet, ctrlhwnd, hWnd,,% "msvb_lib_toolbar" bID, A
 ;EnumToolbarButtons(ctrlhwnd)
+Customize()
 
 return
 
