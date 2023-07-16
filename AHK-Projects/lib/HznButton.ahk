@@ -395,7 +395,7 @@ SendLevel 1
 ControlGetFocus, fCtl, A
 bID:= SubStr(fCtl, 0, 1)
 ControlGet, ctrlhwnd, hWnd,,% "msvb_lib_toolbar" bID, A
-EnumToolbarButtons(ctrlhwnd)
+;EnumToolbarButtons(ctrlhwnd)
 
 return
 
