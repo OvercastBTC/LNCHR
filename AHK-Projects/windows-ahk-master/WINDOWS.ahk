@@ -652,6 +652,7 @@ Return
 ::/datetimett::
     FormatDateTime("dddd, MMMM dd, yyyy hh:mm tt")
 Return
+:X:/commit::FormatDateTime("yyyy.MM.dd HH:mm")
 ::/time::
     FormatDateTime("HH:mm")
 Return

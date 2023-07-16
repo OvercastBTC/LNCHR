@@ -141,7 +141,7 @@ runAtStartup()
 }
 
 trayNotify(title, message, seconds = "", options = 0) {
-    TrayTip, % title, %message, % seconds, % options
+    TrayTip, % title, % message, % seconds, % options
 }
 
 /*
