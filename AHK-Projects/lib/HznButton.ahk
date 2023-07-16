@@ -140,14 +140,19 @@ runAtStartup()
 
 }
 
-trayNotify(title, message, options = 0,)
+trayNotify(title, message, seconds = "", options = 0) {
+    TrayTip, % title, %message, % seconds, % options
+}
+
+/*
+trayNotify(title, message, seconds = "", options = 0,)
 {
 	title := % A_ScriptName
-    TrayTip, % title, % message
+    TrayTip, % title, % message, %seconds , % options
     sleep 2000
     HideTrayTip()
 }
-
+*/
 HideTrayTip()
 {
     TrayTip

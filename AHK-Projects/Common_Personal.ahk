@@ -116,7 +116,7 @@ Run % site
 return
 :*:usr::
 Send, adam.bacon@fmglobal.com
-Clipboard = HDBacon{!}9801988
+A_Clipboard := "HDBacon!9801988"
 return
 #IfWinActive
 ; Delta---------------------

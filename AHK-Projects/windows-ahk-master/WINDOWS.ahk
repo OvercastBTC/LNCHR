@@ -345,6 +345,10 @@ runconstatine(){
 	; run Constantine.ahk
 	Run, Constantine.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\AutoGUI\Tools
 }
+runHznbutton(){
+	; run Hznbutton.ahk
+	Run, Hznbutton.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\lib
+}
 
 openFileLocation(){
     Run % A_ScriptDir
@@ -360,9 +364,9 @@ download(url, filename) {
 }
 
 viewKeyboardShortcuts(){
-    hotkey_pdf_url = https://github.com/arlbibek/windows-ahk/raw/master/hotkeys.pdf
-    hotkey_pdf = hotkeys.pdf
-    hotkey_pdf_path = %A_ScriptDir%\%hotkey_pdf%
+    hotkey_pdf_url := "https://github.com/arlbibek/windows-ahk/raw/master/hotkeys.pdf"
+    hotkey_pdf := "hotkeys.pdf"
+    hotkey_pdf_path := % A_ScriptDir . "\" . hotkey_pdf
     While, True {
         if not FileExist(hotkey_pdf_path){
 
@@ -373,7 +377,7 @@ viewKeyboardShortcuts(){
 else
     Break
         } else {
-            Run, %hotkey_pdf_path%
+            Run, % hotkey_pdf_path
             Break
         }
     }
@@ -409,6 +413,7 @@ updateTrayMenu() {
 	addTrayMenuOption()
 	addTrayMenuOption("Run Scriptlet_Library_v4.ahk", "runScriptlet")
 	addTrayMenuOption("Run AHK Script.ahk", "runAHKScript")
+	addTrayMenuOption("Run Hznbutton.ahk", "runHznbutton")
 	addTrayMenuOption("Run Constantine.ahk", "runconstatine")
 	addTrayMenuOption()
 	Menu, Tray, Standard
