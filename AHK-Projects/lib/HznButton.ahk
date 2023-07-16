@@ -1,4 +1,4 @@
-; =================================================================================================
+﻿; =================================================================================================
 ; .............: Begin Section
 ; Section .....: Auto-Execution
 ; =================================================================================================
@@ -401,7 +401,7 @@ ControlGetFocus, fCtl, A
 bID:= SubStr(fCtl, 0, 1)
 ControlGet, ctrlhwnd, hWnd,,% "msvb_lib_toolbar" bID, A
 ;EnumToolbarButtons(ctrlhwnd)
-Customize()
+Toolbar.ctrlhwnd.Customize()
 
 return
 
