@@ -4986,6 +4986,3 @@ MyIcon_B64()
     )"
     return icostr
 } 
-
-
-
