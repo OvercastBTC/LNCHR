@@ -400,12 +400,12 @@ SendLevel 1
 ControlGetFocus, fCtl, A
 bID:= SubStr(fCtl, 0, 1)
 ControlGet, ctrlhwnd, hWnd,,% "msvb_lib_toolbar" bID, A
+cTb := New Toolbar(ctrlhwnd)
 OutputDebug, % ctrlhwnd . "`n"
 ; EnumToolbarButtons(ctrlhwnd)
 
-cTb := New Toolbar
-OutputDebug, % ErrorLevel
 cTb.Get()
+OutputDebug, % ErrorLevel
 outputdebug, % cTb.Get().BtnWidth
 outputdebug, % cTb.Get().BtnHeight
 outputdebug, % cTb.Get().Style
@@ -2601,7 +2601,8 @@ Gdip_BitmapFromScreen(Screen=0, Raster="")
 	}
 	else
 	{
-		StringSplit, S, Screen, |
+		; StringSplit, S, Screen, |
+		S := StrSplit(Screen, |)
 		x := S1, y := S2, w := S3, h := S4
 	}
 
@@ -4647,7 +4648,7 @@ Gdip_GetRotatedDimensions(Width, Height, Angle, ByRef RWidth, ByRef RHeight)
 	if !(Width && Height)
 		return -1
 	RWidth := Ceil(Abs(Width*Cos(TAngle))+Abs(Height*Sin(TAngle)))
-	RHeight := Ceil(Abs(Width*Sin(TAngle))+Abs(Height*Cos(Tangle)))
+	RHeight := Ceil(Abs(Width*Sin(TAngle))+Abs(Height*Cos(TAngle)))
 }
 
 ; RotateNoneFlipNone   = 0
