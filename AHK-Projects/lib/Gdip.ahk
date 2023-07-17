@@ -302,7 +302,7 @@ SetSysColorToControl(hwnd, SysColor=15)
 ;
 ; notes					If no raster operation is specified, then SRCCOPY is used to the returned bitmap
 
-Gdip_BitmapFromScreen(Screen=0, Raster="")
+Gdip_BitmapFromScreen(Screen:=0, Raster:="")
 {
 	if (Screen = 0)
 	{
