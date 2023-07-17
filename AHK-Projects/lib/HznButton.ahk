@@ -394,14 +394,24 @@ return
 ; ................................................................................................
 
 
-#6::
-#Warn All, OutputDebug
+^+6::
+
 SendLevel 1
 ControlGetFocus, fCtl, A
 bID:= SubStr(fCtl, 0, 1)
 ControlGet, ctrlhwnd, hWnd,,% "msvb_lib_toolbar" bID, A
-;EnumToolbarButtons(ctrlhwnd)
-Toolbar.ctrlhwnd.Customize()
+OutputDebug, % ctrlhwnd . "`n"
+; EnumToolbarButtons(ctrlhwnd)
+
+cTb := New Toolbar
+OutputDebug, % ErrorLevel
+cTb.Get()
+outputdebug, % cTb.Get().BtnWidth
+outputdebug, % cTb.Get().BtnHeight
+outputdebug, % cTb.Get().Style
+outputdebug, % cTb.Get().ExStyle
+;ByRef HotItem := "", ByRef TextRows := "", ByRef Rows := "",   ByRef BtnWidth := "", ByRef BtnHeight := "", ByRef Style := "", ByRef ExStyle := "")
+
 
 return
 
