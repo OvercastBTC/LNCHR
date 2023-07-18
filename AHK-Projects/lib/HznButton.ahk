@@ -1,38 +1,39 @@
-﻿; =================================================================================================
-; .............: Begin Section
-; Section .....: Auto-Execution
-; =================================================================================================
-; SetWinDelay 0 ; (06/2023) - comment out for testing
-; SetControlDelay 0 ; (06/2023) - comment out for testing
-; https://www.autohotkey.com/docs/v1/lib/SetBatchLines.htm
-SetBatchLines, -1 ; scrip run speed, The value -1 = max speed possible. ; (05/2023)comment out for testing
-SetWinDelay, -1 ; (05/2023) - comment out for testing
-SetControlDelay, -1 ; (05/2023) - comment out for testing
-#MaxMem 4095 ; Allows the maximum amount of MB per variable.
-; #MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
+﻿; ======================================================================
+;? .............: Begin Section
+;* Section .....: Auto-Execution
+; ======================================================================
+; //SetWinDelay 0 ; (06/2023) - comment out for testing
+; //SetControlDelay 0 ; (06/2023) - comment out for testing
+;* https://www.autohotkey.com/docs/v1/lib/SetBatchLines.htm
+SetBatchLines, -1   ; Script run speed, -1 = max speed possible.
+SetWinDelay, -1     ;
+SetControlDelay, -1 ;
+#MaxMem 4095        ; Allows the maximum amount of MB per variable.
+; //#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
 #MaxThreads 10 ; Allows a maximum of 255 instead of default threads.
 #Warn All, OutputDebug
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility
 #Persistent ; Keeps script permanently running
 #SingleInstance,Force
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir % A_ScriptDir  ; Ensures a consistent starting directory.
-SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of "exact"
+SendMode Input ;* Superior speed and reliability.
+SetWorkingDir % A_ScriptDir ; A consistent starting directory.
+SetTitleMatchMode, 2 ; Match = "containing" instead of "exact"
 DetectHiddenText, On
 DetectHiddenWindows, On
 #Requires AutoHotkey 1.1+
-;#Include, gdip.ahk ; gdip added to the bottom of the script
-; TODO ...:     2023.07.17 ...: Work on the below but consider if needed due to new FreeLibraryAndExitThread
-; Library_Load(winuser.dll)
-; Library_Load(processthreadsapi.dll)
-; Library_Load(memoryapi.dll)
+;* #Include, gdip.ahk ;* gdip added to the bottom of the script
 
-; --------------------------------------------------------------------------------------------------
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-; 									... End of Auto-Execution ...
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; //TODO: 2023.07.17 ...: Work on the below but consider if needed due to new FreeLibraryAndExitThread
+; //TODO: Library_Load(winuser.dll)
+; //TODO: Library_Load(processthreadsapi.dll)
+; //TODO: Library_Load(memoryapi.dll)
 
-; --------------------------------------------------------------------------------------------------
+;* ------------------------------------------------------------------------
+;* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;!						... End of Auto-Execution ...
+;* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;* ------------------------------------------------------------------------
+
 ; Name .........: Horizon Button == A Horizon function library
 ; Description ..: This library is a collection of functions and buttons that deal with missing interfaces with Horizon.
 ; AHK Version ..: AHK 1.1+ x32/64 Unicode
@@ -90,28 +91,25 @@ Startup_Shortcut := A_Startup "\" A_ScriptName ".lnk"
 ; -------------------------------------------------------------------------------------------------
 ; Sub-Section .....: Create Tray Menu
 ; -------------------------------------------------------------------------------------------------
-OS := % A_OSVersion
-OutputDebug % OS
 CreateTrayMenu()
+
+
+
+
+
+
+
+
+
+
+; ************************************ ... First Return ... ****************************************
+return
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ; -------------------------------------------------------------------------------------------------
 ; Sub-Section .....: Create Tray Menu Functions
 ; Description .....: addTrayMenuOption() ; madeBy() ; runAtStartup() ; trayNotify()
 ; -------------------------------------------------------------------------------------------------
-CreateTrayMenu()
-{
-    ;Menu, Tray, Icon, % hICON ; this changes the icon into a little Horizon thing.
-    Menu, Tray, NoStandard
-    addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
-    addTrayMenuOption()
-    addTrayMenuOption("Run at startup", "runAtStartup")
-    Menu, Tray, % fileExist(Startup_Shortcut)
-                ? "check"
-                : "unCheck", Run at startup ; update the tray menu status on startup
-    addTrayMenuOption()
-    Menu, Tray, Standard
-}
-
 addTrayMenuOption(label := "", command := "")
 {
 	if (label = "" && command = "") {
@@ -120,64 +118,75 @@ addTrayMenuOption(label := "", command := "")
 		Menu, Tray, Add, % label, % command
 	}
 }
+shortcut(){
+    FileExist(Startup_Shortcut) ? ShortcutExist()
+                                : NoShortcut()
+}
+ShortcutExist(){
+    Menu, Tray, % "Check", Run at startup
+}
+
+NoShortcut(){
+    Menu, Tray, % "unCheck", Run at startup
+}
+CreateTrayMenu()
+{
+    ;Menu, Tray, Icon, % hICON ; this changes the icon into a little Horizon thing.
+    Menu, Tray, NoStandard
+    addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
+    addTrayMenuOption()
+    addTrayMenuOption("Run at startup", "runAtStartup")
+    shortcut()
+    ; update the tray menu status on startup
+    addTrayMenuOption()
+    Menu, Tray, Standard
+}
+runAtStartup() 
+{
+    FileExist(startup_shortcut) ? rmstartup() : addstartup()
+}
+
+addstartup(){
+    FileCreateShortcut, % A_ScriptName, % A_Startup . "\" . A_ScriptName . ".lnk", % icostr
+    Menu, Tray, % "check", Run at startup ; update the tray menu status on change
+    trayNotify("Startup shortcut added", "This script will now automatically run when your turn on your computer.")
+}
+
+rmstartup(){
+    FileDelete, % startup_shortcut
+    Menu, Tray, % "unCheck", Run at startup ; update the tray menu status on change
+    trayNotify("Startup shortcut removed", "This script will not run when you turn on your computer.")
+}
 
 madeBy()
 {
-	; visit authors website
-	;Run, https://bibeka.com.np/
-	MsgBox This was made by nerds, for nerds. Regular people are ok too, lol.`nModified by Adam Bacon`nCredit:Made with ❤️ by Bibek Aryal
+	MsgBox This was made by nerds, for nerds. Regular people are ok too, lol.`nModified by OvercastBTC
 }
-
-runAtStartup()
+HideTrayTip()
 {
-	if (FileExist(startup_shortcut)) {
-		FileDelete, % startup_shortcut
-		Menu, Tray, % "unCheck", Run at startup ; update the tray menu status on change
-		trayNotify("Startup shortcut removed", "This script will not run when you turn on your computer.")
-	} else {
-		FileCreateShortcut, % A_ScriptFullPath, % startup_shortcut
-        Menu, Tray, % "check", Run at startup ; update the tray menu status on change
-		trayNotify("Startup shortcut added", "This script will now automatically run when your turn on your computer.")
-	}
-
+    (SubStr(A_OSVersion,1,3) = "10.")   ? IconTrayTip()
+                                        : TrayTip
 }
 
-trayNotify(title, message, seconds = "", options = 0) {
+IconTrayTip()
+{
+    Menu, Tray, NoIcon
+    Sleep 200
+    Menu, Tray, Icon
+}
+
+trayNotify(title, message, seconds = "", options = 0)
+{
     TrayTip, % title, % message, % seconds, % options
 }
 
-/*
-trayNotify(title, message, seconds = "", options = 0,)
-{
-	title := % A_ScriptName
-    TrayTip, % title, % message, %seconds , % options
-    sleep 2000
-    HideTrayTip()
-}
-*/
-HideTrayTip()
-{
-    TrayTip
-    ;if SubStr(A_OSVersion,1,3) = "10."
-    ;    {
-    ;        Menu, Tray, NoIcon
-    ;        Sleep 200
-    ;        Menu, Tray, Icon
-    ;    }   
-}
-; ************************************ ... First Return ... ****************************************
-return
-; ...............: End Sub-Section
-; ==================================================================================================
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
 #IfWinActive ahk_exe hznhorizon.exe
-
 ; --------------------------------------------------------------------------------------------------
-; Function .....: Horizon {Enter} ==> Select Option
-; Description ..: Hotkeys (shortcuts) sending {Enter} in leu of "Double Click"
-; Author .......: Overcast (Adam Bacon)
-; TODO .........: Still doesn't work. Might have to not use the WinActive() function
+//**
+* Function .....: Horizon {Enter} ==> Select Option
+* Description ..: Hotkeys (shortcuts) sending {Enter} in leu of "Double Click"
+* ! Author .......: OvercastBTC
+* TODO: .........: Still doesn't work. Might have to not use the WinActive() function
 ; --------------------------------------------------------------------------------------------------
 #If WinActive("ahk_exe hznhorizonmgr.exe") or WinActive("ahk_exe hznhorizon.exe")
 {
@@ -627,11 +636,11 @@ SendLevel 1
 ControlGetFocus, fCtl, A
 bID:= SubStr(fCtl, 0, 1)
 ControlGet, ctrlhwnd, hWnd,,% "msvb_lib_toolbar" bID, A
-cTb := New Toolbar(ctrlhwnd).Get()
-; OutputDebug, % "1:" . cTb.Get) . "1`n"
+cTb := New Toolbar(ctrlhwnd)
 OutputDebug, % "ahk_id " . ctrlhwnd . "`n"
-for k, v in cTb
-    OutputDebug % k . " = " . v . "`n"
+OutputDebug, % "1:__" . cTb.Base . "__:1`n"
+; for k, v in cTb
+;     OutputDebug % k . " = " . v . "`n"
 ; ahk_id 0x20d72
 ; DefaultBtnInfo = 
 ; Presets = 
