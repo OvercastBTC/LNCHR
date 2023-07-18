@@ -21,24 +21,24 @@ SetTitleMatchMode, 2 ; Match = "containing" instead of "exact"
 DetectHiddenText, On
 DetectHiddenWindows, On
 #Requires AutoHotkey 1.1+
-;* #Include, gdip.ahk ;* gdip added to the bottom of the script
 
+;* #Include, gdip.ahk ;* gdip added to the bottom of the script
 ; //TODO: 2023.07.17 ...: Work on the below but consider if needed due to new FreeLibraryAndExitThread
 ; //TODO: Library_Load(winuser.dll)
 ; //TODO: Library_Load(processthreadsapi.dll)
 ; //TODO: Library_Load(memoryapi.dll)
 
-;* ------------------------------------------------------------------------
-;* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-;!						... End of Auto-Execution ...
-;* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-;* ------------------------------------------------------------------------
+; ------------------------------------------------------------------------
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;?						... End of Auto-Execution ...
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; ------------------------------------------------------------------------
 
-; Name .........: Horizon Button == A Horizon function library
-; Description ..: This library is a collection of functions and buttons that deal with missing interfaces with Horizon.
-; AHK Version ..: AHK 1.1+ x32/64 Unicode
-; Author .......: Overcast (Adam Bacon), Terry Keatts, and special assistance from Descolada
-; License ......: WTFPL - http://www.wtfpl.net/txt/copying/
+;* Name .........: Horizon Button ==> A Horizon function library
+;* Description ..: This library is a collection of functions and buttons that deal with missing interfaces with Horizon.
+;* AHK Version ..: AHK 1.1+ x32/64 Unicode
+;* Author .......: OvercastBTC (Adam Bacon), Terry Keatts, and special assistance from Descolada
+;* License ......: WTFPL - http://www.wtfpl.net/txt/copying/
 ; Changelog ....: ??? - v0.1 - First version. Added Ctrl-I, Ctrl-B
 ; ..............: ??? - v0.2 - Broke lots of things, and "fixed" them
 ; ..............: ??? - v0.3 - Broke lots of things, and "fixed" them... again. Added Ctrl-A
@@ -56,55 +56,49 @@ DetectHiddenWindows, On
 ; ..............: Various Dates - v2.0 - Embedded the ICON, cleaned up some code, made the b()
 ; --------------------------------------------------------------------------------------------------
 
-;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
+;*<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
 ; --------------------------------------------------------------------------------------------------
-; Sub-Section .....: Script Name, Startup Path, and icon
-; --------------------------------------------------------------------------------------------------
-
-
-; --------------------------------------------------------------------------------------------------
-; Sub-Section .....: Create Icon File
-; Reference .......: https://www.autohotkey.com/boards/viewtopic.php?f=76&t=101960&p=527471#p527471
-; Credit ..........: Hellbent
+;? Sub-Section .....: Script Name, Startup Path, and icon
 ; --------------------------------------------------------------------------------------------------
 
-;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
-; Step ............: Load the GDI+ lib
+; --------------------------------------------------------------------------------------------------
+;? Sub-Section .....: Create Icon File
+;  Reference .......: https://www.autohotkey.com/boards/viewtopic.php?f=76&t=101960&p=527471#p527471
+;* Credit ..........: Hellbent
+; Variable ........: icostr
+;* Function ........: MyIcon_B64()
+;* Description .....: Base64 icon string
+; --------------------------------------------------------------------------------------------------
+
+;- |<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
+
+; Note ............: Load the GDI+ lib
 Gdip_Startup()
-; Step ............: The Base 64 string for the icon image
+; Note ............: The Base 64 string for the icon image
 ; .................: This was moved to the end of the script via MyIcon_B64()
 icostr := MyIcon_B64()
-; Step ............: create a pBitmap from the Base 64 string.
+; Note ............: create a pBitmap from the Base 64 string.
 HznIcon_pBitmap := B64ToPBitmap( icostr )
-; Step ............: create a hBitmap from the icon pBitmap
+; Note ............: create a hBitmap from the icon pBitmap
 HznIcon_hIcon := Gdip_CreateHICONFromBitmap( HznIcon_pBitmap )
-; Step ............: Dispose of the icon pBitmap to free memory.
+; Note ............: Dispose of the icon pBitmap to free memory.
 Gdip_DisposeImage( HznIcon_pBitmap )
-; Step ............: Set the icon
+; Note ............: Set the icon
 Menu, Tray, Icon, % "HICON:" . HznIcon_hIcon
-;<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
-OutputDebug % A_ScriptName
-;ICON := "HznHorizon.ico" => changed to embeded icon via MyIcon_B64 and icostr
-;splitPath, A_ScriptName,,, A_Script, A_Script_Name
-;A_Script_Full_Name := A_Script_Name "." A_Script_Ext
+;* |<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
+
 Startup_Shortcut := A_Startup "\" A_ScriptName ".lnk"
+
+
 ; -------------------------------------------------------------------------------------------------
-; Sub-Section .....: Create Tray Menu
+;? Sub-Section .....: Create Tray Menu
 ; -------------------------------------------------------------------------------------------------
+
 CreateTrayMenu()
 
-
-
-
-
-
-
-
-
-
-; ************************************ ... First Return ... ****************************************
+;!                                  ... First Return ...
 return
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ; -------------------------------------------------------------------------------------------------
 ; Sub-Section .....: Create Tray Menu Functions
@@ -517,7 +511,7 @@ EnumToolbarButtons(ctrlhwnd) ;, is_apply_scale:=false) {
 	
 	Loop,% buttons
 	{
-		; Try to get button text. Two steps: 
+		; Try to get button text. Two Notes: 
 		; 1. get command-id from button-index,
 		; 2. get button text from command-id
 		SendMessage, TB_GETBUTTON, % A_Index-1, remote_buffer, , % "ahk_id " ctrlhwnd

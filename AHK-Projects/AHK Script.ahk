@@ -447,7 +447,7 @@ return
 :*:mtcemf::Eagle Materials Inc. "Mountain Cement Company-EM" [Laramie WY] / Index No. 075554.08-02
 :*:mtcems::Mountain Cement Co. (075554.08-02)
 
-:*:Varex::Varex Imaging Corporation [SLC UT] / 075053.23-07
+:*:Varexf::Varex Imaging Corporation [SLC UT] / 075053.23-07
 
 :*:Cytivaf::Danaher Corporation "Cytiva" [Logan UT] / Index No. 001338.79-02
 :*:Cytivas::Danaher Corp. - Cytiva (001338.79-02)
