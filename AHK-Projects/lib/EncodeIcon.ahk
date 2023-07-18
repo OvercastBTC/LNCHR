@@ -4,7 +4,7 @@
 SetWorkingDir %A_ScriptDir% 
 #Requires AutoHotkey 1.1+
 
-File := "C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\Horizon\HznHorizon.ico"
+File := "C:\Users\bacona\OneDrive - FM Global\3. AHK\public-ahk-shadowblade\GUI\tool.jpg"
 ;If ! FileExist( File )
 ;URLDownloadToFile, http://i.imgur.com/dS56Ewu.png, %File%
 
@@ -26,5 +26,5 @@ Local Rqd := 0, B64, B := "", N := 0 - LineLength + 1  ; CRYPT_STRING_BASE64 := 
   B64 := StrReplace( B64, "`r`n" )        
   Loop % Ceil( StrLen(B64) / LineLength )
     B .= Format("{1:" LeadingSpaces "s}","" ) . SubStr( B64, N += LineLength, LineLength ) . "`n" 
-Return RTrim( B,"`n" )    
+Return RTrim( B,"`n" )   
 }

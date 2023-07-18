@@ -21,6 +21,7 @@ SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of
 DetectHiddenText,On
 DetectHiddenWindows, On
 #Requires AutoHotkey 1.1+
+
 ; ----------------------------------------------------------------------------------------------------------------------
 ; .............: End Sub-Section
 ;=======================================================================================================================
@@ -75,6 +76,8 @@ GroupAdd, TerminalGroup, ahk_exe ubuntu.exe
 ;screenshot := userdir . "Pictures\Screenshots\"
 
 userdir:= "C:\Users\" . A_UserName . "\"
+OneDrive := "OneDrive - FM Global\"
+ahk := "3. AHK\AHK-Projects\"
 pc:= "This PC"
 desktop:= userdir . "Desktop\"
 documents:= userdir . "Documents\"
@@ -87,18 +90,20 @@ c:= "C:\"
 ;arlbibek := documents . "arlbibek\"
 arlbibek := documents . "bacona\"
 screenshot:= userdir . "Pictures\Screenshots\"
-defaultfolder:="C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\"
+defaultfolder := % userdir . OneDrive . ahk ;C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\"
 
 ; script name and startup path
-splitPath, A_ScriptFullPath, , , script_ext, script_name
-global script_full_name := script_name "." script_ext
-global startup_shortcut := A_Startup "\" script_full_name ".lnk"
+;splitPath, A_ScriptFullPath, , , script_ext, script_name
+;global script_full_name := script_name "." script_ext
+global startup_shortcut := A_Startup "\" A_ScriptName ".lnk"
 ; FUNCTIONS
-Run, % defaultfolder "lib\hznbutton.ahk"
+Run, % defaultfolder . "lib\hznbutton.ahk"
 trayNotify(title, message, seconds = "", options = 0) {
     TrayTip, %title%, %message%, %seconds%, %options%
 }
-
+;WinWaitActive, AutoHotkey Dash,,3
+WinActivate, AutoHotkey Dash
+Send {Esc}
 get_default_browser() {
     ; return ahk_exe name of the users default browser (e.g. firefox.exe)
     ; referenced from: https://www.autohotkey.com/board/topic/67330-how-to-open-default-web-browser/
@@ -265,7 +270,7 @@ runAtStartup() {
         Menu, Tray, % "unCheck", Run at startup ; update the tray menu status on change
         trayNotify("Startup shortcut removed", "This script will not run when you turn on your computer.")
     } else {
-        FileCreateShortcut, % a_scriptFullPath, % startup_shortcut
+        FileCreateShortcut, % A_ScriptFullPath, % startup_shortcut
         Menu, Tray, % "check", Run at startup ; update the tray menu status on change
         trayNotify("Startup shortcut added", "This script will now automatically run when your turn on your computer.")
     }
