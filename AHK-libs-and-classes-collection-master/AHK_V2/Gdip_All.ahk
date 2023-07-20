@@ -1,4 +1,4 @@
-#Requires AutoHotKey v2.0-beta.3
+#Requires AutoHotKey 2.0+
 ; Gdip version from https://github.com/buliasz/AHKv2-Gdip/pulls
 ; AHK_User: Modified some functions for V2 (Create always variable ImageAttr, and Align |= A_Index//2.1 changed to Align |= A_Index*10//21) on30/01/2022
 

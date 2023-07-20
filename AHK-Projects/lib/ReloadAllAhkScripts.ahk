@@ -114,10 +114,13 @@ ReloadAllAhkScripts() {
 	*/
 	;/*
 	WinGet, allAhkExe, List, ahk_class AutoHotkey
-	;MsgBox % allAhkExe
+	;OutputDebug % allAhkExe
 	Loop, % allAhkExe {
 		hwnd := allAhkExe%A_Index%
-		if (hwnd = A_ScriptHwnd)  ; ignore the current window for reloading
+		for item in hwnd
+			WinGet, aTitle, % "ahk_id " hwnd
+			OutputDebug % aTitle . "`n"
+		if (hwnd = Scriptlet_Library_v4.ahk)  ; ignore the current window for reloading
 		{
 			continue
 		}
