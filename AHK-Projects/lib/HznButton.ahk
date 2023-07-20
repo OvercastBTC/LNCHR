@@ -1,4 +1,4 @@
-﻿; ======================================================================
+; ======================================================================
 ;? .............: Begin Section
 ;* Section .....: Auto-Execution
 ; ======================================================================
@@ -35,7 +35,7 @@ DetectHiddenWindows, On
 ; ------------------------------------------------------------------------
 
 ;* Name .........: Horizon Button ==> A Horizon function library
-;* Description ..: This library is a collection of functions and buttons that deal with missing interfaces with Horizon.
+; Description ..: This library is a collection of functions and buttons that deal with missing interfaces with Horizon.
 ;* AHK Version ..: AHK 1.1+ x32/64 Unicode
 ;* Author .......: OvercastBTC (Adam Bacon), Terry Keatts, and special assistance from Descolada
 ;* License ......: WTFPL - http://www.wtfpl.net/txt/copying/
@@ -56,22 +56,20 @@ DetectHiddenWindows, On
 ; ..............: Various Dates - v2.0 - Embedded the ICON, cleaned up some code, made the b()
 ; --------------------------------------------------------------------------------------------------
 
-;*<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
 ; --------------------------------------------------------------------------------------------------
-;? Sub-Section .....: Script Name, Startup Path, and icon
+; Section .....: Script Name, Startup Path, and icon
 ; --------------------------------------------------------------------------------------------------
 
 ; --------------------------------------------------------------------------------------------------
-;? Sub-Section .....: Create Icon File
-;  Reference .......: https://www.autohotkey.com/boards/viewtopic.php?f=76&t=101960&p=527471#p527471
-;* Credit ..........: Hellbent
+; Reference .......: https://www.autohotkey.com/boards/viewtopic.php?f=76&t=101960&p=527471#p527471
+; Credit ..........: Hellbent
+; Sub-Section .....: Create Icon File
+; Description .....: Base64 icon string
 ; Variable ........: icostr
-;* Function ........: MyIcon_B64()
-;* Description .....: Base64 icon string
+; Function ........: MyIcon_B64()
 ; --------------------------------------------------------------------------------------------------
 
-;- |<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|<<<---#####--->>>|
-
+; [ ] 
 ; Note ............: Load the GDI+ lib
 Gdip_Startup()
 ; Note ............: The Base 64 string for the icon image
@@ -91,15 +89,14 @@ Startup_Shortcut := A_Startup "\" A_ScriptName ".lnk"
 
 
 ; -------------------------------------------------------------------------------------------------
-;? Sub-Section .....: Create Tray Menu
+; - Sub-Section .....: Create Tray Menu
 ; -------------------------------------------------------------------------------------------------
 
 CreateTrayMenu()
 
-;!                                  ... First Return ...
-return
-;* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
+; <<<<< ... First Return ... <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Return
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ; -------------------------------------------------------------------------------------------------
 ; Sub-Section .....: Create Tray Menu Functions
 ; Description .....: addTrayMenuOption() ; madeBy() ; runAtStartup() ; trayNotify()
@@ -176,11 +173,10 @@ trayNotify(title, message, seconds = "", options = 0)
 
 #IfWinActive ahk_exe hznhorizon.exe
 ; --------------------------------------------------------------------------------------------------
-//**
-* Function .....: Horizon {Enter} ==> Select Option
-* Description ..: Hotkeys (shortcuts) sending {Enter} in leu of "Double Click"
-* ! Author .......: OvercastBTC
-* TODO: .........: Still doesn't work. Might have to not use the WinActive() function
+; Sub-Section .....: Horizon {Enter} ==> Select Option
+; Description ..: Hotkeys (shortcuts) sending {Enter} in leu of "Double Click"
+; Author .......: OvercastBTC
+; [ ] fix: .........: Still doesn't work. Might have to not use the WinActive() function
 ; --------------------------------------------------------------------------------------------------
 #If WinActive("ahk_exe hznhorizonmgr.exe") or WinActive("ahk_exe hznhorizon.exe")
 {
@@ -192,17 +188,17 @@ return
 #If
 
 ; --------------------------------------------------------------------------------------------------
-; Function .....: Horizon Buttons/Hotkeys
+; Section .....: Horizon Buttons/Hotkeys
 ; Description ..: Hotkeys (shortcuts) for normal Windows hotkeys: 
-; . Continued ..: CTRL+I (italics)
-; . Continued ..: CTRL+B (bold)
-; . Continued ..: CTRL+U (underline) - Where Applicable - else same as CTRL+B (I dunno why).
-; . Continued ..: CTRL+A (select all)
-; . Continued ..: In ideal land, this will be a single function call. Right now this works.
 ; Author .......: Overcast (Adam Bacon)
-; Task .........: Reduced to a single HznButton function call
-; ChangeLog ....: see above
-; Special Notes : The below indexes, or n from the HznButton(hWndToolbar, n) function, depend on what screen you are on
+; Notes:
+; ..............: CTRL+I (italics)
+; ..............: CTRL+B (bold)
+; ..............: CTRL+U (underline) - Where Applicable - else same as CTRL+B (I dunno why).
+; ..............: CTRL+A (select all)
+; ..............: In ideal land, this will be a single function call. Right now this works.
+; ..............: Reduced to a single HznButton function call
+; Note: The below indexes, or n from the HznButton(hWndToolbar, n) function, depend on what screen you are on
 ; . Continued ..: 1=Bold, 2=Italics, (everything after this changes depending on what screen you are on)
 ; . Continued ..: where underline is an option is index 9 or 10, else it reverts to CTRL+B or CTRL+I
 ; ..................................................................................................
@@ -218,8 +214,8 @@ return
 
 ; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Horizon Button Function <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ; -------------------------------------------------------------------------------------------------
-; Function .....: Horizon Hotkeys - Italic, Bold, and Underline (***where applicable***)
-; ChangeLog ....: 06/05/2023 - CTRL+I and CTRL+B validated for all screens
+; Sub-Section .....: Horizon Hotkeys - Italic, Bold, and Underline (***where applicable***)
+; ..............: 06/05/2023 - CTRL+I and CTRL+B validated for all screens
 ; . Continued ..: CTRL+U only valid for screens which have it listed as a button
 ; . Continued ..: else it reverts to CTRL+B or CTRL+I
 ; -------------------------------------------------------------------------------------------------
@@ -267,34 +263,34 @@ HznSelectAll()
 Return
 
 ; .................................................................................................
-;if (ErrorLevel != 1) {
-;ToolTip % "SendMessge Error: " ErrorLevel "`n" hCtl "`n" Ctl
-;}
-;WinGetClass, vCtl, % "ahk_id " Ctl
-;DllCall("SendMessage","Ptr",Ctl,"UInt",EM_SETSEL := 0xB1, "Ptr", 0, "Ptr", -1))
-;((vCtl = "TX11") ? DllCall("SendMessage","Ptr",Ctl,"UInt",EM_SETSEL := 177, "PtrP", 0, "PtrP", -1) : DllCall("SendMessage","Ptr",Ctl,"UInt",EM_SETSEL := 0xB1, "Ptr", 0, "Ptr", -1))
-;((vCtl = "TX11") ? SendMessage,0xB1,"","",,ahk_id %Ctl% : SendMessage,0xB1,0,-1,,ahk_id %Ctl%) ; doesn't work
+;</s if (ErrorLevel != 1) {
+;</s ToolTip % "SendMessge Error: " ErrorLevel "`n" hCtl "`n" Ctl
+;</s }
+;</s WinGetClass, vCtl, % "ahk_id " Ctl
+;</s DllCall("SendMessage","Ptr",Ctl,"UInt",EM_SETSEL := 0xB1, "Ptr", 0, "Ptr", -1))
+;</s ((vCtl = "TX11") ? DllCall("SendMessage","Ptr",Ctl,"UInt",EM_SETSEL := 177, "PtrP", 0, "PtrP", -1) : DllCall("SendMessage","Ptr",Ctl,"UInt",EM_SETSEL := 0xB1, "Ptr", 0, "Ptr", -1))
+;</s ((vCtl = "TX11") ? SendMessage,0xB1,"","",,ahk_id %Ctl% : SendMessage,0xB1,0,-1,,ahk_id %Ctl%) ; doesn't work
 
-;ToolTip % "1: " hCtl "`n2: " vCtl, 0,0,1
+;</s ToolTip % "1: " hCtl "`n2: " vCtl, 0,0,1
 
-;MsgBox % "xCtl: " xCtl  "`nyCtl: " yCtl
-;hWndChild := DllCall("RealChildWindowFromPoint","Ptr",Ctl,"UInt",4,"Ptr")
-;Ctl := DllCall("RealChildWindowFromPoint","Ptr",hCtl,"UInt",4,"Ptr")
-;VarSetCapacity(cClass, 261*2, 0)
-;DllCall("GetClassName","Ptr",Ctl,"Str",cClass,"Int",261)
-;VarSetCapacity(cClass, 64*2, 0)
-;DllCall("GetClassName","Ptr",Ctl,"Str",cClass,"Int",64)
-;WinGetClass, vCtl, % "ahk_id " hWndChild
+;</s MsgBox % "xCtl: " xCtl  "`nyCtl: " yCtl
+;</s hWndChild := DllCall("RealChildWindowFromPoint","Ptr",Ctl,"UInt",4,"Ptr")
+;</s Ctl := DllCall("RealChildWindowFromPoint","Ptr",hCtl,"UInt",4,"Ptr")
+;</s VarSetCapacity(cClass, 261*2, 0)
+;</s DllCall("GetClassName","Ptr",Ctl,"Str",cClass,"Int",261)
+;</s VarSetCapacity(cClass, 64*2, 0)
+;</s DllCall("GetClassName","Ptr",Ctl,"Str",cClass,"Int",64)
+;</s WinGetClass, vCtl, % "ahk_id " hWndChild
 
-;((cClass = "TX11") ? DllCall("SendMessage","Ptr",Ctl,"UInt",0x00B1) : DllCall("SendMessage","Ptr",Ctl,"UInt",0xB1, "Ptr", 0, "Ptr", -1))
-;DllCall("SendMessage","Ptr",Ctl,"UInt",0xB1, "Ptr", 0, "Ptr", -1)
-
-return
+;</s ((cClass = "TX11") ? DllCall("SendMessage","Ptr",Ctl,"UInt",0x00B1) : DllCall("SendMessage","Ptr",Ctl,"UInt",0xB1, "Ptr", 0, "Ptr", -1))
+;</s DllCall("SendMessage","Ptr",Ctl,"UInt",0xB1, "Ptr", 0, "Ptr", -1)
+;</s return
 ; -------------------------------------------------------------------------------------------------
-; Function .....: button()
+; Sub-Section .....: Button Function
 ; Description ..: Call the Horizon msvb_lib_toolbar buttons
-; Definition ...: A_ThisHotkey => AHK's built in variable
+; Variable ...: A_ThisHotkey => AHK's built in variable
 ; Author .......: Overcast (Adam Bacon)
+; Function .....: button()
 ; -------------------------------------------------------------------------------------------------
 button()
 {
@@ -314,16 +310,17 @@ button()
 }    
 return
 ; -------------------------------------------------------------------------------------------------
-; Function .....: HznButton()
+; Sub-Section...: Horizon Click the ToolbarButton Function 
 ; Description ..: Find and Control-Click the Horizon msvb_lib_toolbar buttons
-; Definition ...: hWndToolbar = the toolbar window's handle
-; Definition ...: n = the index for the specified button
+; Variable ...: hWndToolbar = the toolbar window's handle
+; Variable ...: n = the index for the specified button
 ; Author .......: Descolada, Overcast (Adam Bacon)
+; Function .....: HznButton()
 ; -------------------------------------------------------------------------------------------------
 
 HznButton(hToolbar, n)
 {
-	; set the static variables
+	; Step: set the static variables
     static  TB_BUTTONCOUNT          := 0x418,
             TB_GETBUTTON            := 0x417,
             TB_GETITEMRECT          := 0x41D,
@@ -331,14 +328,14 @@ HznButton(hToolbar, n)
             MEM_RESERVE             := 0x2000, ; 0x00002000, ; via MSDN Win32
             MEM_PHYSICAL            := 0x04    ; 0x00400000, ; via MSDN Win32
 
-    ; count and load all the msvb_lib_toolbar buttons into memory
+    ; Step: count and load all the msvb_lib_toolbar buttons into memory
 	SendMessage, TB_BUTTONCOUNT
                 , 0                 ; must be 0
                 , 0                 ; must be 0
                 ,                   ; Control (optional*)
                 , % "ahk_id " hToolbar
 	
-    ; result of TB_BUTTONCOUNT (num of buttons)
+    ; Step: result of TB_BUTTONCOUNT (num of buttons)
 	buttonCount := ErrorLevel
 
 	if (n >= 1 && n <= buttonCount)
@@ -348,29 +345,32 @@ HznButton(hToolbar, n)
                 , "Ptr", hToolbar
                 , "UIntP", targetProcessID)
 
-		; Open the target process with PROCESS_VM_OPERATION, PROCESS_VM_READ, and PROCESS_VM_WRITE access
+    ; Step Open the target process with PROCESS_VM_OPERATION, PROCESS_VM_READ, and PROCESS_VM_WRITE access
 		hProcess := DllCall("OpenProcess"
                           , "UInt", 0x0018 | 0x0010 | 0x0020
                           , "Int", 0
                           , "UInt", targetProcessID
                           , "Ptr")
 
-		; Allocate memory for the TBBUTTON structure in the target process's address space
-        ; https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex
-                                ; LPVOID VirtualAllocEx(
+	; Step: Allocate memory for the TBBUTTON structure in the target process's address space
+    ; Reference: https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex
+    ; Description: LPVOID VirtualAllocEx(
 		remoteMemory := DllCall("VirtualAllocEx"
-		                        ; [in]           HANDLE hProcess,
-                                , "Ptr", hProcess
-                                ; [in, optional] LPVOID lpAddress, 
-                                , "Ptr", 0
-                                ; [in]           SIZE_T dwSize, ; The size of the region of memory to allocate, in bytes.
-                                , "UPtr", 16        
-                                ; [in]           DWORD  flAllocationType,
-                                , "UInt", MEM_COMMIT | MEM_RESERVE ; original had MEM_COMMIT only [; , "UInt", 0x1000 ]
-                                , "UInt", MEM_PHYSICAL
-                                ; [in]           DWORD  flProtect ; The memory protection for the region of pages to be allocated.
-                                , "Ptr", 0x40)      ; PAGE_EXECUTE_READWRITE := 0x40 ; , "Ptr") ; original
-                                ; If the pages are being committed, you can specify any one of the memory protection constants <https://learn.microsoft.com/en-us/windows/win32/Memory/memory-protection-constants>.
+        ; [in]           HANDLE hProcess,
+        , "Ptr",                hProcess
+        ; [in, optional] LPVOID lpAddress, 
+        , "Ptr",                0
+        ; [in]           SIZE_T dwSize, ; The size of the region of memory to allocate, in bytes.
+        , "UPtr",               16        
+        ; [in]           DWORD  flAllocationType,
+        , "UInt",               MEM_COMMIT | MEM_RESERVE 
+        ; Note: original had MEM_COMMIT only [; , "UInt", 0x1000 ]
+        , "UInt", MEM_PHYSICAL
+        ; [in]           DWORD  flProtect ; The memory protection for the region of pages to be allocated.
+        , "Ptr", 0x40)      ; PAGE_EXECUTE_READWRITE := 0x40
+        ; , "Ptr") ; original
+        ; If the pages are being committed, you can specify any one of the memory protection constants
+        ; reference <https://learn.microsoft.com/en-us/windows/win32/Memory/memory-protection-constants>.
                                 
         ; Get the bounds of each button                        
 		SendMessage, TB_GETITEMRECT, % n-1, remoteMemory, ,% "ahk_id " hToolbar

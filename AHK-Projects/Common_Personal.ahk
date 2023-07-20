@@ -91,6 +91,10 @@
 	#InputLevel
 	#IfWinActive
 */
+:*:solusr::abacon01
+:*:solpw::7jZuhYwi
+:*:solcod::
+:*:solvznpw::gill4-frank-dug
 #IfWinActive Reddit	
 :*:usr::Comfortable_Kick_776
 :*:pw:: 80ab**HD!9KB20!9

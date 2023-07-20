@@ -27,7 +27,6 @@ DetectHiddenWindows, On
 ; ----------------------------------------------------------------------------------------------------------------------
 make_window_groups()
 ; ----------------------------------------------------------------------------------------------------------------------
-; ----------------------------------------------------------------------------------------------------------------------
 ; .................: End Sub-Section
 ;=======================================================================================================================
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -37,12 +36,12 @@ make_window_groups()
 ; ----------------------------------------------------------------------------------------------------------------------
 Menu, Tray, Icon, shell32.dll, 16 ; this changes the icon into a little laptop thing.
 Menu, Tray, NoStandard
-;addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
-;addTrayMenuOption()
-;addTrayMenuOption("Run at startup", "runAtStartup")
-;Menu, Tray, % fileExist(startup_shortcut) ? "check" : "unCheck", Run at startup ; update the tray menu status on startup
-;addTrayMenuOption("Presentation mode {Win+Shift+P}", "togglePresentationMode")
-;addTrayMenuOption("Keyboard shortcuts {Ctrl+Shift+Alt+\}", "viewKeyboardShortcuts")
+; addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
+; addTrayMenuOption()
+; addTrayMenuOption("Run at startup", "runAtStartup")
+; Menu, Tray, % fileExist(startup_shortcut) ? "check" : "unCheck", Run at startup ; update the tray menu status on startup
+; addTrayMenuOption("Presentation mode {Win+Shift+P}", "togglePresentationMode")
+; addTrayMenuOption("Keyboard shortcuts {Ctrl+Shift+Alt+\}", "viewKeyboardShortcuts")
 addTrayMenuOption("Open file location", "openFileLocation")
 addTrayMenuOption()
 addTrayMenuOption("Run GUI_FE", "GUIFE")
@@ -51,7 +50,7 @@ addTrayMenuOption("Run GUI_ListofFiles.ahk", "GUI_ListofFiles")
 addTrayMenuOption("Run WindowProbe.ahk", "WindowProbe")
 addTrayMenuOption("Run Windows_Data_Types_offline.ahk", "Windows_Data_Types_offline")
 addTrayMenuOption()
-;addTrayMenuOption("View in GitHub", "viewInGitHub")
+; addTrayMenuOption("View in GitHub", "viewInGitHub")
 addTrayMenuOption("See AutoHotKey documentation", "viewAHKDoc")
 addTrayMenuOption()
 Menu, Tray, Standard
@@ -72,24 +71,24 @@ Menu, Tray, Standard
 run Common_Rec_Texts.ahk
 ;#Include autoahkHotstrings.ahk
 #Include windows-ahk-master\WINDOWS.ahk
-;return
 ; ----------------------------------------------------------------------------------------------
-; .................: End Sub-Section
-; ----------------------------------------------------------------------------------------------
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
-; ................: End Sub-Section
+; .................: End Includes
 ; ----------------------------------------------------------------------------------------------
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-; ----------------------------------------------------------------------------------------------
 
+
+; [ ]
+; ----------------------------------------------------------------------------------------------
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+; ----------------------------------------------------------------------------------------------
 
 
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ... First Return ... >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+; <<<<< ... First Return ... <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Return
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+; Comment .....:
+:*:;,,,...::; {< 5} {. 3} First Return {. 3} {< 67}`nReturn`n; {< 94}
 
 ; ToolTip Mouse Menu (requires XP/2k/NT) -- by Rajat
 ; https://www.autohotkey.com
@@ -100,7 +99,7 @@ Return
 ; window is active (Notepad and Word are used as examples here).
 
 ; You can set any title here for the menu:
-MenuTitle = -=-=-=-=-=-=-=-
+MenuTitle := "-=-=-=-=-=-=-=-"
 
 ; This is how long the mouse button must be held to cause the menu to appear:
 UMDelay = 20
@@ -119,7 +118,7 @@ SetTitleMatchMode, 2
 
 ; Don't worry about the order, the menu will be sorted.
 
-MenuItems = Notepad/Calculator/Section 3/Section 4/Section 5
+MenuItems := "Notepad/Calculator/Section 3/Section 4/Section 5"
 
 
 ;___________________________________________
@@ -128,8 +127,8 @@ MenuItems = Notepad/Calculator/Section 3/Section 4/Section 5
 ; Syntax:
 ;     Dyn# = MenuItem|Window title
 
-Dyn1 = MS Word|- Microsoft Word
-Dyn2 = Notepad II|- Notepad
+Dyn1 := "MS Word|- Microsoft Word"
+Dyn2 := "Notepad II|- Notepad"
 
 ;___________________________________________
 
@@ -273,13 +272,7 @@ Return
 ;#If WinActive("i)autohotkey*[A-Za-z]{0,1}[0-9]{0,2}\.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
 ;#If A_Process = Autohotkey ; WinActive("ahk_exe autohotkey.exe") or WinActive("ahk_exe AutoHotkeyU32.exe") or WinActive("ahk_exe AutoHotkeyU64.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
 #If A_Process == Code.exe
-~^s::
-ToolTip Saved
-;Sleep 1000
-ToolTip
-ReloadAllAhkScripts()
-reload
-return
+~^s::Reload A_ThisScript ;ReloadAllAhkScripts()
 /*Base_SaveReload()
 ToolTip Saved to Server
 Sleep 1000
@@ -374,7 +367,8 @@ msgbox % "Desktop Window: " dllCall("GetDesktopWindow") "`nClassName: "dllCall("
 ;msgbox % dllCall("GetTitleBarInfo")+0
 return
 ; ----------------------------------------------------------------------------------------------------------------------
-;---------------------------------------------------------------------------
+
+;***???--------------------------------------------------------------------------
 ;                Ctrl+Shift+Alt+r Reload AutoHotKey Script (to load changes)
 ;---------------------------------------------------------------------------
 ^+!r::
