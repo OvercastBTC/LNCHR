@@ -52,7 +52,7 @@ Tray.AddStandard()
 #Include <Common_OSTitles>
 #Include <Common_Personal>
 #Include <Common_Rec_Texts>
-#Include WINDOWS_v2.ahk
+#Include WINDOWS.v2.ahk
 ; --------------------------------------------------------------------------------
 
 ; <<<<< ... First Return ... <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -65,69 +65,99 @@ Return
 
 ; --------------------------------------------------------------------------------
 ; Section .....: Save with Hotkey Function
-; Function ....: Base_SaveReload()
+; Function ....: ReloadAllAHKScripts()
 ; --------------------------------------------------------------------------------
 ;SetTitleMatchMode RegEx
 ;#If WinActive("i)autohotkey*[A-Za-z]{0,1}[0-9]{0,2}\.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
 ;#If A_Process = Autohotkey ; WinActive("ahk_exe autohotkey.exe") or WinActive("ahk_exe AutoHotkeyU32.exe") or WinActive("ahk_exe AutoHotkeyU64.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
 #HotIf WinActive("ahk_exe Code.exe") ;A_Process == Code.exe
-~^s::ReloadAllAhkScripts()
-;Reload A_ThisScript 
-/*Base_SaveReload()
-ToolTip Saved to Server
-Sleep 1000
-Reload
-;ToolTip
-return
-*/
+~^s::
+{
+	ReloadAllAhkScripts()
+}
+ReloadAllAhkScripts()
+{
+DetectHiddenWindows(true)
+static oList := WinGetList("ahk_class AutoHotkey",,,)
+aList := Array()
+List := oList.Length
+For v in oList
+{
+	aList.Push(v)
+}
+scripts := ""
+Loop aList.Length
+	{
+		title := WinGetTitle("ahk_id " aList[A_Index])
+	   	;PostMessage(0x111,65414,0,,"ahk_id " aList[A_Index])
+	   	PostMessage(0x111,65400,0,,"ahk_id " aList[A_Index])
+	   	; Note: I think the 654*** is for v2 => avoid the 653***'s
+		; [x] Reload:		65400
+		; [x] Help: 		65411 ; 65401 doesn't really work or do anything that I can tell
+		; [x] Spy: 			65402
+		; [x] Pause: 		65403
+		; [x] Suspend: 		65404
+		; [x] Exit: 		65405
+		; [x] Variables:	65406
+		; [x] Lines Exec:	65407 & 65410
+		; [x] HotKeys:		65408
+		; [x] Key History:	65409
+		; [x] AHK Website:	65412 ; Opens https://www.autohotkey.com/ in default browser; and 65413
+		; [x] Save?:		65414
+		; Don't use these => ;//static a := { Open: 65300, Help:    65301, Spy: 65302, XXX (nonononono) Reload: 65303 [bad reload like Reload()], Edit: 65304, Suspend: 65305, Pause: 65306, Exit:   65307 }
+		scripts .=  (scripts ? "`r`n" : "") . RegExReplace(title, " - AutoHotkey v[\.0-9]+$")
+	}
+	OutputDebug(scripts)
+	return
+}
 #HotIf
 ; --------------------------------------------------------------------------------
 ; Section .....: Functions
 ; Function ....: Run scripts selection from the Script Tray Icon
 ; --------------------------------------------------------------------------------
-^+#1::
-GUIFE(*){
-	Run("GUI_FE.ahk")
-}
-return
-; list
-^+#2::
-WindowListMenu(*){
-	Run("WindowListMenu.ahk")
-}	
-return
-^+#3::
-WindowProbe(*){
-	Run("WindowProbe.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\")
-}
-return
-^+#4::
-GUI_ListofFiles(*){
-	Run("GUI_ListofFiles.ahk")
-}
-return
-^+#5::
-{
-Windows_Data_Types_offline(*){
-	Run("Windows_Data_Types_offline.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\AutoHotkey_MSDN_Types-master\src\v1.1_deprecated\")
-}
-}
-return
-#o::
-Detect_Window_Info(*){
-	Run("Detect_Window_Info.ahk")
-}
-return
-^+#6::
-Detect_Window_Update(*){
-	Edit()
-}
-return
-^+#7::
-test_script(*){
-	Run("test_script.ahk")
-}
-return
+; ^+#1::
+; GUIFE(*){
+; 	Run("GUI_FE.ahk")
+; }
+; return
+; ; list
+; ^+#2::
+; WindowListMenu(*){
+; 	Run("WindowListMenu.ahk")
+; }	
+; return
+; ^+#3::
+; WindowProbe(*){
+; 	Run("WindowProbe.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\")
+; }
+; return
+; ^+#4::
+; GUI_ListofFiles(*){
+; 	Run("GUI_ListofFiles.ahk")
+; }
+; return
+; ^+#5::
+; {
+; Windows_Data_Types_offline(*){
+; 	Run("Windows_Data_Types_offline.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\AutoHotkey_MSDN_Types-master\src\v1.1_deprecated\")
+; }
+; }
+; return
+; #o::
+; Detect_Window_Info(*){
+; 	Run("Detect_Window_Info.ahk")
+; }
+; return
+; ^+#6::
+; Detect_Window_Update(*){
+; 	Edit()
+; }
+; return
+; ^+#7::
+; test_script(*){
+; 	Run("test_script.ahk")
+; }
+; return
 ; --------------------------------------------------------------------------------
 ;============================== Test Programs ==============================
 #Numpad0::
@@ -169,7 +199,7 @@ return
 ; --------------------------------------------------------------------------------
 ;                Ctrl+Shift+Alt+r Reload AutoHotKey Script (to load changes)
 ; --------------------------------------------------------------------------------
-^+!r::Base_ReloadAllAhkScripts()
+^+!r::ReloadAllAhkScripts()
 ; - Chrome River----------------------------------
 #HotIf WinActive("Chrome River - Google Chrome")
 	; SendMode("Event")
@@ -366,33 +396,33 @@ Join(sep, params*) {
 ;                          General Abbreviations
 ;---------------------------------------------------------------------------
 
-^!0::
-{ ; V1toV2: Added bracket
-var := "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔŒÕÖØÙÚÛÜßàáâãäåæçèéêëìíîïñòóôœõöøùúûüÿ¿¡«»§¶†‡•-–—™©®¢€¥£₤¤αβγδεζηθικλμνξοπρσςτυφχψωΓΔΘΛΞΠΣΦΨΩ∫∑∏√−±∞≈∝≡≠≤≥×·÷∂′″∇‰°∴ø∈∩∪⊂⊃⊆⊇¬∧∨∃∀⇒⇔→↔↑ℵ∉°₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹"
+; ^!0::
+; { ; V1toV2: Added bracket
+; static var := "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔŒÕÖØÙÚÛÜßàáâãäåæçèéêëìíîïñòóôœõöøùúûüÿ¿¡«»§¶†‡•-–—™©®¢€¥£₤¤αβγδεζηθικλμνξοπρσςτυφχψωΓΔΘΛΞΠΣΦΨΩ∫∑∏√−±∞≈∝≡≠≤≥×·÷∂′″∇‰°∴ø∈∩∪⊂⊃⊆⊇¬∧∨∃∀⇒⇔→↔↑ℵ∉°₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹"
 
-w:=20, cnt := 14, arr := strsplit(var)
-myGui := Gui()
-myGui.new()
-myGui.Opt("-caption")
-myGui.MarginX := "0", myGui.MarginY := "0"
-myGui.SetFont("s10")
-Loop arr.count()
-{
-	x := mod((a_index - 1),cnt) * w, y := floor((a_index - 1)/ cnt) * w
-	ogctextz := myGui.add("text", "x" . x . " y" . y . " w" . w . " h" . w . " center vz" . a_index, arr[a_index])
-	ogctextz.OnEvent("Click", insert.Bind("Normal"))
-}
-myGui.show()
-return
-} ; Added bracket before function
+; static w:=20, cnt := 14, arr := strsplit(var)
+; static myGui := Gui()
+; myGui.new()
+; myGui.Opt("-caption")
+; myGui.MarginX := "0", myGui.MarginY := "0"
+; myGui.SetFont("s10")
+; Loop arr.count()
+; {
+; 	x := mod((a_index - 1),cnt) * w, y := floor((a_index - 1)/ cnt) * w
+; 	ogctextz := myGui.add("text", "x" . x . " y" . y . " w" . w . " h" . w . " center vz" . a_index, arr[a_index])
+; 	ogctextz.OnEvent("Click", myGui.insert.Bind("Normal"))
+; }
+; myGui.show()
+; return
+; } ; Added bracket before function
 
-insert(A_GuiEvent, GuiCtrlObj, Info, *)
-{ ; V1toV2: Added bracket
-oSaved := myGui.submit()
-Send(arr[SubStr(A_GuiControl, 2)])
-}
-return
-
+; ; insert(A_GuiEvent, GuiCtrlObj, Info, *)
+; ; { ; V1toV2: Added bracket
+; ; 	myGui := 
+; ; 	oSaved := myGui.submit()
+; ; 	Send(arr[SubStr(A_GuiControl, 2)])
+; ; }
+; ; return
 
 :?*X:nm::Send("{Blind}≠") ; used for testing
 
@@ -496,13 +526,16 @@ return
 
 Alt & ~LButton::
 { ; V1toV2: Added bracket
-CoordMode("Mouse")  ; Switch to screen/absolute coordinates.
-MouseGetPos(&EWD_MouseStartX, &EWD_MouseStartY, &EWD_MouseWin)
-WinGetPos(&EWD_OriginalPosX, &EWD_OriginalPosY, , , "ahk_id " EWD_MouseWin)
-EWD_WinState := WinGetMinMax("ahk_id " EWD_MouseWin)
-if (EWD_WinState = 0)  ; Only if the window isn't maximized 
-	SetTimer(EWD_WatchMouse,10) ; Track the mouse as the user drags it.
-return
+	global EWD_MouseStartX, EWD_MouseStartY, EWD_MouseWin, EWD_OriginalPosX, EWD_OriginalPosY
+	EWD_OriginalPosX := "", EWD_OriginalPosY := ""
+	CoordMode("Mouse")  ; Switch to screen/absolute coordinates.
+	MouseGetPos(&EWD_MouseStartX, &EWD_MouseStartY, &EWD_MouseWin,,2)
+	WinGetClientPos(&EWD_OriginalPosX, &EWD_OriginalPosY,&EWD_OriginalH, &EWD_OriginalW, "ahk_id " EWD_MouseWin)
+	;WinGetPos(&EWD_OriginalPosX, &EWD_OriginalPosY, , , "ahk_id " EWD_MouseWin)
+	EWD_WinState := WinGetMinMax("ahk_id " EWD_MouseWin)
+	if (EWD_WinState = 0)  ; Only if the window isn't maximized 
+		SetTimer(EWD_WatchMouse,10) ; Track the mouse as the user drags it.
+	return
 } ; V1toV2: Added Bracket before label
 
 

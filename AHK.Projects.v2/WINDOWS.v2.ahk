@@ -15,7 +15,7 @@ DetectHiddenWindows(true)
 
 ; Menu, Tray, Icon, shell32.dll, 16 ; this changes the icon into a little laptop thing.
 ; Create the tray menu with the custom icon
-TraySetIcon(A_ScriptDir . "\assets\windows-ahk.ico")
+TraySetIcon("assets\windows-ahk.ico")
 
 ; grouping explorers
 GroupAdd("ExplorerGroup", "ahk_class CabinetWClass")
@@ -80,7 +80,7 @@ defaultfolder := userdir . OneDrive . ahk ;C:\Users\bacona\OneDrive - FM Global\
 Tray := A_TrayMenu
 ; script name and startup path
 ;splitPath, A_ScriptFullPath, , , script_ext, script_name
-;global script_full_name := script_name "." script_ext
+;global A_ScriptName := script_name "." script_ext
 startup_shortcut := A_Startup "\" A_ScriptName ".lnk"
 ; FUNCTIONS
 trayNotify(title, message, options := 0) {
@@ -117,6 +117,7 @@ get_default_browser() {
 
 activate(program, action:="minimize", arguments:=""){
     ahk_type := "ahk_exe"
+    e := Error()
     try {
         if !WinExist(ahk_type " " program)
             Run(program " " arguments)
@@ -347,12 +348,7 @@ openFileLocation(){
 }
 
 download(url, filename) {
-    Download(url,filename)
-    if (ErrorLevel != 0) {
-        trayNotify(script_full_name, "File '" . filename . "' couldn't be downloaded from " . url . ". Maybe the system is offline?")
-    } else {
-        trayNotify(script_full_name, "File '" . filename . "' downloaded.")
-    }
+    (filename != 0) ? trayNotify(A_ScriptName, "File '" . filename . "' couldn't be downloaded from " . url . ". Maybe the system is offline?") : trayNotify(A_ScriptName, "File '" . filename . "' downloaded.")
 }
 
 viewKeyboardShortcuts(){
@@ -362,13 +358,9 @@ viewKeyboardShortcuts(){
     While True {
         if not FileExist(hotkey_pdf_path){
 
-            msgResult := MsgBox("The " hotkey_pdf " file doesn't exist. `nThis pdf file contains detailed the list of keyboard shortcuts for " script_full_name ". `n`nWould you like to download and open the file? `nURL: " hotkey_pdf_url, "File not found: would like to download?", 4)
+            msgResult := MsgBox("The " hotkey_pdf " file doesn't exist. `nThis pdf file contains detailed the list of keyboard shortcuts for " A_ScriptName ". `n`nWould you like to download and open the file? `nURL: " hotkey_pdf_url, "File not found: would like to download?", 4)
 
-            if (msgResult = "Yes")
-                download(hotkey_pdf_url, hotkey_pdf)
-else
-    Break
-        } else {
+            (msgResult = "Yes") ? download(hotkey_pdf_url, hotkey_pdf) : 0
             Run(hotkey_pdf_path)
             Break
         }
@@ -404,7 +396,7 @@ updateTrayMenu() {
 }
 
 updateTrayMenu()
-;trayNotify(script_full_name . " started", "Open keyboard shortcuts with {Ctrl + Shift + Alt + \}`n`nModified with Nerd by Adam Bacon and Terry Keatts`nMade with ❤️ by Bibek Aryal."),.5
+;trayNotify(A_ScriptName . " started", "Open keyboard shortcuts with {Ctrl + Shift + Alt + \}`n`nModified with Nerd by Adam Bacon and Terry Keatts`nMade with ❤️ by Bibek Aryal."),.5
 /*
 ;#[HOTKEYS]
 
@@ -548,9 +540,9 @@ Return
 { ; V1toV2: Added bracket
     Suspend()
     if (A_IsSuspended = 1){
-        trayNotify(script_full_name . " suspended", "All hotkeys will be suspended (paused). `n`nPress {Ctrl + Shift + Alt + S} or use the tray menu option to toggle back.")
+        trayNotify(A_ScriptName . " suspended", "All hotkeys will be suspended (paused). `n`nPress {Ctrl + Shift + Alt + S} or use the tray menu option to toggle back.")
     } else {
-        trayNotify(script_full_name . " restored", "All hotkeys resumed (will work as intended). `n`nPress {Ctrl + Shift + Alt + S} to suspend.")
+        trayNotify(A_ScriptName . " restored", "All hotkeys resumed (will work as intended). `n`nPress {Ctrl + Shift + Alt + S} to suspend.")
     }
 Return
 

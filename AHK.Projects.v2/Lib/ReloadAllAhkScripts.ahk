@@ -75,7 +75,6 @@ Loop % running
 Reload
 Return
 */
-} ; Added bracket before function
 ReloadAllAhkScripts() {
 	/*
 	arr := []
