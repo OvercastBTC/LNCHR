@@ -83,6 +83,7 @@ Tray := A_TrayMenu
 ;global A_ScriptName := script_name "." script_ext
 startup_shortcut := A_Startup "\" A_ScriptName ".lnk"
 ; FUNCTIONS
+
 trayNotify(title, message, options := 0) {
     TrayTip(title, message, options)
 }
@@ -254,15 +255,13 @@ sheetWr(text){
 runAtStartup() {
     if (FileExist(startup_shortcut)) {
         FileDelete(startup_shortcut)
-        
-        Tray.Uncheck("Run at startup") ; update the tray menu status on change
+        Tray.Check("Run at Startup") ; update the tray menu status on change
         trayNotify("Startup shortcut removed", "This script will not run when you turn on your computer.")
     } else {
-        FileCreateShortcut(A_ScriptFullPath, startup_shortcut)
+        FileCreateShortcut(A_ScriptFullPath, startup_shortcut, A_ScriptDir,,"Start Script on Startup", A_ScriptDir "assets\windows-ahk.ico","W")
         Tray.Check("Run at startup") ; update the tray menu status on change
         trayNotify("Startup shortcut added", "This script will now automatically run when your turn on your computer.")
     }
-
 }
 
 togglePresentationMode(){
@@ -289,7 +288,7 @@ togglePresentationMode(){
 madeBy(){
     ; visit authors website
     ;Run, https://bibeka.com.np/
-    MsgBox("This was made by nerds, for nerds. Regular people are ok too, lol.`nModified by Adam Bacon`nCredit:Made with ❤️ by Bibek Aryal")
+    MsgBox("This was made by nerds, for nerds. Regular people are ok too, lol.`nModified by Overcast(Adam Bacon)`nCredit:Made with ❤️by Bibek Aryal")
 }
 
 viewInGitHub(){
@@ -368,29 +367,30 @@ viewKeyboardShortcuts(){
 }
 ;#[WINDOWS]
 updateTrayMenu() {
-	Tray.Delete() ; V1toV2: not 100% replacement of NoStandard, Only if NoStandard is used at the beginning
-	Tray.Add("Modified with Nerd by Adam Bacon and Terry Keatts.`nCredit:Made with ❤️ by Bibek Aryal", "madeBy")
+	Tray := A_TrayMenu
+    Tray.Delete() ; V1toV2: not 100% replacement of NoStandard, Only if NoStandard is used at the beginning
+	; Tray.Add("Modified with Nerd by Adam Bacon and Terry Keatts.`nCredit:Made with ❤️ by Bibek Aryal", madeBy)
 	Tray.Add()
-	Tray.Add("Run at startup", "runAtStartup")
-	Tray.fileExist(startup_shortcut) ? "check" : "unCheck"("Run at startup") ; update the tray menu status on startup
-	Tray.Add("Presentation mode {Win+Shift+P}", "togglePresentationMode")
-	Tray.Add("Keyboard shortcuts {Ctrl+Shift+Alt+\}", "viewKeyboardShortcuts")
-	Tray.Add("Open file location", "openFileLocation")
+	Tray.Add("Run at startup", runAtStartup())
+	Tray.fileExist(startup_shortcut) ? Tray.Check("Run at Startup") : Tray.UnCheck("Run at startup") ; update the tray menu status on startup
+	Tray.Add("Presentation mode {Win+Shift+P}", togglePresentationMode)
+	Tray.Add("Keyboard shortcuts {Ctrl+Shift+Alt+\}", viewKeyboardShortcuts)
+	Tray.Add("Open file location", openFileLocation)
 	Tray.Add()
-	Tray.Add("View in GitHub", "viewInGitHub")
-	Tray.Add("See AutoHotKey documentation", "viewAHKDoc")
+	Tray.Add("View in GitHub", viewInGitHub)
+	Tray.Add("See AutoHotKey documentation", viewAHKDoc)
 	Tray.Add("See AHK GUI documentation", "viewGuiDoc")
-	Tray.Add("AHK Built in Functions (e.g., A_Function)", "viewAHKVariables")
+	Tray.Add("AHK Built in Functions (e.g., A_Function)", viewAHKVariables)
 	Tray.Add()
-	Tray.Add("Run GetTextUnderMouse.ahk", "runtxtundrmouse")
-	Tray.Add("Run WinspectorU.exe", "runWinspector")
-	Tray.Add("Run UIAutomation.ahk", "runUIAutomation")
-	Tray.Add("Run Messages_ShellHook.ahk", "runshellhookmessages")
+	Tray.Add("Run GetTextUnderMouse.ahk", runtxtundrmouse)
+	Tray.Add("Run WinspectorU.exe", runWinspector)
+	Tray.Add("Run UIAutomation.ahk", runUIAutomation)
+	Tray.Add("Run Messages_ShellHook.ahk", runshellhookmessages)
 	Tray.Add()
-	Tray.Add("Run Scriptlet_Library_v4.ahk", "runScriptlet")
-	Tray.Add("Run AHK Script.ahk", "runAHKScript")
-	Tray.Add("Run Hznbutton.ahk", "runHznbutton")
-	Tray.Add("Run Constantine.ahk", "runconstatine")
+	Tray.Add("Run Scriptlet_Library_v4.ahk", runScriptlet)
+	Tray.Add("Run AHK Script.ahk", runAHKScript)
+	Tray.Add("Run Hznbutton.ahk", runHznbutton)
+	Tray.Add("Run Constantine.ahk", runconstatine)
 	Tray.Add()
 	Tray.AddStandard()
 }

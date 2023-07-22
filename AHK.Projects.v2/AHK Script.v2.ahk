@@ -90,7 +90,9 @@ Loop aList.Length
 	{
 		title := WinGetTitle("ahk_id " aList[A_Index])
 	   	;PostMessage(0x111,65414,0,,"ahk_id " aList[A_Index])
-	   	PostMessage(0x111,65400,0,,"ahk_id " aList[A_Index])
+		If (title = A_ScriptName)
+			Continue
+		PostMessage(0x111,65400,0,,"ahk_id " aList[A_Index])
 	   	; Note: I think the 654*** is for v2 => avoid the 653***'s
 		; [x] Reload:		65400
 		; [x] Help: 		65411 ; 65401 doesn't really work or do anything that I can tell
@@ -115,49 +117,49 @@ Loop aList.Length
 ; Section .....: Functions
 ; Function ....: Run scripts selection from the Script Tray Icon
 ; --------------------------------------------------------------------------------
-; ^+#1::
-; GUIFE(*){
-; 	Run("GUI_FE.ahk")
-; }
-; return
-; ; list
-; ^+#2::
-; WindowListMenu(*){
-; 	Run("WindowListMenu.ahk")
-; }	
-; return
-; ^+#3::
-; WindowProbe(*){
-; 	Run("WindowProbe.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\")
-; }
-; return
-; ^+#4::
-; GUI_ListofFiles(*){
-; 	Run("GUI_ListofFiles.ahk")
-; }
-; return
-; ^+#5::
-; {
-; Windows_Data_Types_offline(*){
-; 	Run("Windows_Data_Types_offline.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\AutoHotkey_MSDN_Types-master\src\v1.1_deprecated\")
-; }
-; }
-; return
-; #o::
-; Detect_Window_Info(*){
-; 	Run("Detect_Window_Info.ahk")
-; }
-; return
-; ^+#6::
-; Detect_Window_Update(*){
-; 	Edit()
-; }
-; return
-; ^+#7::
-; test_script(*){
-; 	Run("test_script.ahk")
-; }
-; return
+^+#1::
+GUIFE(*){
+	Run("GUI_FE.ahk")
+}
+return
+; list
+^+#2::
+WindowListMenu(*){
+	Run("WindowListMenu.ahk")
+}	
+return
+^+#3::
+WindowProbe(*){
+	Run("WindowProbe.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\")
+}
+return
+^+#4::
+GUI_ListofFiles(*){
+	Run("GUI_ListofFiles.ahk")
+}
+return
+^+#5::
+{
+Windows_Data_Types_offline(*){
+	Run("Windows_Data_Types_offline.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\AutoHotkey_MSDN_Types-master\src\v1.1_deprecated\")
+}
+}
+return
+#o::
+Detect_Window_Info(*){
+	Run("Detect_Window_Info.ahk")
+}
+return
+^+#6::
+Detect_Window_Update(*){
+	Edit()
+}
+return
+^+#7::
+test_script(*){
+	Run("test_script.ahk")
+}
+return
 ; --------------------------------------------------------------------------------
 ;============================== Test Programs ==============================
 #Numpad0::
