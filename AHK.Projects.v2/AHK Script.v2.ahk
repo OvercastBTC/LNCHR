@@ -60,55 +60,56 @@ Return
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ; Comment .....:
-:*:;,,,...::; {< 5} {. 3} First Return {. 3} {< 53}`nReturn`n; {< 80}
+:*:;...::; {< 5} {. 3} First Return {. 3} {< 53}`nReturn`n; {< 80}
 :*:;---::; {- 80}
-
+:*:;,,,::; {< 80}
+:*:;sect::; {- 80} `r; {< 80}`r; {- 80}
+; -------------------------------------------------------------------------------- 
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ; --------------------------------------------------------------------------------
 ; Section .....: Save with Hotkey Function
 ; Function ....: ReloadAllAHKScripts()
 ; --------------------------------------------------------------------------------
-;SetTitleMatchMode RegEx
-;#If WinActive("i)autohotkey*[A-Za-z]{0,1}[0-9]{0,2}\.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
-;#If A_Process = Autohotkey ; WinActive("ahk_exe autohotkey.exe") or WinActive("ahk_exe AutoHotkeyU32.exe") or WinActive("ahk_exe AutoHotkeyU64.exe") ; ahk_exe AutoHotKey.exe or AutoHotkeyU32.exe or AutoHotkeyU64.exe
-#HotIf WinActive("ahk_exe Code.exe") ;A_Process == Code.exe
+#HotIf WinActive("ahk_exe Code.exe")
 ~^s::
 {
 	ReloadAllAhkScripts()
 }
+
 ReloadAllAhkScripts()
 {
-DetectHiddenWindows(true)
-static oList := WinGetList("ahk_class AutoHotkey",,,)
-aList := Array()
-List := oList.Length
-For v in oList
-{
-	aList.Push(v)
-}
-scripts := ""
-Loop aList.Length
+	DetectHiddenWindows(true)
+	static oList := WinGetList("ahk_class AutoHotkey",,,)
+	aList := Array()
+	List := oList.Length
+	For v in oList
 	{
-		title := WinGetTitle("ahk_id " aList[A_Index])
-	   	;PostMessage(0x111,65414,0,,"ahk_id " aList[A_Index])
-		If (title = A_ScriptName)
-			Continue
-		PostMessage(0x111,65400,0,,"ahk_id " aList[A_Index])
-	   	; Note: I think the 654*** is for v2 => avoid the 653***'s
-		; [x] Reload:		65400
-		; [x] Help: 		65411 ; 65401 doesn't really work or do anything that I can tell
-		; [x] Spy: 			65402
-		; [x] Pause: 		65403
-		; [x] Suspend: 		65404
-		; [x] Exit: 		65405
-		; [x] Variables:	65406
-		; [x] Lines Exec:	65407 & 65410
-		; [x] HotKeys:		65408
-		; [x] Key History:	65409
-		; [x] AHK Website:	65412 ; Opens https://www.autohotkey.com/ in default browser; and 65413
-		; [x] Save?:		65414
-		; Don't use these => ;//static a := { Open: 65300, Help:    65301, Spy: 65302, XXX (nonononono) Reload: 65303 [bad reload like Reload()], Edit: 65304, Suspend: 65305, Pause: 65306, Exit:   65307 }
-		scripts .=  (scripts ? "`r`n" : "") . RegExReplace(title, " - AutoHotkey v[\.0-9]+$")
+		aList.Push(v)
 	}
+	scripts := ""
+	Loop aList.Length
+		{
+			title := WinGetTitle("ahk_id " aList[A_Index])
+			;PostMessage(0x111,65414,0,,"ahk_id " aList[A_Index])
+			If (title = A_ScriptName)
+				Continue
+			PostMessage(0x111,65400,0,,"ahk_id " aList[A_Index])
+			; Note: I think the 654*** is for v2 => avoid the 653***'s
+			; [x] Reload:		65400
+			; [x] Help: 		65411 ; 65401 doesn't really work or do anything that I can tell
+			; [x] Spy: 			65402
+			; [x] Pause: 		65403
+			; [x] Suspend: 		65404
+			; [x] Exit: 		65405
+			; [x] Variables:	65406
+			; [x] Lines Exec:	65407 & 65410
+			; [x] HotKeys:		65408
+			; [x] Key History:	65409
+			; [x] AHK Website:	65412 ; Opens https://www.autohotkey.com/ in default browser; and 65413
+			; [x] Save?:		65414
+			; Don't use these => ;//static a := { Open: 65300, Help:    65301, Spy: 65302, XXX (nonononono) Reload: 65303 [bad reload like Reload()], Edit: 65304, Suspend: 65305, Pause: 65306, Exit:   65307 }
+			scripts .=  (scripts ? "`r`n" : "") . RegExReplace(title, " - AutoHotkey v[\.0-9]+$")
+		}
 	OutputDebug(scripts)
 	return
 }
