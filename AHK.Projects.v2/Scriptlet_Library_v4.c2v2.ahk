@@ -7,8 +7,8 @@
 ; Source: www.autohotkey.com/forum/topic2510.html
 
 Version := "4"
-ScriptName := "Scriptlet_Library_" . Version . ".v1"
-
+ScriptName := "Scriptlet_Library_" . Version . ".v2"
+#Requires AutoHotkey 2.0+
 /*
 changes to version 3:
 - requires "../Anchor/Anchor_v3.3.ahk" => www.autohotkey.com/forum/topic4348.html
@@ -167,7 +167,7 @@ Return
 FileScriptletsIntoGui()
   ;create default group
 { ; V1toV2: Added bracket
-  myGui. Default()
+  myGui.Default()
   Group_ID := TV.Add(DefaultGroupName, "", "Sort")
   ListOfGroupNames := "`n" . DefaultGroupName . "`n"
   Default_Group_ID := Group_ID
@@ -442,7 +442,7 @@ Return
 
 BtnAddGroup(A_GuiEvent, GuiCtrlObj, Info, *)
 { ; V1toV2: Added bracket
-  myGui. Default()
+  myGui.Default()
   ;find group name that doesn't exist yet
   Loop
       If !InStr(ListOfGroupNames, "`n" . DefaultNewGroupName . " " . A_Index . "`n"){
@@ -472,7 +472,7 @@ EdtGroupName(A_GuiEvent, GuiCtrlObj, Info, *)
       Return
 
   ;get group id
-  myGui. Default()
+  myGui.Default()
   ID := ogcTreeViewTrvScriptlets.GetSelection()
   ParentID := ogcTreeViewTrvScriptlets.GetParent(ID)
   If ParentID      ;its a scriptlet
@@ -498,7 +498,7 @@ Return
 
 BtnRemoveGroup(A_GuiEvent, GuiCtrlObj, Info, *)
 { ; V1toV2: Added bracket
-  myGui. Default()
+  myGui.Default()
   ;get group id
   ID := ogcTreeViewTrvScriptlets.GetSelection()
   ParentID := ogcTreeViewTrvScriptlets.GetParent(ID)
@@ -545,7 +545,7 @@ Return
 
 BtnAddScriptlet(A_GuiEvent, GuiCtrlObj, Info, *)
 { ; V1toV2: Added bracket
-  myGui. Default()
+  myGui.Default()
   ;get group id
   ID := ogcTreeViewTrvScriptlets.GetSelection()
   ParentID := ogcTreeViewTrvScriptlets.GetParent(ID)
@@ -565,7 +565,7 @@ Return
 
 EdtScriptletName(A_GuiEvent, GuiCtrlObj, Info, *)
 { ; V1toV2: Added bracket
-  myGui. Default()
+  myGui.Default()
   ;get scriptlet id
   ID := ogcTreeViewTrvScriptlets.GetSelection()
   ParentID := ogcTreeViewTrvScriptlets.GetParent(ID)
@@ -581,7 +581,7 @@ Return
 
 BtnRemoveScriptlet(A_GuiEvent, GuiCtrlObj, Info, *)
 { ; V1toV2: Added bracket
-  myGui. Default()
+  myGui.Default()
   ;get scriptlet id
   ID := ogcTreeViewTrvScriptlets.GetSelection()
   ParentID := ogcTreeViewTrvScriptlets.GetParent(ID)
@@ -611,7 +611,7 @@ DdbScriptletInGroup(A_GuiEvent, GuiCtrlObj, Info, *)
   If TreeSelectionInProcess
       Return
   TreeSelectionInProcess := True
-  myGui. Default()
+  myGui.Default()
   ;get scriptlet id and name
   ID := ogcTreeViewTrvScriptlets.GetSelection()
   ParentID := ogcTreeViewTrvScriptlets.GetParent(ID)
@@ -643,7 +643,7 @@ EdtScriptletData(A_GuiEvent, GuiCtrlObj, Info, *)
 { ; V1toV2: Added bracket
   If TreeSelectionInProcess
       Return
-  myGui. Default()
+  myGui.Default()
   ;get scriptlet id
   ID := ogcTreeViewTrvScriptlets.GetSelection()
   ParentID := ogcTreeViewTrvScriptlets.GetParent(ID)
@@ -693,7 +693,7 @@ WriteINIFile()
   FileAppend("`n`n", IniFile)
   
   ID := "0"
-  myGui. Default()
+  myGui.Default()
   ScriptletString := ""
   Loop{
       ID := ogcTreeViewTrvScriptlets.GetNext(ID, "Full")
@@ -747,20 +747,21 @@ return
 } ; V1toV2: Added bracket before function
 
 RollGuiUp(BarName, vertical := "") {
-    global Gui1UniqueID, GuiRolledUp
-    SetTimer(CheckIfActive,0)
-    WM_NCMouseMove := "0xA0"
-    OnMessage(WM_NCMouseMove, RollGuiDown)
-    WinGetPos(&Gui1X, &Gui1Y, , , "ahk_id " Gui1UniqueID)
-    oGui2.Opt("+ToolWindow -SysMenu +AlwaysOnTop +AutoSize")
-    If vertical
-        oGui2.Title := BarName
-        oGui2.Show("w0 h100 x" . Gui1X . " y" . Gui1Y . " NoActivate")  ;vertical bar
-    Else
-        oGui2.Title := BarName
-        oGui2.Show("w150 h0 x" . Gui1X . " y" . Gui1Y . " NoActivate")  ;horizontal bar
+  global Gui1UniqueID, GuiRolledUp
+  SetTimer(CheckIfActive, 0)
+  WM_NCMouseMove := "0xA0"
+  OnMessage(WM_NCMouseMove, RollGuiDown)
+  WinGetPos(&Gui1X, &Gui1Y, , , "ahk_id " Gui1UniqueID)
+  oGui2.Opt("+ToolWindow -SysMenu +AlwaysOnTop +AutoSize")
+  If vertical {
+    oGui2.Title := BarName
+    oGui2.Show("w0 h100 x" . Gui1X . " y" . Gui1Y . " NoActivate")  ;vertical bar
+  } Else {
+    oGui2.Title := BarName
+    oGui2.Show("w150 h0 x" . Gui1X . " y" . Gui1Y . " NoActivate")  ;horizontal bar
     DllCall("AnimateWindow", "UInt", Gui1UniqueID, "Int", 200, "UInt", "0x3000a")
     GuiRolledUp := True
+  }
  }
 
 RollGuiDown(wParam, lParam, msg, hwnd) {

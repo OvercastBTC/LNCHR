@@ -10,7 +10,7 @@ SetTitleMatchMode(2) ; sets title matching to search for "containing" instead of
 DetectHiddenText(true)
 DetectHiddenWindows(true)
 #Requires Autohotkey v2.0+
-ListHotstrings
+
 ; --------------------------------------------------------------------------------
 ; This is kinda cool, I like this ; Sub-Section .....: Make Window Groups
 ; --------------------------------------------------------------------------------
