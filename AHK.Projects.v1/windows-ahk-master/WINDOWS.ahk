@@ -29,7 +29,6 @@ DetectHiddenWindows, On
 
 ; Menu, Tray, Icon, shell32.dll, 16 ; this changes the icon into a little laptop thing.
 ; Create the tray menu with the custom icon
-Menu, Tray, Icon, %A_ScriptDir%\assets\windows-ahk.ico
 
 ; grouping explorers
 GroupAdd, ExplorerGroup, ahk_class CabinetWClass
@@ -74,30 +73,29 @@ GroupAdd, TerminalGroup, ahk_exe ubuntu.exe
 ;c := "C:\"
 ;arlbibek := documents . A_UserName
 ;screenshot := userdir . "Pictures\Screenshots\"
-
-userdir:= "C:\Users\" . A_UserName . "\"
-OneDrive := "OneDrive - FM Global\"
-ahk := "3. AHK\AHK-Projects\"
-pc:= "This PC"
-desktop:= userdir . "Desktop\"
-documents:= userdir . "Documents\"
-downloads:= userdir . "Downloads\"
-music:= userdir . "Music\"
-pictures:= userdir . "Pictures\"
-pictures:= userdir . ""
-videos:= userdir . "Videos\"
+userdir:= "C:\Users\" . A_UserName . "\",
+OneDrive := "OneDrive - FM Global\",
+ahk := "AHK.Main\AHK-Projects.v1.v1\",
+pc:= "This PC",
+desktop:= userdir . "Desktop\",
+documents:= userdir . "Documents\",
+downloads:= userdir . "Downloads\",
+music:= userdir . "Music\",
+pictures:= userdir . "Pictures\",
+videos:= userdir . "Videos\",
 c:= "C:\"
 ;arlbibek := documents . "arlbibek\"
-arlbibek := documents . "bacona\"
+arlbibek := documents
 screenshot:= userdir . "Pictures\Screenshots\"
-defaultfolder := % userdir . OneDrive . ahk ;C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\"
+defaultfolder := % userdir . OneDrive . ahk ;C:\Users\bacona\OneDrive - FM Global\AHK.Main\AHK-Projects.v1\"
 
 ; script name and startup path
 ;splitPath, A_ScriptFullPath, , , script_ext, script_name
 ;global script_full_name := script_name "." script_ext
 global startup_shortcut := A_Startup "\" A_ScriptName ".lnk"
 ; FUNCTIONS
-Run, % defaultfolder . "lib\hznbutton.ahk"
+; Run, % defaultfolder . "lib\hznbutton.ahk"
+Menu, Tray, Icon, %A_ScriptDir%\assets\windows-ahk.ico
 trayNotify(title, message, seconds = "", options = 0) {
     TrayTip, %title%, %message%, %seconds%, %options%
 }
@@ -324,35 +322,35 @@ viewGuiDoc(){
 }
 runScriptlet(){
 	; run Scriptlet_Library_v4
-	Run, Scriptlet_Library_v4.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects
+	Run, Scriptlet_Library_v4.v1.ahk, C:\Users\bacona\OneDrive - FM Global\AHK.Main\AHK.Projects.v1
 }
 runAHKScript(){
 	; run the main AHK Script.ahk
-	Run, AHK Script.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects
+	Run, AHK Script.ahk, C:\Users\bacona\OneDrive - FM Global\AHK.MAIN\AHK-Projects.v1
 }
 runWinspector(){
 	; run WinSpectorU.exe
-	Run, WinspectorU.exe, C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\
+	Run, WinspectorU.exe, C:\Users\bacona\OneDrive - FM Global\AHK.MAIN\Winspector
 }
 runUIAutomation(){
 	; run UIAutomation.ahk
-	Run, UIAViewer.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\UIAutomation
+	Run, UIAViewer.ahk, C:\Users\bacona\OneDrive - FM Global\AHK.MAIN\AHK-Projects.v1\UIAutomation
 }
 runtxtundrmouse(){
 	; run GetTextUnderMouse.ahk
-	Run, GetTextUnderMouse.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\UIA
+	Run, GetTextUnderMouse.ahk, C:\Users\bacona\OneDrive - FM Global\AHK.MAIN\AHK-Projects.v1\UIA
 }
 runshellhookmessages(){
 	; run Messages_Shell.ahk
-	Run, Messages_ShellHook.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects
+	Run, Messages_ShellHook.ahk, C:\Users\bacona\OneDrive - FM Global\AHK.MAIN\AHK-Projects.v1
 }
 runconstatine(){
 	; run Constantine.ahk
-	Run, Constantine.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\AutoGUI\Tools
+	Run, Constantine.ahk, C:\Users\bacona\OneDrive - FM Global\AHK.MAIN\AHK-Projects.v1\AutoGUI\Tools
 }
 runHznbutton(){
 	; run Hznbutton.ahk
-	Run, Hznbutton.ahk, C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\lib
+	Run, Hznbutton.ahk, C:\Users\bacona\OneDrive - FM Global\AHK.MAIN\AHK-Projects.v1\lib
 }
 
 openFileLocation(){
