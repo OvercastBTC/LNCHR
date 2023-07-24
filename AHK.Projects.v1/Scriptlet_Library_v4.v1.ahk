@@ -17,8 +17,8 @@
 ;requires AHK 1.0.44.09
 ;www.autohotkey.com/forum/topic2510.html
 
-Version = 4
-ScriptName = Scriptlet_Library_%Version%.v1
+Version := 4
+ScriptName := % "Scriptlet_Library_" . Version. "v1"
 
 /*
 changes to version 3:

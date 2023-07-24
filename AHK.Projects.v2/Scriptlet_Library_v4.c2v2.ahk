@@ -856,7 +856,7 @@ Return
 */
 } ; V1toV2: Added bracket before function
 Anchor(i, a := "", r := false) {
-	static c, cs = 12, cx = 255, cl = 0, g, gs = 8, gl = 0, gpi, gw, gh, z = 0, k = 0xffff
+	static c, cs := 12, cx := 255, cl := 0, g, gs := 8, gl := 0, gpi, gw, gh, z := 0, k := 0xffff
 	if (z = 0)
 		g := Buffer(gs * 99, 0), c := Buffer(cs * cx, 0), z := true ; V1toV2: if 'c' is a UTF-16 string, use 'VarSetStrCapacity(&c, cs * cx)'
 	If (!WinExist("ahk_id" . i)) {
@@ -884,7 +884,10 @@ Anchor(i, a := "", r := false) {
 				cf := "1"
 				Break
 			}
-			giw := DateDiff(giw, gw, gih -= gh, as := 1, 'dx') := NumGet(c, cb + 4, "Short"), dy := NumGet(c, cb + 6, "Short")				, cw := dw, dw := NumGet(c, cb + 8, "Short"), ch := dh, dh := NumGet(c, cb + 10, "Short")
+			giw := DateDiff(giw, gw, gih -= gh, as := 1, dx) := NumGet(c, cb + 4, "Short")
+        , dy := NumGet(c, cb + 6, "Short")
+        , cw := dw, dw := NumGet(c, cb + 8, "Short")
+        , ch := dh, dh := NumGet(c, cb + 10, "Short")
 			Loop Parse, a, "xywh"
 				if (A_Index > 1)
 					av := SubStr(a, (as)<1 ? (as)-1 : (as), 1), as += 1 + StrLen(A_LoopField)						, d%av% += (InStr("yh", av) ? gih : giw) * (A_LoopField + 0 ? A_LoopField : 1)

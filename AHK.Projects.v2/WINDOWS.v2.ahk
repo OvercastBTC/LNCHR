@@ -650,7 +650,7 @@ Return
     FormatDateTime("dddd, MMMM dd, yyyy hh:mm tt")
 Return
 } ; V1toV2: Added Bracket before hotkey or Hotstring
-:X:/commit::FormatDateTime("yyyy.MM.dd HH:mm")
+:*X:/c::FormatDateTime("yyyy.MM.dd HH:mm") "`r`n Reason goes here"
 ::/time::
 { ; V1toV2: Added bracket
     FormatDateTime("HH:mm")
