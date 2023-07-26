@@ -25,7 +25,7 @@ DetectHiddenWindows, On
 ; Section .........: Auto-Execution
 ; Sub-Section .....: Make Window Groups
 ; ----------------------------------------------------------------------------------------------------------------------
-make_window_groups()
+; make_window_groups()
 ; ----------------------------------------------------------------------------------------------------------------------
 ; .................: End Sub-Section
 ;=======================================================================================================================
@@ -35,25 +35,25 @@ make_window_groups()
 ; Sub-Section .....: Tray Icon and Menu Options
 ; ----------------------------------------------------------------------------------------------------------------------
 Menu, Tray, Icon, shell32.dll, 16 ; this changes the icon into a little laptop thing.
-Menu, Tray, NoStandard
-; addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
+; Menu, Tray, NoStandard
+; ; addTrayMenuOption("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
+; ; addTrayMenuOption()
+; ; addTrayMenuOption("Run at startup", "runAtStartup")
+; ; Menu, Tray, % fileExist(startup_shortcut) ? "check" : "unCheck", Run at startup ; update the tray menu status on startup
+; ; addTrayMenuOption("Presentation mode {Win+Shift+P}", "togglePresentationMode")
+; ; addTrayMenuOption("Keyboard shortcuts {Ctrl+Shift+Alt+\}", "viewKeyboardShortcuts")
+; addTrayMenuOption("Open file location", "openFileLocation")
 ; addTrayMenuOption()
-; addTrayMenuOption("Run at startup", "runAtStartup")
-; Menu, Tray, % fileExist(startup_shortcut) ? "check" : "unCheck", Run at startup ; update the tray menu status on startup
-; addTrayMenuOption("Presentation mode {Win+Shift+P}", "togglePresentationMode")
-; addTrayMenuOption("Keyboard shortcuts {Ctrl+Shift+Alt+\}", "viewKeyboardShortcuts")
-addTrayMenuOption("Open file location", "openFileLocation")
-addTrayMenuOption()
-addTrayMenuOption("Run GUI_FE", "GUIFE")
-addTrayMenuOption("Run WindowsListMenu.ahk", "WindowListMenu")
-addTrayMenuOption("Run GUI_ListofFiles.ahk", "GUI_ListofFiles")
-addTrayMenuOption("Run WindowProbe.ahk", "WindowProbe")
-addTrayMenuOption("Run Windows_Data_Types_offline.ahk", "Windows_Data_Types_offline")
-addTrayMenuOption()
-; addTrayMenuOption("View in GitHub", "viewInGitHub")
-addTrayMenuOption("See AutoHotKey documentation", "viewAHKDoc")
-addTrayMenuOption()
-Menu, Tray, Standard
+; addTrayMenuOption("Run GUI_FE", "GUIFE")
+; addTrayMenuOption("Run WindowsListMenu.ahk", "WindowListMenu")
+; addTrayMenuOption("Run GUI_ListofFiles.ahk", "GUI_ListofFiles")
+; addTrayMenuOption("Run WindowProbe.ahk", "WindowProbe")
+; addTrayMenuOption("Run Windows_Data_Types_offline.ahk", "Windows_Data_Types_offline")
+; addTrayMenuOption()
+; ; addTrayMenuOption("View in GitHub", "viewInGitHub")
+; addTrayMenuOption("See AutoHotKey documentation", "viewAHKDoc")
+; addTrayMenuOption()
+; Menu, Tray, Standard
 ; ----------------------------------------------------------------------------------------------
 ; .............: End Sub-Section
 ; ----------------------------------------------------------------------------------------------
@@ -63,14 +63,14 @@ Menu, Tray, Standard
 ; Section .........: Auto-Execution
 ; Sub-Section .....: Includes
 ; ----------------------------------------------------------------------------------------------
-#Include Common_Abbrevations.ahk
-#Include Common_HumanElement.ahk
-#Include Common_OSTitles.ahk
-#Include Common_Personal.ahk
-;#Include Common_Rec_Texts.ahk
-run Common_Rec_Texts.ahk
-;#Include autoahkHotstrings.ahk
-#Include windows-ahk-master\WINDOWS.ahk
+; #Include <Common_Abbrevations>
+; #Include <Common_HumanElement>
+; #Include <Common_OSTitles>
+; #Include <Common_Personal>
+; #Include <Common_Rec_Texts>
+; ; run Common_Rec_Texts.ahk
+; ;#Include autoahkHotstrings.ahk
+; #Include <WINDOWS>
 ; ----------------------------------------------------------------------------------------------
 ; .................: End Includes
 ; --------------------------------------------------------------------------------

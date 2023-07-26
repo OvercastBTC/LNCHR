@@ -1,59 +1,221 @@
-23-06-2023	17:11:57	12672	Starting Winspector
-23-06-2023	17:11:57	12672	Checking for other instance
-23-06-2023	17:11:57	12672	Finished checking for other instance
-23-06-2023	17:11:57	12672	Loading settings
-23-06-2023	17:11:57	12672	Finished loading settings
-23-06-2023	17:11:57	12672	LoadStdProfileSettings
-23-06-2023	17:11:57	12672	Creating doc/view templates
-23-06-2023	17:11:57	12672	Creating mainframe
-23-06-2023	17:11:58	12672	Showing the main window
-23-06-2023	17:11:58	12672	Tracking the current instance
-23-06-2023	17:11:58	12672	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:58	12672	Loading external messages file C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\xml-files\qhtm.messages
-23-06-2023	17:11:58	12672	Attached to process C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\WinspectorU.exe
-23-06-2023	17:11:58	12672	New watcher window 00410dd8
-23-06-2023	17:11:58	12672	Sending message to corece windows alive
-23-06-2023	17:11:58	6876	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:59	6876	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-23-06-2023	17:11:59	21856	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:59	21856	Attached to process C:\Program Files\AutoHotkey\AutoHotkeyU32.exe
-23-06-2023	17:11:59	1220	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:59	1220	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-23-06-2023	17:11:59	17820	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:59	17820	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-23-06-2023	17:11:59	15400	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:59	15400	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-23-06-2023	17:11:59	17824	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:59	17824	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
-23-06-2023	17:11:59	17580	CMessageDecoder::LoadCustomMessages
-23-06-2023	17:11:59	17580	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-23-06-2023	17:11:59	12672	Started main hooks
-23-06-2023	17:11:59	12672	Running watcher thread message loop
-23-06-2023	17:12:32	1220	Adding watch for window 00120b80
-23-06-2023	17:12:36	1220	Adding watch for window 001a0b1e
-23-06-2023	17:12:39	1220	Adding watch for window 00050aec
-23-06-2023	17:14:33	1220	Removing watch for window 00120b80
-23-06-2023	17:14:34	1220	Removing watch for window 00050aec
-23-06-2023	17:14:36	1220	Removing watch for window 001a0b1e
-23-06-2023	17:15:08	1220	Adding watch for window 00120b80
-23-06-2023	17:16:19	1220	Removing watch for window 00120b80
-23-06-2023	17:16:19	12672	Stopping Winspector...bye
-23-06-2023	17:16:19	12672	Finished watcher thread message loop
-23-06-2023	17:16:19	12672	Sending message for stopping hooks
-23-06-2023	17:16:19	12672	Detaching from process C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\WinspectorU.exe
-23-06-2023	17:16:19	12672	Detached from process C:\Users\bacona\OneDrive - FM Global\3. AHK\Winspector\WinspectorU.exe
-23-06-2023	17:16:19	15400	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-23-06-2023	17:16:19	15400	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-23-06-2023	17:16:19	21856	Detaching from process C:\Program Files\AutoHotkey\AutoHotkeyU32.exe
-23-06-2023	17:16:19	21856	Detached from process C:\Program Files\AutoHotkey\AutoHotkeyU32.exe
-23-06-2023	17:16:19	17820	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-23-06-2023	17:16:19	17820	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-23-06-2023	17:16:19	1220	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-23-06-2023	17:16:19	1220	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-23-06-2023	17:16:19	6876	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-23-06-2023	17:16:19	6876	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-23-06-2023	17:16:19	17824	Detaching from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-23-06-2023	17:16:19	17824	Detached from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-23-06-2023	17:16:19	17580	Detaching from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-23-06-2023	17:16:19	17580	Detached from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-23-06-2023	17:16:19	12672	Stopped main hooks
+24-07-2023	22:14:39	5688	Starting Winspector
+24-07-2023	22:14:39	5688	Checking for other instance
+24-07-2023	22:14:39	5688	Finished checking for other instance
+24-07-2023	22:14:39	5688	Loading settings
+24-07-2023	22:14:39	5688	Finished loading settings
+24-07-2023	22:14:39	5688	LoadStdProfileSettings
+24-07-2023	22:14:39	5688	Creating doc/view templates
+24-07-2023	22:14:39	5688	Creating mainframe
+24-07-2023	22:14:41	5688	Showing the main window
+24-07-2023	22:14:41	5688	Tracking the current instance
+24-07-2023	22:14:41	5688	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:14:41	5688	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
+24-07-2023	22:14:41	5688	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+24-07-2023	22:14:41	5688	New watcher window 00121220
+24-07-2023	22:14:41	5688	Sending message to corece windows alive
+24-07-2023	22:14:41	17028	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:14:41	17028	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+24-07-2023	22:14:41	19056	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:14:41	24072	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:14:41	24072	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+24-07-2023	22:14:41	19056	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+24-07-2023	22:14:41	17412	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:14:41	17412	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+24-07-2023	22:14:41	19916	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:14:41	19916	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
+24-07-2023	22:14:41	19732	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:14:41	19732	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+24-07-2023	22:14:41	5688	Started main hooks
+24-07-2023	22:14:41	5688	Running watcher thread message loop
+24-07-2023	22:15:22	17412	Adding watch for window 001c1584
+24-07-2023	22:15:45	19056	SendMessage timeout
+24-07-2023	22:16:06	19056	SendMessage timeout
+24-07-2023	22:16:28	9808	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:16:28	9808	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+24-07-2023	22:16:28	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:28	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:28	24188	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:16:28	24188	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+24-07-2023	22:16:29	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:29	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:29	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:29	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:30	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:30	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:30	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:30	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:30	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:30	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:31	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:31	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:31	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:31	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:16:31	19056	SendMessage timeout
+24-07-2023	22:16:43	19056	SendMessage timeout
+24-07-2023	22:16:47	19056	SendMessage timeout
+24-07-2023	22:16:49	19056	SendMessage timeout
+24-07-2023	22:16:49	19056	SendMessage timeout
+24-07-2023	22:16:51	19056	SendMessage timeout
+24-07-2023	22:16:51	19056	SendMessage timeout
+24-07-2023	22:16:51	19056	SendMessage timeout
+24-07-2023	22:16:52	19056	SendMessage timeout
+24-07-2023	22:16:52	19056	SendMessage timeout
+24-07-2023	22:16:52	19056	SendMessage timeout
+24-07-2023	22:16:52	19056	SendMessage timeout
+24-07-2023	22:16:53	24916	CMessageDecoder::LoadCustomMessages
+24-07-2023	22:16:53	24916	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+24-07-2023	22:16:55	24916	SendMessage timeout
+24-07-2023	22:16:58	19056	SendMessage timeout
+24-07-2023	22:17:00	19056	SendMessage timeout
+24-07-2023	22:17:00	19056	SendMessage timeout
+24-07-2023	22:17:02	19056	SendMessage timeout
+24-07-2023	22:17:05	19056	SendMessage timeout
+24-07-2023	22:17:05	19056	SendMessage timeout
+24-07-2023	22:17:06	19056	SendMessage timeout
+24-07-2023	22:17:07	19056	SendMessage timeout
+24-07-2023	22:17:11	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:17:11	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:17:11	5688	WinspectorU.exe caused a EXCEPTION_ACCESS_VIOLATION in module WinspectorU.exe at 0023:00420F69
+24-07-2023	22:17:11	5688	EAX=005F1000  EBX=029EF218  ECX=00000520  EDX=00000000  ESI=029F5624
+EDI=00000000  EBP=029EF270  ESP=0386FA80  EIP=00420F69  FLG=00010202
+CS=0023   DS=002B  SS=002B  ES=002B   FS=0053  GS=002B
+24-07-2023	22:17:11	5688	0023:00420F69 (0x005F003C 0x00000D02 0x00000003 0x0000004A) WinspectorU.exe
+24-07-2023	22:17:11	5688	0023:0041AE85 (0x00121220 0x0000031F 0x00000001 0x00000000) WinspectorU.exe
+24-07-2023	22:17:11	5688	0023:0041AFD8 (0x0041ACE0 0x00000000 0x0000004A 0x001C1584) WinspectorU.exe
+24-07-2023	22:17:11	5688	0023:77AE2B3A (0x010D9800 0x00000000 0x0000004A 0x001C1584) USER32.dll, CallWindowProcW()+410 byte(s)
+24-07-2023	22:17:11	5688	0023:77B50F73 (0x0386FEBC 0x00000040 0x0386FFCC 0x77CF8640) USER32.dll, RegisterLogonProcess()+3651 byte(s)
+24-07-2023	22:17:11	5688	0023:77CF870D (0x0386FF5C 0x00121220 0x00000000 0x00000000) ntdll.dll, KiUserCallbackDispatcher()+77 byte(s)
+24-07-2023	22:17:11	5688	0023:0041AC87 (0x00000000 0x77317D40 0x0386FFDC 0x77CEB74B) WinspectorU.exe
+24-07-2023	22:17:11	5688	0023:77317D59 (0x00000000 0xB72D16D8 0x00000000 0x00000000) KERNEL32.DLL, BaseThreadInitThunk()+25 byte(s)
+24-07-2023	22:17:11	5688	0023:77CEB74B (0xFFFFFFFF 0x77D1867C 0x00000000 0x00000000) ntdll.dll, RtlInitializeExceptionChain()+107 byte(s)
+24-07-2023	22:17:11	5688	0023:77CEB6CF (0x0041ABC0 0x00000000 0x00000000 0xEB3C8FA6) ntdll.dll, RtlClearBits()+191 byte(s)
+24-07-2023	22:17:11	17412	SendMessage timeout
+
+24-07-2023	22:17:11	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:17:11	17412	Unknown message 0x00000164 sent to class TX11
+24-07-2023	22:17:12	19056	SendMessage timeout
+24-07-2023	22:17:13	19056	SendMessage timeout
+24-07-2023	22:17:13	19056	SendMessage timeout
+24-07-2023	22:17:14	19056	SendMessage timeout
+24-07-2023	22:17:14	19056	SendMessage timeout
+24-07-2023	22:17:15	19056	SendMessage timeout
+24-07-2023	22:17:15	19056	SendMessage timeout
+24-07-2023	22:17:16	19056	SendMessage timeout
+24-07-2023	22:17:16	19056	SendMessage timeout
+24-07-2023	22:18:15	19056	SendMessage timeout
+24-07-2023	22:19:32	19056	SendMessage timeout
+24-07-2023	22:19:32	19056	SendMessage timeout
+24-07-2023	22:19:33	19056	SendMessage timeout
+24-07-2023	22:19:58	5688	WinspectorU.exe caused a EXCEPTION_ACCESS_VIOLATION in module WinspectorU.exe at 0023:00420F69
+24-07-2023	22:19:58	5688	EAX=00601000  EBX=02A28F50  ECX=00000520  EDX=00000000  ESI=02BD1F1C
+EDI=00000000  EBP=02A28FA8  ESP=0386E460  EIP=00420F69  FLG=00010202
+CS=0023   DS=002B  SS=002B  ES=002B   FS=0053  GS=002B
+24-07-2023	22:19:58	5688	0023:00420F69 (0x0060003C 0x00000D02 0x00000003 0x0000004A) WinspectorU.exe
+24-07-2023	22:19:58	5688	0023:0041AE85 (0x00121220 0x00000406 0x00000277 0x0049F430) WinspectorU.exe
+24-07-2023	22:19:58	5688	0023:0041AFD8 (0x00000024 0x00000001 0x00000000 0x00000000) WinspectorU.exe
+24-07-2023	22:19:58	5688	0023:77AE30B6 (0x00000000 0xFFFFFFFF 0x00000024 0x00000001) USER32.dll, CallWindowProcW()+1814 byte(s)
+24-07-2023	22:19:58	5688	0023:77AE2D6A (0x75CA4104 0xFFFFFFFF 0x00000034 0x0386E780) USER32.dll, CallWindowProcW()+970 byte(s)
+24-07-2023	22:19:58	5688	0023:77CF62A6 (0xFFFFFFFF 0x00000034 0x0386E780 0x00000008) ntdll.dll, ZwQueryInformationProcess()+38 byte(s)
+24-07-2023	22:19:58	5688	0023:75CA4104 (0x0041ACE0 0x00000000 0x0000004A 0x001C1584) KERNELBASE.dll, GetProcessMitigationPolicy()+244 byte(s)
+24-07-2023	22:19:58	5688	0023:77AE2B3A (0x010D9800 0x00000000 0x0000004A 0x001C1584) USER32.dll, CallWindowProcW()+410 byte(s)
+24-07-2023	22:19:58	5688	0023:77B50F73 (0x0386E89C 0x00000040 0x0386ED0C 0x77CF8640) USER32.dll, RegisterLogonProcess()+3651 byte(s)
+24-07-2023	22:19:58	5688	0023:77CF870D (0x00000000 0x00000000 0x00000001 0x00000000) ntdll.dll, KiUserCallbackDispatcher()+77 byte(s)
+24-07-2023	22:19:58	5688	0023:77AEB9B9 (0x0386E990 0x00000000 0x00000000 0x00000000) USER32.dll, PeekMessageW()+457 byte(s)
+24-07-2023	22:19:58	5688	0023:77B182F2 (0x00000000 0x00000000 0x00010007 0x00000000) USER32.dll, EndDialog()+738 byte(s)
+24-07-2023	22:19:58	5688	0023:77B18823 (0x00000000 0x77B37AA0 0x0386EC30 0x00000000) USER32.dll, EndDialog()+2067 byte(s)
+24-07-2023	22:19:58	5688	0023:77B396D0 (0x0386EC30 0x00498238 0x00000000 0x004983E0) USER32.dll, SoftModalMessageBox()+1776 byte(s)
+24-07-2023	22:19:58	5688	0023:77B38466 (0x00000000 0x0386EDE8 0x0386EDE8 0x00000000) USER32.dll, DrawStateW()+6822 byte(s)
+24-07-2023	22:19:58	5688	0023:77B38F67 (0x00000000 0x00498238 0x004983E0 0x00000030) USER32.dll, MessageBoxTimeoutW()+391 byte(s)
+24-07-2023	22:19:58	5688	0023:77B38FD5 (0x00000000 0x00498238 0x004983E0 0x00000030) USER32.dll, MessageBoxW()+69 byte(s)
+24-07-2023	22:19:58	5688	0023:00419AC3 (0x0386EDE8 0x00000000 0x75D70A10 0x0386EDE8) WinspectorU.exe
+24-07-2023	22:19:58	5688	0023:028C642E (0x0386EDE8 0x00000000 0x00000000 0x00000000) WI_HookU.DLL, SetHooks()+31182 byte(s)
+24-07-2023	22:19:58	5688	0023:77D35E01 (0x0386EF78 0x0386EFC8 0x77D18502 0x0386EF78) ntdll.dll, LdrResolveDelayLoadsFromDll()+3441 byte(s)
+24-07-2023	22:19:58	5688	0023:77CF8666 (0x0386EF78 0x0386FEB0 0x0386EFC8 0x0386EF04) ntdll.dll, KiUserApcDispatcher()+150 byte(s)
+24-07-2023	22:19:58	5688	0023:77D184D4 (0x0386EF78 0x0386EFC8 0x0386EF78 0x0386EFC8) ntdll.dll, RtlInterlockedCompareExchange64()+452 byte(s)
+24-07-2023	22:19:58	5688	0023:77CF8756 (0x0386EFC8 0x0386EF78 0x0386EFC8 0xC0000005) ntdll.dll, KiUserExceptionDispatcher()+38 byte(s)
+24-07-2023	22:19:58	5688	0023:0386EF78 (0x0386EF78 0x0386EFC8 0xC0000005 0x00000000) <UNKNOWN>
+24-07-2023	22:19:58	5688	0023:0386EFC8 (0x00000000 0x00420F69 0x00000002 0x00000000) <UNKNOWN>
+24-07-2023	22:19:58	17412	SendMessage timeout
+
+24-07-2023	22:19:58	17412	Unknown message 0x000000b1 sent to class TX11
+24-07-2023	22:19:58	17412	Unknown message 0x000000b1 sent to class TX11
+24-07-2023	22:22:26	19056	SendMessage timeout
+24-07-2023	22:26:54	19056	SendMessage timeout
+24-07-2023	22:26:57	19056	SendMessage timeout
+24-07-2023	22:26:57	19056	SendMessage timeout
+24-07-2023	22:38:20	5688	WinspectorU.exe caused a EXCEPTION_ACCESS_VIOLATION in module WinspectorU.exe at 0023:00420F69
+24-07-2023	22:38:20	5688	EAX=00611000  EBX=03E4B060  ECX=00000520  EDX=00000000  ESI=02C20AAC
+EDI=00000000  EBP=03E4B0B8  ESP=0386CE40  EIP=00420F69  FLG=00010202
+CS=0023   DS=002B  SS=002B  ES=002B   FS=0053  GS=002B
+24-07-2023	22:38:20	5688	0023:00420F69 (0x0061003C 0x00000D02 0x00000003 0x0000004A) WinspectorU.exe
+24-07-2023	22:38:20	5688	0023:0041AE85 (0x00121220 0x00000406 0x000017B2 0x0049F430) WinspectorU.exe
+24-07-2023	22:38:20	5688	0023:0041AFD8 (0x00000024 0x00000001 0x00000000 0x00000000) WinspectorU.exe
+24-07-2023	22:38:20	5688	0023:77AE30B6 (0x00000000 0xFFFFFFFF 0x00000024 0x00000001) USER32.dll, CallWindowProcW()+1814 byte(s)
+24-07-2023	22:38:20	5688	0023:77AE2D6A (0x75CA4104 0xFFFFFFFF 0x00000034 0x0386D160) USER32.dll, CallWindowProcW()+970 byte(s)
+24-07-2023	22:38:20	5688	0023:77CF62A6 (0xFFFFFFFF 0x00000034 0x0386D160 0x00000008) ntdll.dll, ZwQueryInformationProcess()+38 byte(s)
+24-07-2023	22:38:20	5688	0023:75CA4104 (0x0041ACE0 0x00000000 0x0000004A 0x001C1584) KERNELBASE.dll, GetProcessMitigationPolicy()+244 byte(s)
+24-07-2023	22:38:20	5688	0023:77AE2B3A (0x010D9800 0x00000000 0x0000004A 0x001C1584) USER32.dll, CallWindowProcW()+410 byte(s)
+24-07-2023	22:38:20	5688	0023:77B50F73 (0x0386D27C 0x00000040 0x0386D6EC 0x77CF8640) USER32.dll, RegisterLogonProcess()+3651 byte(s)
+24-07-2023	22:38:20	5688	0023:77CF870D (0x00000000 0x00000000 0x00000001 0x00000000) ntdll.dll, KiUserCallbackDispatcher()+77 byte(s)
+24-07-2023	22:38:20	5688	0023:77AEB9B9 (0x0386D370 0x00000000 0x00000000 0x00000000) USER32.dll, PeekMessageW()+457 byte(s)
+24-07-2023	22:38:20	5688	0023:77B182F2 (0x00000000 0x00000000 0x00010007 0x00000000) USER32.dll, EndDialog()+738 byte(s)
+24-07-2023	22:38:20	5688	0023:77B18823 (0x00000000 0x77B37AA0 0x0386D610 0x00000000) USER32.dll, EndDialog()+2067 byte(s)
+24-07-2023	22:38:20	5688	0023:77B396D0 (0x0386D610 0x00498238 0x00000000 0x004983E0) USER32.dll, SoftModalMessageBox()+1776 byte(s)
+24-07-2023	22:38:20	5688	0023:77B38466 (0x00000000 0x0386D7C8 0x0386D7C8 0x77B43FD0) USER32.dll, DrawStateW()+6822 byte(s)
+24-07-2023	22:38:20	5688	0023:77B38F67 (0x00000000 0x00498238 0x004983E0 0x00000030) USER32.dll, MessageBoxTimeoutW()+391 byte(s)
+24-07-2023	22:38:20	5688	0023:77B38FD5 (0x00000000 0x00498238 0x004983E0 0x00000030) USER32.dll, MessageBoxW()+69 byte(s)
+24-07-2023	22:38:20	5688	0023:00419AC3 (0x0386D7C8 0x00000000 0x75D70A10 0x0386D7C8) WinspectorU.exe
+24-07-2023	22:38:20	5688	0023:028C642E (0x0386D7C8 0x00000000 0x00000000 0x00000000) WI_HookU.DLL, SetHooks()+31182 byte(s)
+24-07-2023	22:38:20	5688	0023:77D35E01 (0x0386D958 0x0386D9A8 0x77D18502 0x0386D958) ntdll.dll, LdrResolveDelayLoadsFromDll()+3441 byte(s)
+24-07-2023	22:38:20	5688	0023:77CF8666 (0x0386D958 0x0386E890 0x0386D9A8 0x0386D8E4) ntdll.dll, KiUserApcDispatcher()+150 byte(s)
+24-07-2023	22:38:20	5688	0023:77D184D4 (0x0386D958 0x0386D9A8 0x0386D958 0x0386D9A8) ntdll.dll, RtlInterlockedCompareExchange64()+452 byte(s)
+24-07-2023	22:38:20	5688	0023:77CF8756 (0x0386D9A8 0x0386D958 0x0386D9A8 0xC0000005) ntdll.dll, KiUserExceptionDispatcher()+38 byte(s)
+24-07-2023	22:38:20	5688	0023:0386D958 (0x0386D958 0x0386D9A8 0xC0000005 0x00000000) <UNKNOWN>
+24-07-2023	22:38:20	5688	0023:0386D9A8 (0x00000000 0x00420F69 0x00000002 0x00000000) <UNKNOWN>
+24-07-2023	22:38:21	17412	SendMessage timeout
+
+24-07-2023	22:38:21	5688	WinspectorU.exe caused a EXCEPTION_ACCESS_VIOLATION in module WinspectorU.exe at 0023:00420F69
+24-07-2023	22:38:21	5688	EAX=00621000  EBX=03E4C140  ECX=00000520  EDX=00000000  ESI=02C224C4
+EDI=00000000  EBP=03E4C198  ESP=0386B820  EIP=00420F69  FLG=00010202
+CS=0023   DS=002B  SS=002B  ES=002B   FS=0053  GS=002B
+24-07-2023	22:38:21	5688	0023:00420F69 (0x0062003C 0x00000D02 0x00000003 0x0000004A) WinspectorU.exe
+24-07-2023	22:38:21	5688	0023:0041AE85 (0x00121220 0x00000406 0x000106EC 0x0049F430) WinspectorU.exe
+24-07-2023	22:38:21	5688	0023:0041AFD8 (0x00000024 0x00000001 0x00000000 0x00000000) WinspectorU.exe
+24-07-2023	22:38:21	5688	0023:77AE30B6 (0x00000000 0xAAA62AF6 0x00000024 0x00000001) USER32.dll, CallWindowProcW()+1814 byte(s)
+24-07-2023	22:38:21	5688	0023:77AE2D6A (0x77AE31A8 0xFFFFFFFF 0x00000034 0x0386BB40) USER32.dll, CallWindowProcW()+970 byte(s)
+24-07-2023	22:38:21	5688	0023:77AE2D6A (0xFFFFFFFF 0x00000034 0x0386BB40 0x00000008) USER32.dll, CallWindowProcW()+970 byte(s)
+24-07-2023	22:38:21	5688	0023:77AE31A8 (0x0041ACE0 0x00000000 0x0000004A 0x001C1584) USER32.dll, CallWindowProcW()+2056 byte(s)
+24-07-2023	22:38:21	5688	0023:77AE2B3A (0x010D9800 0x00000000 0x0000004A 0x001C1584) USER32.dll, CallWindowProcW()+410 byte(s)
+24-07-2023	22:38:21	5688	0023:77B50F73 (0x0386BC5C 0x00000040 0x0386C0CC 0x77CF8640) USER32.dll, RegisterLogonProcess()+3651 byte(s)
+24-07-2023	22:38:21	5688	0023:77CF870D (0x00000000 0x00000000 0x00000001 0x00000000) ntdll.dll, KiUserCallbackDispatcher()+77 byte(s)
+24-07-2023	22:38:21	5688	0023:77AEB9B9 (0x0386BD50 0x00000000 0x00000000 0x00000000) USER32.dll, PeekMessageW()+457 byte(s)
+24-07-2023	22:38:21	5688	0023:77B182F2 (0x00000000 0x00000000 0x00010007 0x00000000) USER32.dll, EndDialog()+738 byte(s)
+24-07-2023	22:38:21	5688	0023:77B18823 (0x00000000 0x77B37AA0 0x0386BFF0 0x00000000) USER32.dll, EndDialog()+2067 byte(s)
+24-07-2023	22:38:21	5688	0023:77B396D0 (0x0386BFF0 0x00498238 0x00000000 0x004983E0) USER32.dll, SoftModalMessageBox()+1776 byte(s)
+24-07-2023	22:38:21	5688	0023:77B38466 (0x00000000 0x0386C1A8 0x0386C1A8 0x77B43FD0) USER32.dll, DrawStateW()+6822 byte(s)
+24-07-2023	22:38:21	5688	0023:77B38F67 (0x00000000 0x00498238 0x004983E0 0x00000030) USER32.dll, MessageBoxTimeoutW()+391 byte(s)
+24-07-2023	22:38:21	5688	0023:77B38FD5 (0x00000000 0x00498238 0x004983E0 0x00000030) USER32.dll, MessageBoxW()+69 byte(s)
+24-07-2023	22:38:21	5688	0023:00419AC3 (0x0386C1A8 0x00000000 0x75D70A10 0x0386C1A8) WinspectorU.exe
+24-07-2023	22:38:21	5688	0023:028C642E (0x0386C1A8 0x00000000 0x00000000 0x00000000) WI_HookU.DLL, SetHooks()+31182 byte(s)
+24-07-2023	22:38:21	5688	0023:77D35E01 (0x0386C338 0x0386C388 0x77D18502 0x0386C338) ntdll.dll, LdrResolveDelayLoadsFromDll()+3441 byte(s)
+24-07-2023	22:38:21	5688	0023:77CF8666 (0x0386C338 0x0386D270 0x0386C388 0x0386C2C4) ntdll.dll, KiUserApcDispatcher()+150 byte(s)
+24-07-2023	22:38:21	5688	0023:77D184D4 (0x0386C338 0x0386C388 0x0386C338 0x0386C388) ntdll.dll, RtlInterlockedCompareExchange64()+452 byte(s)
+24-07-2023	22:38:21	5688	0023:77CF8756 (0x0386C388 0x0386C338 0x0386C388 0xC0000005) ntdll.dll, KiUserExceptionDispatcher()+38 byte(s)
+24-07-2023	22:38:21	5688	0023:0386C338 (0x0386C338 0x0386C388 0xC0000005 0x00000000) <UNKNOWN>
+24-07-2023	22:38:21	5688	0023:0386C388 (0x00000000 0x00420F69 0x00000002 0x00000000) <UNKNOWN>
+24-07-2023	22:38:21	17412	SendMessage timeout
+
+24-07-2023	22:39:06	17028	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+24-07-2023	22:39:06	17028	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+24-07-2023	22:39:06	24072	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+24-07-2023	22:39:06	17412	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+24-07-2023	22:39:06	17412	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+24-07-2023	22:39:06	24072	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+24-07-2023	22:39:06	19056	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+24-07-2023	22:39:06	19056	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+24-07-2023	22:39:10	19916	Detaching from process C:\Program Files\McAfee\Agent\x86\McTray.exe
+24-07-2023	22:39:10	19916	Detached from process C:\Program Files\McAfee\Agent\x86\McTray.exe
+24-07-2023	22:41:24	19732	Detaching from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+24-07-2023	22:41:24	19732	Detached from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+24-07-2023	22:41:55	24916	Detaching from process C:\WINDOWS\SysWOW64\DllHost.exe
+24-07-2023	22:41:55	24916	Detached from process C:\WINDOWS\SysWOW64\DllHost.exe

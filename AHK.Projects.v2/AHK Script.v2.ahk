@@ -91,8 +91,13 @@ ReloadAllAhkScripts()
 		{
 			title := WinGetTitle("ahk_id " aList[A_Index])
 			;PostMessage(0x111,65414,0,,"ahk_id " aList[A_Index])
+			dnrList := [A_ScriptName, "Scriptlet_Library"]
+			rmList := InStr(title, "Scriptlet_Library", false)
+			
 			If (title = A_ScriptName)
 				Continue
+			If (title = "Scriptlet_Library")
+				continue
 			PostMessage(0x111,65400,0,,"ahk_id " aList[A_Index])
 			; Note: I think the 654*** is for v2 => avoid the 653***'s
 			; [x] Reload:		65400
@@ -108,9 +113,11 @@ ReloadAllAhkScripts()
 			; [x] AHK Website:	65412 ; Opens https://www.autohotkey.com/ in default browser; and 65413
 			; [x] Save?:		65414
 			; Don't use these => ;//static a := { Open: 65300, Help:    65301, Spy: 65302, XXX (nonononono) Reload: 65303 [bad reload like Reload()], Edit: 65304, Suspend: 65305, Pause: 65306, Exit:   65307 }
+			; scripts .=  (scripts ? "`r`n" : "") . RegExReplace(title, " - AutoHotkey v[\.0-9]+$")
 			scripts .=  (scripts ? "`r`n" : "") . RegExReplace(title, " - AutoHotkey v[\.0-9]+$")
 		}
 	OutputDebug(scripts)
+	OutputDebug(rmList)
 	return
 }
 #HotIf
@@ -290,8 +297,8 @@ return
 ;--------------------------------------------------------------------------
 } ; V1toV2: Added Bracket before hotkey or Hotstring
 
-^+g::Run("`"https://www.google.com/?safe=active&ssui=on`"") ; use ctrl+Shift+g
-return
+; ^+g::Run("`"https://www.google.com/?safe=active&ssui=on`"") ; use ctrl+Shift+g
+; return
 
 ;^+e::Run("`"https://engnet/Engnet/engnet/engnet.asp`"") ; use ctrl+Shift+e
 ;return
@@ -432,6 +439,7 @@ Join(sep, params*) {
 :?*:not equal::
 :?*:notequ::
 :?*:not=::
+:?*:!=::
 { ; V1toV2: Added bracket
 A_Clipboard := "≠"
 Send("^v")
