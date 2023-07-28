@@ -11,7 +11,7 @@
 ; REMOVED: ;SetBatchLines, -1 ; . (AJB - 06/2023) re-enabled 06.15.23
 ; REMOVED: #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
 ;#Persistent ; Keeps script permanently running
-;#SingleInstance,Force
+#SingleInstance Force
 ; REMOVED: ;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
 ;#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
 ;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -19,7 +19,7 @@
 ;SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of "exact"
 ;DetectHiddenText,On
 ;DetectHiddenWindows, On
-;#Requires AutoHotkey 1.1+
+#Requires AutoHotkey v2
 ;#NoTrayIcon
 ; ----------------------------------------------------------------------------------------------------------------------
 ; .............: End Section
@@ -101,17 +101,41 @@
 ; Section .....: Functions
 ; Function ....: Run() script function and scripts
 ; ----------------------------------------------------------------------------------------------------------------------
+#HotIf WinActive("ahk_exe Hznhorizon.exe")
+i := "{i}"
+OutputDebug("True`n")
+#HotIf
+#HotIf !WinActive("ahk_exe Hznhorizon.exe")
+i := "i"
+OutputDebug("False`n")
+#HotIf  
 :*:1-0f::
 { ; V1toV2: Added bracket
-SendLevel(1)
-SetKeyDelay(100, 0)
-Send("1-0," A_Space . "^{i}" . "Safeguards During Construction, Alteration and Demolition" . "^{i}" . A_Space)
-return
+    SendLevel(1)
+    SetWinDelay(10)
+    
+    ; SetKeyDelay(100, 0)
+    OutputDebug(WinGetProcessName("A"))
+    ; Send("1-0," A_Space . "^i" . "Safeguards During Construction, Alteration and Demolition" A_Space . "^i")
+    Send("1-0," A_Space)
+    Send("^i")
+    KeyWait ("i", "L")
+    A_Clipboard := ""
+    A_Clipboard := "Safeguards During Construction, Alteration and Demolition" A_Space
+    Send("^v")
+    KeyWait ("v", "L")
+    Send("^i")
+    KeyWait ("i", "L")
 } ; V1toV2: Added Bracket before hotkey or Hotstring
+return
 :*:1-1f::
 { ; V1toV2: Added bracket
 SendLevel(1)
-Send("1-1," A_Space "^{i}Firesafe Building Construction and Materials^{i}" A_Space)
+Send("1-1," A_Space)
+Send("^{i}")
+Send("Firesafe Building Construction and Materials")
+Send(A_Space)
+Send("^{i}")
 return
 } ; V1toV2: Added Bracket before hotkey or Hotstring
 :*:1-2f::

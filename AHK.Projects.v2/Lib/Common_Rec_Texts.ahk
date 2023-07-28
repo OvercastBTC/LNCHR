@@ -138,35 +138,7 @@ return
 
 return
 
-:*:{In::
-{
-Send("{Raw}{Insert")
-Sleep(100)
-SendEvent("{Enter}")
-}
-return
-:*:{T::
-{
-	Send("{Raw}{Tab}")
-}	
-return
-:*:{S::Send("{Raw}{Space}")
-:*:{E::Send("{Raw}{Enter}")
-:*:sle::Sleep(100)
-:*:Gui, Sh::
-{
-myGui := Gui()
-myGui.Show("AutoSize")
-Send("{Enter}")
-}
-return
-:*:Gui, Su::
-{ ; V1toV2: Added bracket
-Send("Gui, Submit,Nohide")
-Send("{Enter}")
-} ; V1toV2: Added Bracket before hotkey or Hotstring
-return
-:*:clipw::Errorlevel := !ClipWait(1)
+
 
 ; ==========================================================================================================================
 ; :*:reccom::
@@ -293,11 +265,11 @@ Low Voltage Circuit Breakers:
 - Section 2.1.3.2, and Table 1.
 
 Table 1:
-Low-resistance:
+Low Rresistance:
 - Measuring resistance across bolted connections
-Insulation resistance:
+Insulation Rresistance:
 - Each pole measured phase to ground and phase to phase
-Contact resistance (micro-ohms):
+Contact Resistance (micro-ohms):
 - Measuring resistance across closed contacts
 Primary, or secondary, current injection testing
 Trip and close coil voltages (if applicable, compare with OEM values)

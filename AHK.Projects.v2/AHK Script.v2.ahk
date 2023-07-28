@@ -58,12 +58,42 @@ Tray.AddStandard()
 ; <<<<< ... First Return ... <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Return
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
+#HotIf WinActive("ahk_exe Code.exe")
 ; Comment .....:
 :*:;...::; {< 5} {. 3} First Return {. 3} {< 53}`nReturn`n; {< 80}
 :*:;---::; {- 80}
 :*:;,,,::; {< 80}
 :*:;sect::; {- 80} `r; {< 80}`r; {- 80}
+:*:{In::
+{
+Send("{Raw}{Insert")
+Sleep(100)
+SendEvent("{Enter}")
+}
+return
+:*:{T::
+{
+	Send("{Raw}{Tab}")
+}	
+return
+:*:{S::Send("{Raw}{Space}")
+:*:{E::Send("{Raw}{Enter}")
+:*:sle::Sleep(100)
+:*:Gui, Sh::
+{
+myGui := Gui()
+myGui.Show("AutoSize")
+Send("{Enter}")
+}
+return
+:*:Gui, Su::
+{ ; V1toV2: Added bracket
+Send("Gui, Submit,Nohide")
+Send("{Enter}")
+} ; V1toV2: Added Bracket before hotkey or Hotstring
+return
+:*:clipw::Errorlevel := !ClipWait(1)
+#HotIf
 ; -------------------------------------------------------------------------------- 
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ; --------------------------------------------------------------------------------
@@ -71,9 +101,11 @@ Return
 ; Function ....: ReloadAllAHKScripts()
 ; --------------------------------------------------------------------------------
 #HotIf WinActive("ahk_exe Code.exe")
+#Include <Abstractions\Script>
 ~^s::
 {
-	ReloadAllAhkScripts()
+	; ReloadAllAhkScripts()
+	Script.Reload()
 }
 
 ReloadAllAhkScripts()
