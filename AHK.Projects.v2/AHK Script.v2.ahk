@@ -16,45 +16,59 @@ DetectHiddenWindows(true)
 ; --------------------------------------------------------------------------------
 ; make_window_groups()
 ; --------------------------------------------------------------------------------
+; TraySetIcon("shell32.dll","16") ; this changes the icon into a little laptop thing.
+TraySetIcon("shell32.dll","16", true) ; this changes the icon into a little laptop thing.
 
+
+; --------------------------------------------------------------------------------
+; Section .........: Auto-Execution
 ; --------------------------------------------------------------------------------
 ; Section .........: Auto-Execution
 ; Sub-Section .....: Tray Icon and Menu Options
 ; --------------------------------------------------------------------------------
-TraySetIcon("shell32.dll","16") ; this changes the icon into a little laptop thing.
+; Tray := A_TrayMenu
 Tray := A_TrayMenu
+; TrayMenu := MenuBar()
 Tray.Delete() ; V1toV2: not 100% replacement of NoStandard, Only if NoStandard is used at the beginning
-; ; Tray.Add("Made with nerd by Adam Bacon and Terry Keatts", "madeBy")
-; ; Tray.Add()
-; ; Tray.Add("Run at startup", "runAtStartup")
-; ; Menu, Tray, % fileExist(startup_shortcut) ? "check" : "unCheck", Run at startup ; update the tray menu status on startup
-; ; Tray.Add("Presentation mode {Win+Shift+P}", "togglePresentationMode")
+Tray.Add("Made by OvercastBTC",madeBy)
+Tray.Add()
+; TraySetIcon("shell32.dll","16") ; this changes the icon into a little laptop thing.
+; Tray.Add("Run at startup", "runAtStartup")
+; Tray.ToggleCheck(fileExist(startup_shortcut) ? "check" : "unCheck", Run at startup ; update the tray menu status on startup
+; TODO Finish updating Run at Startup
+; Tray.Add("Presentation mode {Win+Shift+P}", togglePresentationMode) ; => does not exist
 ; ; Tray.Add("Keyboard shortcuts {Ctrl+Shift+Alt+\}", "viewKeyboardShortcuts")
 ; Tray.Add("Open file location", "openFileLocation")
 ; Tray.Add()
 ; Tray.Add("Run GUI_FE", "GUIFE")
-; Tray.Add("Run WindowsListMenu.ahk", "WindowListMenu")
-; Tray.Add("Run GUI_ListofFiles.ahk", "GUI_ListofFiles")
-; Tray.Add("Run WindowProbe.ahk", "WindowProbe")
-; Tray.Add("Run Windows_Data_Types_offline.ahk", "Windows_Data_Types_offline")
-; Tray.Add()
-; ; Tray.Add("View in GitHub", "viewInGitHub")
-; Tray.Add("See AutoHotKey documentation", "viewAHKDoc")
-; Tray.Add()
-Tray.AddStandard()
-; --------------------------------------------------------------------------------
+Tray.Add('Run WindowsListMenu.ahk', WindowListMenu)
+Tray.Add()
+; ^+#2::
 
+; return
+Tray.Add('Run GUI_ListofFiles.ahk', GUI_ListofFiles)
+Tray.Add("Run WindowProbe.ahk", WindowProbe)
+; Tray.Add("Run Windows_Data_Types_offline.ahk", Windows_Data_Types_offline)
+Tray.Add()
+; Tray.Add("View in GitHub", "viewInGitHub")
+; Tray.Add("See AutoHotKey documentation", "viewAHKDoc") ; => does not exist
+; Tray.Add()
+Tray.AddStandard
+; Tray.Show
 ; --------------------------------------------------------------------------------
-; Section .........: Auto-Execution
+madeBy(madeBy,*){
+}
+WindowListMenu(*){
+	Run("WindowListMenu.ahk")
+}
 ; --------------------------------------------------------------------------------
 #Include <Common_Abbrevations>
 #Include <Common_HumanElement>
 #Include <Common_OSTitles>
 #Include <Common_Personal>
 #Include <Common_Rec_Texts>
-#Include WINDOWS.v2.ahk
+; #Include <WINDOWS.v2>
 ; --------------------------------------------------------------------------------
-
 ; <<<<< ... First Return ... <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Return
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -163,11 +177,7 @@ GUIFE(*){
 }
 return
 ; list
-^+#2::
-WindowListMenu(*){
-	Run("WindowListMenu.ahk")
-}	
-return
+
 ^+#3::
 WindowProbe(*){
 	Run("WindowProbe.ahk", "C:\Users\bacona\OneDrive - FM Global\3. AHK\")
@@ -200,6 +210,18 @@ test_script(*){
 	Run("test_script.ahk")
 }
 return
+; runAtStartup() {
+;     if (FileExist(startup_shortcut)) {
+;         FileDelete, % startup_shortcut
+;         Menu, Tray, % "unCheck", Run at startup ; update the tray menu status on change
+;         trayNotify("Startup shortcut removed", "This script will not run when you turn on your computer.")
+;     } else {
+;         FileCreateShortcut, % A_ScriptFullPath, % startup_shortcut
+;         Menu, Tray, % "check", Run at startup ; update the tray menu status on change
+;         trayNotify("Startup shortcut added", "This script will now automatically run when your turn on your computer.")
+;     }
+
+; }
 ; --------------------------------------------------------------------------------
 ;============================== Test Programs ==============================
 #Numpad0::
@@ -466,7 +488,7 @@ Join(sep, params*) {
 ; ; }
 ; ; return
 
-:?*X:nm::Send("{Blind}≠") ; used for testing
+; :?*X:nm::Send("{Blind}≠") ; used for testing
 
 :?*:not equal::
 :?*:notequ::
@@ -488,9 +510,9 @@ return
 :?*:^i::^{i}
 
 :?*X:microm::Send(chr(181) "m")
-:?*X:3/4::Send(chr(190))
-:?*X:1/2::Send(chr(189))
-:?*X:1/4::Send(chr(188))
+:?*X:3/4f::Send(chr(190))
+:?*X:1/2f::Send(chr(189))
+:?*X:1/4f::Send(chr(188))
 :?*X:+-::Send(chr(177))
 :?*X:regtmf::Send(chr(174)) ;®
 :?*:trademarkf::™
@@ -505,7 +527,7 @@ return
 } ; V1toV2: Added Bracket before hotkey or Hotstring
 :?*X:degf::Send(chr(176) "F")
 :?*X:degc::Send(chr(176) "C")
-:?*X:prisec::Send("1" chr(176) "/2 " chr(176) A_Space "Inj testing")
+:?*X:prisecf::Send("1" chr(176) "/2 " chr(176) A_Space "Inj testing")
 :*:hrsgf::heat recovery steam generator (HRSG)
 :*:mocf::management of change (MOC)
 ::agf::Approval Guide
@@ -514,7 +536,7 @@ return
 ::erpf::emergency response plan
 ::ferpf::flood emergency response plan
 ::wst::water supply tool
-::efc::eFC
+::efcf::eFC
 ::wdt::water delivery time
 ::wpivf::wall post-indicator valve
 ::pivf::post-indicator valve

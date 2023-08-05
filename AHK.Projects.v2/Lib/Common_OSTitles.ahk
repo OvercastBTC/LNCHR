@@ -1,37 +1,21 @@
-﻿;=======================================================================================================================
-; .............: Begin Section
-; Section .....: Auto-Execution
-;=======================================================================================================================
-; ; #Warn  ; Enable warnings to assist with detecting common errors.
-;SetWinDelay 0 ; ..... (AJB - 06/2023) - comment out for testing
-;SetControlDelay 0 ; . (AJB - 06/2023) - comment out for testing
-; REMOVED: ;SetBatchLines, 0 ; .. (AJB - 06/2023)  - comment out for testing
-;SetWinDelay, -1 ; ... (AJB - 06/2023) re-enabled 06.15.23 
-;SetControlDelay, -1 ; (AJB - 06/2023) re-enabled 06.15.23 
-; REMOVED: ;SetBatchLines, -1 ; . (AJB - 06/2023) re-enabled 06.15.23
-; REMOVED: #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
-;#Persistent ; Keeps script permanently running
+﻿SetWinDelay(-1)
+SetControlDelay(-1)
+SetMouseDelay(-1)
+; //#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
+#MaxThreads 100 ; Allows a maximum of 255 instead of default threads.
+#Warn All, OutputDebug
 #SingleInstance Force
-; REMOVED: ;#MaxMem 4095 ; Allows the maximum amount of MB per variable.
-;#MaxThreads 255 ; Allows a maximum of 255 instead of default threads.
-;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-;SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-;SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of "exact"
-;DetectHiddenText,On
-;DetectHiddenWindows, On
-#Requires AutoHotkey v2
-;#NoTrayIcon
-; ----------------------------------------------------------------------------------------------------------------------
-; .............: End Section
-;=======================================================================================================================
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
-; ----------------------------------------------------------------------------------------------------------------------
+SendMode("Input") ;* Superior speed and reliability.
+SetWorkingDir(A_ScriptDir) ; A consistent starting directory.
+SetTitleMatchMode(2) ; Match = "containing" instead of "exact"
+DetectHiddenText(true)
+DetectHiddenWindows(true)
+CoordMode("Mouse", "Client")
+; --------------------------------------------------------------------------------
 ; Name .........: Common_Abbrevations
 ; Section ......: CHANGELOG
 ; Description ..: This is a hotstring library to call the MakeOSItalic() function [located in personal Lib folder]
-; AHK Version ..: AHK 1.1+ x32/64 Unicode
+; AHK Version ..: AHK v2
 ; Author .......: Overcast (Adam Bacon), and Terry Keatts
 ; License ......: WTFPL - http://www.wtfpl.net/txt/copying/
 ; Changelog ....: 2/24/2023 ..: v1.0 - First version. 
@@ -90,42 +74,38 @@
 ; ..............: 00/00/0000 ..: v0.0 
 ; ..............: Status: 
 ; ..............: Notes: 
-; ********************************************** ... First Return ... **************************************************
-;return
-; ----------------------------------------------------------------------------------------------------------------------
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-; 									... End of Auto-Execution ...
-; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-; ----------------------------------------------------------------------------------------------------------------------
-; .............: Begin Section
+; --------------------------------------------------------------------------------
+return
+; --------------------------------------------------------------------------------
 ; Section .....: Functions
 ; Function ....: Run() script function and scripts
-; ----------------------------------------------------------------------------------------------------------------------
-#HotIf WinActive("ahk_exe Hznhorizon.exe")
-i := "{i}"
-OutputDebug("True`n")
-#HotIf
-#HotIf !WinActive("ahk_exe Hznhorizon.exe")
-i := "i"
-OutputDebug("False`n")
-#HotIf  
+; --------------------------------------------------------------------------------
+; #HotIf WinActive("ahk_exe Hznhorizon.exe")
+; i := "{i}"
+; OutputDebug("True`n")
+; #HotIf
+; #HotIf !WinActive("ahk_exe Hznhorizon.exe")
+; i := "i"
+; OutputDebug("False`n")
+; #HotIf
+OSTitle := Map(
+    "1-0", "1-0, ",
+    "1-0t", "Safeguards During Construction, Alteration and Demolition",
+    "1-1", "1-1, ",
+    "1-1t", "Firesafe Building Construction and Materials",
+    )
+
 :*:1-0f::
 { ; V1toV2: Added bracket
-    SendLevel(1)
-    SetWinDelay(10)
-    
-    ; SetKeyDelay(100, 0)
-    OutputDebug(WinGetProcessName("A"))
-    ; Send("1-0," A_Space . "^i" . "Safeguards During Construction, Alteration and Demolition" A_Space . "^i")
-    Send("1-0," A_Space)
-    Send("^i")
-    KeyWait ("i", "L")
-    A_Clipboard := ""
-    A_Clipboard := "Safeguards During Construction, Alteration and Demolition" A_Space
-    Send("^v")
-    KeyWait ("v", "L")
-    Send("^i")
-    KeyWait ("i", "L")
+    SendLevel(1)    
+    Send("1-0," A_Space . "^i" . "Safeguards During Construction, Alteration and Demolition")
+    ; Send("1-0," A_Space)
+    ; SendEvent("^i")
+    ; Sleep(100)
+    ; A_Clipboard := ""
+    ; A_Clipboard := "Safeguards During Construction, Alteration and Demolition" A_Space
+    ; Send("^v")
+    ; SendEvent("^i")
 } ; V1toV2: Added Bracket before hotkey or Hotstring
 return
 :*:1-1f::
@@ -177,7 +157,12 @@ return
 :*:1-10f::
 { ; V1toV2: Added bracket
 SendLevel(1)
-Send("1-10," A_Space "^{i}Smoke and Heat Venting in Sprinklered Buildings^{i}" A_Space)
+Send("1-10," A_Space )
+Send("^{i}")
+SendLevel(0)
+Send("Smoke and Heat Venting in Sprinklered Buildings")
+SendLevel(1)
+Send("^{i}" A_Space)
 return
 } ; V1toV2: Added Bracket before hotkey or Hotstring
 :*:1-11f::

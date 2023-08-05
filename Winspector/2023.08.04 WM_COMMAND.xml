@@ -1,0 +1,6222 @@
+<messages created-by="Winspector">
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:04.0644</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 0, 0</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:04.0644</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:04.0644</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 717, 22</parameter>
+			<parameter>Previous area: 0, 0, 717, 22</parameter>
+			<parameter>Client area: 0, 0, 717, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 717, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:04.0645</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:04.0645</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:04.0645</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:04.0646</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:04.0646</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:04.0646</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 717, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:04.0646</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:04.0646</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:04.0647</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:04.0647</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:04.0647</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:04.0648</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:04.0648</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0539</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0539</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0539</time>
+		<parameters>
+			<parameter>POINT: 652, 19</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0539</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>POINT: 658, 11</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>POINT: 660, 8</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0554</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0571</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:06.0571</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0571</time>
+		<parameters>
+			<parameter>POINT: 662, 5</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:06.0571</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>POINT: 228, 8</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_HOTITEMCHANGE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>POINT: 232, 10</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_HOTITEMCHANGE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>POINT: 233, 12</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0207</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>POINT: 241, 17</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>POINT: 244, 19</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:11.0223</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0239</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_HOTITEMCHANGE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0239</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0239</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0239</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0239</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0239</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:11.0965</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 0, 0</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:11.0965</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:11.0965</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 717, 22</parameter>
+			<parameter>Previous area: 0, 0, 717, 22</parameter>
+			<parameter>Client area: 0, 0, 717, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 717, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:11.0965</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0965</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0965</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0966</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:11.0966</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:11.0966</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 717, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:11.0966</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:11.0966</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0966</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0966</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:11.0967</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0967</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:11.0967</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Update region handle: 0x840421dd</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0047</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Update region handle: 0x0204294f</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0080</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>Update region handle: 0xd80422b0</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0568</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0583</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0583</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Update region handle: 0xdd0420fd</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0599</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Update region handle: 0x3b0423c4</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0619</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Update region handle: 0x800428fe</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0631</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Update region handle: 0x5f0420fd</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0647</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>Update region handle: 0x49042777</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0665</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0678</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Update region handle: 0x2f042195</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0694</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Update region handle: 0x790422b0</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0710</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Update region handle: 0xab042987</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0729</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Update region handle: 0x4f042918</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0951</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0983</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0983</time>
+		<parameters>
+			<parameter>Update region handle: 0x54042129</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0984</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Update region handle: 0x25041f8c</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:16.0999</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Update region handle: 0x17042777</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0020</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0034</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0034</time>
+		<parameters>
+			<parameter>Update region handle: 0x49041f8c</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0034</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0034</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0034</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0034</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0047</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0047</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0047</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0047</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Update region handle: 0x0504291c</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0411</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Update region handle: 0x0c0423b1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0428</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Update region handle: 0x2a0423b0</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0445</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0461</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0461</time>
+		<parameters>
+			<parameter>Update region handle: 0x1b0423b1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0461</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0471</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0471</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0471</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0471</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0471</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0471</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0471</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Update region handle: 0x8804291a</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0475</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Update region handle: 0x96042734</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0594</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0614</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0614</time>
+		<parameters>
+			<parameter>Update region handle: 0xfa042918</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0614</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0614</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0614</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0621</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0621</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0621</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0621</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0621</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Update region handle: 0xb0042734</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0673</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Update region handle: 0xec04291a</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:17.0698</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:18.0815</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0830</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0830</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0830</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0830</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0830</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0830</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0846</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0846</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0846</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0846</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0848</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0848</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0853</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0853</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0853</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0853</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0853</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0853</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0859</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0859</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0859</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0859</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0860</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0860</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0868</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0868</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0868</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0868</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0869</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0869</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:18.0891</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 716, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:18.0891</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:18.0891</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 716, 22</parameter>
+			<parameter>Previous area: 0, 0, 717, 22</parameter>
+			<parameter>Client area: 0, 0, 717, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 716, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:18.0892</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0892</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0892</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0892</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0892</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0893</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0893</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:18.0893</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 716, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:18.0894</time>
+		<parameters>
+			<parameter>Style: SIZE_RESTORED</parameter>
+			<parameter>Width: 716</parameter>
+			<parameter>Height: 22</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0900</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0900</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:18.0910</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:18.0910</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0912</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0913</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0913</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0913</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0914</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0914</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:18.0926</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:18.0926</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:18.0926</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 547, 22</parameter>
+			<parameter>Previous area: 0, 0, 716, 22</parameter>
+			<parameter>Client area: 0, 0, 716, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:18.0926</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0926</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0926</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:18.0927</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:18.0927</time>
+		<parameters>
+			<parameter>Style: SIZE_RESTORED</parameter>
+			<parameter>Width: 547</parameter>
+			<parameter>Height: 22</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0934</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0934</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:18.0941</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:18.0941</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0946</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0947</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0947</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0947</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0947</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0948</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:18.0969</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 548, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:18.0969</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:18.0970</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 548, 22</parameter>
+			<parameter>Previous area: 0, 0, 547, 22</parameter>
+			<parameter>Client area: 0, 0, 547, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 548, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:18.0970</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0970</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0970</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0970</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0971</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0971</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0971</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:18.0972</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 548, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:18.0972</time>
+		<parameters>
+			<parameter>Style: SIZE_RESTORED</parameter>
+			<parameter>Width: 548</parameter>
+			<parameter>Height: 22</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0980</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0980</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:18.0985</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:18.0985</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0991</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:18.0992</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0992</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0992</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0992</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:18.0993</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:19.0004</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:19.0004</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:19.0004</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 547, 22</parameter>
+			<parameter>Previous area: 0, 0, 548, 22</parameter>
+			<parameter>Client area: 0, 0, 548, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:19.0004</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:19.0005</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:19.0005</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:19.0006</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:19.0006</time>
+		<parameters>
+			<parameter>Style: SIZE_RESTORED</parameter>
+			<parameter>Width: 547</parameter>
+			<parameter>Height: 22</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:19.0007</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:19.0007</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SIZE</name>
+		<sent />
+		<time>07:12:19.0022</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:19.0022</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:19.0088</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:19.0089</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:19.0089</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:19.0089</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:19.0089</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:19.0090</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>POINT: 56, 9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_HOTITEMCHANGE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0250</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>POINT: 58, 19</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_HOTITEMCHANGE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:20.0267</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0282</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:20.0282</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0602</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0602</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0602</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0602</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0602</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0602</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0602</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0603</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0603</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0603</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0619</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0619</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0619</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0619</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0619</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0619</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0630</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0630</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0630</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0630</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0631</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0631</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0638</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0638</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0638</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0639</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0639</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0639</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0662</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0663</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0663</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0663</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0664</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0664</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0693</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0693</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0693</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0693</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0694</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0694</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0812</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0812</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0812</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0813</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0813</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0813</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0814</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0814</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0814</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0814</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0824</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0824</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0824</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0824</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0835</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0835</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0843</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0843</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0844</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0844</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0844</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0844</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0851</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0851</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0852</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0852</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0852</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0853</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0869</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:21.0869</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0869</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0869</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0870</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:21.0870</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0899</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0900</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0900</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:21.0900</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0900</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:21.0900</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<posted />
+		<time>07:12:22.0610</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0610</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0610</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0611</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0611</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0612</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0612</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0612</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0612</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0629</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0629</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0629</time>
+		<parameters>
+			<parameter>HDC: 0xb9013d3e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0629</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0629</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0629</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0644</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0645</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0645</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0645</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0645</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0645</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0652</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0652</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0652</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0652</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0653</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0653</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0669</time>
+		<parameters>
+			<parameter>Draw entire frame: true</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCPAINT</name>
+		<sent />
+		<time>07:12:22.0669</time>
+		<parameters>
+			<parameter>Processed: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0669</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0669</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0670</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:22.0670</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:22.0696</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0697</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0697</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:22.0697</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0697</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:22.0697</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 0, 0</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 547, 22</parameter>
+			<parameter>Previous area: 0, 0, 547, 22</parameter>
+			<parameter>Client area: 0, 0, 547, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>HDC: 0x010139e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:23.0987</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:23.0988</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:23.0988</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:23.0988</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:23.0988</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:23.0988</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:23.0988</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>POINT: 80, 0</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_HOTITEMCHANGE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>HDC: 0x48014615</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>POINT: 79, 4</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>POINT: 79, 6</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0003</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0021</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0021</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0021</time>
+		<parameters>
+			<parameter>POINT: 79, 8</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0021</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0029</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0029</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0029</time>
+		<parameters>
+			<parameter>POINT: 78, 11</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0029</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>POINT: 78, 11</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>POINT: 78, 13</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0035</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0050</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0050</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0050</time>
+		<parameters>
+			<parameter>POINT: 77, 15</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0050</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0050</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0050</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0067</time>
+		<parameters>
+			<parameter>POINT: 77, 16</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0067</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0067</time>
+		<parameters>
+			<parameter>Hit test code: HTCLIENT</parameter>
+			<parameter>Mouse message ID: 512</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_SETCURSOR</name>
+		<sent />
+		<time>07:12:26.0067</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0067</time>
+		<parameters>
+			<parameter>POINT: 77, 17</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_MOUSEMOVE</name>
+		<sent />
+		<time>07:12:26.0067</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0082</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_HOTITEMCHANGE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0082</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0082</time>
+		<parameters>
+			<parameter>HDC: 0x010141e9</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0082</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0082</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0082</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:26.0979</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 0, 0</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:26.0979</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:26.0979</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 547, 22</parameter>
+			<parameter>Previous area: 0, 0, 547, 22</parameter>
+			<parameter>Client area: 0, 0, 547, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:26.0979</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0979</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0979</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:26.0980</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONDOWN</name>
+		<sent />
+		<time>07:12:33.0493</time>
+		<parameters>
+			<parameter>Buttons pressed: MK_LBUTTON</parameter>
+			<parameter>Mouse coordinates: 23, 7</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_LBUTTONDOWN</name>
+		<sent />
+		<time>07:12:33.0493</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>07:12:33.0493</time>
+		<parameters>
+			<parameter>hwnd: 0x00080ff2</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_CAPTURECHANGED</name>
+		<sent />
+		<time>07:12:33.0508</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:33.0509</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:33.0509</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0509</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0509</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0512</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_BEGINDRAG</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0512</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_LBUTTONUP</name>
+		<sent />
+		<time>07:12:33.0512</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00070017</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_LBUTTONUP</name>
+		<sent />
+		<time>07:12:33.0513</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0513</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_RELEASEDCAPTURE</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0513</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0513</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: TBN_ENDDRAG</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0513</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_COMMAND</name>
+		<sent />
+		<time>07:12:33.0514</time>
+		<parameters>
+			<parameter>Code: 0</parameter>
+			<parameter>Control ID: 101</parameter>
+			<parameter>Control HWND: 0x00080ff2</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:33.0520</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 0, 0</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGING</name>
+		<sent />
+		<time>07:12:33.0520</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:33.0520</time>
+		<parameters>
+			<parameter>Indicate client area: True</parameter>
+			<parameter>Proposed area: 0, 0, 547, 22</parameter>
+			<parameter>Previous area: 0, 0, 547, 22</parameter>
+			<parameter>Client area: 0, 0, 547, 22</parameter>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NCCALCSIZE</name>
+		<sent />
+		<time>07:12:33.0520</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:33.0520</time>
+		<parameters>
+			<parameter>HDC: 0x810137c1</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:33.0520</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:33.0521</time>
+		<parameters>
+			<parameter>HDC: 0x0901467e</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_ERASEBKGND</name>
+		<sent />
+		<time>07:12:33.0521</time>
+		<parameters>
+			<parameter>Processed: True</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:33.0521</time>
+		<parameters>
+			<parameter>hwnd: 0x00150ff0</parameter>
+			<parameter>hwndInsertAfter: HWND_TOP</parameter>
+			<parameter>Position: 0, 0</parameter>
+			<parameter>Size: 547, 22</parameter>
+			<parameter>SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_WINDOWPOSCHANGED</name>
+		<sent />
+		<time>07:12:33.0521</time>
+		<parameters>
+			<parameter>Continue processing: False</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:33.0521</time>
+		<parameters>
+			<parameter>wParam: 0x00000000</parameter>
+			<parameter>lParam: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0521</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0521</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_PAINT</name>
+		<sent />
+		<time>07:12:33.0522</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0522</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CUSTOMDRAW</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0522</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_COMMAND</name>
+		<sent />
+		<time>07:12:33.0525</time>
+		<parameters>
+			<parameter>Return: 0x00000001</parameter>
+		</parameters>
+	</message>
+	<message>
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0525</time>
+		<parameters>
+			<parameter>Control ID: 0</parameter>
+			<parameter>From Hwnd: 0x00080ff2</parameter>
+			<parameter>From ID: 0x00000000</parameter>
+			<parameter>Code: NM_CLICK</parameter>
+		</parameters>
+	</message>
+	<message return-value="1">
+		<name>WM_NOTIFY</name>
+		<sent />
+		<time>07:12:33.0525</time>
+		<parameters>
+			<parameter>Return: 0x00000000</parameter>
+		</parameters>
+	</message>
+</messages>

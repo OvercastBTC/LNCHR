@@ -4,19 +4,18 @@
 ; 2022-07-15 Added more functions and improved the function commands
 ; 2023-01-03 Added PID filtering
 
-#Requires AutoHotKey v2.0-
+#Requires AutoHotKey v2
 #SingleInstance Force
+DetectHiddenWindows true
+SendMode "Input"  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir A_ScriptDir  ; Ensures a consistent starting directory.
+
 #DllLoad "Gdiplus.dll"
 #Include lib\SetSystemCursor.ahk
 #Include lib\Gdip_All.ahk
 #Include lib\_GuiCtlExt.ahk
-#Include lib\ObjectGui.ah2
-#Include lib\Toolbar.ah2
-
-
-DetectHiddenWindows true
-SendMode "Input"  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir A_ScriptDir  ; Ensures a consistent starting directory.
+#Include lib\ObjectGui.ahk
+#Include lib\Toolbar.ahk
 
 ; Set the tray icon
 TraySetIcon("imageres.dll",145)

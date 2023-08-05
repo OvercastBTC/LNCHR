@@ -633,55 +633,60 @@ reload
 	}
 	return
 */
-/*
-	#Persistent
-	SetTimer, WatchCursor5, 500
-	WinGet, hWnd, ID, A
-	;WinGet, vCtlList, ControlList, % "ahk_id " hWnd
-	WinGet, vCtlList, ControlList, % "ahk_id " hWnd
-	vOutput := ""
-	return
-	
-	WatchCursor5:
-	MouseGetPos, , , id, control, 3
-	ControlGetFocus, vCtlClassNN, A
-	ControlGet, hCtl, Hwnd,, % vCtlClassNN, A
-	WinGetClass, vCtlClass, % "ahk_id " hCtl
-	ControlGetText, vText, % vCtlClassNN, A
-	ControlGet, vText2, List,, % vCtlClassNN, A
-	hWndChild := DllCall("RealChildWindowFromPoint", Ptr,hCtl, UInt,, Ptr)
-	hWndParent := DllCall("DefMDIChildProcW", Ptr,hCtl, UInt,, Ptr) ;
-	WinGet, chWnd, ID, 
-	WinGetClass, vWinClass1, % "ahk_id " hWndChild
-	WinGetClass, vWinClass2, % "ahk_id " hWndParent
-	ToolTip % vWinClass1 " ID:"id "`r`n" vWinClass2
-	return
-	;Clipboard:= % vText
-	Loop, Parse, vCtlList, `n
-	{
-		vCtlClassNN := A_LoopField
-		ControlGet, hCtl, Hwnd,, % vCtlClassNN, % "ahk_id " hWnd
-		hWndParent := DllCall("user32\GetAncestor", Ptr,hCtl, UInt,1, Ptr) ;GA_PARENT := 1
-		hWndRoot := DllCall("user32\GetAncestor", Ptr,hCtl, UInt,2, Ptr) ;GA_ROOT := 2
-		hWndOwner := DllCall("user32\GetWindow", Ptr,hCtl, UInt,4, Ptr) ;GW_OWNER = 4
-		hWndChild := DllCall("RealChildWindowFromPoint", Ptr,hCtl, UInt,4, Ptr) ;GW_OWNER = 4
-		;CursorHwnd := DllCall("WindowFromPoint", "int64", CursorX | (CursorY << 32), "Ptr")
-		WinGetClass, vWinClass1, % "ahk_id " hWndParent
-		WinGetClass, vWinClass2, % "ahk_id " hWndRoot
-		WinGetClass, vWinClass3, % "ahk_id " hWndOwner
-		WinGetClass, vWinClass4, % "ahk_id " hWndChild
-		vOutput .= A_Index ":" vCtlClassNN "|" vWinClass1 "|" vWinClass2 "|" vWinClass3 "|" vWinClass4 "`r`n" ;"|" vWinClass4 "`r`n"
-	}
-	Clipboard := vOutput 
-	;ToolTip, % vCtlClassNN,x+1,0
-	ToolTip, % vOutput, xm,0
-	;MsgBox, % vOutput
-	return
-*/
+;/*
+#2::
+#Persistent
+SetTimer, WatchCursor5, 500
+WinGet, hWnd, ID, A
+;WinGet, vCtlList, ControlList, % "ahk_id " hWnd
+WinGet, vCtlList, ControlList, % "ahk_id " hWnd
+vOutput := ""
+return
+
+WatchCursor5:
+MouseGetPos, , , id, control, 3
+ControlGetFocus, vCtlClassNN, A
+ControlGet, hCtl, Hwnd,, % vCtlClassNN, A
+WinGetClass, vCtlClass, % "ahk_id " hCtl
+ControlGetText, vText, % vCtlClassNN, A
+ControlGet, vText2, List,, % vCtlClassNN, A
+hWndParent := DllCall("user32\GetAncestor", Ptr,hCtl, UInt,1, Ptr) ;GA_PARENT := 1
+hWndRoot := DllCall("user32\GetAncestor", Ptr,hCtl, UInt,2, Ptr) ;GA_ROOT := 2
+hWndOwner := DllCall("user32\GetWindow", Ptr,hCtl, UInt,4, Ptr) ;GW_OWNER = 4
+hWndChild := DllCall("RealChildWindowFromPoint", Ptr,hCtl, UInt,4, Ptr) ;GW_OWNER = 4
+WinGet, chWnd, ID, "ahk_id " hWndChild
+WinGetClass, vWinClass1, % "ahk_id " hWndParent
+WinGetClass, vWinClass2, % "ahk_id " hWndRoot
+WinGetClass, vWinClass3, % "ahk_id " hWndOwner
+WinGetClass, vWinClass4, % "ahk_id " hWndChild
+ToolTip % "Parent: " . vWinClass1 "`nRoot: " . vWinClass2 "`nOwner: " . vWinClass3 . "`nChild: " vWinClass4 . "`nID: " . ID
+return
+;Clipboard:= % vText
+Loop, Parse, vCtlList, `n
+{
+	vCtlClassNN := A_LoopField
+	ControlGet, hCtl, Hwnd,, % vCtlClassNN, % "ahk_id " hWnd
+	hWndParent := DllCall("user32\GetAncestor", Ptr,hCtl, UInt,1, Ptr) ;GA_PARENT := 1
+	hWndRoot := DllCall("user32\GetAncestor", Ptr,hCtl, UInt,2, Ptr) ;GA_ROOT := 2
+	hWndOwner := DllCall("user32\GetWindow", Ptr,hCtl, UInt,4, Ptr) ;GW_OWNER = 4
+	hWndChild := DllCall("RealChildWindowFromPoint", Ptr,hCtl, UInt,4, Ptr) ;GW_OWNER = 4
+	;CursorHwnd := DllCall("WindowFromPoint", "int64", CursorX | (CursorY << 32), "Ptr")
+	WinGetClass, vWinClass1, % "ahk_id " hWndParent
+	WinGetClass, vWinClass2, % "ahk_id " hWndRoot
+	WinGetClass, vWinClass3, % "ahk_id " hWndOwner
+	WinGetClass, vWinClass4, % "ahk_id " hWndChild
+	vOutput .= A_Index ":" vCtlClassNN "|" vWinClass1 "|" vWinClass2 "|" vWinClass3 "|" vWinClass4 "`r`n" ;"|" vWinClass4 "`r`n"
+}
+Clipboard := vOutput 
+;ToolTip, % vCtlClassNN,x+1,0
+ToolTip, % vOutput, xm,0
+;MsgBox, % vOutput
+return
+;*/
 #1::
 ToolTip
 Return
-#2::
+
 
 #5::
 WinGet, hWnd, ID, A

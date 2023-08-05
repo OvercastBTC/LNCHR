@@ -1,7 +1,7 @@
 ﻿; Created by AHK_user 2022-05-11
 ; Based on V1 Array_Gui by Geekdude
 ; https://www.autohotkey.com/boards/viewtopic.php?t=35124
-#Requires AutoHotKey v2.0-beta.3
+#Requires AutoHotKey v2
 ; #SingleInstance force
 
 ; atest := ["test", "tast", 2, 3]

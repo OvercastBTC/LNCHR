@@ -26,12 +26,10 @@ return
 
 +#w::
 {
-    SendLevel(5)
-    fCtl := ControlGetClassNN(ControlGetFocus("A"))
-    Global tbID := SubStr(fCtl, -1, 1)
-    tCtl := "msvb_lib_toolbar" tbID
-    cHwnd := ControlGetHwnd(tCtl, "A")
-    HznButton(cHwnd,1)
+    hTB := Horizon
+    btnct := hTB().BtnCount()
+    MsgBox(hTB.Terms["btc"] " = " btnct, hTB.Terms["btc"])
+}
 ; --------------------------------------------------------------------------------
 ; Function .....: HznButton()
 ; Description ..: Find and Control-Click the Horizon msvb_lib_toolbar buttons
@@ -43,7 +41,6 @@ return
 ; {
 ; 	return DllCall("SendMessage", "UInt", hWnd, "UInt", Msg, "UInt", wParam, "UInt", lParam)
 ; }
-}
 HznButton(hToolbar, n)
 {
 ;   Step: set the Static variables
@@ -114,7 +111,8 @@ HznButton(hToolbar, n)
 		; Step Open the target process with PROCESS_VM_OPERATION, PROCESS_VM_READ, and PROCESS_VM_WRITE access
 		; hProcess := DllCall("Kernel32.dll\OpenProcess", "UInt", 0x0018 | 0x0010 | 0x0020, "Int", 0, "UInt", targetProcessID, "Ptr")
 		; hProcess := DllCall("Kernel32.dll\OpenProcess", "Int", 0x0018 | 0x0010 | 0x0020, "Char", 0, "UInt", targetProcessID, "UInt")
-		hProcess := DllCall("Kernel32.dll\OpenProcess", "UInt", PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION, "Int", 0, "UInt", targetProcessID) ;, "UInt")
+		; hProcess := DllCall("Kernel32.dll\OpenProcess", "UInt", PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION, "Int", 0, "UInt", targetProcessID) ;, "UInt")
+        hProcess := Horizon().GetWindowThreadProcessId(hToolbar)
 
 		; ; Allocate memory for the TBBUTTON structure in the target process's address space
 		; remoteMemory := DllCall("VirtualAllocEx", "Ptr", hProcess, "Ptr", 0, "UPtr", 16, "UInt", 0x1000, "UInt", 0x04, "Ptr")
@@ -166,4 +164,3 @@ HznButton(hToolbar, n)
 	DllCall("CloseHandle", "Ptr", hToolbar) ; added 06.23.2023
     }
 }
-; Test := Testable().RunAll(nWinI)
