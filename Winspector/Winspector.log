@@ -1,75 +1,143 @@
-04-08-2023	07:11:19	21536	Starting Winspector
-04-08-2023	07:11:19	21536	Checking for other instance
-04-08-2023	07:11:19	21536	Finished checking for other instance
-04-08-2023	07:11:19	21536	Loading settings
-04-08-2023	07:11:19	21536	Finished loading settings
-04-08-2023	07:11:19	21536	LoadStdProfileSettings
-04-08-2023	07:11:19	21536	Creating doc/view templates
-04-08-2023	07:11:19	21536	Creating mainframe
-04-08-2023	07:11:20	21536	Showing the main window
-04-08-2023	07:11:20	21536	Tracking the current instance
-04-08-2023	07:11:20	21536	CMessageDecoder::LoadCustomMessages
-04-08-2023	07:11:20	21536	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
-04-08-2023	07:11:20	21536	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-04-08-2023	07:11:20	21536	New watcher window 00040e96
-04-08-2023	07:11:20	21536	Sending message to corece windows alive
-04-08-2023	07:11:20	16664	CMessageDecoder::LoadCustomMessages
-04-08-2023	07:11:20	16664	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-04-08-2023	07:11:20	14216	CMessageDecoder::LoadCustomMessages
-04-08-2023	07:11:20	14216	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-04-08-2023	07:11:20	23168	CMessageDecoder::LoadCustomMessages
-04-08-2023	07:11:20	23168	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-04-08-2023	07:11:20	11736	CMessageDecoder::LoadCustomMessages
-04-08-2023	07:11:20	11736	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-04-08-2023	07:11:20	19476	CMessageDecoder::LoadCustomMessages
-04-08-2023	07:11:20	19476	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
-04-08-2023	07:11:20	4772	CMessageDecoder::LoadCustomMessages
-04-08-2023	07:11:20	4772	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-04-08-2023	07:11:20	21536	Started main hooks
-04-08-2023	07:11:20	21536	Running watcher thread message loop
-04-08-2023	07:11:41	11736	SendMessage timeout
-04-08-2023	07:11:50	14216	Adding watch for window 00080ff2
-04-08-2023	07:11:53	14216	Adding watch for window 00150ff0
-04-08-2023	07:11:55	14216	Adding watch for window 001d0ad0
-04-08-2023	07:11:58	14216	Adding watch for window 00080ffe
-04-08-2023	07:12:47	11736	SendMessage timeout
-04-08-2023	07:12:54	11736	SendMessage timeout
-04-08-2023	07:13:01	11736	SendMessage timeout
-04-08-2023	07:13:03	11736	SendMessage timeout
-04-08-2023	07:13:03	11736	SendMessage timeout
-04-08-2023	07:13:20	11736	SendMessage timeout
-04-08-2023	07:13:25	11736	SendMessage timeout
-04-08-2023	07:13:26	11736	SendMessage timeout
-04-08-2023	07:13:27	11736	SendMessage timeout
-04-08-2023	07:13:27	11736	SendMessage timeout
-04-08-2023	07:13:28	11736	SendMessage timeout
-04-08-2023	07:13:31	11736	SendMessage timeout
-04-08-2023	07:15:07	14216	Removing watch for window 00150ff0
-04-08-2023	07:15:48	14216	Removing watch for window 00080ffe
-04-08-2023	07:15:50	11736	SendMessage timeout
-04-08-2023	07:15:50	11736	SendMessage timeout
-04-08-2023	07:15:52	11736	SendMessage timeout
-04-08-2023	07:15:55	11736	SendMessage timeout
-04-08-2023	07:15:56	11736	SendMessage timeout
-04-08-2023	07:15:58	11736	SendMessage timeout
-04-08-2023	07:16:01	11736	SendMessage timeout
-04-08-2023	07:16:08	14216	Removing watch for window 001d0ad0
-04-08-2023	07:16:44	14216	Removing watch for window 00080ff2
-04-08-2023	07:20:25	21536	Stopping Winspector...bye
-04-08-2023	07:20:25	21536	Finished watcher thread message loop
-04-08-2023	07:20:25	21536	Sending message for stopping hooks
-04-08-2023	07:20:25	21536	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-04-08-2023	07:20:25	21536	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-04-08-2023	07:20:25	14216	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-04-08-2023	07:20:25	14216	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-04-08-2023	07:20:25	23168	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-04-08-2023	07:20:25	23168	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-04-08-2023	07:20:25	11736	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-04-08-2023	07:20:25	11736	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-04-08-2023	07:20:25	16664	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-04-08-2023	07:20:25	16664	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-04-08-2023	07:20:25	19476	Detaching from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-04-08-2023	07:20:25	19476	Detached from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-04-08-2023	07:20:25	4772	Detaching from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-04-08-2023	07:20:25	4772	Detached from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-04-08-2023	07:20:25	21536	Stopped main hooks
+06-08-2023	06:16:41	12884	Starting Winspector
+06-08-2023	06:16:41	12884	Checking for other instance
+06-08-2023	06:16:41	12884	Finished checking for other instance
+06-08-2023	06:16:41	12884	Loading settings
+06-08-2023	06:16:41	12884	Finished loading settings
+06-08-2023	06:16:41	12884	LoadStdProfileSettings
+06-08-2023	06:16:41	12884	Creating doc/view templates
+06-08-2023	06:16:41	12884	Creating mainframe
+06-08-2023	06:16:41	12884	Showing the main window
+06-08-2023	06:16:41	12884	Tracking the current instance
+06-08-2023	06:16:41	12884	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	12884	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
+06-08-2023	06:16:41	12884	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+06-08-2023	06:16:41	12884	New watcher window 00050bd6
+06-08-2023	06:16:41	12884	Sending message to corece windows alive
+06-08-2023	06:16:41	16964	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	16964	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+06-08-2023	06:16:41	18800	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	18800	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+06-08-2023	06:16:41	17272	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	17272	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
+06-08-2023	06:16:41	19576	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	19576	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+06-08-2023	06:16:41	4716	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	4716	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+06-08-2023	06:16:41	7544	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	7544	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
+06-08-2023	06:16:41	18648	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:41	18648	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+06-08-2023	06:16:41	12884	Started main hooks
+06-08-2023	06:16:41	12884	Running watcher thread message loop
+06-08-2023	06:16:50	12724	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:16:50	12724	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+06-08-2023	06:17:29	12724	SendMessage timeout
+06-08-2023	06:18:02	12724	Adding watch for window 00190b72
+06-08-2023	06:18:04	12724	Adding watch for window 00170be0
+06-08-2023	06:18:07	12724	Adding watch for window 00031108
+06-08-2023	06:18:09	12724	Adding watch for window 00031112
+06-08-2023	06:18:11	12724	Adding watch for window 00030544
+06-08-2023	06:18:13	12724	Adding watch for window 000f0d2a
+06-08-2023	06:18:15	12724	Adding watch for window 000f0d12
+06-08-2023	06:19:12	18800	SendMessage timeout
+06-08-2023	06:19:12	18800	SendMessage timeout
+06-08-2023	06:19:16	18800	SendMessage timeout
+06-08-2023	06:19:27	18800	SendMessage timeout
+06-08-2023	06:19:28	18800	SendMessage timeout
+06-08-2023	06:19:28	18800	SendMessage timeout
+06-08-2023	06:19:31	18800	SendMessage timeout
+06-08-2023	06:19:31	18800	SendMessage timeout
+06-08-2023	06:19:32	18800	SendMessage timeout
+06-08-2023	06:19:32	18800	SendMessage timeout
+06-08-2023	06:20:01	18800	SendMessage timeout
+06-08-2023	06:20:01	18800	SendMessage timeout
+06-08-2023	06:20:02	18800	SendMessage timeout
+06-08-2023	06:28:39	18800	SendMessage timeout
+06-08-2023	06:28:40	18800	SendMessage timeout
+06-08-2023	06:28:46	18800	SendMessage timeout
+06-08-2023	06:36:27	18800	SendMessage timeout
+06-08-2023	06:36:27	18800	SendMessage timeout
+06-08-2023	06:36:37	18800	SendMessage timeout
+06-08-2023	06:39:43	18800	SendMessage timeout
+06-08-2023	06:39:43	18800	SendMessage timeout
+06-08-2023	06:39:44	12724	SendMessage timeout
+06-08-2023	06:39:44	18800	SendMessage timeout
+06-08-2023	06:39:44	18800	SendMessage timeout
+06-08-2023	06:44:54	5068	CMessageDecoder::LoadCustomMessages
+06-08-2023	06:44:54	5068	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	06:47:49	5068	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	06:47:49	5068	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	06:50:03	18800	SendMessage timeout
+06-08-2023	06:50:03	18800	SendMessage timeout
+06-08-2023	06:54:59	18800	SendMessage timeout
+06-08-2023	06:54:59	18800	SendMessage timeout
+06-08-2023	06:55:01	18800	SendMessage timeout
+06-08-2023	06:55:07	18800	SendMessage timeout
+06-08-2023	06:55:13	18800	SendMessage timeout
+06-08-2023	06:55:41	18800	SendMessage timeout
+06-08-2023	06:55:42	18800	SendMessage timeout
+06-08-2023	06:55:45	18800	SendMessage timeout
+06-08-2023	06:55:45	18800	SendMessage timeout
+06-08-2023	06:58:19	18800	SendMessage timeout
+06-08-2023	07:01:34	22776	CMessageDecoder::LoadCustomMessages
+06-08-2023	07:01:34	22776	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+06-08-2023	07:01:37	22776	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+06-08-2023	07:01:37	22776	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+06-08-2023	07:13:37	19992	CMessageDecoder::LoadCustomMessages
+06-08-2023	07:13:37	19992	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	07:17:57	19992	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	07:17:57	19992	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	07:20:19	18800	SendMessage timeout
+06-08-2023	07:20:19	18800	SendMessage timeout
+06-08-2023	07:20:22	18800	SendMessage timeout
+06-08-2023	07:20:23	18800	SendMessage timeout
+06-08-2023	07:20:28	18800	SendMessage timeout
+06-08-2023	07:20:29	18800	SendMessage timeout
+06-08-2023	07:20:29	18800	SendMessage timeout
+06-08-2023	07:22:00	18800	SendMessage timeout
+06-08-2023	07:22:18	18800	SendMessage timeout
+06-08-2023	07:22:19	18800	SendMessage timeout
+06-08-2023	07:22:20	18800	SendMessage timeout
+06-08-2023	07:22:21	18800	SendMessage timeout
+06-08-2023	07:22:46	18800	SendMessage timeout
+06-08-2023	07:23:03	18800	SendMessage timeout
+06-08-2023	07:23:30	18800	SendMessage timeout
+06-08-2023	07:23:33	18800	SendMessage timeout
+06-08-2023	07:24:13	18800	SendMessage timeout
+06-08-2023	07:34:11	18800	SendMessage timeout
+06-08-2023	07:43:29	3436	CMessageDecoder::LoadCustomMessages
+06-08-2023	07:43:29	3436	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	07:46:00	3436	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	07:46:00	3436	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+06-08-2023	07:55:43	12724	Removing watch for window 00190b72
+06-08-2023	07:55:43	12724	Removing watch for window 00170be0
+06-08-2023	07:55:43	18800	SendMessage timeout
+06-08-2023	07:55:43	12724	Removing watch for window 00031108
+06-08-2023	07:55:44	12724	Removing watch for window 00031112
+06-08-2023	07:55:44	18800	SendMessage timeout
+06-08-2023	07:55:45	12724	Removing watch for window 00030544
+06-08-2023	07:55:45	18800	SendMessage timeout
+06-08-2023	07:55:45	12724	Removing watch for window 000f0d2a
+06-08-2023	07:55:46	12724	Removing watch for window 000f0d12
+06-08-2023	07:55:46	12884	Stopping Winspector...bye
+06-08-2023	07:55:46	12884	Finished watcher thread message loop
+06-08-2023	07:55:46	12884	Sending message for stopping hooks
+06-08-2023	07:55:46	12884	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+06-08-2023	07:55:46	12884	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+06-08-2023	07:55:46	19576	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+06-08-2023	07:55:46	19576	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+06-08-2023	07:55:46	12724	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+06-08-2023	07:55:46	12724	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+06-08-2023	07:55:46	4716	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+06-08-2023	07:55:46	4716	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+06-08-2023	07:55:46	17272	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
+06-08-2023	07:55:46	17272	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
+06-08-2023	07:55:46	16964	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+06-08-2023	07:55:46	16964	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+06-08-2023	07:55:46	18800	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+06-08-2023	07:55:46	18800	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+06-08-2023	07:55:46	7544	Detaching from process C:\Program Files\McAfee\Agent\x86\McTray.exe
+06-08-2023	07:55:46	7544	Detached from process C:\Program Files\McAfee\Agent\x86\McTray.exe
+06-08-2023	07:55:46	18648	Detaching from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+06-08-2023	07:55:46	18648	Detached from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+06-08-2023	07:55:46	12884	Stopped main hooks

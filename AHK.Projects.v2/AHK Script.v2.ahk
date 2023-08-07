@@ -80,18 +80,18 @@ Return
 :*:;sect::; {- 80} `r; {< 80}`r; {- 80}
 :*:{In::
 {
-Send("{Raw}{Insert")
+Send("{Insert}")
 Sleep(100)
 SendEvent("{Enter}")
 }
 return
 :*:{T::
 {
-	Send("{Raw}{Tab}")
+	Send("{Tab}")
 }	
 return
-:*:{S::Send("{Raw}{Space}")
-:*:{E::Send("{Raw}{Enter}")
+:*:{S::Send("{Space}")
+:*:{E::Send("{Enter}")
 :*:sle::Sleep(100)
 :*:Gui, Sh::
 {

@@ -61,22 +61,28 @@ GroupAdd("TerminalGroup", "ahk_exe ubuntu.exe")
 ;arlbibek := documents . A_UserName
 ;screenshot := userdir . "Pictures\Screenshots\"
 
-userdir:= "C:\Users\" . A_UserName . "\"
-OneDrive := "OneDrive - FM Global\"
-ahk := "3. AHK\AHK-Projects\"
-pc:= "This PC"
-desktop:= userdir . "Desktop\"
-documents:= userdir . "Documents\"
-downloads:= userdir . "Downloads\"
-music:= userdir . "Music\"
-pictures:= userdir . "Pictures\"
-pictures:= userdir . ""
-videos:= userdir . "Videos\"
-c:= "C:\"
-;arlbibek := documents . "arlbibek\"
-arlbibek := documents . "bacona\"
-screenshot:= userdir . "Pictures\Screenshots\"
-defaultfolder := userdir . OneDrive . ahk ;C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\"
+Class W2Con {
+    
+    Static C := "C:"
+    Static PC := "This PC"
+    Static LibMain := A_MyDocuments . "\Lib"
+    Static Libv1 := this.LibMain . "\Lib.v1"
+    Static OneDrive := "\OneDrive - FM Global"
+    Static AHKMain := "\AHK.Main"
+    Static AHKPv1 := "\AHK-Projects.v1"
+    Static AHKPv2 := "\AHK-Projects.v2"
+    static UserDir := C "\Users" A_UserName
+    desktop := A_UserName userdir . "Desktop\"
+    documents := userdir . "Documents\"
+    downloads := userdir . "Downloads\"
+    music := userdir . "Music\"
+    pictures := userdir . "Pictures\"
+    videos := userdir . "Videos\"
+    ;arlbibek := documents . "arlbibek\"
+    arlbibek := documents . "bacona\"
+    screenshot:= userdir . "Pictures\Screenshots\"
+    defaultfolder := userdir . OneDrive . ahk ;C:\Users\bacona\OneDrive - FM Global\3. AHK\AHK-Projects\"
+}
 Tray := A_TrayMenu
 ; script name and startup path
 ;splitPath, A_ScriptFullPath, , , script_ext, script_name
