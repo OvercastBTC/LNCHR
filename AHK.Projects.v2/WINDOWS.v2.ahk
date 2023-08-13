@@ -71,7 +71,7 @@ Class W2Con {
     Static AHKMain := "\AHK.Main"
     Static AHKPv1 := "\AHK-Projects.v1"
     Static AHKPv2 := "\AHK-Projects.v2"
-    static UserDir := C "\Users" A_UserName
+    static UserDir := "C:\Users" A_UserName
     desktop := A_UserName userdir . "Desktop\"
     documents := userdir . "Documents\"
     downloads := userdir . "Downloads\"
@@ -656,7 +656,7 @@ Return
     FormatDateTime("dddd, MMMM dd, yyyy hh:mm tt")
 Return
 } ; V1toV2: Added Bracket before hotkey or Hotstring
-:*X:/c::FormatDateTime("yyyy.MM.dd HH:mm") "`r`n Reason goes here"
+:*X:/commit::FormatDateTime("yyyy.MM.dd HH:mm") "`r`n Reason goes here"
 ::/time::
 { ; V1toV2: Added bracket
     FormatDateTime("HH:mm")

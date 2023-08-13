@@ -1,143 +1,982 @@
-06-08-2023	06:16:41	12884	Starting Winspector
-06-08-2023	06:16:41	12884	Checking for other instance
-06-08-2023	06:16:41	12884	Finished checking for other instance
-06-08-2023	06:16:41	12884	Loading settings
-06-08-2023	06:16:41	12884	Finished loading settings
-06-08-2023	06:16:41	12884	LoadStdProfileSettings
-06-08-2023	06:16:41	12884	Creating doc/view templates
-06-08-2023	06:16:41	12884	Creating mainframe
-06-08-2023	06:16:41	12884	Showing the main window
-06-08-2023	06:16:41	12884	Tracking the current instance
-06-08-2023	06:16:41	12884	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	12884	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
-06-08-2023	06:16:41	12884	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-06-08-2023	06:16:41	12884	New watcher window 00050bd6
-06-08-2023	06:16:41	12884	Sending message to corece windows alive
-06-08-2023	06:16:41	16964	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	16964	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-06-08-2023	06:16:41	18800	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	18800	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-06-08-2023	06:16:41	17272	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	17272	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-06-08-2023	06:16:41	19576	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	19576	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-06-08-2023	06:16:41	4716	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	4716	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
-06-08-2023	06:16:41	7544	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	7544	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
-06-08-2023	06:16:41	18648	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:41	18648	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-06-08-2023	06:16:41	12884	Started main hooks
-06-08-2023	06:16:41	12884	Running watcher thread message loop
-06-08-2023	06:16:50	12724	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:16:50	12724	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-06-08-2023	06:17:29	12724	SendMessage timeout
-06-08-2023	06:18:02	12724	Adding watch for window 00190b72
-06-08-2023	06:18:04	12724	Adding watch for window 00170be0
-06-08-2023	06:18:07	12724	Adding watch for window 00031108
-06-08-2023	06:18:09	12724	Adding watch for window 00031112
-06-08-2023	06:18:11	12724	Adding watch for window 00030544
-06-08-2023	06:18:13	12724	Adding watch for window 000f0d2a
-06-08-2023	06:18:15	12724	Adding watch for window 000f0d12
-06-08-2023	06:19:12	18800	SendMessage timeout
-06-08-2023	06:19:12	18800	SendMessage timeout
-06-08-2023	06:19:16	18800	SendMessage timeout
-06-08-2023	06:19:27	18800	SendMessage timeout
-06-08-2023	06:19:28	18800	SendMessage timeout
-06-08-2023	06:19:28	18800	SendMessage timeout
-06-08-2023	06:19:31	18800	SendMessage timeout
-06-08-2023	06:19:31	18800	SendMessage timeout
-06-08-2023	06:19:32	18800	SendMessage timeout
-06-08-2023	06:19:32	18800	SendMessage timeout
-06-08-2023	06:20:01	18800	SendMessage timeout
-06-08-2023	06:20:01	18800	SendMessage timeout
-06-08-2023	06:20:02	18800	SendMessage timeout
-06-08-2023	06:28:39	18800	SendMessage timeout
-06-08-2023	06:28:40	18800	SendMessage timeout
-06-08-2023	06:28:46	18800	SendMessage timeout
-06-08-2023	06:36:27	18800	SendMessage timeout
-06-08-2023	06:36:27	18800	SendMessage timeout
-06-08-2023	06:36:37	18800	SendMessage timeout
-06-08-2023	06:39:43	18800	SendMessage timeout
-06-08-2023	06:39:43	18800	SendMessage timeout
-06-08-2023	06:39:44	12724	SendMessage timeout
-06-08-2023	06:39:44	18800	SendMessage timeout
-06-08-2023	06:39:44	18800	SendMessage timeout
-06-08-2023	06:44:54	5068	CMessageDecoder::LoadCustomMessages
-06-08-2023	06:44:54	5068	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	06:47:49	5068	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	06:47:49	5068	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	06:50:03	18800	SendMessage timeout
-06-08-2023	06:50:03	18800	SendMessage timeout
-06-08-2023	06:54:59	18800	SendMessage timeout
-06-08-2023	06:54:59	18800	SendMessage timeout
-06-08-2023	06:55:01	18800	SendMessage timeout
-06-08-2023	06:55:07	18800	SendMessage timeout
-06-08-2023	06:55:13	18800	SendMessage timeout
-06-08-2023	06:55:41	18800	SendMessage timeout
-06-08-2023	06:55:42	18800	SendMessage timeout
-06-08-2023	06:55:45	18800	SendMessage timeout
-06-08-2023	06:55:45	18800	SendMessage timeout
-06-08-2023	06:58:19	18800	SendMessage timeout
-06-08-2023	07:01:34	22776	CMessageDecoder::LoadCustomMessages
-06-08-2023	07:01:34	22776	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
-06-08-2023	07:01:37	22776	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
-06-08-2023	07:01:37	22776	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
-06-08-2023	07:13:37	19992	CMessageDecoder::LoadCustomMessages
-06-08-2023	07:13:37	19992	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	07:17:57	19992	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	07:17:57	19992	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	07:20:19	18800	SendMessage timeout
-06-08-2023	07:20:19	18800	SendMessage timeout
-06-08-2023	07:20:22	18800	SendMessage timeout
-06-08-2023	07:20:23	18800	SendMessage timeout
-06-08-2023	07:20:28	18800	SendMessage timeout
-06-08-2023	07:20:29	18800	SendMessage timeout
-06-08-2023	07:20:29	18800	SendMessage timeout
-06-08-2023	07:22:00	18800	SendMessage timeout
-06-08-2023	07:22:18	18800	SendMessage timeout
-06-08-2023	07:22:19	18800	SendMessage timeout
-06-08-2023	07:22:20	18800	SendMessage timeout
-06-08-2023	07:22:21	18800	SendMessage timeout
-06-08-2023	07:22:46	18800	SendMessage timeout
-06-08-2023	07:23:03	18800	SendMessage timeout
-06-08-2023	07:23:30	18800	SendMessage timeout
-06-08-2023	07:23:33	18800	SendMessage timeout
-06-08-2023	07:24:13	18800	SendMessage timeout
-06-08-2023	07:34:11	18800	SendMessage timeout
-06-08-2023	07:43:29	3436	CMessageDecoder::LoadCustomMessages
-06-08-2023	07:43:29	3436	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	07:46:00	3436	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	07:46:00	3436	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-06-08-2023	07:55:43	12724	Removing watch for window 00190b72
-06-08-2023	07:55:43	12724	Removing watch for window 00170be0
-06-08-2023	07:55:43	18800	SendMessage timeout
-06-08-2023	07:55:43	12724	Removing watch for window 00031108
-06-08-2023	07:55:44	12724	Removing watch for window 00031112
-06-08-2023	07:55:44	18800	SendMessage timeout
-06-08-2023	07:55:45	12724	Removing watch for window 00030544
-06-08-2023	07:55:45	18800	SendMessage timeout
-06-08-2023	07:55:45	12724	Removing watch for window 000f0d2a
-06-08-2023	07:55:46	12724	Removing watch for window 000f0d12
-06-08-2023	07:55:46	12884	Stopping Winspector...bye
-06-08-2023	07:55:46	12884	Finished watcher thread message loop
-06-08-2023	07:55:46	12884	Sending message for stopping hooks
-06-08-2023	07:55:46	12884	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-06-08-2023	07:55:46	12884	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-06-08-2023	07:55:46	19576	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-06-08-2023	07:55:46	19576	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-06-08-2023	07:55:46	12724	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-06-08-2023	07:55:46	12724	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-06-08-2023	07:55:46	4716	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
-06-08-2023	07:55:46	4716	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
-06-08-2023	07:55:46	17272	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-06-08-2023	07:55:46	17272	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-06-08-2023	07:55:46	16964	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-06-08-2023	07:55:46	16964	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-06-08-2023	07:55:46	18800	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-06-08-2023	07:55:46	18800	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-06-08-2023	07:55:46	7544	Detaching from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-06-08-2023	07:55:46	7544	Detached from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-06-08-2023	07:55:46	18648	Detaching from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-06-08-2023	07:55:46	18648	Detached from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-06-08-2023	07:55:46	12884	Stopped main hooks
+11-08-2023	20:38:29	24088	Starting Winspector
+11-08-2023	20:38:29	24088	Checking for other instance
+11-08-2023	20:38:29	24088	Finished checking for other instance
+11-08-2023	20:38:29	24088	Loading settings
+11-08-2023	20:38:29	24088	Finished loading settings
+11-08-2023	20:38:29	24088	LoadStdProfileSettings
+11-08-2023	20:38:29	24088	Creating doc/view templates
+11-08-2023	20:38:29	24088	Creating mainframe
+11-08-2023	20:38:30	24088	Showing the main window
+11-08-2023	20:38:30	24088	Tracking the current instance
+11-08-2023	20:38:30	24088	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	24088	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
+11-08-2023	20:38:30	24088	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+11-08-2023	20:38:30	24088	New watcher window 00051b0c
+11-08-2023	20:38:30	24088	Sending message to corece windows alive
+11-08-2023	20:38:30	23980	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	23980	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+11-08-2023	20:38:30	18840	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	3404	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	3404	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+11-08-2023	20:38:30	3092	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	3092	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	20:38:30	6844	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	6844	Attached to process C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe
+11-08-2023	20:38:30	17128	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	17128	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+11-08-2023	20:38:30	10628	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	10628	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
+11-08-2023	20:38:30	18840	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+11-08-2023	20:38:30	17264	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	17264	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+11-08-2023	20:38:30	19368	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	19368	Attached to process C:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe
+11-08-2023	20:38:30	5504	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	5504	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
+11-08-2023	20:38:30	11468	CMessageDecoder::LoadCustomMessages
+11-08-2023	20:38:30	11468	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
+11-08-2023	20:38:30	24088	Started main hooks
+11-08-2023	20:38:30	24088	Running watcher thread message loop
+11-08-2023	20:40:48	3092	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	20:40:48	3092	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	20:45:03	23980	Adding watch for window 00141708
+11-08-2023	20:45:14	23980	Adding watch for window 00110944
+11-08-2023	20:48:29	18840	SendMessage timeout
+11-08-2023	20:48:31	18840	SendMessage timeout
+11-08-2023	20:48:32	18840	SendMessage timeout
+11-08-2023	20:48:41	18840	SendMessage timeout
+11-08-2023	20:48:41	18840	SendMessage timeout
+11-08-2023	20:48:42	18840	SendMessage timeout
+11-08-2023	20:48:42	18840	SendMessage timeout
+11-08-2023	20:48:48	18840	SendMessage timeout
+11-08-2023	20:48:50	18840	SendMessage timeout
+11-08-2023	20:49:07	18840	SendMessage timeout
+11-08-2023	20:49:09	18840	SendMessage timeout
+11-08-2023	20:49:12	18840	SendMessage timeout
+11-08-2023	20:50:08	18840	SendMessage timeout
+11-08-2023	21:02:41	25128	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:02:41	25128	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:06:45	25128	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:06:45	25128	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:08:56	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:08:56	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:09:11	25156	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:09:11	25156	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:10:36	16756	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:10:36	16756	Attached to process C:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe
+11-08-2023	21:10:37	16756	Detaching from process C:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe
+11-08-2023	21:10:37	16756	Detached from process C:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe
+11-08-2023	21:11:30	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:11:30	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:11:48	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:11:48	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:12:31	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:12:32	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:12:44	23980	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+11-08-2023	21:12:44	23980	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+11-08-2023	21:12:44	23980	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+11-08-2023	21:12:44	23980	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+11-08-2023	21:12:44	23980	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+11-08-2023	21:12:44	23980	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+11-08-2023	21:12:45	25156	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:12:45	25156	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:16:55	23480	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:16:55	23480	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+11-08-2023	21:16:56	23480	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+11-08-2023	21:16:56	23480	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+11-08-2023	21:17:10	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:17:10	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:18:19	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:18:19	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:18:27	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:18:27	23980	Unknown message 0x000000ae sent to class ThunderRT6MDIForm
+11-08-2023	21:18:42	23980	Unknown message 0x00000090 sent to class ThunderRT6FormDC
+11-08-2023	21:18:42	23980	Unknown message 0x00000090 sent to class ThunderRT6FormDC
+11-08-2023	21:18:42	19844	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:18:42	19844	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:20:56	23980	Unknown message 0x00000090 sent to class ThunderRT6MDIForm
+11-08-2023	21:20:56	23980	Unknown message 0x00000090 sent to class ThunderRT6MDIForm
+11-08-2023	21:20:57	23980	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+11-08-2023	21:20:57	23980	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+11-08-2023	21:21:00	25104	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:21:00	25104	Attached to process C:\Program Files\FMGlobal\Horizon\FMGlobal.Engineering.Horizon.Transfer.Client.TransferManager.exe
+11-08-2023	21:21:02	8908	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:21:02	8908	Attached to process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+11-08-2023	21:21:02	8908	SendMessage timeout
+11-08-2023	21:21:16	8908	Detaching from process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+11-08-2023	21:21:16	8908	Detached from process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+11-08-2023	21:21:21	10628	SendMessage timeout
+11-08-2023	21:24:44	19844	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:24:44	19844	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:26:00	18280	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:26:00	18280	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:28:55	18280	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:28:55	18280	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:30:08	288	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:30:08	288	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:32:53	288	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:32:53	288	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:53:38	24824	CMessageDecoder::LoadCustomMessages
+11-08-2023	21:53:38	24824	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:56:54	24824	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	21:56:54	24824	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:09:40	15152	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:09:40	15152	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:10:54	15152	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:10:54	15152	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:19:40	10908	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:19:40	10908	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:20:06	6496	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:20:06	6496	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+11-08-2023	22:20:06	6496	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+11-08-2023	22:20:06	6496	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+11-08-2023	22:21:03	22000	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:21:03	22000	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+11-08-2023	22:21:25	10628	SendMessage timeout
+11-08-2023	22:24:16	10628	SendMessage timeout
+11-08-2023	22:25:29	22000	SendMessage timeout
+11-08-2023	22:27:18	2600	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:27:18	2600	Attached to process C:\Windows\SysWOW64\prevhost.exe
+11-08-2023	22:27:18	18568	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:27:18	18568	Attached to process C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe
+11-08-2023	22:27:25	9440	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:27:25	9440	Attached to process C:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe
+11-08-2023	22:27:27	9440	Detaching from process C:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe
+11-08-2023	22:27:27	9440	Detached from process C:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe
+11-08-2023	22:27:39	24716	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:27:39	24716	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+11-08-2023	22:27:39	21328	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:27:39	21328	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+11-08-2023	22:27:39	24716	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+11-08-2023	22:27:39	24716	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+11-08-2023	22:28:02	21328	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+11-08-2023	22:28:02	21328	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+11-08-2023	22:28:44	10628	SendMessage timeout
+11-08-2023	22:28:52	10908	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:28:52	10908	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:32:32	24976	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:32:32	24976	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:33:39	10628	SendMessage timeout
+11-08-2023	22:34:15	2600	Detaching from process C:\Windows\SysWOW64\prevhost.exe
+11-08-2023	22:34:15	2600	Detached from process C:\Windows\SysWOW64\prevhost.exe
+11-08-2023	22:36:51	24976	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:36:51	24976	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:45:17	18840	SendMessage timeout
+11-08-2023	22:45:18	18840	SendMessage timeout
+11-08-2023	22:45:41	24468	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:45:41	24468	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:46:23	18840	SendMessage timeout
+11-08-2023	22:48:57	24468	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:48:57	24468	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	22:59:18	15556	CMessageDecoder::LoadCustomMessages
+11-08-2023	22:59:18	15556	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	23:00:29	21408	CMessageDecoder::LoadCustomMessages
+11-08-2023	23:00:29	21408	Attached to process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+11-08-2023	23:00:47	15556	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	23:00:47	15556	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	23:06:27	21408	SendMessage timeout
+11-08-2023	23:06:30	21408	SendMessage timeout
+11-08-2023	23:06:30	18840	SendMessage timeout
+11-08-2023	23:06:31	21408	Detaching from process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+11-08-2023	23:06:31	21408	Detached from process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+11-08-2023	23:19:53	18840	SendMessage timeout
+11-08-2023	23:20:14	22000	SendMessage timeout
+11-08-2023	23:20:14	22000	SendMessage timeout
+11-08-2023	23:27:38	25256	CMessageDecoder::LoadCustomMessages
+11-08-2023	23:27:38	25256	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	23:28:51	25256	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	23:28:51	25256	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+11-08-2023	23:32:35	13088	CMessageDecoder::LoadCustomMessages
+11-08-2023	23:32:35	13088	Attached to process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+11-08-2023	23:42:50	18840	SendMessage timeout
+11-08-2023	23:49:09	10648	CMessageDecoder::LoadCustomMessages
+11-08-2023	23:49:09	10648	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+11-08-2023	23:49:12	10648	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+11-08-2023	23:49:12	10648	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+11-08-2023	23:49:13	17128	SendMessage timeout
+11-08-2023	23:50:50	17128	SendMessage timeout
+12-08-2023	00:00:34	22576	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:00:34	22576	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	00:00:36	22576	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	00:00:36	22576	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	00:02:05	22000	SendMessage timeout
+12-08-2023	00:05:57	14464	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:05:57	14464	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:08:23	22000	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	00:08:23	22000	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	00:08:30	2744	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:08:30	2744	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	00:08:57	14464	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:08:57	14464	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:09:39	2744	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	00:09:39	2744	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	00:09:41	14564	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:09:41	14564	Attached to process C:\Program Files\FMGlobal\Horizon\FMGlobal.Engineering.Horizon.Transfer.Client.TransferManager.exe
+12-08-2023	00:09:44	8512	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:09:44	8512	Attached to process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+12-08-2023	00:09:59	8512	Detaching from process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+12-08-2023	00:09:59	8512	Detached from process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+12-08-2023	00:16:56	22008	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:16:56	22008	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:18:49	22008	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:18:49	22008	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:42:22	20748	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:42:22	20748	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:44:55	20748	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:44:55	20748	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:45:03	23164	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:45:03	23164	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:46:46	23164	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:46:46	23164	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:46:55	10696	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:46:55	10696	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	00:46:56	10696	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	00:46:56	10696	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	00:48:02	2260	CMessageDecoder::LoadCustomMessages
+12-08-2023	00:48:02	2260	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:50:56	2260	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	00:50:56	2260	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:00:36	21752	CMessageDecoder::LoadCustomMessages
+12-08-2023	01:00:36	21752	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:02:49	21752	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:02:49	21752	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:03:21	10428	CMessageDecoder::LoadCustomMessages
+12-08-2023	01:03:21	10428	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	01:03:21	21340	CMessageDecoder::LoadCustomMessages
+12-08-2023	01:03:21	21340	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	01:03:22	10428	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	01:03:22	10428	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	01:03:44	21340	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	01:03:44	21340	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	01:25:42	14160	CMessageDecoder::LoadCustomMessages
+12-08-2023	01:25:42	14160	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:28:55	14160	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:28:55	14160	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:40:52	10412	CMessageDecoder::LoadCustomMessages
+12-08-2023	01:40:52	10412	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:42:49	10412	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:42:49	10412	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	01:58:11	11836	CMessageDecoder::LoadCustomMessages
+12-08-2023	01:58:11	11836	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:00:50	11836	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:00:50	11836	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:29:22	21728	CMessageDecoder::LoadCustomMessages
+12-08-2023	02:29:22	21728	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:30:50	21728	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:30:50	21728	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:40:29	14476	CMessageDecoder::LoadCustomMessages
+12-08-2023	02:40:29	14476	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:41:14	23804	CMessageDecoder::LoadCustomMessages
+12-08-2023	02:41:14	23804	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	02:41:14	5564	CMessageDecoder::LoadCustomMessages
+12-08-2023	02:41:14	5564	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	02:41:14	23804	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	02:41:14	23804	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	02:41:37	5564	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	02:41:37	5564	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	02:42:55	14476	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:42:55	14476	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:57:34	22652	CMessageDecoder::LoadCustomMessages
+12-08-2023	02:57:34	22652	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:58:48	22652	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	02:58:48	22652	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:05:38	25176	CMessageDecoder::LoadCustomMessages
+12-08-2023	03:05:38	25176	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:06:51	25176	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:06:51	25176	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:11:33	6796	CMessageDecoder::LoadCustomMessages
+12-08-2023	03:11:33	6796	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	03:11:35	6796	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	03:11:35	6796	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	03:18:55	24916	CMessageDecoder::LoadCustomMessages
+12-08-2023	03:18:55	24916	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:20:46	24916	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:20:46	24916	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:35:42	24764	CMessageDecoder::LoadCustomMessages
+12-08-2023	03:35:42	24764	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:38:51	24764	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	03:38:51	24764	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:06:33	4288	CMessageDecoder::LoadCustomMessages
+12-08-2023	04:06:33	4288	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:08:44	4288	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:08:44	4288	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:13:35	24160	CMessageDecoder::LoadCustomMessages
+12-08-2023	04:13:35	24160	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:14:48	24160	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:14:48	24160	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:16:55	23352	CMessageDecoder::LoadCustomMessages
+12-08-2023	04:16:55	23352	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	04:16:56	23352	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	04:16:56	23352	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	04:31:41	2056	CMessageDecoder::LoadCustomMessages
+12-08-2023	04:31:41	2056	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:34:57	2056	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:34:57	2056	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:45:02	19340	CMessageDecoder::LoadCustomMessages
+12-08-2023	04:45:02	19340	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:46:54	19340	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:46:54	19340	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:55:04	19176	CMessageDecoder::LoadCustomMessages
+12-08-2023	04:55:04	19176	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:58:57	19176	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	04:58:57	19176	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	05:14:32	5756	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:14:32	5756	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	05:16:45	5756	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	05:16:45	5756	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	05:23:50	25128	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:23:50	25128	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	05:26:45	25128	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	05:26:45	25128	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	05:43:04	23696	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:43:04	23696	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	05:44:27	23696	SendMessage timeout
+12-08-2023	05:45:32	22272	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:45:32	22272	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+12-08-2023	05:45:33	22272	SendMessage timeout
+12-08-2023	05:45:33	22272	SendMessage timeout
+12-08-2023	05:45:34	22272	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+12-08-2023	05:45:34	22272	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE
+12-08-2023	05:45:35	17128	SendMessage timeout
+12-08-2023	05:45:35	18840	SendMessage timeout
+12-08-2023	05:53:22	17128	SendMessage timeout
+12-08-2023	05:55:19	18840	SendMessage timeout
+12-08-2023	05:55:39	17128	SendMessage timeout
+12-08-2023	05:56:10	17128	SendMessage timeout
+12-08-2023	05:56:34	17128	SendMessage timeout
+12-08-2023	05:57:17	17448	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:57:17	17448	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	05:57:17	19116	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:57:17	19116	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	05:57:18	17448	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	05:57:18	17448	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	05:57:40	19116	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	05:57:40	19116	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	05:58:14	17128	SendMessage timeout
+12-08-2023	05:58:14	17128	SendMessage timeout
+12-08-2023	05:58:23	1076	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:58:23	1076	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	05:58:23	24844	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:58:23	24844	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	05:58:23	1076	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	05:58:23	1076	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	05:58:46	24844	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	05:58:46	24844	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	05:58:47	17128	SendMessage timeout
+12-08-2023	05:59:14	17128	SendMessage timeout
+12-08-2023	05:59:26	24980	CMessageDecoder::LoadCustomMessages
+12-08-2023	05:59:26	24980	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:00:11	17128	SendMessage timeout
+12-08-2023	06:00:11	17128	SendMessage timeout
+12-08-2023	06:00:54	24980	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:00:54	24980	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:13:12	19624	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:13:12	19624	Attached to process C:\WINDOWS\SysWOW64\wermgr.exe
+12-08-2023	06:13:13	19624	Detaching from process C:\WINDOWS\SysWOW64\wermgr.exe
+12-08-2023	06:13:13	19624	Detached from process C:\WINDOWS\SysWOW64\wermgr.exe
+12-08-2023	06:15:17	16600	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:15:17	16600	Attached to process C:\WINDOWS\SysWOW64\wermgr.exe
+12-08-2023	06:15:17	16600	Detaching from process C:\WINDOWS\SysWOW64\wermgr.exe
+12-08-2023	06:15:17	16600	Detached from process C:\WINDOWS\SysWOW64\wermgr.exe
+12-08-2023	06:17:01	23336	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:17:01	23336	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:18:58	23336	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:18:58	23336	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:22:30	18840	SendMessage timeout
+12-08-2023	06:27:40	19996	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:27:40	19996	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:27:46	23696	SendMessage timeout
+12-08-2023	06:28:54	19996	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:28:54	19996	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	06:41:24	23696	SendMessage timeout
+12-08-2023	06:41:25	23696	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	06:41:25	23696	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	06:41:27	18876	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:41:27	18876	Attached to process C:\Program Files\FMGlobal\Horizon\FMGlobal.Engineering.Horizon.Transfer.Client.TransferManager.exe
+12-08-2023	06:41:27	3404	SendMessage timeout
+12-08-2023	06:41:27	18876	SendMessage timeout
+12-08-2023	06:41:30	24592	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:41:30	24592	Attached to process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+12-08-2023	06:41:45	24592	Detaching from process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+12-08-2023	06:41:45	24592	Detached from process C:\Program Files\FMGlobal\FEModernAppUtils\FMGlobal.Eng.Skyline.Transfer.Client.SyncProcess.exe
+12-08-2023	06:42:59	18872	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:42:59	18872	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+12-08-2023	06:43:39	18024	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:43:39	18024	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:45:55	22716	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:45:55	22716	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:45:55	10876	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:45:55	10876	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:46:34	4768	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:46:34	4768	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	06:46:37	4768	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	06:46:37	4768	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	06:53:35	17360	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:53:35	17360	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:53:35	2288	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:53:35	2288	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:54:13	23456	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:54:13	23456	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:54:13	7320	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:54:13	7320	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:56:26	23932	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:56:26	23932	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:56:26	25540	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:56:26	25540	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:59:10	13748	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:59:10	13748	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:59:10	25336	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:59:10	25336	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:59:50	22276	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:59:50	22276	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	06:59:50	22204	CMessageDecoder::LoadCustomMessages
+12-08-2023	06:59:50	22204	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	07:00:50	25040	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:00:50	25040	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	07:00:50	20024	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:00:50	20024	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	07:02:37	4464	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:02:37	4464	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	07:02:37	25356	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:02:37	25356	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	07:04:59	25548	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:04:59	25548	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	07:04:59	1324	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:04:59	1324	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+12-08-2023	07:10:07	1840	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:10:07	1840	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:12:47	1840	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:12:47	1840	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:26:03	18180	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:26:03	18180	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:28:57	18180	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:28:57	18180	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:31:42	19972	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:31:42	19972	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:32:55	19972	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:32:55	19972	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:41:09	24792	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:41:09	24792	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:42:45	24792	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:42:45	24792	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:45:42	23404	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:45:42	23404	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:46:55	23452	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:46:55	23452	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	07:46:56	23404	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:46:56	23404	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:46:56	23452	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	07:46:56	23452	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	07:52:09	23280	CMessageDecoder::LoadCustomMessages
+12-08-2023	07:52:09	23280	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:54:48	23280	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	07:54:48	23280	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	08:00:35	8136	CMessageDecoder::LoadCustomMessages
+12-08-2023	08:00:35	8136	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	08:02:46	8136	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	08:02:46	8136	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	08:25:06	25040	CMessageDecoder::LoadCustomMessages
+12-08-2023	08:25:06	25040	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	08:28:58	25040	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	08:28:58	25040	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	08:58:07	25304	CMessageDecoder::LoadCustomMessages
+12-08-2023	08:58:07	25304	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:00:47	25304	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:00:47	25304	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:11:14	22012	CMessageDecoder::LoadCustomMessages
+12-08-2023	09:11:14	22012	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	09:11:14	17440	CMessageDecoder::LoadCustomMessages
+12-08-2023	09:11:14	17440	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	09:11:15	22012	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	09:11:15	22012	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	09:11:37	17440	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	09:11:37	17440	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	09:29:12	18124	CMessageDecoder::LoadCustomMessages
+12-08-2023	09:29:12	18124	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:30:55	18124	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:30:55	18124	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:52:51	17048	CMessageDecoder::LoadCustomMessages
+12-08-2023	09:52:51	17048	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:54:48	17048	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	09:54:48	17048	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:10:21	20036	CMessageDecoder::LoadCustomMessages
+12-08-2023	10:10:21	20036	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:12:47	20036	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:12:47	20036	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:24:24	22480	CMessageDecoder::LoadCustomMessages
+12-08-2023	10:24:24	22480	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:26:49	22480	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:26:49	22480	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:36:33	1224	CMessageDecoder::LoadCustomMessages
+12-08-2023	10:36:33	1224	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	10:36:35	1224	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	10:36:35	1224	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	10:56:03	15140	CMessageDecoder::LoadCustomMessages
+12-08-2023	10:56:03	15140	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:58:57	15140	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	10:58:57	15140	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:00:05	3320	CMessageDecoder::LoadCustomMessages
+12-08-2023	11:00:05	3320	Attached to process C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+12-08-2023	11:00:07	3320	Detaching from process C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+12-08-2023	11:00:07	3320	Detached from process C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+12-08-2023	11:01:38	23272	CMessageDecoder::LoadCustomMessages
+12-08-2023	11:01:38	23272	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:02:51	23272	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:02:51	23272	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:11:21	6096	CMessageDecoder::LoadCustomMessages
+12-08-2023	11:11:21	6096	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:12:57	6096	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:12:57	6096	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:15:27	23080	CMessageDecoder::LoadCustomMessages
+12-08-2023	11:15:27	23080	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:16:55	23080	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:16:55	23080	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:16:55	18332	CMessageDecoder::LoadCustomMessages
+12-08-2023	11:16:55	18332	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	11:16:56	18332	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	11:16:56	18332	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	11:30:37	24632	CMessageDecoder::LoadCustomMessages
+12-08-2023	11:30:37	24632	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:32:48	24632	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:32:48	24632	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:56:26	14036	CMessageDecoder::LoadCustomMessages
+12-08-2023	11:56:26	14036	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:58:57	14036	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	11:58:57	14036	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	12:01:22	21604	CMessageDecoder::LoadCustomMessages
+12-08-2023	12:01:22	21604	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	12:02:50	21604	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	12:02:50	21604	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	12:23:41	22276	CMessageDecoder::LoadCustomMessages
+12-08-2023	12:23:41	22276	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	12:24:55	22276	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	12:24:55	22276	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:04:13	13208	CMessageDecoder::LoadCustomMessages
+12-08-2023	13:04:13	13208	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:06:52	13208	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:06:52	13208	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:20:26	1700	CMessageDecoder::LoadCustomMessages
+12-08-2023	13:20:26	1700	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:22:51	1700	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:22:51	1700	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:47:05	25300	CMessageDecoder::LoadCustomMessages
+12-08-2023	13:47:05	25300	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:48:47	25300	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:48:47	25300	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:55:25	944	CMessageDecoder::LoadCustomMessages
+12-08-2023	13:55:25	944	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:56:53	944	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:56:53	944	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	13:58:32	16892	CMessageDecoder::LoadCustomMessages
+12-08-2023	13:58:32	16892	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:00:01	9076	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:00:01	9076	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	14:00:01	9076	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	14:00:01	9076	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	14:00:51	16892	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:00:51	16892	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:19:33	22372	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:19:33	22372	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:22:52	22372	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:22:52	22372	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:31:03	21580	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:31:03	21580	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:32:54	21580	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:32:54	21580	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:33:46	19972	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:33:46	19972	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:36:56	19972	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:36:56	19972	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:41:08	23252	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:41:08	23252	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:42:59	23252	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:42:59	23252	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:44:42	9280	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:44:42	9280	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	14:44:42	1768	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:44:42	1768	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	14:44:42	9280	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	14:44:42	9280	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	14:45:05	1768	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	14:45:05	1768	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	14:46:55	11152	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:46:55	11152	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	14:46:56	11152	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	14:46:56	11152	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	14:48:07	17840	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:48:07	17840	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:50:47	17840	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:50:47	17840	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:52:10	21148	CMessageDecoder::LoadCustomMessages
+12-08-2023	14:52:10	21148	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:54:50	21148	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	14:54:50	21148	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	15:21:04	24544	CMessageDecoder::LoadCustomMessages
+12-08-2023	15:21:04	24544	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	15:22:56	24544	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	15:22:56	24544	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	15:31:46	25548	CMessageDecoder::LoadCustomMessages
+12-08-2023	15:31:46	25548	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	15:33:34	4168	CMessageDecoder::LoadCustomMessages
+12-08-2023	15:33:34	4168	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	15:33:36	4168	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	15:33:36	4168	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	15:34:55	25548	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	15:34:55	25548	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	15:58:11	11896	CMessageDecoder::LoadCustomMessages
+12-08-2023	15:58:11	11896	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:00:51	11896	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:00:51	11896	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:22:39	25012	CMessageDecoder::LoadCustomMessages
+12-08-2023	16:22:39	25012	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:24:50	25012	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:24:50	25012	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:34:34	25460	CMessageDecoder::LoadCustomMessages
+12-08-2023	16:34:34	25460	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:37:00	25460	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:37:00	25460	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:49:14	24452	CMessageDecoder::LoadCustomMessages
+12-08-2023	16:49:14	24452	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:50:55	24452	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	16:50:55	24452	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	17:23:57	4892	CMessageDecoder::LoadCustomMessages
+12-08-2023	17:23:57	4892	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	17:26:58	4892	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	17:26:58	4892	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	17:50:52	18212	CMessageDecoder::LoadCustomMessages
+12-08-2023	17:50:52	18212	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	17:52:49	18212	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	17:52:49	18212	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:01:09	18988	CMessageDecoder::LoadCustomMessages
+12-08-2023	18:01:09	18988	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:02:51	18988	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:02:51	18988	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:03:00	23300	CMessageDecoder::LoadCustomMessages
+12-08-2023	18:03:00	23300	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:04:52	23300	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:04:52	23300	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:08:19	1224	CMessageDecoder::LoadCustomMessages
+12-08-2023	18:08:19	1224	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:10:59	1224	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:10:59	1224	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:11:06	17892	CMessageDecoder::LoadCustomMessages
+12-08-2023	18:11:06	17892	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:12:56	17892	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:12:56	17892	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:16:55	24316	CMessageDecoder::LoadCustomMessages
+12-08-2023	18:16:55	24316	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	18:16:56	24316	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	18:16:56	24316	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	18:52:54	13004	CMessageDecoder::LoadCustomMessages
+12-08-2023	18:52:54	13004	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:54:54	13004	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	18:54:55	13004	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	19:01:20	24588	CMessageDecoder::LoadCustomMessages
+12-08-2023	19:01:20	24588	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	19:02:48	24588	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	19:02:48	24588	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	19:10:33	21260	CMessageDecoder::LoadCustomMessages
+12-08-2023	19:10:33	21260	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	19:10:36	21260	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	19:10:36	21260	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	19:30:38	25344	CMessageDecoder::LoadCustomMessages
+12-08-2023	19:30:38	25344	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	19:32:49	25344	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	19:32:49	25344	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	19:51:14	19648	CMessageDecoder::LoadCustomMessages
+12-08-2023	19:51:14	19648	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	19:51:14	15468	CMessageDecoder::LoadCustomMessages
+12-08-2023	19:51:14	15468	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	19:51:15	19648	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	19:51:15	19648	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	19:51:37	15468	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	19:51:37	15468	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	20:04:18	9036	CMessageDecoder::LoadCustomMessages
+12-08-2023	20:04:18	9036	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:06:58	9036	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:06:58	9036	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:13:55	19488	CMessageDecoder::LoadCustomMessages
+12-08-2023	20:13:55	19488	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:16:49	19488	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:16:49	19488	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:18:57	21388	CMessageDecoder::LoadCustomMessages
+12-08-2023	20:18:57	21388	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:20:49	21388	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:20:49	21388	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:24:50	10308	CMessageDecoder::LoadCustomMessages
+12-08-2023	20:24:50	10308	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:27:01	10308	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:27:01	10308	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:54:27	3188	CMessageDecoder::LoadCustomMessages
+12-08-2023	20:54:27	3188	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:56:53	3188	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	20:56:53	3188	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:01:57	22636	CMessageDecoder::LoadCustomMessages
+12-08-2023	21:01:57	22636	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:04:51	22636	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:04:51	22636	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:25:14	24824	CMessageDecoder::LoadCustomMessages
+12-08-2023	21:25:14	24824	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:28:59	24824	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:28:59	24824	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:31:40	1188	CMessageDecoder::LoadCustomMessages
+12-08-2023	21:31:40	1188	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:32:54	1188	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:32:54	1188	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:42:32	25164	CMessageDecoder::LoadCustomMessages
+12-08-2023	21:42:32	25164	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:44:52	25164	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:44:52	25164	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:46:55	25376	CMessageDecoder::LoadCustomMessages
+12-08-2023	21:46:55	25376	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	21:46:56	25376	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	21:46:56	25376	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+12-08-2023	21:54:07	12032	CMessageDecoder::LoadCustomMessages
+12-08-2023	21:54:08	12032	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:56:52	12032	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	21:56:52	12032	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:18:52	21476	CMessageDecoder::LoadCustomMessages
+12-08-2023	22:18:52	21476	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:20:54	21476	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:20:54	21476	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:31:27	9768	CMessageDecoder::LoadCustomMessages
+12-08-2023	22:31:27	9768	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:32:55	9768	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:32:55	9768	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:46:17	2288	CMessageDecoder::LoadCustomMessages
+12-08-2023	22:46:17	2288	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:49:00	2288	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:49:00	2288	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	22:58:10	22716	CMessageDecoder::LoadCustomMessages
+12-08-2023	22:58:10	22716	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:00:49	22716	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:00:49	22716	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:08:04	16772	CMessageDecoder::LoadCustomMessages
+12-08-2023	23:08:04	16772	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	23:08:04	23956	CMessageDecoder::LoadCustomMessages
+12-08-2023	23:08:04	23956	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	23:08:04	16772	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	23:08:04	16772	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+12-08-2023	23:08:27	23956	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	23:08:27	23956	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+12-08-2023	23:29:47	20060	CMessageDecoder::LoadCustomMessages
+12-08-2023	23:29:47	20060	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:32:56	20060	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:32:56	20060	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:40:33	18992	CMessageDecoder::LoadCustomMessages
+12-08-2023	23:40:33	18992	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	23:40:35	18992	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	23:40:35	18992	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+12-08-2023	23:53:29	23864	CMessageDecoder::LoadCustomMessages
+12-08-2023	23:53:29	23864	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:56:57	23864	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+12-08-2023	23:56:57	23864	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:24:54	22976	CMessageDecoder::LoadCustomMessages
+13-08-2023	00:24:54	22976	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:26:51	22976	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:26:51	22976	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:46:45	13972	CMessageDecoder::LoadCustomMessages
+13-08-2023	00:46:45	13972	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:48:57	13972	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:48:57	13972	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:56:37	24168	CMessageDecoder::LoadCustomMessages
+13-08-2023	00:56:37	24168	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:58:49	24168	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	00:58:49	24168	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:01:32	18472	CMessageDecoder::LoadCustomMessages
+13-08-2023	01:01:32	18472	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:02:59	18472	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:02:59	18472	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:10:49	23620	CMessageDecoder::LoadCustomMessages
+13-08-2023	01:10:49	23620	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:13:00	23620	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:13:00	23620	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:16:55	18892	CMessageDecoder::LoadCustomMessages
+13-08-2023	01:16:55	18892	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+13-08-2023	01:16:56	18892	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+13-08-2023	01:16:56	18892	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+13-08-2023	01:52:54	23524	CMessageDecoder::LoadCustomMessages
+13-08-2023	01:52:54	23524	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:54:57	23524	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:54:57	23524	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	01:59:48	24272	CMessageDecoder::LoadCustomMessages
+13-08-2023	01:59:48	24272	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+13-08-2023	01:59:48	11000	CMessageDecoder::LoadCustomMessages
+13-08-2023	01:59:48	11000	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+13-08-2023	01:59:49	24272	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+13-08-2023	01:59:49	24272	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+13-08-2023	02:00:11	11000	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+13-08-2023	02:00:11	11000	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+13-08-2023	02:01:18	13352	CMessageDecoder::LoadCustomMessages
+13-08-2023	02:01:19	13352	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:03:01	13352	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:03:01	13352	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:28:15	4820	CMessageDecoder::LoadCustomMessages
+13-08-2023	02:28:15	4820	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:30:55	4820	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:30:55	4820	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:51:22	10876	CMessageDecoder::LoadCustomMessages
+13-08-2023	02:51:22	10876	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:52:50	10876	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	02:52:50	10876	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:04:16	18608	CMessageDecoder::LoadCustomMessages
+13-08-2023	03:04:16	18608	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:06:33	21556	CMessageDecoder::LoadCustomMessages
+13-08-2023	03:06:33	21556	Attached to process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+13-08-2023	03:06:36	21556	Detaching from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+13-08-2023	03:06:36	21556	Detached from process C:\Program Files (x86)\FMGlobal\AddIn Express Config\AddIn Express Config.exe
+13-08-2023	03:06:56	18608	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:06:56	18608	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:22:40	24664	CMessageDecoder::LoadCustomMessages
+13-08-2023	03:22:40	24664	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:24:56	24664	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:24:56	24664	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:29:36	23196	CMessageDecoder::LoadCustomMessages
+13-08-2023	03:29:36	23196	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:30:50	23196	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:30:50	23196	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:56:22	24540	CMessageDecoder::LoadCustomMessages
+13-08-2023	03:56:22	24540	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:59:02	24540	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	03:59:02	24540	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:16:43	21484	CMessageDecoder::LoadCustomMessages
+13-08-2023	04:16:43	21484	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:18:54	21484	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:18:54	21484	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:19:51	20700	CMessageDecoder::LoadCustomMessages
+13-08-2023	04:19:51	20700	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:22:59	20700	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:22:59	20700	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:31:37	15020	CMessageDecoder::LoadCustomMessages
+13-08-2023	04:31:37	15020	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:32:50	15020	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:32:50	15020	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:40:03	3408	CMessageDecoder::LoadCustomMessages
+13-08-2023	04:40:03	3408	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:42:59	3408	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:42:59	3408	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	04:46:55	24788	CMessageDecoder::LoadCustomMessages
+13-08-2023	04:46:55	24788	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+13-08-2023	04:46:56	24788	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+13-08-2023	04:46:56	24788	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+13-08-2023	05:22:53	23752	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:22:53	23752	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:24:57	23752	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:24:57	23752	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:30:52	14528	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:30:52	14528	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+13-08-2023	05:30:52	18468	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:30:52	18468	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+13-08-2023	05:30:52	14528	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+13-08-2023	05:30:52	14528	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+13-08-2023	05:31:15	18468	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+13-08-2023	05:31:15	18468	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+13-08-2023	05:31:21	20628	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:31:21	20628	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:33:03	20628	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:33:03	20628	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:34:13	4856	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:34:13	4856	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	05:34:13	21652	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:34:13	21652	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	05:36:49	18204	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:36:49	18204	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:38:53	18204	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:38:53	18204	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	05:58:08	22572	CMessageDecoder::LoadCustomMessages
+13-08-2023	05:58:08	22572	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:01:03	22572	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:01:03	22572	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:06:18	4004	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:06:18	4004	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:06:18	24032	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:06:18	24032	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:06:46	24816	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:06:46	24816	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:16:21	3352	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:16:21	3352	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:16:43	11512	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:16:43	11512	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:19:20	20840	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:19:20	20840	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:22:58	22068	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:22:58	22068	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:22:59	18872	SendMessage timeout
+13-08-2023	06:23:06	19856	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:23:06	19856	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:24:17	26560	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:24:17	26560	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:25:04	19784	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:25:04	19784	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:28:06	26480	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:28:06	26480	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:28:29	15500	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:28:29	15500	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:28:41	6528	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:28:41	6528	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:29:37	1004	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:29:37	1004	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:29:38	18572	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:29:38	18572	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:31:01	26480	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:31:01	26480	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:31:18	13384	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:31:18	13384	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:31:18	22036	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:31:18	22036	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:32:52	22496	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:32:52	22496	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:32:53	18628	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:32:53	18628	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:33:04	26252	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:33:04	26252	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:34:18	24748	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:34:18	24748	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:35:52	21812	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:35:52	21812	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:35:52	17688	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:35:52	17688	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:36:37	3376	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:36:37	3376	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:36:37	14688	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:36:37	14688	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:36:58	24748	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:36:58	24748	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:37:00	25000	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:37:00	25000	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:37:00	26504	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:37:00	26504	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:38:01	24408	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:38:01	24408	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:39:11	21868	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:39:11	21868	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:39:17	19176	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:39:17	19176	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:40:21	22940	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:40:21	22940	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:40:55	24408	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:40:55	24408	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
+13-08-2023	06:41:22	15584	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:41:22	15584	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:42:18	4832	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:42:18	4832	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:42:18	17036	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:42:18	17036	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:43:33	196	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:43:33	196	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:43:33	26184	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:43:33	26184	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:44:01	26244	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:44:01	26244	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:44:02	20840	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:44:02	20840	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:44:19	20620	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:44:19	20620	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:44:19	25604	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:44:19	25604	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:51:17	26288	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:51:17	26288	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:51:50	6800	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:51:50	6800	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+13-08-2023	06:52:27	8436	CMessageDecoder::LoadCustomMessages
+13-08-2023	06:52:27	8436	Attached to process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE

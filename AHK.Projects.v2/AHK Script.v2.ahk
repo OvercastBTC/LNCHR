@@ -114,7 +114,7 @@ return
 ; Section .....: Save with Hotkey Function
 ; Function ....: ReloadAllAHKScripts()
 ; --------------------------------------------------------------------------------
-#HotIf WinActive("ahk_exe Code.exe")
+#HotIf WinActive(A_ScriptName & "ahk_exe Code.exe")
 #Include <Abstractions\Script>
 ~^s::
 {

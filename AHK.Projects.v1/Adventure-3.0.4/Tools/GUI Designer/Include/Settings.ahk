@@ -114,3 +114,4 @@ SaveSettings() {
         IniWrite %g_PropY%, %IniFile%, Properties, y
     }
 }
+SendMessage 0x40B, wParam, lParam,, ahk_id %hWnd% ; TB_ISBUTTONPRESSED

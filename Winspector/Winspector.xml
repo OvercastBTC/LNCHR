@@ -96,6 +96,7 @@
 </known_class><known_class class="SearchProtocolHost.exe-66ac-001000003f024faa-PCacheWindow">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;678d3955-cf83-4665-9071-b38888994d8f]">
 </known_class><known_class class="WavesNotifications000001FD0453FFF0">
+</known_class><known_class class="wndclass_pbrs">
 </known_class><known_class class="SearchProtocolHost.exe-13cc-0010000040754f0c-PCacheWindow">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;e471a7e6-3e88-4bdf-a5bb-fc5278c045d4]">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;c7974e87-88e0-474e-b572-a7a7ab31281f]">
@@ -135,6 +136,7 @@
 </known_class><known_class class="ATL:09EA0020">
 </known_class><known_class class="WavesNotifications000001FD04541460">
 </known_class><known_class class="ATL:010922E8">
+</known_class><known_class class="BCGPSlider:130000:8:10009:10">
 </known_class><known_class class="Mso_WebBrowser_Host">
 </known_class><known_class class="WavesNotifications00000227BC4B8FC0">
 </known_class><known_class class="HH Parent">
@@ -169,6 +171,8 @@
 </known_class><known_class class="WindowsForms10.Window.8.app.0.20266e5_r87_ad2">
 </known_class><known_class class="ATL:00007FFE324760F0">
 </known_class><known_class class="BCGPDockBar:a1910000:8:10003:10">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;281adbe9-b2a6-4a71-af1e-12fa561d81c2]">
+</known_class><known_class class="BCGPTabWnd:354c0000:8:10009:10">
 </known_class><known_class class="BCGPSlider:53b70000:8:10009:10">
 </known_class><known_class class="ATL:0FF50020">
 </known_class><known_class class="MsoCommandBarPopup">
@@ -179,6 +183,7 @@
 </known_class><known_class class="ATL:3194B6B0">
 </known_class><known_class class="WavesNotifications00000196974681E0">
 </known_class><known_class class="CmWin32SocketNotification_259343">
+</known_class><known_class class="ATL:00ED22E8">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.1571580_r102_ad2">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.2df9fa8_r102_ad3">
 </known_class><known_class class="OfficeTooltip">
@@ -217,6 +222,7 @@
 </known_class><known_class class="WindowsForms10.Window.8.app.0.329445b_r8_ad1">
 </known_class><known_class class=".NET-BroadcastEventWindow.4.0.0.0.180579d.0">
 </known_class><known_class class="ATL:7AF513A8">
+</known_class><known_class class="BCGPRibbonBar:130000:8:10009:10">
 </known_class><known_class class="ATL:0E450020">
 </known_class><known_class class="ATL:3378B6B0">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;f8fc3833-7ddb-4a82-ba8c-89071d6f9d83]">
@@ -226,6 +232,9 @@
 </known_class><known_class class="WindowsForms10.Window.0.app.0.329445b_r8_ad1">
 </known_class><known_class class="ATL:004B2378">
 </known_class><known_class class="ATL:694190B8">
+</known_class><known_class class="ATL:686190B8">
+</known_class><known_class class="WavesNotifications0000027F1EF31440">
+</known_class><known_class class="ForegroundDispatcher7A21F938">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;b589b2b2-d170-4252-a245-61f0299c05b0]">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;79e01d6c-0bf5-4263-aa87-ee89b931a809]">
 </known_class><known_class class="WindowsForms10.Window.0.app.0.1571580_r102_ad2">
@@ -278,6 +287,7 @@
 </known_class><known_class class="SearchProtocolHost.exe-2538-001000003f634f52-PCacheWindow">
 </known_class><known_class class="SearchProtocolHost.exe-1514-001000003f634f52-PCacheWindow">
 </known_class><known_class class="SearchProtocolHost.exe-6338-001000003f634f52-PCacheWindow">
+</known_class><known_class class="WavesNotifications0000027F1EF328B0">
 </known_class><known_class class="VSyncHelper-052480F0-1b9428a502">
 </known_class><known_class class="VSyncHelper-065733B0-93ca6a30">
 </known_class><known_class class="ATL:66DF9180">
@@ -291,6 +301,7 @@
 </known_class><known_class class="VSyncHelper-05B08540-63ebc807c">
 </known_class><known_class class="VSyncHelper-4BCC0F00-9b0d08bb0">
 </known_class><known_class class="WavesNotifications000002C44BE42010">
+</known_class><known_class class="VBSlider">
 </known_class><known_class class="WavesNotifications000001EEF5F67DB0">
 </known_class><known_class class="BCGPControlBar:85e70000:8:10003:10">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;089eb200-175a-4269-b494-00a008592d68]">
@@ -312,6 +323,7 @@
 </known_class><known_class class="SearchProtocolHost.exe-331c-001000003f634f52-PCacheWindow">
 </known_class><known_class class="SearchProtocolHost.exe-45ec-001000003f634f52-PCacheWindow">
 </known_class><known_class class="SearchProtocolHost.exe-46cc-001000003f634f52-PCacheWindow">
+</known_class><known_class class="WavesNotifications0000027F21EC0FD0">
 </known_class><known_class class="ATL:00007FFDEF68D230">
 </known_class><known_class class="WavesNotifications000001EEC541D280">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;a55acc72-1c4e-45e2-bc12-5715c4141f1c]">
@@ -353,6 +365,7 @@
 </known_class><known_class class="Frame Tab">
 </known_class><known_class class="BCGPRibbonStatusBar:780000:8:10003:10">
 </known_class><known_class class="WavesNotifications000001C36AAA6070">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;c4424ad8-18a3-4bc7-8a15-af7271eaf8c8]">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;7c58594f-6f8f-4caa-80bd-f7aa08850e45]">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;f331e141-d230-42b8-b03b-38b3149ff55f]">
 </known_class><known_class class="AdobeReaderSpeedLaunchCmdWnd">
@@ -364,6 +377,7 @@
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;5b782343-a07d-468f-8a7b-8761ff4d9dc2]">
 </known_class><known_class class="ATL:00662378">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;d08f38c4-769c-4131-9a2f-7cb8faf8e2af]">
+</known_class><known_class class="BCGPDockBar:354c0000:8:10009:10">
 </known_class><known_class class="CmWin32SocketNotification_137125">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;3a9cbc4c-25cc-43d7-ab5b-901f8dad508c]">
 </known_class><known_class class="WavesNotifications000001EEF7853CE0">
@@ -393,6 +407,7 @@
 </known_class><known_class class="ATL:0BBC0020">
 </known_class><known_class class="WavesNotifications000001C3167A5520">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowSta-00007FFC47580000">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;2af9c4de-5da8-4296-91d9-43c6ac6c58ae]">
 </known_class><known_class class="ATL:00007FFA50E6D230">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;1c0cd25b-0e11-4cfc-b7f1-65c7431d4ce1]">
 </known_class><known_class class="AcrobatTimerWndAcrobatBrokerForOnixEvents">
@@ -424,6 +439,7 @@
 </known_class><known_class class="SearchProtocolHost.exe-5c2c-001000003f024eac-PCacheWindow">
 </known_class><known_class class="SearchProtocolHost.exe-676c-001000003f024eac-PCacheWindow">
 </known_class><known_class class="WavesNotifications000001FD6D6DB600">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;83ee24cf-9af3-41c6-9b78-2a6e6b5fc105]">
 </known_class><known_class class="VSyncHelper-05178480-1b92741ad3">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;aaabafe2-221a-4e3e-a323-69c78cf386df]">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;1a61ffc1-b6ab-4a94-8803-620344cbc840]">
@@ -435,6 +451,8 @@
 </known_class><known_class class="AVL_Topmost">
 </known_class><known_class class="msctls_updown32">
 </known_class><known_class class="WavesNotifications000002788F992CD0">
+</known_class><known_class class="Afx:00130000:b:00010009:00000006:000D18AF">
+</known_class><known_class class="CmWin32SocketNotification_150000">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.1ca0192_r75_ad2">
 </known_class><known_class class="ForegroundDispatcher04FB6C78">
 </known_class><known_class class="BCGPDockBar:100000:8:10003:10">
@@ -458,6 +476,8 @@
 </known_class><known_class class="WavesNotifications0000015A784AD6B0">
 </known_class><known_class class="AVL_AVView">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;732a97e1-e8c7-4af2-b1ef-2d8900e9ada0]">
+</known_class><known_class class="BCGPDockBar:130000:8:10009:10">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;849b6e74-0aba-4581-8f0f-026d5558580b]">
 </known_class><known_class class="WavesNotifications000001EEF5F67010">
 </known_class><known_class class="WavesNotifications0000022790E8ED60">
 </known_class><known_class class="WavesNotifications00000227BB6533A0">
@@ -482,6 +502,7 @@
 </known_class><known_class class="bosa_sdm_XL9">
 </known_class><known_class class="BCGPSlider:780000:8:10003:10">
 </known_class><known_class class="ATL:003C2378">
+</known_class><known_class class="BCGPSlider:354c0000:8:10009:10">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;e69dc5a4-d126-446f-ad0a-eea672af3969]">
 </known_class><known_class class="Afx:00100000:b:00010003:00000006:00C00659">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.1ca0192_r83_ad2">
@@ -508,6 +529,8 @@
 </known_class><known_class class="WavesNotifications000001C309DD0600">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;26fc0980-a176-4a14-aa53-d4a9d8b5577e]">
 </known_class><known_class class="ATL:0A580020">
+</known_class><known_class class="WavesNotifications0000027F1EF31B10">
+</known_class><known_class class="VbaWindow">
 </known_class><known_class class="ForegroundDispatcher05136C78">
 </known_class><known_class class="ForegroundDispatcher05256C78">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.1e84ccb_r65_ad3">
@@ -563,6 +586,7 @@
 </known_class><known_class class="ATL:3194B740">
 </known_class><known_class class="WavesNotifications000002788F98CD70">
 </known_class><known_class class="ATL:00007FFCCE5DA150">
+</known_class><known_class class="ATL:09860020">
 </known_class><known_class class="ATL:00812378">
 </known_class><known_class class="atlcommon_timer222C5110">
 </known_class><known_class class="BCGPTabWnd:ad0000:8:10005:10">
@@ -580,6 +604,7 @@
 </known_class><known_class class="WindowsForms10.Window.8.app.0.390be75_r100_ad3">
 </known_class><known_class class="WavesNotifications000001969BA3F480">
 </known_class><known_class class="WavesNotifications000001C3167A9940">
+</known_class><known_class class="PROJECT">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;ee8c47f0-8eb7-42b4-b365-df77ec9978ee]">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.1e84ccb_r81_ad3">
 </known_class><known_class class="ATL:011322E8">
@@ -615,6 +640,7 @@
 </known_class><known_class class="EXCEL8">
 </known_class><known_class class="WindowsForms10.Window.0.app.0.1e84ccb_r81_ad3">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowSta-00007FF870C20000">
+</known_class><known_class class="ATL:00ED2378">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowSta-00007FFA8F630000">
 </known_class><known_class class=".NET-BroadcastEventWindow.4.0.0.0.3cdc9a1.0">
 </known_class><known_class class="WavesNotifications000002333EA8FFF0">
@@ -648,6 +674,7 @@
 </known_class><known_class class="PrintCacheListenerWindow_19A79E3F-0006-4175-AACD-6F5C69CC0D23">
 </known_class><known_class class="ATL:64C490B8">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowMta-00007FFC47580000">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;b06f9bc5-81e7-4f97-8007-42415314ad77]">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;24e18cda-39a5-486d-9650-43870309d036]">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;6f141b89-5d1a-43cb-8087-bd092302cd3e]">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;ead3d68a-1edf-40a5-95c7-34b85d0f0b4b]">
@@ -672,6 +699,7 @@
 </known_class><known_class class="BCGPTabWnd:1e0000:8:10007:10">
 </known_class><known_class class="VPNUI">
 </known_class><known_class class="Button">
+</known_class><known_class class="ATL:00007FF9B9BED230">
 </known_class><known_class class="ForegroundDispatcher05B86C78">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.3cdc9a1_r102_ad2">
 </known_class><known_class class="ATL:3144B6B0">
@@ -741,6 +769,7 @@
 </known_class><known_class class="SearchProtocolHost.exe-61bc-001000003f634f52-PCacheWindow">
 </known_class><known_class class="SearchProtocolHost.exe-160c-001000003f634f52-PCacheWindow">
 </known_class><known_class class="SearchProtocolHost.exe-bdc-001000003f634f52-PCacheWindow">
+</known_class><known_class class="VBMdiChildHack">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;5976b361-265c-4a78-87da-d009b56bb4d9]">
 </known_class><known_class class="BCGPRibbonStatusBar:cc0000:8:10005:10">
 </known_class><known_class class="WindowsForms10.Window.0.app.0.3cdc9a1_r102_ad2">
@@ -753,6 +782,8 @@
 </known_class><known_class class="WMS ST Notif Class">
 </known_class><known_class class="EWHAcrobatTransportWindow6">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;5834ff65-90fe-4ebf-90f9-be58c5f2b98b]">
+</known_class><known_class class="BCGPTabWnd:130000:8:10009:10">
+</known_class><known_class class="VBFloatingPalette">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;2f8df723-a853-4740-bfb2-9394d5f3c548]">
 </known_class><known_class class="ForegroundDispatcher05566C78">
 </known_class><known_class class="AfxWnd140u">
@@ -780,6 +811,7 @@
 </known_class><known_class class="DDEMLUnicodeClient">
 </known_class><known_class class="ForegroundDispatcher031A6C78">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;9891fbd7-9487-4248-9483-a8884bde7501]">
+</known_class><known_class class="HwndWrapper[SCNotification.exe;;4366d490-fcd6-471e-8b0f-3677445fea38]">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;19f2c6c1-1c41-43ff-bb93-606a0d1d5ff8]">
 </known_class><known_class class="WindowsForms10.Window.0.app.0.180579d_r105_ad2">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;4f49c92e-20f9-49d4-925c-200831e3a64a]">
@@ -791,6 +823,8 @@
 </known_class><known_class class="WavesNotifications0000015A784B2F40">
 </known_class><known_class class="BCGPDockBar:780000:8:10003:10">
 </known_class><known_class class="WavesNotifications000001969B8D0A70">
+</known_class><known_class class="WavesNotifications0000027F1EF36CD0">
+</known_class><known_class class="PbrsHost">
 </known_class><known_class class="PseudoConsoleWindow">
 </known_class><known_class class="ATL:00007FFE29240550">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;507bfa33-3663-4714-a1ec-fb97d8316722]">
@@ -804,6 +838,7 @@
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;a88220b2-6e88-4287-bfeb-794ffc5c78d0]">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;08896e6d-d9f4-4c20-be8a-a956129f4873]">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;4295ae9b-ff6d-4ddf-b722-a39606bd68f1]">
+</known_class><known_class class="ObtbarWndClass">
 </known_class><known_class class="BCGPTabWnd:cc0000:8:10005:10">
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;033a82e0-1b46-4108-9b7b-e918e6c04352]">
 </known_class><known_class class="CmWin32SocketNotification_140140">
@@ -827,6 +862,7 @@
 </known_class><known_class class="WavesNotifications000001C3167ABB50">
 </known_class><known_class class="WavesNotifications00000278E42C4730">
 </known_class><known_class class="WavesNotifications000001FD04543D40">
+</known_class><known_class class="wndclass_desked_gsk">
 </known_class><known_class class="WindowsForms10.Window.0.app.0.390be75_r101_ad3">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;b69b47fc-c1fa-4067-9a4a-d8854308d5fb]">
 </known_class><known_class class="VSyncHelper-093E8630-1e51fb43ec">
@@ -840,6 +876,8 @@
 </known_class><known_class class="wcl_manager1">
 </known_class><known_class class="Xaml_WindowedPopupClass">
 </known_class><known_class class="MSO_KEYTIP_WINDOW_CLASS">
+</known_class><known_class class="SearchProtocolHost.exe-1500-0010000040754e80-PCacheWindow">
+</known_class><known_class class="SearchProtocolHost.exe-15d8-0010000040754e80-PCacheWindow">
 </known_class><known_class class="WavesNotifications00000162E08D8990">
 </known_class><known_class class="ATL:00007FFA382320F0">
 </known_class><known_class class="WavesNotifications000002333EA98160">
@@ -917,6 +955,7 @@
 </known_class><known_class class="SearchProtocolHost.exe-2e40-001000003f024eac-PCacheWindow">
 </known_class><known_class class="WavesNotifications000001C3167AF8A0">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowMta-00007FF870C20000">
+</known_class><known_class class="WavesNotifications0000027F1EF2A070">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowMta-00007FFA8F630000">
 </known_class><known_class class="ATL:65F790B8">
 </known_class><known_class class="WavesNotifications0000023340488080">
@@ -935,6 +974,7 @@
 </known_class><known_class class="AcrobatTimerWnd">
 </known_class><known_class class="WavesNotifications000001C3197C20B0">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;62695110-5a42-4c57-96a6-093a1bb32bf5]">
+</known_class><known_class class="ATL:00007FF998FD5180">
 </known_class><known_class class="WavesNotifications00000162E08D7BF0">
 </known_class><known_class class="ForegroundDispatcher06A96C78">
 </known_class><known_class class="ATL:00007FFF2D72D230">
@@ -948,6 +988,9 @@
 </known_class><known_class class="WavesNotifications000001969745DE60">
 </known_class><known_class class="ATL:00007FF875FA60F0">
 </known_class><known_class class="WavesNotifications000001FD0453E4B0">
+</known_class><known_class class="ATL:00007FF9C31F0550">
+</known_class><known_class class="SystemSettingsHandlerWorkerWindowSta-00007FF96B500000">
+</known_class><known_class class="WavesNotifications0000027F21EC31E0">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;49271ec5-f592-4e7f-93e8-b2de6232b9fa]">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;eb7ad147-bb9c-4d03-a742-2365c34c8a43]">
 </known_class><known_class class="WavesNotifications000001EEF5F6AD60">
@@ -964,6 +1007,7 @@
 </known_class><known_class class="NUIPane">
 </known_class><known_class class="BCGPControlBar:80a30000:8:10003:10">
 </known_class><known_class class="WavesNotifications000002788F98C6A0">
+</known_class><known_class class="WavesNotifications0000027F6C89A4A0">
 </known_class><known_class class="ATL:00007FFDD542D150">
 </known_class><known_class class="OlkWebHostOsfWndClass">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;ec0d6ad3-4842-464f-896d-2b9797d2007f]">
@@ -987,6 +1031,7 @@
 </known_class><known_class class="HwndWrapper[DefaultDomain;;2e440001-ff27-428c-94ed-3772d1e1aa80]">
 </known_class><known_class class="WavesNotifications0000027892A19870">
 </known_class><known_class class="BCGPControlBar:a1910000:8:10003:10">
+</known_class><known_class class="WavesNotifications0000027F070D7F30">
 </known_class><known_class class="BCGPDockBar:85e70000:8:10003:10">
 </known_class><known_class class="WindowsForms10.Window.0.app.0.2fc056_r102_ad3">
 </known_class><known_class class="_WwL">
@@ -997,6 +1042,7 @@
 </known_class><known_class class="HwndWrapper[DefaultDomain;;f035bcb4-3331-4c1e-876c-7e56b6972929]">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;4f793caf-b1bc-4a09-86cb-9a27b0459db7]">
 </known_class><known_class class=".NET-BroadcastEventWindow.4.0.0.0.485e42.0">
+</known_class><known_class class="WavesNotifications0000027F1EF2B4E0">
 </known_class><known_class class="VSyncHelper-4B7E8420-dad1f0d49">
 </known_class><known_class class="MsoOCHost">
 </known_class><known_class class="AirSpace::MessageHwndThreadAlarm O16">
@@ -1023,6 +1069,9 @@
 </known_class><known_class class="ForegroundDispatcher05796C78">
 </known_class><known_class class="ATL:0E2C0020">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;0f2f70f8-d99b-4db2-a24e-88a58eccafb9]">
+</known_class><known_class class="HwndWrapper[SCNotification.exe;;c8151307-da83-4828-8434-e9ffb7e1dac6]">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;b8034b71-5d8a-4c6d-89a7-41a5be61733e]">
+</known_class><known_class class="ToolsPalette">
 </known_class><known_class class="ATL:008122E8">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;3cc5d18f-954a-42fa-a60e-c68f64601cac]">
 </known_class><known_class class="ForegroundDispatcher036F6C78">
@@ -1102,6 +1151,8 @@
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;187cbf84-425c-4bcd-9318-e686f4a9124a]">
 </known_class><known_class class="Afx:00E10000:b:00010003:00000006:08440EF1">
 </known_class><known_class class="RichEditD2DPT">
+</known_class><known_class class="SearchProtocolHost.exe-1500-0010000040754f0c-PCacheWindow">
+</known_class><known_class class="SearchProtocolHost.exe-15d8-0010000040754f0c-PCacheWindow">
 </known_class><known_class class="ATL:3144B740">
 </known_class><known_class class="WindowsForms10.Window.8.app.0.1e84ccb_r83_ad3">
 </known_class><known_class class="WavesNotifications00000227BB649020">
@@ -1119,6 +1170,7 @@
 </known_class><known_class class="WavesNotifications000001FD04544410">
 </known_class><known_class class="ATL:01092378">
 </known_class><known_class class="ATL:69419180">
+</known_class><known_class class="ATL:68619180">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;49f3b0f0-cbb0-455c-bbed-0fb765751e6a]">
 </known_class><known_class class="WavesNotifications00000162826084E0">
 </known_class><known_class class="VSyncHelper-1725E8A0-1138fd48ff">
@@ -1151,12 +1203,14 @@
 </known_class><known_class class="MSTaskSwWClass">
 </known_class><known_class class="BCGPControlBar:f8880000:8:10005:10">
 </known_class><known_class class="WavesNotifications0000027892A1B3B0">
+</known_class><known_class class="BCGPControlBar:354c0000:8:10009:10">
 </known_class><known_class class="splitterContainer">
 </known_class><known_class class="CtlFrameWork_Parking">
 </known_class><known_class class="BCGPTabWnd:780000:8:10003:10">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;f108f43b-5bc2-461a-b551-7bd76a1455f3]">
 </known_class><known_class class="WavesNotifications00000278E42C76E0">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;e47a22b1-7ad2-45fa-a4ea-695dac05035e]">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;e0da884a-a5b7-4af2-bd4d-7f804b63a334]">
 </known_class><known_class class="_sdm_msword">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;fe6a8706-c692-4bea-9eab-adf24cdafa4c]">
 </known_class><known_class class="ScraperWinHookListenerWindow">
@@ -1202,6 +1256,7 @@
 </known_class><known_class class="Nucleus Auth Window">
 </known_class><known_class class="WavesNotifications000001C3167A8BA0">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;226eeb01-db78-4430-bbc9-4eaa78bd0f57]">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;a60cde13-2424-4c8f-9489-06f2a83f4075]">
 </known_class><known_class class="ATL:21C0A328">
 </known_class><known_class class="WavesNotifications0000023332E5EB60">
 </known_class><known_class class="WavesNotifications000002333EA906C0">
@@ -1226,6 +1281,7 @@
 </known_class><known_class class="WavesNotifications0000015A791EA590">
 </known_class><known_class class="OPH Previewer Parent Window">
 </known_class><known_class class="WavesNotifications000001FD5973D6D0">
+</known_class><known_class class="SystemSettingsHandlerWorkerWindowMta-00007FF96B500000">
 </known_class><known_class class="ForegroundDispatcher057A6C78">
 </known_class><known_class class="TPUtilWindow">
 </known_class><known_class class="RealtekAudioAdminBackgroundProcessClass">
@@ -1238,6 +1294,8 @@
 </known_class><known_class class="ATL:0F2D0020">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;ded27e37-168e-4cf1-8c3a-c3fe7ff295bb]">
 </known_class><known_class class="ATL:00007FFCF2830550">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;1e7a672e-242d-4c0d-9c0d-9ea382f8da7d]">
+</known_class><known_class class="HwndWrapper[DefaultDomain;;5da1f62e-93c1-4df8-be8d-9e2e25fc72b0]">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowSta-00007FFE25590000">
 </known_class><known_class class="BCGPDockBar:cc0000:8:10005:10">
 </known_class><known_class class="SearchProtocolHost.exe-4ef0-001000003f634f52-PCacheWindow">
@@ -1337,6 +1395,7 @@
 </known_class><known_class class="WavesNotifications000001DFFC7D9030">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;a637e713-bc98-4c1a-bbca-9b1328bf3f95]">
 </known_class><known_class class="HideParentWindows">
+</known_class><known_class class="WindowsForms10.Window.0.app.0.2425494_r99_ad3">
 </known_class><known_class class="SearchProtocolHost.exe-4e18-0010000040754e80-PCacheWindow">
 </known_class><known_class class="WavesNotifications000001EEE46DC950">
 </known_class><known_class class="ATL:00C922E8">
@@ -1475,6 +1534,7 @@
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;fddff45e-bc53-4165-91ca-a7df1de7b40a]">
 </known_class><known_class class="WavesNotifications000002C4479561E0">
 </known_class><known_class class="WavesNotifications000002C43C4A2020">
+</known_class><known_class class="WavesNotifications0000027F1EF35190">
 </known_class><known_class class="WavesNotifications000001629629A530">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;333940bf-4769-44f6-b137-5e6f242a6040]">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;c8db457f-2335-4881-a6ec-d4105cb5d5e5]">
@@ -1488,6 +1548,9 @@
 </known_class><known_class class=".NET-BroadcastEventWindow.4.0.0.0.c82ac0.0">
 </known_class><known_class class="SystemSettingsHandlerWorkerWindowSta-00007FFE38780000">
 </known_class><known_class class="WavesNotifications000002788302A970">
+</known_class><known_class class="BCGPRibbonStatusBar:130000:8:10009:10">
+</known_class><known_class class="WavesNotifications0000027F21D08450">
+</known_class><known_class class="WavesNotifications0000027F6C896E20">
 </known_class><known_class class="WavesNotifications0000016296025570">
 </known_class><known_class class="Afx:00007FF6F3E40000:0">
 </known_class><known_class class="ATL:00007FFA5A0A0550">
@@ -1505,6 +1568,7 @@
 </known_class><known_class class="ATL:66769180">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;7412bea2-b37e-4b69-bfd4-2d924ddc9ea7]">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;9e805179-6dba-4882-bf50-f613f6f3f40b]">
+</known_class><known_class class="Afx:00007FF7354C0000:b:0000000000010009:0000000000000006:0000000000060363">
 </known_class><known_class class="HwndWrapper[DefaultDomain;;f8d27b6c-b89c-4ed7-a850-8ad01668cce7]">
 </known_class><known_class class="Afx:00007FF653B70000:800:0000000000010009:0000000000000010:0000000000000000">
 </known_class><known_class class="Afx:00007FF685E70000:800:0000000000010003:0000000000000010:0000000000000000">
@@ -1526,6 +1590,7 @@
 </known_class><known_class class="HwndWrapper[SCToastNotification.exe;;46b74725-9ea6-4911-9d6f-1e5a2b78dad0]">
 </known_class><known_class class="Afx:00007FF6A1910000:800:0000000000010003:0000000000000010:0000000000000000">
 </known_class><known_class class="HwndWrapper[SCNotification.exe;;aafe1df8-5d7b-4394-9c66-c0928a47e818]">
+</known_class><known_class class="Afx:00007FF7354C0000:800:0000000000010009:0000000000000010:0000000000000000">
 </known_class><known_class class="ATL:0A700020">
 </known_class><known_class class="HwndWrapper[Visit Planner.exe;;35901338-aa35-48d1-b781-08b1d3a1293b]">
 </known_class><known_class class="ForegroundDispatcher057B6C78">
@@ -1544,6 +1609,7 @@
 </known_class><known_class class="AVL_AVWindow">
 </known_class><known_class class="Afx:00780000:b:00010003:00000006:00040C85">
 </known_class><known_class class="ATL:00007FFBF58860F0">
+</known_class><known_class class="Afx:00007FF7505E0000:0">
 </known_class><known_class class="BCGPDockBar:53b70000:8:10009:10">
 </known_class><known_class class="WavesNotifications0000016296118030">
 </known_class><known_class class="ATL:66FA9180">
@@ -1561,4 +1627,5 @@
 </known_class><known_class class="ATL:00007FFC104DD230">
 </known_class><known_class class="WavesNotifications000002788F98E1E0">
 </known_class><known_class class="WavesNotifications000002C41C57D900">
+</known_class><known_class class="ControlBar:130000:8:10009:10">
 </known_class></known_classes></windowlist></general></winspector>
