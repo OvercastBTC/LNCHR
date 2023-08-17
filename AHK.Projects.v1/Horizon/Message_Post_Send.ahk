@@ -240,98 +240,6 @@ DetectHiddenWindows, On
 	global WM_APP:=0x8000
 	global VK_LBUTTON:=0x01
 */
-;============================== ini Section ==============================
-/* ; ini and gui stuffs
-	^!#9\:
-	
-	SplitPath, A_ScriptName, , , , OutNameNoExt
-	IniFile = %OutNameNoExt%.ini
-	IniRead, Gui1Pos,        %IniFile%, Settings, Gui1Pos,        %A_Space%
-	IniRead, Gui1W,          %IniFile%, Settings, Gui1W,          %A_Space%
-	IniRead, Gui1H,          %IniFile%, Settings, Gui1H,          %A_Space%
-	IniRead, BolResizeTreeH, %IniFile%, Settings, BolResizeTreeH, 1
-	IniRead, BolRollUpDown,  %IniFile%, Settings, BolRollUpDown,  0
-	IniRead, BolAlwaysOnTop, %IniFile%, Settings, BolAlwaysOnTop, 1
-	IniRead, IntGuiStyle,    %IniFile%, Settings, IntGuiStyle,    1
-	IniRead, StrFontName,    %IniFile%, Settings, StrFontName,    Times New Roman
-	IniRead, IntFontSize,    %IniFile%, Settings, IntFontSize,    11
-	;/*
-	Gui, Destroy
-	
-	
-	Gui, PM_SM:New,, Post/SendMessage
-	Gui,+AlwaysOnTop +Caption +Border +Resize +SysMenu +Theme
-	Gui,Color,Gray
-	Gui,Font,s10 Q4, Segoe UI Black
-	
-	Gui, Add, Text, xm,Enter Msg #: (WM_ or 0x)
-	Gui, Add, Edit, Section vMsg xm,					;Message box for Msg
-	Gui, Add, Text,section xm,wParam (optional):
-	Gui, Add, Edit, vWParam xm,
-	Gui, Add, Text,section R1 xm,lParam (optional):
-	Gui, Add, Edit, vLParam xm,
-	Gui, Add, Text,Section xm,Control ID (optional):
-	Gui, Add, Edit, vControlID xm,
-	Gui, Add, Text,Section xm,Window
-	Gui, Add, Edit, vWindow gWindow xm,
-	Gui, Add, Text, Section xm,Post (default) or Send?
-	Gui, Add, Button, Section Default vPost gPost xm, &Post
-	Gui, Add, Button, vSend gSend x+10, &Send
-	
-	Gui, Add, Text, section xm, Press "Enter" to continue...
-	Gui, Add, Button, section gControlList xm, ControlList & HWND
-	;Gui, Add, Button, section gTestM xm, Test Message
-	Gui, Add, Button, section gCancel x+25, Cancel
-	
-	; disabled so the gui doesn't run for the moment
-	;Gui, Submit,Nohide
-	;Gui, Show, AutoSize
-	;return
-	
-	
-	Window:
-	Gui, Submit, NoHide
-	return
-	
-	ControlList:
-	WinGet, cList, ControlList, ahk_class msvb_lib_toolbar1
-	WinGet, cListH, ControlListHwnd, A
-	MsgBox %cList%`n %cListH%
-	return
-	
-	Post:
-	GuiControlGet, Msg,,,Edit
-	GuiControlGet, wParam,,,Edit
-	GuiControlGet, lParam,,,Edit
-	GuiControlGet, ControlID,,,Edit
-	GuiControlGet, Window,,,Edit
-	GuiControlGet, ControlList,,,Edit
-	GuiControlGet, Send,,,Edit
-	GuiControlGet, Post,,,Edit
-	
-	Gui, Submit,Nohide
-	;WinActivate, ahk_class ThunderRT6MDIForm
-	PostMessage, %Msg% , %wParam%, %lParam%, %Control%, %Window% ;, %WinText%, %ExcludeTitle%, %ExcludeText%
-	;MsgBox Msg: %Msg%`nWParam: %wParam%`nlParam: %lParam%`nControlID: %ControlID%`nErrorLevel: %ErrorLevel%
-	return
-	
-	Send:
-	GuiControlGet, Msg,,,Edit
-	GuiControlGet, wParam,,,Edit
-	GuiControlGet, lParam,,,Edit
-	GuiControlGet, ControlID,,,Edit
-	GuiControlGet, Window,,,Edit
-	GuiControlGet, ControlList,,,Edit
-	GuiControlGet, Send,,,Edit
-	GuiControlGet, Post,,,Edit
-	
-	Gui, Submit,Nohide
-	;WinActivate, ahk_class ThunderRT6MDIForm
-	SendMessage, %Msg% , %wParam%, %lParam%, %Control%, %Window% ;, %WinText%, %ExcludeTitle%, %ExcludeText%
-	;MsgBox Msg: %Msg%`nWParam: %wParam%`nlParam: %lParam%`nControlID: %ControlID%`nErrorLevel: %ErrorLevel%
-	return
-*/
-
 ; === vars ===
 hCtl:="msvb_lib_toolbar1"
 tCtl:="TX11"
@@ -715,6 +623,175 @@ ToolTip, % vOutput, xm,0
 ;MsgBox, % vOutput
 return
 */
+Index: 1 | ClassNN: MDIClient1 | hWndChild: ThunderRT6FormDC | hWndChild: 462488 | hWndParent: 4066930 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 2 | ClassNN: ThunderRT6FormDC1 | hWndChild: ThunderRT6UserControlDC | hWndChild: 527438 | hWndParent: 2165322 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 3 | ClassNN: AfxOleControl421 | hWndChild: AfxWnd42 | hWndChild: 989722 | hWndParent: 462488 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 4 | ClassNN: AfxWnd421 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 5 | ClassNN: AfxWnd422 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 6 | ClassNN: AfxWnd423 | hWndChild: AfxWnd42 | hWndChild: 989722 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 7 | ClassNN: AfxFrameOrView421 | hWndChild: SysTreeView32 | hWndChild: 6164922 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 8 | ClassNN: SysTreeView321 | hWndChild: SysTreeView32 | hWndChild: 6164922 | hWndParent: 593338 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 9 | ClassNN: AfxFrameOrView422 | hWndChild: AfxFrameOrView42 | hWndChild: 3150564 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 10 | ClassNN: AfxFrameOrView423 | hWndChild: AfxFrameOrView42 | hWndChild: 1186644 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 11 | ClassNN: PVSPLITTERWNDCLASS1 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 2233968 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 12 | ClassNN: PVSPLITTERWNDCLASS2 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 4657636 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 13 | ClassNN: Edit1 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 14 | ClassNN: SysListView321 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 15 | ClassNN: Edit2 | hWndChild:  | hWndChild: 0 | hWndParent: 1313058 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 16 | ClassNN: AfxFrameOrView424 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 17 | ClassNN: AfxFrameOrView425 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 18 | ClassNN: AfxWnd424 | hWndChild: AfxWnd42 | hWndChild: 3477302 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 19 | ClassNN: AfxWnd425 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 20 | ClassNN: ToolbarWindow321 | hWndChild: ToolbarWindow32 | hWndChild: 335470 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 21 | ClassNN: AfxWnd426 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 22 | ClassNN: AfxFrameOrView426 | hWndChild:  | hWndChild: 0 | hWndParent: 2166616 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 23 | ClassNN: AfxOleControl422 | hWndChild: AfxWnd42 | hWndChild: 334726 | hWndParent: 462488 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 24 | ClassNN: AfxWnd427 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 25 | ClassNN: AfxWnd428 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 26 | ClassNN: AfxWnd429 | hWndChild: AfxWnd42 | hWndChild: 334726 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 27 | ClassNN: AfxFrameOrView427 | hWndChild: SysTreeView32 | hWndChild: 3607728 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 28 | ClassNN: SysTreeView322 | hWndChild: SysTreeView32 | hWndChild: 3607728 | hWndParent: 2623188 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 29 | ClassNN: AfxFrameOrView428 | hWndChild: AfxFrameOrView42 | hWndChild: 531336 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 30 | ClassNN: AfxFrameOrView429 | hWndChild: AfxFrameOrView42 | hWndChild: 465822 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 31 | ClassNN: PVSPLITTERWNDCLASS3 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 4263162 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 32 | ClassNN: PVSPLITTERWNDCLASS4 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 662390 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 33 | ClassNN: Edit3 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 34 | ClassNN: SysListView322 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 35 | ClassNN: Edit4 | hWndChild:  | hWndChild: 0 | hWndParent: 4331572 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 36 | ClassNN: AfxFrameOrView4210 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 37 | ClassNN: AfxFrameOrView4211 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 38 | ClassNN: AfxWnd4210 | hWndChild: AfxWnd42 | hWndChild: 1120754 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 39 | ClassNN: AfxWnd4211 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 40 | ClassNN: ToolbarWindow322 | hWndChild: ToolbarWindow32 | hWndChild: 1578054 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 41 | ClassNN: AfxWnd4212 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 42 | ClassNN: AfxFrameOrView4212 | hWndChild:  | hWndChild: 0 | hWndParent: 2103410 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 43 | ClassNN: AfxOleControl423 | hWndChild: AfxFrameOrView42 | hWndChild: 20581202 | hWndParent: 462488 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 44 | ClassNN: AfxWnd4213 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 45 | ClassNN: AfxWnd4214 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 46 | ClassNN: AfxWnd4215 | hWndChild: AfxWnd42 | hWndChild: 466546 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 47 | ClassNN: AfxFrameOrView4213 | hWndChild: SysTreeView32 | hWndChild: 400700 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 48 | ClassNN: SysTreeView323 | hWndChild: SysTreeView32 | hWndChild: 400700 | hWndParent: 20581202 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 49 | ClassNN: AfxFrameOrView4214 | hWndChild: AfxFrameOrView42 | hWndChild: 262488 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 50 | ClassNN: AfxFrameOrView4215 | hWndChild: AfxFrameOrView42 | hWndChild: 393764 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 51 | ClassNN: PVSPLITTERWNDCLASS5 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 3415118 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 52 | ClassNN: PVSPLITTERWNDCLASS6 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 4332522 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 53 | ClassNN: Edit5 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 54 | ClassNN: SysListView323 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 55 | ClassNN: Edit6 | hWndChild:  | hWndChild: 0 | hWndParent: 2821354 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 56 | ClassNN: AfxFrameOrView4216 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 57 | ClassNN: AfxFrameOrView4217 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 58 | ClassNN: AfxWnd4216 | hWndChild: AfxWnd42 | hWndChild: 334994 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 59 | ClassNN: AfxWnd4217 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 60 | ClassNN: ToolbarWindow323 | hWndChild: ToolbarWindow32 | hWndChild: 400688 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 61 | ClassNN: AfxWnd4218 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 62 | ClassNN: AfxFrameOrView4218 | hWndChild:  | hWndChild: 0 | hWndParent: 328512 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 63 | ClassNN: AfxOleControl424 | hWndChild: AfxWnd42 | hWndChild: 7019602 | hWndParent: 462488 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 64 | ClassNN: AfxWnd4219 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 65 | ClassNN: AfxWnd4220 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 66 | ClassNN: AfxWnd4221 | hWndChild: SysTabControl32 | hWndChild: 4725488 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 67 | ClassNN: SysTabControl321 | hWndChild: SysTabControl32 | hWndChild: 4725488 | hWndParent: 7019602 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 68 | ClassNN: AfxFrameOrView4219 | hWndChild: SysTreeView32 | hWndChild: 393682 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 69 | ClassNN: SysTreeView324 | hWndChild: SysTreeView32 | hWndChild: 393682 | hWndParent: 462742 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 70 | ClassNN: AfxFrameOrView4220 | hWndChild: AfxFrameOrView42 | hWndChild: 4656376 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 71 | ClassNN: AfxFrameOrView4221 | hWndChild: AfxFrameOrView42 | hWndChild: 920944 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 72 | ClassNN: PVSPLITTERWNDCLASS7 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 3804146 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 73 | ClassNN: PVSPLITTERWNDCLASS8 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 1051986 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 74 | ClassNN: Edit7 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 75 | ClassNN: SysListView324 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 76 | ClassNN: Edit8 | hWndChild:  | hWndChild: 0 | hWndParent: 262498 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 77 | ClassNN: AfxFrameOrView4222 | hWndChild: AfxFrameOrView42 | hWndChild: 1646360 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 78 | ClassNN: AfxFrameOrView4223 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 79 | ClassNN: AfxWnd4222 | hWndChild: AfxWnd42 | hWndChild: 4789436 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 80 | ClassNN: AfxWnd4223 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 81 | ClassNN: ToolbarWindow324 | hWndChild: ToolbarWindow32 | hWndChild: 8655408 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 82 | ClassNN: AfxWnd4224 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 83 | ClassNN: AfxFrameOrView4224 | hWndChild:  | hWndChild: 0 | hWndParent: 266104 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 84 | ClassNN: AfxOleControl425 | hWndChild: AfxFrameOrView42 | hWndChild: 262700 | hWndParent: 462488 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 85 | ClassNN: AfxWnd4225 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 86 | ClassNN: Shell Embedding1 | hWndChild:  | hWndChild: 0 | hWndParent: 330870 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 87 | ClassNN: AfxWnd4226 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 88 | ClassNN: AfxWnd4227 | hWndChild: SysTabControl32 | hWndChild: 1120666 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 89 | ClassNN: SysTabControl322 | hWndChild: SysTabControl32 | hWndChild: 1120666 | hWndParent: 266138 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 90 | ClassNN: AfxFrameOrView4225 | hWndChild: SysTabControl32 | hWndChild: 4789206 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 91 | ClassNN: SysTreeView325 | hWndChild: SysTreeView32 | hWndChild: 331638 | hWndParent: 262700 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 92 | ClassNN: SysTabControl323 | hWndChild: SysTabControl32 | hWndChild: 4789206 | hWndParent: 262700 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 93 | ClassNN: SysTreeView326 | hWndChild:  | hWndChild: 0 | hWndParent: 262700 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 94 | ClassNN: AfxFrameOrView4226 | hWndChild: AfxFrameOrView42 | hWndChild: 19406036 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 95 | ClassNN: AfxFrameOrView4227 | hWndChild: AfxFrameOrView42 | hWndChild: 266110 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 96 | ClassNN: PVSPLITTERWNDCLASS9 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 266098 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 97 | ClassNN: PVSPLITTERWNDCLASS10 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 462482 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 98 | ClassNN: Edit9 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 99 | ClassNN: SysListView325 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 100 | ClassNN: Edit10 | hWndChild:  | hWndChild: 0 | hWndParent: 266112 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 101 | ClassNN: AfxFrameOrView4228 | hWndChild: ThunderRT6FormDC | hWndChild: 462802 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 102 | ClassNN: ThunderRT6FormDC2 | hWndChild: ThunderRT6FormDC | hWndChild: 462802 | hWndParent: 266128 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 103 | ClassNN: ProtoViewResizer1 | hWndChild:  | hWndChild: 0 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 104 | ClassNN: ThunderRT6UserControlDC1 | hWndChild: ThunderRT6UserControlDC | hWndChild: 1248262 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 105 | ClassNN: ThunderRT6UserControlDC2 | hWndChild: ThunderRT6UserControlDC | hWndChild: 723964 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 106 | ClassNN: ThunderRT6OptionButton1 | hWndChild: ThunderRT6OptionButton | hWndChild: 1772520 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 107 | ClassNN: ThunderRT6OptionButton2 | hWndChild: ThunderRT6OptionButton | hWndChild: 1246870 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 108 | ClassNN: SSActiveTabsWndClass1 | hWndChild:  | hWndChild: 0 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 109 | ClassNN: SSTabPanelWndClass1 | hWndChild: SSTabPanelWndClass | hWndChild: 527420 | hWndParent: 723580 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 110 | ClassNN: ThunderRT6UserControlDC3 | hWndChild: ThunderRT6CommandButton | hWndChild: 658312 | hWndParent: 723580 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 111 | ClassNN: ThunderRT6CommandButton1 | hWndChild: ThunderRT6CommandButton | hWndChild: 658312 | hWndParent: 658142 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 112 | ClassNN: ThunderRT6UserControlDC4 | hWndChild: Toolbar20WndClass | hWndChild: 1769972 | hWndParent: 723580 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 113 | ClassNN: TX_STATUSBAR111 | hWndChild: TX_STATUSBAR11 | hWndChild: 527454 | hWndParent: 723978 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 114 | ClassNN: ThunderRT6Timer1 | hWndChild:  | hWndChild: 0 | hWndParent: 723978 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 115 | ClassNN: TX111 | hWndChild: TX11 | hWndChild: 459256 | hWndParent: 723978 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 116 | ClassNN: Toolbar20WndClass1 | hWndChild: msvb_lib_toolbar | hWndChild: 1641014 | hWndParent: 723978 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 117 | ClassNN: msvb_lib_toolbar1 | hWndChild: msvb_lib_toolbar | hWndChild: 1641014 | hWndParent: 1769972 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 118 | ClassNN: ThunderRT6UserControlDC5 | hWndChild: ThunderRT6CommandButton | hWndChild: 526800 | hWndParent: 723580 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 119 | ClassNN: ThunderRT6CommandButton2 | hWndChild: ThunderRT6CommandButton | hWndChild: 526800 | hWndParent: 789492 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 120 | ClassNN: ThunderRT6UserControlDC6 | hWndChild: ThunderRT6TextBox | hWndChild: 1710470 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 121 | ClassNN: ThunderRT6TextBox1 | hWndChild: ThunderRT6TextBox | hWndChild: 1710470 | hWndParent: 459316 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 122 | ClassNN: ThunderRT6UserControlDC7 | hWndChild: ThunderRT6TextBox | hWndChild: 1448348 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 123 | ClassNN: ThunderRT6TextBox2 | hWndChild: ThunderRT6TextBox | hWndChild: 1448348 | hWndParent: 465702 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 124 | ClassNN: ThunderRT6UserControlDC8 | hWndChild: ThunderRT6TextBox | hWndChild: 1709282 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 125 | ClassNN: ThunderRT6TextBox3 | hWndChild: ThunderRT6TextBox | hWndChild: 1709282 | hWndParent: 1251670 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 126 | ClassNN: ThunderRT6UserControlDC9 | hWndChild: ThunderRT6UserControlDC | hWndChild: 989408 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 127 | ClassNN: ThunderRT6UserControlDC10 | hWndChild: ThunderRT6UserControlDC | hWndChild: 2889774 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 128 | ClassNN: ThunderRT6UserControlDC11 | hWndChild: ThunderRT6UserControlDC | hWndChild: 989532 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 129 | ClassNN: ThunderRT6UserControlDC12 | hWndChild: ThunderRT6TextBox | hWndChild: 659104 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 130 | ClassNN: ThunderRT6TextBox4 | hWndChild: ThunderRT6TextBox | hWndChild: 659104 | hWndParent: 1382694 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 131 | ClassNN: ThunderRT6UserControlDC13 | hWndChild: ThunderRT6TextBox | hWndChild: 400158 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 132 | ClassNN: ThunderRT6TextBox5 | hWndChild: ThunderRT6TextBox | hWndChild: 400158 | hWndParent: 400160 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 133 | ClassNN: ThunderRT6UserControlDC14 | hWndChild: ThunderRT6UserControlDC | hWndChild: 923998 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 134 | ClassNN: ThunderRT6UserControlDC15 | hWndChild: ThunderRT6UserControlDC | hWndChild: 400164 | hWndParent: 462802 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 135 | ClassNN: AfxFrameOrView4229 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 136 | ClassNN: AfxWnd4228 | hWndChild: AfxWnd42 | hWndChild: 266130 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 137 | ClassNN: AfxWnd4229 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 138 | ClassNN: ToolbarWindow325 | hWndChild: ToolbarWindow32 | hWndChild: 462418 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 139 | ClassNN: AfxWnd4230 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 140 | ClassNN: AfxFrameOrView4230 | hWndChild:  | hWndChild: 0 | hWndParent: 461966 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 141 | ClassNN: AfxOleControl426 | hWndChild: AfxFrameOrView42 | hWndChild: 330904 | hWndParent: 462488 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 142 | ClassNN: AfxWnd4231 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 143 | ClassNN: AfxWnd4232 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 144 | ClassNN: AfxWnd4233 | hWndChild: AfxWnd42 | hWndChild: 330918 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 145 | ClassNN: AfxFrameOrView4231 | hWndChild: SysTreeView32 | hWndChild: 330866 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 146 | ClassNN: SysTreeView327 | hWndChild: SysTreeView32 | hWndChild: 330866 | hWndParent: 330904 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 147 | ClassNN: AfxFrameOrView4232 | hWndChild: AfxFrameOrView42 | hWndChild: 330898 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 148 | ClassNN: AfxFrameOrView4233 | hWndChild: AfxFrameOrView42 | hWndChild: 330902 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 149 | ClassNN: PVSPLITTERWNDCLASS11 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 330876 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 150 | ClassNN: PVSPLITTERWNDCLASS12 | hWndChild: PVSPLITTERWNDCLASS | hWndChild: 330900 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 151 | ClassNN: Edit11 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 152 | ClassNN: SysListView326 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 153 | ClassNN: Edit12 | hWndChild:  | hWndChild: 0 | hWndParent: 1314508 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 154 | ClassNN: AfxFrameOrView4234 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 155 | ClassNN: AfxFrameOrView4235 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 156 | ClassNN: AfxWnd4234 | hWndChild: AfxWnd42 | hWndChild: 330862 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 157 | ClassNN: AfxWnd4235 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 158 | ClassNN: ToolbarWindow326 | hWndChild: ToolbarWindow32 | hWndChild: 330858 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 159 | ClassNN: AfxWnd4236 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 160 | ClassNN: AfxFrameOrView4236 | hWndChild:  | hWndChild: 0 | hWndParent: 396880 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 161 | ClassNN: ThunderRT6UserControlDC16 | hWndChild: ThunderRT6PictureBoxDC | hWndChild: 335484 | hWndParent: 462488 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 162 | ClassNN: ThunderRT6PictureBoxDC1 | hWndChild: ThunderRT6PictureBoxDC | hWndChild: 335484 | hWndParent: 527438 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 163 | ClassNN: ThunderRT6CommandButton3 | hWndChild: ThunderRT6CommandButton | hWndChild: 5378520 | hWndParent: 335484 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 164 | ClassNN: ThunderRT6CommandButton4 | hWndChild: ThunderRT6CommandButton | hWndChild: 400994 | hWndParent: 335484 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 165 | ClassNN: ThunderRT6CommandButton5 | hWndChild: ThunderRT6CommandButton | hWndChild: 1643706 | hWndParent: 335484 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 166 | ClassNN: ThunderRT6CommandButton6 | hWndChild: ThunderRT6CommandButton | hWndChild: 4133586 | hWndParent: 335484 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 167 | ClassNN: ThunderRT6CommandButton7 | hWndChild: ThunderRT6CommandButton | hWndChild: 461842 | hWndParent: 335484 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 168 | ClassNN: ThunderRT6CommandButton8 | hWndChild: ThunderRT6CommandButton | hWndChild: 401074 | hWndParent: 335484 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
+Index: 169 | ClassNN: SSTracker1 | hWndChild:  | hWndChild: 0 | hWndParent: 4066930 | hWndRoot: 4066930 | hWndOwner: 0 | CursorHwnd: 4066930
 
 
 
