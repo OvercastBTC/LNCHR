@@ -2,6 +2,10 @@
 <filter group-pattern="0" show-return-values="1" name="default">
 <messages>
 <message id="32">
+</message><message id="125">
+</message><message id="124">
+</message><message id="127">
+</message><message id="134">
 </message></messages><classes>
 </classes><highlights>
 <highlight colour="8421631" id="522">
