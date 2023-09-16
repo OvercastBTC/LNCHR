@@ -1,154 +1,162 @@
-29-08-2023	02:34:26	18472	Starting Winspector
-29-08-2023	02:34:26	18472	Checking for other instance
-29-08-2023	02:34:26	18472	Finished checking for other instance
-29-08-2023	02:34:26	18472	Loading settings
-29-08-2023	02:34:26	18472	Finished loading settings
-29-08-2023	02:34:26	18472	LoadStdProfileSettings
-29-08-2023	02:34:26	18472	Creating doc/view templates
-29-08-2023	02:34:26	18472	Creating mainframe
-29-08-2023	02:34:27	18472	Showing the main window
-29-08-2023	02:34:27	18472	Tracking the current instance
-29-08-2023	02:34:27	18472	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	18472	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
-29-08-2023	02:34:27	18472	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-29-08-2023	02:34:27	18472	New watcher window 000210c6
-29-08-2023	02:34:27	18472	Sending message to corece windows alive
-29-08-2023	02:34:27	2664	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	2664	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-29-08-2023	02:34:27	19152	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	19152	Attached to process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
-29-08-2023	02:34:27	6712	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	6712	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-29-08-2023	02:34:27	26844	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	26844	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-29-08-2023	02:34:27	19664	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	19664	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-29-08-2023	02:34:27	3444	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	3444	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-29-08-2023	02:34:27	22152	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	22152	Attached to process C:\Program Files\McAfee\Agent\x86\McTray.exe
-29-08-2023	02:34:27	16900	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:34:27	16900	Attached to process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-29-08-2023	02:34:27	18472	Started main hooks
-29-08-2023	02:34:27	18472	Running watcher thread message loop
-29-08-2023	02:35:03	6712	Adding watch for window 00040f06
-29-08-2023	02:36:04	6712	Adding watch for window 00180f0c
-29-08-2023	02:36:59	19664	SendMessage timeout
-29-08-2023	02:37:00	19664	SendMessage timeout
-29-08-2023	02:37:00	19664	SendMessage timeout
-29-08-2023	02:37:10	19664	SendMessage timeout
-29-08-2023	02:37:32	19664	SendMessage timeout
-29-08-2023	02:37:32	19664	SendMessage timeout
-29-08-2023	02:37:33	19664	SendMessage timeout
-29-08-2023	02:37:34	19664	SendMessage timeout
-29-08-2023	02:37:35	19664	SendMessage timeout
-29-08-2023	02:37:37	19664	SendMessage timeout
-29-08-2023	02:37:37	19664	SendMessage timeout
-29-08-2023	02:37:41	19664	SendMessage timeout
-29-08-2023	02:38:41	24760	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:38:41	24760	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
-29-08-2023	02:38:41	24760	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
-29-08-2023	02:38:41	24760	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
-29-08-2023	02:40:19	19664	SendMessage timeout
-29-08-2023	02:41:55	19664	SendMessage timeout
-29-08-2023	02:42:20	3740	CMessageDecoder::LoadCustomMessages
-29-08-2023	02:42:20	3740	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizon.exe
-29-08-2023	02:42:23	3740	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizon.exe
-29-08-2023	02:42:23	3740	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizon.exe
-29-08-2023	02:42:35	19664	SendMessage timeout
-29-08-2023	02:42:36	19664	SendMessage timeout
-29-08-2023	02:42:38	19664	SendMessage timeout
-29-08-2023	02:42:41	19664	SendMessage timeout
-29-08-2023	02:42:41	19664	SendMessage timeout
-29-08-2023	02:42:42	19664	SendMessage timeout
-29-08-2023	02:42:42	19664	SendMessage timeout
-29-08-2023	02:42:47	19664	SendMessage timeout
-29-08-2023	02:42:50	19664	SendMessage timeout
-29-08-2023	02:42:51	19664	SendMessage timeout
-29-08-2023	02:42:52	19664	SendMessage timeout
-29-08-2023	02:42:53	19664	SendMessage timeout
-29-08-2023	02:43:00	19664	SendMessage timeout
-29-08-2023	02:46:23	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:23	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:25	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:25	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:28	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:28	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:29	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:29	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:36	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:36	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:37	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:37	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:38	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:46:38	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:02	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:02	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:03	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:03	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:04	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:04	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:04	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:04	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:04	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:04	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:05	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:05	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:05	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:05	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:06	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:06	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:39	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:39	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:39	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:39	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:40	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:40	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:40	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:51:40	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:26	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:26	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:26	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:26	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:28	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:28	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:28	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:28	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:30	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:30	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:30	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	02:52:30	6712	Unknown message 0x000000f5 sent to class msvb_lib_toolbar
-29-08-2023	03:00:01	10940	CMessageDecoder::LoadCustomMessages
-29-08-2023	03:00:01	10940	Attached to process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
-29-08-2023	03:00:01	10940	Detaching from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
-29-08-2023	03:00:01	10940	Detached from process C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
-29-08-2023	03:49:20	19664	SendMessage timeout
-29-08-2023	03:49:20	19664	SendMessage timeout
-29-08-2023	03:52:16	22576	CMessageDecoder::LoadCustomMessages
-29-08-2023	03:52:16	22576	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizon.exe
-29-08-2023	03:52:20	22576	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizon.exe
-29-08-2023	03:52:20	22576	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizon.exe
-29-08-2023	03:58:25	6712	Removing watch for window 00040f06
-29-08-2023	03:58:25	6712	Removing watch for window 00180f0c
-29-08-2023	03:58:25	18472	Stopping Winspector...bye
-29-08-2023	03:58:25	18472	Finished watcher thread message loop
-29-08-2023	03:58:25	18472	Sending message for stopping hooks
-29-08-2023	03:58:25	18472	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-29-08-2023	03:58:25	18472	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-29-08-2023	03:58:25	2664	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-29-08-2023	03:58:25	2664	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-29-08-2023	03:58:25	26844	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-29-08-2023	03:58:25	26844	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-29-08-2023	03:58:25	6712	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-29-08-2023	03:58:25	6712	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-29-08-2023	03:58:25	19664	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-29-08-2023	03:58:25	19664	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-29-08-2023	03:58:25	3444	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-29-08-2023	03:58:25	3444	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-29-08-2023	03:58:25	19152	Detaching from process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
-29-08-2023	03:58:25	19152	Detached from process C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
-29-08-2023	03:58:25	22152	Detaching from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-29-08-2023	03:58:25	22152	Detached from process C:\Program Files\McAfee\Agent\x86\McTray.exe
-29-08-2023	03:58:25	16900	Detaching from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-29-08-2023	03:58:25	16900	Detached from process C:\Program Files\McAfee\Agent\x86\UpdaterUI.exe
-29-08-2023	03:58:25	18472	Stopped main hooks
+15-09-2023	17:25:17	18228	Starting Winspector
+15-09-2023	17:25:17	18228	Checking for other instance
+15-09-2023	17:25:17	18228	Finished checking for other instance
+15-09-2023	17:25:17	18228	Loading settings
+15-09-2023	17:25:17	18228	Finished loading settings
+15-09-2023	17:25:17	18228	LoadStdProfileSettings
+15-09-2023	17:25:17	18228	Creating doc/view templates
+15-09-2023	17:25:17	18228	Creating mainframe
+15-09-2023	17:25:17	18228	Showing the main window
+15-09-2023	17:25:17	18228	Tracking the current instance
+15-09-2023	17:25:17	18228	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:25:17	18228	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
+15-09-2023	17:25:17	18228	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+15-09-2023	17:25:17	18228	New watcher window 00020a50
+15-09-2023	17:25:17	18228	Sending message to corece windows alive
+15-09-2023	17:25:17	23420	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:25:17	23420	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+15-09-2023	17:25:17	8416	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:25:17	8416	Attached to process C:\windows\CCM\ClientUX\SCClient.exe
+15-09-2023	17:25:17	10080	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:25:17	10080	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+15-09-2023	17:25:17	19388	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:25:17	19388	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+15-09-2023	17:25:17	13480	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:25:17	13480	Attached to process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-abd2f3db4bdb28f9e95536dfa84d8479f1eb312d.exe
+15-09-2023	17:25:17	18228	Started main hooks
+15-09-2023	17:25:17	18228	Running watcher thread message loop
+15-09-2023	17:25:28	10080	Adding watch for window 00010950
+15-09-2023	17:25:42	19388	SendMessage timeout
+15-09-2023	17:25:42	19388	SendMessage timeout
+15-09-2023	17:25:44	19388	SendMessage timeout
+15-09-2023	17:25:44	19388	SendMessage timeout
+15-09-2023	17:26:43	10080	Unknown message 0x0000003f sent to class MDIClient
+15-09-2023	17:26:55	10080	Adding watch for window 0001094e
+15-09-2023	17:27:05	10080	Unknown message 0x0000003f sent to class MDIClient
+15-09-2023	17:27:22	19388	SendMessage timeout
+15-09-2023	17:27:34	10080	Adding watch for window 00010972
+15-09-2023	17:27:51	19628	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:27:51	19628	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	15596	CMessageDecoder::LoadCustomMessages
+15-09-2023	17:27:51	15596	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
+15-09-2023	17:29:03	10080	Removing watch for window 00010972
+15-09-2023	17:29:08	19388	SendMessage timeout
+15-09-2023	17:29:12	19388	SendMessage timeout
+15-09-2023	17:29:12	19388	SendMessage timeout
+15-09-2023	17:29:15	10080	Removing watch for window 0001094e
+15-09-2023	17:30:03	10080	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+15-09-2023	17:30:03	10080	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+15-09-2023	17:30:10	18228	Stopping Winspector...bye
+15-09-2023	17:30:10	18228	Finished watcher thread message loop
+15-09-2023	17:30:10	18228	Sending message for stopping hooks
+15-09-2023	17:30:10	18228	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+15-09-2023	17:30:10	18228	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+15-09-2023	17:30:10	8416	Detaching from process C:\windows\CCM\ClientUX\SCClient.exe
+15-09-2023	17:30:10	8416	Detached from process C:\windows\CCM\ClientUX\SCClient.exe
+15-09-2023	17:30:10	19388	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+15-09-2023	17:30:10	19388	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+15-09-2023	17:30:10	23420	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+15-09-2023	17:30:10	23420	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+15-09-2023	17:30:10	13480	Detaching from process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-abd2f3db4bdb28f9e95536dfa84d8479f1eb312d.exe
+15-09-2023	17:30:10	13480	Detached from process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-abd2f3db4bdb28f9e95536dfa84d8479f1eb312d.exe
+15-09-2023	17:30:10	18228	Stopped main hooks
