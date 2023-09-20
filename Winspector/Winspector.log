@@ -1,162 +1,923 @@
-15-09-2023	17:25:17	18228	Starting Winspector
-15-09-2023	17:25:17	18228	Checking for other instance
-15-09-2023	17:25:17	18228	Finished checking for other instance
-15-09-2023	17:25:17	18228	Loading settings
-15-09-2023	17:25:17	18228	Finished loading settings
-15-09-2023	17:25:17	18228	LoadStdProfileSettings
-15-09-2023	17:25:17	18228	Creating doc/view templates
-15-09-2023	17:25:17	18228	Creating mainframe
-15-09-2023	17:25:17	18228	Showing the main window
-15-09-2023	17:25:17	18228	Tracking the current instance
-15-09-2023	17:25:17	18228	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:25:17	18228	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
-15-09-2023	17:25:17	18228	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-15-09-2023	17:25:17	18228	New watcher window 00020a50
-15-09-2023	17:25:17	18228	Sending message to corece windows alive
-15-09-2023	17:25:17	23420	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:25:17	23420	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-15-09-2023	17:25:17	8416	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:25:17	8416	Attached to process C:\windows\CCM\ClientUX\SCClient.exe
-15-09-2023	17:25:17	10080	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:25:17	10080	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-15-09-2023	17:25:17	19388	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:25:17	19388	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-15-09-2023	17:25:17	13480	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:25:17	13480	Attached to process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-abd2f3db4bdb28f9e95536dfa84d8479f1eb312d.exe
-15-09-2023	17:25:17	18228	Started main hooks
-15-09-2023	17:25:17	18228	Running watcher thread message loop
-15-09-2023	17:25:28	10080	Adding watch for window 00010950
-15-09-2023	17:25:42	19388	SendMessage timeout
-15-09-2023	17:25:42	19388	SendMessage timeout
-15-09-2023	17:25:44	19388	SendMessage timeout
-15-09-2023	17:25:44	19388	SendMessage timeout
-15-09-2023	17:26:43	10080	Unknown message 0x0000003f sent to class MDIClient
-15-09-2023	17:26:55	10080	Adding watch for window 0001094e
-15-09-2023	17:27:05	10080	Unknown message 0x0000003f sent to class MDIClient
-15-09-2023	17:27:22	19388	SendMessage timeout
-15-09-2023	17:27:34	10080	Adding watch for window 00010972
-15-09-2023	17:27:51	19628	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:27:51	19628	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
-15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	15596	CMessageDecoder::LoadCustomMessages
-15-09-2023	17:27:51	15596	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:51	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x00000164 sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:27:52	10080	Unknown message 0x0000033f sent to class ThunderRT6MDIForm
-15-09-2023	17:29:03	10080	Removing watch for window 00010972
-15-09-2023	17:29:08	19388	SendMessage timeout
-15-09-2023	17:29:12	19388	SendMessage timeout
-15-09-2023	17:29:12	19388	SendMessage timeout
-15-09-2023	17:29:15	10080	Removing watch for window 0001094e
-15-09-2023	17:30:03	10080	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-15-09-2023	17:30:03	10080	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-15-09-2023	17:30:10	18228	Stopping Winspector...bye
-15-09-2023	17:30:10	18228	Finished watcher thread message loop
-15-09-2023	17:30:10	18228	Sending message for stopping hooks
-15-09-2023	17:30:10	18228	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-15-09-2023	17:30:10	18228	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-15-09-2023	17:30:10	8416	Detaching from process C:\windows\CCM\ClientUX\SCClient.exe
-15-09-2023	17:30:10	8416	Detached from process C:\windows\CCM\ClientUX\SCClient.exe
-15-09-2023	17:30:10	19388	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-15-09-2023	17:30:10	19388	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-15-09-2023	17:30:10	23420	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-15-09-2023	17:30:10	23420	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-15-09-2023	17:30:10	13480	Detaching from process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-abd2f3db4bdb28f9e95536dfa84d8479f1eb312d.exe
-15-09-2023	17:30:10	13480	Detached from process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-abd2f3db4bdb28f9e95536dfa84d8479f1eb312d.exe
-15-09-2023	17:30:10	18228	Stopped main hooks
+17-09-2023	07:48:36	17300	Starting Winspector
+17-09-2023	07:48:36	17300	Checking for other instance
+17-09-2023	07:48:36	17300	Finished checking for other instance
+17-09-2023	07:48:36	17300	Loading settings
+17-09-2023	07:48:36	17300	Finished loading settings
+17-09-2023	07:48:36	17300	LoadStdProfileSettings
+17-09-2023	07:48:36	17300	Creating doc/view templates
+17-09-2023	07:48:36	17300	Creating mainframe
+17-09-2023	07:48:37	17300	Showing the main window
+17-09-2023	07:48:37	17300	Tracking the current instance
+17-09-2023	07:48:37	17300	CMessageDecoder::LoadCustomMessages
+17-09-2023	07:48:37	17300	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
+17-09-2023	07:48:37	17300	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+17-09-2023	07:48:37	17300	New watcher window 00011020
+17-09-2023	07:48:37	17300	Sending message to corece windows alive
+17-09-2023	07:48:37	19400	CMessageDecoder::LoadCustomMessages
+17-09-2023	07:48:37	17048	CMessageDecoder::LoadCustomMessages
+17-09-2023	07:48:37	17048	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+17-09-2023	07:48:37	5112	CMessageDecoder::LoadCustomMessages
+17-09-2023	07:48:37	5112	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+17-09-2023	07:48:37	19400	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+17-09-2023	07:48:37	15308	CMessageDecoder::LoadCustomMessages
+17-09-2023	07:48:37	15308	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+17-09-2023	07:48:37	17300	Started main hooks
+17-09-2023	07:48:37	17300	Running watcher thread message loop
+17-09-2023	07:49:00	17300	Add watch for window when created 003007ae - SSMenu
+17-09-2023	07:49:00	5112	Adding window watch
+17-09-2023	07:49:00	17300	Trying to add watch for window when one exists 003007ae
+17-09-2023	07:49:00	5112	Adding watch for window 003007ae
+17-09-2023	07:49:13	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:49:13	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:49:32	17300	Add watch for window when created 00091008 - SSMenu
+17-09-2023	07:49:32	5112	Adding window watch
+17-09-2023	07:49:32	17300	Trying to add watch for window when one exists 00091008
+17-09-2023	07:49:32	5112	Adding watch for window 00091008
+17-09-2023	07:49:56	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:49:56	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:14	17300	Add watch for window when created 00021034 - SSMenu
+17-09-2023	07:50:14	5112	Adding window watch
+17-09-2023	07:50:14	17300	Trying to add watch for window when one exists 00021034
+17-09-2023	07:50:14	5112	Adding watch for window 00021034
+17-09-2023	07:50:18	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:18	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:30	17300	Add watch for window when created 00031034 - SSMenu
+17-09-2023	07:50:30	5112	Adding window watch
+17-09-2023	07:50:30	17300	Trying to add watch for window when one exists 00031034
+17-09-2023	07:50:30	5112	Adding watch for window 00031034
+17-09-2023	07:50:30	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:30	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:30	17300	Add watch for window when created 00041034 - SSMenu
+17-09-2023	07:50:30	5112	Adding window watch
+17-09-2023	07:50:30	17300	Trying to add watch for window when one exists 00041034
+17-09-2023	07:50:31	5112	Adding watch for window 00041034
+17-09-2023	07:50:31	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:31	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:31	17300	Add watch for window when created 00051034 - SSMenu
+17-09-2023	07:50:31	5112	Adding window watch
+17-09-2023	07:50:31	17300	Trying to add watch for window when one exists 00051034
+17-09-2023	07:50:31	5112	Adding watch for window 00051034
+17-09-2023	07:50:31	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:31	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:31	17300	Add watch for window when created 00061034 - SSMenu
+17-09-2023	07:50:31	5112	Adding window watch
+17-09-2023	07:50:31	17300	Trying to add watch for window when one exists 00061034
+17-09-2023	07:50:31	5112	Adding watch for window 00061034
+17-09-2023	07:50:31	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:31	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:32	17300	Add watch for window when created 00071034 - SSMenu
+17-09-2023	07:50:32	5112	Adding window watch
+17-09-2023	07:50:32	17300	Trying to add watch for window when one exists 00071034
+17-09-2023	07:50:32	5112	Adding watch for window 00071034
+17-09-2023	07:50:34	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:34	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:34	17300	Add watch for window when created 00081034 - SSMenu
+17-09-2023	07:50:34	5112	Adding window watch
+17-09-2023	07:50:34	17300	Trying to add watch for window when one exists 00081034
+17-09-2023	07:50:34	5112	Adding watch for window 00081034
+17-09-2023	07:50:35	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:35	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:35	17300	Add watch for window when created 00091034 - SSMenu
+17-09-2023	07:50:35	5112	Adding window watch
+17-09-2023	07:50:35	17300	Trying to add watch for window when one exists 00091034
+17-09-2023	07:50:35	5112	Adding watch for window 00091034
+17-09-2023	07:50:40	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:40	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:50:44	19400	SendMessage timeout
+17-09-2023	07:50:45	19400	SendMessage timeout
+17-09-2023	07:50:53	19400	SendMessage timeout
+17-09-2023	07:50:54	19400	SendMessage timeout
+17-09-2023	07:51:26	14968	CMessageDecoder::LoadCustomMessages
+17-09-2023	07:51:26	14968	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+17-09-2023	07:51:26	19476	CMessageDecoder::LoadCustomMessages
+17-09-2023	07:51:26	19476	Attached to process C:\WINDOWS\SysWOW64\DllHost.exe
+17-09-2023	07:51:29	17300	Add watch for window when created 000210cc - SSMenu
+17-09-2023	07:51:29	5112	Adding window watch
+17-09-2023	07:51:29	17300	Trying to add watch for window when one exists 000210cc
+17-09-2023	07:51:29	5112	Adding watch for window 000210cc
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:31	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:32	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:33	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:34	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:35	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:36	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:37	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:38	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:39	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:40	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:41	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:42	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:43	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:44	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:45	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:46	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:47	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:48	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:49	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:50	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:51	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:52	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:53	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:54	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:55	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:56	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:57	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:51:58	5112	Unknown message 0x00000164 sent to class SSMenu
+17-09-2023	07:52:01	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:52:01	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:52:29	17300	Add watch for window when created 000210c4 - SSMenu
+17-09-2023	07:52:29	5112	Adding window watch
+17-09-2023	07:52:29	17300	Trying to add watch for window when one exists 000210c4
+17-09-2023	07:52:29	5112	Adding watch for window 000210c4
+17-09-2023	07:52:34	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:52:34	5112	Unknown message 0x00000090 sent to class SSMenu
+17-09-2023	07:55:51	17300	Stopping Winspector...bye
+17-09-2023	07:55:51	17300	Finished watcher thread message loop
+17-09-2023	07:55:51	17300	Sending message for stopping hooks
+17-09-2023	07:55:51	5112	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+17-09-2023	07:55:51	5112	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+17-09-2023	07:55:51	17048	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+17-09-2023	07:55:51	17048	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+17-09-2023	07:55:51	17300	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+17-09-2023	07:55:51	17300	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+17-09-2023	07:55:51	15308	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+17-09-2023	07:55:51	15308	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
+17-09-2023	07:55:51	19400	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+17-09-2023	07:55:51	19400	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+17-09-2023	07:55:51	17300	Stopped main hooks
