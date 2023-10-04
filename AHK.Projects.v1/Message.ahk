@@ -1,4 +1,6 @@
-﻿
+﻿#Requires AutoHotkey v1+
+
+
 ; Version: 2022.07.01.1
 ; https://gist.github.com/cd70e009792fc2eb866f9f5caf1e395a
 

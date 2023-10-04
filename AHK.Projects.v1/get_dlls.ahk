@@ -11,13 +11,17 @@ SetControlDelay, -1
 SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of "exact"
 DetectHiddenText,On
 DetectHiddenWindows, On
+#Requires AutoHotkey v1+
+
+
 ;============================== Begin Script ==============================
-;q:: ;an attempt to retrieve custom and dll functions from the AHK source code (these can then be filtered by checking if the functions exist in a dll)
+q:: ;an attempt to retrieve custom and dll functions from the AHK source code (these can then be filtered by checking if the functions exist in a dll)
 ;[download AHK source code from:]
 ;GitHub - Lexikos/AutoHotkey_L: AutoHotkey - macro-creation and automation-oriented scripting utility for Windows.
 ;https://github.com/Lexikos/AutoHotkey_L
 
-vDir1 = C:\Users\bacona\OneDrive - FM Global\Downloads\AutoHotkey-alpha
+; vDir1 = C:\Users\bacona\OneDrive - FM Global\Downloads\AutoHotkey-alpha
+vDir1 := "C:\Program Files\FMGlobal\Horizon\references\"
 if !FileExist(vDir1)
 {
 	MsgBox, % "error: folder not found"
@@ -55,13 +59,14 @@ Clipboard := vOutput
 MsgBox, % "done"
 return
 
-;q:: ;list a dll's functions
+^r:: ;list a dll's functions
 ;[list of 30 dlls from the AutoHotkey_H documentation]
 ;[28 if remove duplicate of Kernel32 and if remove Winspool]
 ;list converted to lowercase from: https://hotkeyit.github.io/v2/docs/commands/WinApi.htm
-vListDll := "advapi32,comctl32,comdlg32,crypt32,gdi32,gdiplus,glu32,hid,kernel32,ole32,oleacc,oleaut32,opengl32,psapi,rasapi32,rasdlg,rasman,shell32,shlwapi,tapi32,user32,userenv,uxtheme,version,winhttp,wininet,winmm,ws2_32"
+; vListDll := "advapi32,comctl32,comdlg32,crypt32,gdi32,gdiplus,glu32,hid,kernel32,ole32,oleacc,oleaut32,opengl32,psapi,rasapi32,rasdlg,rasman,shell32,shlwapi,tapi32,user32,userenv,uxtheme,version,winhttp,wininet,winmm,ws2_32"
 ;list converted to lowercase from: AHK exe list of memory regions via process hacker
 ;vListDll := "advapi32,apisetschema,comctl32,comdlg32,cryptbase,dwmapi,gdi32,imm32,kernel32,kernelbase,lpk,msctf,msvcrt,nsi,ntdll,ole32,oleaut32,psapi,rpcrt4,sechost,shell32,shlwapi,sspicli,user32,usp10,uxtheme,version,winmm,wow64,wow64cpu,wow64win,ws2_32,wsock32"
+; vListDll := "fmgZipWrapper.dll" ;, "C:\Program Files\FMGlobal\Horizon\references\hznConvertRichText.dll"
 vOutput := ""
 VarSetCapacity(vOutput, 1000000*2)
 Loop, Parse, vListDll, % ","
@@ -72,7 +77,7 @@ Loop, Parse, vListDll, % ","
 }
 vOutput := StrReplace(vOutput, "`n", "`r`n")
 Clipboard := vOutput
-MsgBox, % "done"
+MsgBox, % "done" . "`n" . vOutput
 return
 
 ;==================================================
@@ -92,8 +97,8 @@ DllListExports( DLL, Hdr := 0 ) {   ;   By SKAN,  http://goo.gl/DsMqa6 ,  CD:26/
 	pMappedAddress := NumGet( LOADED_IMAGE, ( A_PtrSize = 4 ) ?  8 : 16 )
 	pFileHeader    := NumGet( LOADED_IMAGE, ( A_PtrSize = 4 ) ? 12 : 24 )
 	
-	pIMGDIR_EN_EXP := DllCall( "ImageHlp\ImageDirectoryEntryToData", "Ptr",pMappedAddress
-                           , "Int",False, "UShort",IMAGE_DIRECTORY_ENTRY_EXPORT, "PtrP",nSize, "Ptr" )
+	pIMGDIR_EN_EXP := DllCall("ImageHlp\ImageDirectoryEntryToData", "Ptr",pMappedAddress
+							, "Int",False, "UShort",IMAGE_DIRECTORY_ENTRY_EXPORT, "PtrP",nSize, "Ptr" )
 	
 	VA  := DllCall( "ImageHlp\ImageRvaToVa", "Ptr",pFileHeader, "Ptr",pMappedAddress, "UInt"
 , RVA := NumGet( pIMGDIR_EN_EXP + 12 ), "Ptr",0, "Ptr" )
@@ -102,7 +107,7 @@ DllListExports( DLL, Hdr := 0 ) {   ;   By SKAN,  http://goo.gl/DsMqa6 ,  CD:26/
 		VarSetCapacity( LIST, nSize, 0 )
 		Loop % NumGet( pIMGDIR_EN_EXP + 24, "UInt" ) + 1
 			LIST .= StrGet( Va + StrLen( LIST ), "" ) "`n"
-             ,  ( Hdr = 0 and A_Index = 1 and ( Va := Va + StrLen( LIST ) ) ? LIST := "" : "" )
+				,  ( Hdr = 0 and A_Index = 1 and ( Va := Va + StrLen( LIST ) ) ? LIST := "" : "" )
 	}
 	
 	DllCall( "ImageHlp\UnMapAndLoad", "Ptr",&LOADED_IMAGE ),   DllCall( "FreeLibrary", "Ptr",hModule )

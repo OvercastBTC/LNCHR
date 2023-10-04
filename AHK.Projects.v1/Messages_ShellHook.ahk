@@ -2,10 +2,10 @@
 ; .............: Begin Section
 ; Section .....: Auto-Execution
 ;=======================================================================================================================
-; #Warn  ; Enable warnings to assist with detecting common errors.
-;SetControlDelay, -1 ; (AJB - 05/2023) - comment out for testing 
-;SetBatchLines, -1 ; Determines how fast a script will run (affects CPU utilization). ; The value -1 means the script will run at it's max speed possible. ; (AJB - 05/2023)comment out for testing
-;SetWinDelay, -1 ; (AJB - 05/2023) - comment out for testing 
+#Warn All, OutputDebug ; Enable warnings to assist with detecting common errors.
+SetControlDelay, -1 ; (AJB - 05/2023) - comment out for testing 
+SetBatchLines, -1 ; Determines how fast a script will run (affects CPU utilization). ; The value -1 means the script will run at it's max speed possible. ; (AJB - 05/2023)comment out for testing
+SetWinDelay, -1 ; (AJB - 05/2023) - comment out for testing 
 ;SetWinDelay 0
 ;SetControlDelay 0
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
@@ -19,11 +19,11 @@ SetTitleMatchMode, 2 ; sets title matching to search for "containing" instead of
 DetectHiddenText,On
 DetectHiddenWindows, On
 #Requires AutoHotkey 1.1+
+; Process, Priority,, High
 ; ----------------------------------------------------------------------------------------------------------------------
 ; .................: End Sub-Section
 ;=======================================================================================================================
 ; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Process, Priority,, High
 ;GET_APPCOMMAND_LPARAM(lParam)
 cmd  = GET_APPCOMMAND_LPARAM(lParam);
 uDevice = GET_DEVICE_LPARAM(lParam);
