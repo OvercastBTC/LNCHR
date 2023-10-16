@@ -42,12 +42,12 @@
 :*:fmusr::bacona				; workstation username
 :*:fmpw::		; fm 
 { 
-	Send("1980ab88HD{!}9KB")
+	Send("{!}980ab**HD{!}9KB")
 }
 return
 #HotIf WinActive("EngNET")
 	:*:usr::bacona
-	:*:pw::1980ab88HD{!}9KB
+	:*:pw::{!}980ab**HD{!}9KB
 #HotIf
 #HotIf WinActive("Xfinity")
 	:*:usr::harmony_bacon@comcast.net
