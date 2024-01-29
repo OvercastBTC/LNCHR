@@ -67,17 +67,21 @@ hzn:="ahk_exe hznhorizon.exe"
 
 #4::
 ;#Persistent
+ClassNN := ""
 SetTimer, WatchCursor, 100
 return
 
 WatchCursor:
 MouseGetPos, , , tbctrl_ID, control, 3
 ControlGet, tbctrl_name, hWnd,, %tbctrl_ID%, A
-WinGetTitle, title, ahk_id %id%
-WinGetClass, class, ahk_id %id%
+; ControlGet, classNN, class, %tbctrl_name%, A 
+; WinGetTitle, title, ahk_id %id%
+WinGetTitle, title, ahk_id %tbctrl_ID%
+; WinGetClass, class, ahk_id %id%
+WinGetClass, class, ahk_id %tbctrl_ID%
 WinGet, ControlList, ControlList, A
 ;ToolTip, %ControlList%
-ToolTip, % "Reset Tooltip by pressing #1" "`n" . "Name: " tbctrl_name "ahk_id " tbctrl_ID "`n" ;ahk_class %class%`n%title%`nControl: %control%`nControlList: %ControlList%`n
+ToolTip, % "Reset Tooltip by pressing #1" "`n" . "Name: " class tbctrl_name "ahk_id " tbctrl_ID "`n" ;ahk_class %class%`n%title%`nControl: %control%`nControlList: %ControlList%`n
 /*
 	;compatibility types 
 	UPtr := A_PtrSize ? "UPtr" : "UInt"

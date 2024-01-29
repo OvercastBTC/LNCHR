@@ -1,6 +1,9 @@
 ﻿;Blank Template written by GroggyOtter
 
 ;============================== Start Auto-Execution Section ==============================
+#Requires AutoHotkey v1.1+
+
+
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 #Persistent ; Keeps script permanently running
@@ -25,7 +28,7 @@ GroupAdd, saveReload, %A_ScriptName%
 */
 ;#IfWinActive
 ;============================== Main Script ==============================
-;^#b::
+^#b::GetFont()
 GetFont(hWnd*) {
    static WM_GETFONT := 0x31
    hFont := DllCall("SendMessage", "Ptr", hWnd, "UInt", WM_GETFONT, "Ptr", 0, "Ptr", 0, "Ptr")

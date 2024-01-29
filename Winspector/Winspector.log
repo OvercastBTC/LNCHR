@@ -1,85 +1,43 @@
-02-10-2023	22:11:31	28272	Starting Winspector
-02-10-2023	22:11:31	28272	Checking for other instance
-02-10-2023	22:11:31	28272	Finished checking for other instance
-02-10-2023	22:11:31	28272	Loading settings
-02-10-2023	22:11:31	28272	Finished loading settings
-02-10-2023	22:11:31	28272	LoadStdProfileSettings
-02-10-2023	22:11:31	28272	Creating doc/view templates
-02-10-2023	22:11:31	28272	Creating mainframe
-02-10-2023	22:11:33	28272	Showing the main window
-02-10-2023	22:11:33	28272	Tracking the current instance
-02-10-2023	22:11:33	28272	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	28272	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
-02-10-2023	22:11:33	28272	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-02-10-2023	22:11:33	28272	New watcher window 00091b2a
-02-10-2023	22:11:33	28272	Sending message to corece windows alive
-02-10-2023	22:11:33	12284	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	12284	Attached to process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-02-10-2023	22:11:33	18524	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	18524	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\VISIO.EXE
-02-10-2023	22:11:33	3460	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	3460	Attached to process C:\Program Files\FMGlobal\Visit Planner\Visit Planner.exe
-02-10-2023	22:11:33	8476	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	8476	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-02-10-2023	22:11:33	18476	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	18476	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-02-10-2023	22:11:33	18544	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	18544	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-02-10-2023	22:11:33	22580	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	22580	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE
-02-10-2023	22:11:33	2864	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	2864	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-02-10-2023	22:11:33	11292	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	11292	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-02-10-2023	22:11:33	25536	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:11:33	25536	Attached to process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-fdb98833154679dbaa7af67a5a29fe19e55c2b73.exe
-02-10-2023	22:11:33	28272	Started main hooks
-02-10-2023	22:11:33	28272	Running watcher thread message loop
-02-10-2023	22:12:48	27052	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:12:48	27052	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-02-10-2023	22:12:56	18476	SendMessage timeout
-02-10-2023	22:12:56	18476	SendMessage timeout
-02-10-2023	22:14:13	28272	Add watch for window when created 000419c4 - Toolbar20WndClass
-02-10-2023	22:14:13	18544	Adding window watch
-02-10-2023	22:14:13	28272	Add watch for window when created 000419b0 - msvb_lib_toolbar
-02-10-2023	22:14:13	18544	Adding window watch
-02-10-2023	22:14:13	28272	Trying to add watch for window when one exists 000419c4
-02-10-2023	22:14:13	28272	Trying to add watch for window when one exists 000419b0
-02-10-2023	22:14:17	18544	Adding watch for window 000419c4
-02-10-2023	22:14:17	18544	Adding watch for window 000419b0
-02-10-2023	22:14:18	18476	SendMessage timeout
-02-10-2023	22:14:18	18476	SendMessage timeout
-02-10-2023	22:15:14	27052	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-02-10-2023	22:15:14	27052	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-02-10-2023	22:15:28	28580	CMessageDecoder::LoadCustomMessages
-02-10-2023	22:15:28	28580	Attached to process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-02-10-2023	22:17:25	28580	Detaching from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-02-10-2023	22:17:25	28580	Detached from process C:\WINDOWS\SysWOW64\SearchProtocolHost.exe
-02-10-2023	22:18:33	18544	Removing watch for window 000419b0
-02-10-2023	22:18:39	18544	Removing watch for window 000419c4
-02-10-2023	22:36:52	28272	Stopping Winspector...bye
-02-10-2023	22:36:52	28272	Finished watcher thread message loop
-02-10-2023	22:36:52	28272	Sending message for stopping hooks
-02-10-2023	22:36:52	28272	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-02-10-2023	22:36:52	28272	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
-02-10-2023	22:36:52	22580	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE
-02-10-2023	22:36:52	22580	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE
-02-10-2023	22:36:52	18544	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-02-10-2023	22:36:52	18544	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-02-10-2023	22:36:52	3460	Detaching from process C:\Program Files\FMGlobal\Visit Planner\Visit Planner.exe
-02-10-2023	22:36:52	3460	Detached from process C:\Program Files\FMGlobal\Visit Planner\Visit Planner.exe
-02-10-2023	22:36:52	18524	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\VISIO.EXE
-02-10-2023	22:36:52	18524	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\VISIO.EXE
-02-10-2023	22:36:52	12284	Detaching from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-02-10-2023	22:36:52	12284	Detached from process C:\Program Files (x86)\Cisco Systems\Cisco Jabber\CiscoJabber.exe
-02-10-2023	22:36:52	18476	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-02-10-2023	22:36:52	18476	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
-02-10-2023	22:36:52	8476	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-02-10-2023	22:36:52	8476	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
-02-10-2023	22:36:52	2864	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-02-10-2023	22:36:52	2864	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
-02-10-2023	22:36:52	11292	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-02-10-2023	22:36:52	11292	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
-02-10-2023	22:36:52	25536	Detaching from process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-fdb98833154679dbaa7af67a5a29fe19e55c2b73.exe
-02-10-2023	22:36:52	25536	Detached from process C:\Users\bacona\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-fdb98833154679dbaa7af67a5a29fe19e55c2b73.exe
-02-10-2023	22:36:52	28272	Stopped main hooks
+07-01-2024	01:32:35	22980	Starting Winspector
+07-01-2024	01:32:35	22980	Checking for other instance
+07-01-2024	01:32:35	22980	Finished checking for other instance
+07-01-2024	01:32:35	22980	Loading settings
+07-01-2024	01:32:35	22980	Finished loading settings
+07-01-2024	01:32:35	22980	LoadStdProfileSettings
+07-01-2024	01:32:35	22980	Creating doc/view templates
+07-01-2024	01:32:35	22980	Creating mainframe
+07-01-2024	01:32:36	22980	Showing the main window
+07-01-2024	01:32:36	22980	Tracking the current instance
+07-01-2024	01:32:36	22980	CMessageDecoder::LoadCustomMessages
+07-01-2024	01:32:36	22980	Loading external messages file C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\xml-files\qhtm.messages
+07-01-2024	01:32:36	22980	Attached to process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+07-01-2024	01:32:36	22980	New watcher window 02820d0e
+07-01-2024	01:32:36	22980	Sending message to corece windows alive
+07-01-2024	01:32:36	13576	CMessageDecoder::LoadCustomMessages
+07-01-2024	01:32:36	13576	Attached to process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+07-01-2024	01:32:36	20584	CMessageDecoder::LoadCustomMessages
+07-01-2024	01:32:36	20584	Attached to process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+07-01-2024	01:32:36	20996	CMessageDecoder::LoadCustomMessages
+07-01-2024	01:32:36	20996	Attached to process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+07-01-2024	01:32:36	22980	Started main hooks
+07-01-2024	01:32:36	22980	Running watcher thread message loop
+07-01-2024	01:46:35	18844	CMessageDecoder::LoadCustomMessages
+07-01-2024	01:46:35	18844	Attached to process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+07-01-2024	01:46:35	2344	CMessageDecoder::LoadCustomMessages
+07-01-2024	01:46:35	2344	Attached to process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+07-01-2024	01:46:35	18844	Detaching from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+07-01-2024	01:46:35	18844	Detached from process C:\Program Files (x86)\Microsoft Office\root\Office16\sdxhelper.exe
+07-01-2024	01:46:57	2344	Detaching from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+07-01-2024	01:46:57	2344	Detached from process C:\Program Files (x86)\Microsoft Office\Root\Office16\SDXHelper.exe
+07-01-2024	02:12:59	22980	Stopping Winspector...bye
+07-01-2024	02:12:59	22980	Finished watcher thread message loop
+07-01-2024	02:12:59	22980	Sending message for stopping hooks
+07-01-2024	02:12:59	22980	Detaching from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+07-01-2024	02:12:59	22980	Detached from process C:\Users\bacona\OneDrive - FM Global\AHK.Main\Winspector\WinspectorU.exe
+07-01-2024	02:12:59	13576	Detaching from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+07-01-2024	02:12:59	13576	Detached from process C:\Program Files\FMGlobal\Horizon\hznhorizon.exe
+07-01-2024	02:12:59	20584	Detaching from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+07-01-2024	02:12:59	20584	Detached from process C:\Program Files\FMGlobal\Horizon\hznHorizonMgr.exe
+07-01-2024	02:12:59	20996	Detaching from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+07-01-2024	02:12:59	20996	Detached from process C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe
+07-01-2024	02:12:59	22980	Stopped main hooks

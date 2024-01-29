@@ -1,8 +1,7 @@
 <filters>
 <filter group-pattern="0" show-return-values="1" name="default">
 <messages>
-<message id="132">
-</message></messages><classes>
+</messages><classes>
 </classes><highlights>
 </highlights><auto-expands>
 </auto-expands></filter></filters>
