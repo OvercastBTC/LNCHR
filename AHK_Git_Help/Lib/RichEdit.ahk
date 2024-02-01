@@ -1246,7 +1246,11 @@ Class RichEdit {
          Return True
       }
       Catch As Err {
+<<<<<<< HEAD
          MsgBox( 16, A_ThisFunc, "Couldn't save '" . File . "'!`n`n" . Type(Err) ": " Err.Message)
+=======
+         MsgBox 16, A_ThisFunc, "Couldn't save '" . File . "'!`n`n" . Type(Err) ": " Err.Message
+>>>>>>> e9577f3bf401f59ce8b202e3a5a025357a8d0a1e
          Return False
       }
    }
