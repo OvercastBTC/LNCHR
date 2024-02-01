@@ -1,4 +1,5 @@
-﻿;============================== Start Auto-Execution Section ==============================
+﻿#Requires AutoHotkey v1.1+ 
+;============================== Start Auto-Execution Section ==============================
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 ;#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
 ;#Persistent ; Keeps script permanently running
@@ -23,7 +24,6 @@ HorzItalic(str_in, 11, default)
 return
 ; | ------------------------------ End Test Function ------------------------------ |
 */
-
 ;Note: font size is set with \fs and uses half points meaning if you want size 10 you need to set it as \fs20 hence the (fontsize * 2) below. Also note that Changing fonts is a bit more tricky than you might think, RTF format uses font families, Times New Roman is part of the swiss font family (hence the \fswiss just before we select the font name). IF you want to change to a font not in the swiss family you can find them here on page 6: https://latex2rtf.sourceforge.net/RTF-Spec-1.2.pdf.If you want to reset the font to non-italics, note the {... " str_in " \i0  }. {... "{Space}str_in{Space}"{Space}\i0{Space1}{Space2}} <==== two spaces are REQUIRED!!!{Space1} is a format perameter, {Space2} is an actual space.
 ; | ------------------------------ Main Function ------------------------------ |
 HorzItalic(str_in, fontsize := 11, font := "Times New Roman") {
