@@ -4,7 +4,10 @@
 
 #Requires AutoHotkey v2+
 #Include *i <Directives\__AE.v2>
-#Include *i <Includes\Includes_Standard>
+; #Include <__AE.v2>
+#Include <RichEdit>
+#Include <RichEditDlgs>
+; #Include *i <Includes\Includes_Standard>
 ; #Include *i <Includes\Includes_Runner>
 ; TraySetIcon('HICON:' Create_HznHorizon_ico())
 
@@ -681,14 +684,14 @@ Class RTEdit {
 	; @i ...: 	Send To Horizon
 	; @i ...: 	!!!EXPERIMENTAL!!!
 	; ---------------------------------------------------------------------------
-	SendToHzn(*){
-		try WinA := WinActive('ahk_exe hznHorizon')
-		if WinA = true {
-			try hCtl := receiver.rMap['hCtl']
-			Infos(hCtl ' I exist')
-			try nCtl := receiver.nect['nCtl']
-		}
-	}
+	; SendToHzn(*){
+	; 	try WinA := WinActive('ahk_exe hznHorizon')
+	; 	if WinA = true {
+	; 		try hCtl := receiver.rMap['hCtl']
+	; 		Infos(hCtl ' I exist')
+	; 		try nCtl := receiver.nect['nCtl']
+	; 	}
+	; }
 	; ---------------------------------------------------------------------------
 	; @i ...: 	Default Font
 	; ---------------------------------------------------------------------------

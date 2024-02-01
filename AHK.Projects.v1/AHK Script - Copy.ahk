@@ -1,4 +1,7 @@
-﻿;============================== Start Auto-Execution Section ==============================
+﻿#Requires AutoHotkey v1
+
+
+;============================== Start Auto-Execution Section ==============================
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.; Avoids checking empty variables to see if they are environment variables.
 #Persistent ; Keeps script permanently running
